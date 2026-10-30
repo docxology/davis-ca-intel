@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "region-deployment/v1",
+  "civicProfile": "configs/davis-civic.json",
+  "regionConfig": "configs/davis-region.json",
+  "outputDir": ".corpus-candidates/davis-20261030",
+  "seedDir": "pages-data",
+  "enabledMonitors": [
+    "earthquake",
+    "weather",
+    "airquality",
+    "wildfire",
+    "drought",
+    "smoke",
+    "roads",
+    "fuel"
+  ],
+  "sources": [
+    {
+      "id": "davis-code",
+      "name": "City of Davis municipal code",
+      "url": "https://ecode360.com/DA4922",
+      "kind": "code"
+    },
+    {
+      "id": "davis-city-news",
+      "name": "City of Davis news",
+      "url": "https://www.cityofdavis.org",
+      "kind": "news",
+      "feedUrl": "https://www.cityofdavis.org/Home/Components/RssFeeds/RssFeed/View?ctID=5&cateIDs=1"
+    },
+    {
+      "id": "davis-council",
+      "name": "Davis City Council meetings",
+      "url": "https://www.cityofdavis.org/city-hall/city-council/city-council-meetings",
+      "kind": "meetings"
+    },
+    {
+      "id": "davis-agendas",
+      "name": "Davis commissions and committee agendas",
+      "url": "https://www.cityofdavis.org/city-hall/agendas",
+      "kind": "meetings"
+    },
+    {
+      "id": "davis-video",
+      "name": "Davis meeting recordings and agendas",
+      "url": "https://davis.granicus.com/ViewPublisher.php?view_id=6",
+      "kind": "meetings"
+    },
+    {
+      "id": "davis-calendar",
+      "name": "City of Davis calendar",
+      "url": "https://www.cityofdavis.org/calendar",
+      "kind": "events"
+    },
+    {
+      "id": "davis-schools",
+      "name": "Davis Joint Unified School District",
+      "url": "https://www.djusd.net",
+      "kind": "official"
+    },
+    {
+      "id": "davis-weather",
+      "name": "NWS Davis forecast zone CAZ153",
+      "url": "https://api.weather.gov/alerts/active?zone=CAZ153",
+      "kind": "official"
+    },
+    {
+      "id": "davis-earthquakes",
+      "name": "USGS past-hour earthquakes (regional filter applied)",
+      "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
+      "kind": "official"
+    },
+    {
+      "id": "caltrans-davis",
+      "name": "Caltrans Yolo County highway conditions",
+      "url": "https://roads.dot.ca.gov",
+      "kind": "official"
+    }
+  ]
+}
