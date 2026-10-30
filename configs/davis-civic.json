@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "civic-profile/v1",
+  "id": "davis-ca",
+  "name": "Davis",
+  "municipality": "Davis, CA",
+  "county": "Yolo County",
+  "state": "California",
+  "countryCode": "US",
+  "timeZone": "America/Los_Angeles",
+  "anchor": {
+    "latitude": 38.5449,
+    "longitude": -121.7405,
+    "bounds": {
+      "west": -121.9,
+      "south": 38.4,
+      "east": -121.55,
+      "north": 38.72
+    }
+  },
+  "code": {
+    "provider": "ecode360",
+    "municipalityCode": "DA4922"
+  },
+  "corpusSlug": "davis-ca-code",
+  "vectorNamespace": "davis-ca-code",
+  "calendar": {
+    "uidDomain": "davis-ca-intel",
+    "productId": "-//Davis CA Intel//Events Calendar//EN"
+  },
+  "publication": {
+    "title": "Davis CA Intel",
+    "description": "Source-grounded civic intelligence for Davis and Yolo County, California",
+    "siteUrl": "https://docxology.github.io/davis-ca-intel",
+    "repositoryUrl": "https://github.com/docxology/davis-ca-intel"
+  },
+  "capabilities": [
+    "ecode360",
+    "analytics",
+    "events",
+    "geo",
+    "news"
+  ]
+}

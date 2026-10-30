@@ -1,0 +1,24 @@
+name: Weekly regional source collection
+on:
+  schedule:
+    - cron: "0 7 * * 1"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v7
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: '1.4.2'
+      - run: bun install --frozen-lockfile
+      - run: bunx playwright install --with-deps chromium
+      - run: bun run validate
+      - run: bun run weekly-check
+        env:
+          HEADLESS_BROWSER: '1'
+      - run: bun run pages:export
+      - run: bun run pages:validate -- .pages

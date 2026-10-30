@@ -1,0 +1,12 @@
+node_modules/
+output/
+.pages/
+.pages-*/
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+.omo/
+.*.publication-*
+.*.previous-*/
