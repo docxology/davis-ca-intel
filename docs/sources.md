@@ -1,7 +1,11 @@
 # Davis source configuration review
 
-Reviewed 2026-10-30. These are configuration observations, not a comprehensive
-source collection or legal-code verification certificate.
+Configuration reviewed 2026-10-30. The dated observations below concern that
+configuration review and are not refreshed by this documentation update.
+Subsequent municipal acquisition accepted the complete Davis edition documented
+in [edition.md](edition.md); its local/live verification and public input hashes
+are separate from this source-catalog review. A recorded 403 or 200 here is not
+a claim about an endpoint's current response.
 
 | Decision | Primary evidence | Scope |
 | --- | --- | --- |

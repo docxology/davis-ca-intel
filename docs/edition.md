@@ -15,6 +15,11 @@ Empty source-marked reserved/repealed sections remain in the denominator.
 | TOC SHA-256 | `78ef729464ca1e0c3bd66c41720b9c8d27e8384f40a97282795134e9b33798c0` |
 | Article-set SHA-256 | `3624a4d795c46e9e7693000f730fe1ed374e98c228fcc60158f3abc2bbc43ebe` |
 
+The shared-package row identifies the runtime accepted with this recorded
+publication. Later documentation-only shared commits do not silently upgrade
+the consumer or refresh source currency. Inspect `package.json` and `bun.lock`
+for the actual installed runtime; [the docs index](README.md) links its source.
+
 See the tracked [verification report](../pages-data/verification-report.json)
 and [exact public input receipt](../pages-data/publication-input.json).
 Raw HTML, acquisition checkpoints and recovery receipts remain local and ignored.

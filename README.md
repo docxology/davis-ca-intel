@@ -6,6 +6,28 @@ Davis identity, source selection, monitor policy and regional evidence. Shared
 acquisition, search, RAG, analytics, API, publication and manuscript methods live
 in the pinned dependency; there is no copied application implementation here.
 
+## Fresh clone and accepted public edition
+
+```sh
+git clone https://github.com/docxology/davis-ca-intel.git
+cd davis-ca-intel
+bun install --frozen-lockfile
+bun run validate
+bun run pages:export
+bun run pages:validate -- .pages
+```
+
+The tracked accepted seed contains 290 article pages and 2541 sections
+from eCode360 `DA4922`. See [edition bindings](docs/edition.md) for verification
+time and hashes. A clean clone can build that static edition without a new
+scrape or model service. Local GUI corpus search needs separately acquired and
+promoted raw articles; see [acquisition](docs/acquisition.md).
+
+Use the [documentation index](docs/README.md) and [operations guide](docs/operations.md)
+for command scope, troubleshooting and hosted delivery. The public GitHub
+repository is marked `private: true` in `package.json` to prevent accidental
+package-registry publication; that flag does not make the GitHub repository private.
+
 ## Run
 
 ```sh
@@ -17,7 +39,7 @@ bun run gov-meetings
 bun run alerts
 bun run gui
 bun run pages:export
-bun run pages:validate
+bun run pages:validate -- .pages
 ```
 
 `bun run scrape`, `bun run verify` and `bun run export` acquire, verify and export
