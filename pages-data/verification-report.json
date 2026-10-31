@@ -1,0 +1,4128 @@
+{
+  "schemaVersion": "corpus-verification/v2",
+  "verifiedAt": "2026-10-31T03:39:57.381Z",
+  "municipality": "City of Davis, CA",
+  "overallStatus": "pass",
+  "publicationEligible": true,
+  "binding": {
+    "manifestSha256": "2c0742031c0f5574937e3fd1370ba837957ed6a221a9dea1ade1dc989a720ceb",
+    "tocSha256": "78ef729464ca1e0c3bd66c41720b9c8d27e8384f40a97282795134e9b33798c0",
+    "articleSetSha256": "3624a4d795c46e9e7693000f730fe1ed374e98c228fcc60158f3abc2bbc43ebe"
+  },
+  "planes": {
+    "local": "pass",
+    "currentToc": "pass",
+    "sample": "pass"
+  },
+  "evidence": {
+    "currentToc": "ecode360-live",
+    "sample": "ecode360-live",
+    "limitations": [
+      "Live sample checks selected article HTML only; it does not establish all-page currentness"
+    ]
+  },
+  "totalArticles": 290,
+  "passedArticles": 290,
+  "failedArticles": 0,
+  "totalExpectedSections": 2541,
+  "totalFoundSections": 2541,
+  "missingSections": [],
+  "results": [
+    {
+      "guid": "44632384",
+      "title": "Art 1.01: IN GENERAL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 23,
+        "foundSections": 23,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44632455",
+      "title": "Art 1.02: ADMINISTRATIVE CITATIONS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 14,
+        "foundSections": 14,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44632566",
+      "title": "2.01: CITY COUNCIL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 12,
+        "foundSections": 12,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44632593",
+      "title": "Art 2.02: MAYOR",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 2,
+        "foundSections": 2,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44632596",
+      "title": "Art 2.03: CITY MANAGER",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 5,
+        "foundSections": 5,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44632616",
+      "title": "Art 2.04: CITY ATTORNEY",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 2,
+        "foundSections": 2,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44632619",
+      "title": "Art 2.05: DIRECTOR OF FINANCE",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 3,
+        "foundSections": 3,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44632631",
+      "title": "Art 2.06: CITY CLERK",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 3,
+        "foundSections": 3,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44632635",
+      "title": "Art 2.07: PLANNING COMMISSION",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 2,
+        "foundSections": 2,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44632638",
+      "title": "Art 2.10: POLICE FORCE RESERVE",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 8,
+        "foundSections": 8,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44632652",
+      "title": "Art 2.12: MODEL CONFLICT OF INTEREST CODE",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 1,
+        "foundSections": 1,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44632654",
+      "title": "Art 2.17: INDUSTRIAL DEVELOPMENT AUTHORITY",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 3,
+        "foundSections": 3,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44632660",
+      "title": "Art 2.18: CITY TREASURER",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 3,
+        "foundSections": 3,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44632664",
+      "title": "Art 2.19: RESTRICTIONS ON LOBBYING BY FORMER CITY OFFICIALS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 5,
+        "foundSections": 5,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44632678",
+      "title": "Art 2.20: AUTHORIZATION TO IMPLEMENT A COMMUNITY CHOICE AGGREGATION PROGRAM",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 1,
+        "foundSections": 1,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44632689",
+      "title": "Art 3.01: IN GENERAL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 8,
+        "foundSections": 8,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44632704",
+      "title": "Art 3.02: ADJACENT TO FREEWAYS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 4,
+        "foundSections": 4,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44632834",
+      "title": "Art 4.01: IN GENERAL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 10,
+        "foundSections": 10,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44632901",
+      "title": "Art 5.01: IN GENERAL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 5,
+        "foundSections": 5,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44632912",
+      "title": "Art 5.02: VICIOUS ANIMALS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 1,
+        "foundSections": 1,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44632914",
+      "title": "Art 5.03: PROTECTION OF ANIMALS IN MOTOR VEHICLES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 1,
+        "foundSections": 1,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44632919",
+      "title": "Art 5.04: DOGS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 5,
+        "foundSections": 5,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44632947",
+      "title": "Art 6.01: IN GENERAL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 4,
+        "foundSections": 4,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44632954",
+      "title": "Art 6.02: OPERATION GENERALLY",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 7,
+        "foundSections": 7,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44632973",
+      "title": "Art 6.03: BICYCLE PATHS AND LANES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 4,
+        "foundSections": 4,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44632987",
+      "title": "Art 6.04: BICYCLE TRAFFIC CONTROL SIGNALS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 5,
+        "foundSections": 5,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44633004",
+      "title": "Art 6.05: BICYCLE- AND SCOOTER-SHARING BUSINESSES AND REGULATIONS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 17,
+        "foundSections": 17,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44634303",
+      "title": "Art 7.01: IN GENERAL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 17,
+        "foundSections": 17,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44634338",
+      "title": "Art 8.01: IN GENERAL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 17,
+        "foundSections": 17,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44634422",
+      "title": "Art 8.03: FLOOD PREVENTION STANDARDS: AUTHORIZATION, PURPOSE AND METHODS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 4,
+        "foundSections": 4,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44634442",
+      "title": "Art 8.04: FLOOD PREVENTION DEFINITIONS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 32,
+        "foundSections": 32,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44634484",
+      "title": "Art 8.05: FLOOD PREVENTION GENERAL PROVISIONS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 6,
+        "foundSections": 6,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44634494",
+      "title": "Art 8.06: FLOOD PREVENTION ADMINISTRATION",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 3,
+        "foundSections": 3,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44634520",
+      "title": "Art 8.07: PROVISIONS FOR FLOOD HAZARD REDUCTION",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 5,
+        "foundSections": 5,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44634554",
+      "title": "Art 8.08: FLOOD PREVENTION STANDARDS VARIANCE PROCEDURE",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 2,
+        "foundSections": 2,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44634582",
+      "title": "Art 8.10: RESALE OF PROPERTY",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 19,
+        "foundSections": 19,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44634621",
+      "title": "Art 8.14: MINIMUM SECURITY BUILDING STANDARDS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 22,
+        "foundSections": 22,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44634771",
+      "title": "Art 8.17: OUTDOOR LIGHTING CONTROL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 11,
+        "foundSections": 11,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44634851",
+      "title": "Art 8.18: PROHIBITING DISKING, TILLING OR GRADING",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 6,
+        "foundSections": 6,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44634893",
+      "title": "Art 8.19: DEMOLITION",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 7,
+        "foundSections": 7,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44634926",
+      "title": "Art 8.20: RENEWABLE ENERGY",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 7,
+        "foundSections": 7,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44634968",
+      "title": "Art 8.21: SMALL RESIDENTIAL ROOFTOP SOLAR ENERGY SYSTEM REVIEW PROCESS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 5,
+        "foundSections": 5,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44634984",
+      "title": "Art 8.22: EMERGENCY AND HAZARD PLACARD POSTING",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 5,
+        "foundSections": 5,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44634995",
+      "title": "Art 8.23: ELECTRIC VEHICLE CHARGING STATIONS REVIEW PROCESS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 7,
+        "foundSections": 7,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44635047",
+      "title": "Art 8A.01: IN GENERAL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 19,
+        "foundSections": 19,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44635109",
+      "title": "Art 8B.01: IN GENERAL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 30,
+        "foundSections": 30,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44635154",
+      "title": "Art 8B.02: GENERAL PROVISIONS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 37,
+        "foundSections": 37,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44635268",
+      "title": "Art 8B.03: SPECIAL RULES APPLICABLE TO CABLE SYSTEMS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 15,
+        "foundSections": 15,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44635321",
+      "title": "Art 8B.04: OPEN VIDEO SYSTEMS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 10,
+        "foundSections": 10,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44635365",
+      "title": "Art 8B.05: CUSTOMER SERVICE STANDARDS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 28,
+        "foundSections": 28,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44635458",
+      "title": "Art 8B.06: MISCELLANEOUS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 4,
+        "foundSections": 4,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44635467",
+      "title": "Art 8B.07: STATE VIDEO FRANCHISES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 5,
+        "foundSections": 5,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44635495",
+      "title": "Art 9.01: IN GENERAL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 10,
+        "foundSections": 10,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44635531",
+      "title": "Art 10.01: GENERAL PROVISIONS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 4,
+        "foundSections": 4,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44635577",
+      "title": "Art 10.02: EMPLOYMENT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 3,
+        "foundSections": 3,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44635589",
+      "title": "Art 10.03: BUSINESS ESTABLISHMENTS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 1,
+        "foundSections": 1,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44635594",
+      "title": "Art 10.04: REAL ESTATE TRANSACTIONS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 2,
+        "foundSections": 2,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44635613",
+      "title": "Art 10.05: REMEDIES, GENERAL EXEMPTIONS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 7,
+        "foundSections": 7,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "50076686",
+      "title": "Art 10.06: INTERACTION WITH IMMIGRATION AUTHORITIES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 5,
+        "foundSections": 5,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44635666",
+      "title": "Art 11.01: ENTERTAINMENT PERMITS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 4,
+        "foundSections": 4,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44635722",
+      "title": "Art 11.02: OPERATION OF ENTERTAINMENT ESTABLISHMENTS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 10,
+        "foundSections": 10,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44635737",
+      "title": "Art 11.03: ISSUANCE, RENEWAL, SUSPENSION, MODIFICATION AND REVOCATION OF PERMITS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 13,
+        "foundSections": 13,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44635862",
+      "title": "Art 11.04: PENALTIES FOR VIOLATION",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 3,
+        "foundSections": 3,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44635872",
+      "title": "Art 12.01: IN GENERAL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 5,
+        "foundSections": 5,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44635884",
+      "title": "Art 12.02: ELECTION CAMPAIGNS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 3,
+        "foundSections": 3,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44635930",
+      "title": "Art 13.01: ADOPTION OF CALIFORNIA FIRE CODE",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 7,
+        "foundSections": 7,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44635977",
+      "title": "Art 13.02: FIREWORKS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 3,
+        "foundSections": 3,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44635981",
+      "title": "Art 13.03: OPEN CAMPFIRES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 5,
+        "foundSections": 5,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44636031",
+      "title": "Art 13A.01: CEQA IMPLEMENTING REGULATIONS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 13,
+        "foundSections": 13,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44636092",
+      "title": "Art 14.01: IN GENERAL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 7,
+        "foundSections": 7,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44636169",
+      "title": "Art 15.01: IN GENERAL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 9,
+        "foundSections": 9,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44636181",
+      "title": "Art 15.02: PURCHASES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 13,
+        "foundSections": 13,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44636253",
+      "title": "Art 15.03: SALES AND USE TAX",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 20,
+        "foundSections": 20,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44636298",
+      "title": "Art 15.04: REAL PROPERTY TRANSFER TAX",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 14,
+        "foundSections": 14,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44636329",
+      "title": "Art 15.05: TRANSIENT OCCUPANCY TAX",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 13,
+        "foundSections": 13,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44636366",
+      "title": "Art 15.06: ART IN PUBLIC WORKS FUND ALLOCATION",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 5,
+        "foundSections": 5,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44636385",
+      "title": "Art 15.07: CONSTRUCTION TAX",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 8,
+        "foundSections": 8,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44636409",
+      "title": "Art 15.08: PUBLIC SAFETY CHARGES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 5,
+        "foundSections": 5,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44636415",
+      "title": "Art 15.09: MUNICIPAL SERVICE TAX",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 4,
+        "foundSections": 4,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44636422",
+      "title": "Art 15.10: BUSINESS IMPROVEMENT DISTRICT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 14,
+        "foundSections": 14,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44636470",
+      "title": "Art 15.11: INFORMAL BIDDING FOR PUBLIC PROJECTS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 7,
+        "foundSections": 7,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44636498",
+      "title": "Art 15.12: MAJOR PROJECTS FINANCING FEE",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 5,
+        "foundSections": 5,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44636508",
+      "title": "Art 15.13: SPECIAL TAX AND ASSESSMENT DISTRICT LIEN DISCLOSURE",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 3,
+        "foundSections": 3,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44636520",
+      "title": "Art 15.14: PARK MAINTENANCE TAX",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 12,
+        "foundSections": 12,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44636566",
+      "title": "Art 15.15: SCHOOL MITIGATION FEE",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 11,
+        "foundSections": 11,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44636598",
+      "title": "Art 15.16: LOW INCOME REFUND PROGRAM FOR CITY SPECIAL TAXES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 5,
+        "foundSections": 5,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44636622",
+      "title": "Art 15.17: OPEN SPACE PROTECTION TAX",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 10,
+        "foundSections": 10,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44636671",
+      "title": "Art 15.18: DAVIS VISITOR ATTRACTION DISTRICT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 13,
+        "foundSections": 13,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44636700",
+      "title": "Art 15.19: TRANSACTIONS AND USE TAX",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 15,
+        "foundSections": 15,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44636747",
+      "title": "Art 15.20: LIVING WAGE",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 13,
+        "foundSections": 13,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44636861",
+      "title": "Art 18.01: IN GENERAL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 12,
+        "foundSections": 12,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44636967",
+      "title": "Art 18.02: LANDLORD-TENANT RELATIONS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 3,
+        "foundSections": 3,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44636978",
+      "title": "Art 18.03: DISCRIMINATION AGAINST FAMILIES PROHIBITED",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 6,
+        "foundSections": 6,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44637012",
+      "title": "Art 18.04: OWNER-OCCUPANCY",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 9,
+        "foundSections": 9,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44637100",
+      "title": "Art 18.05: AFFORDABLE HOUSING",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 8,
+        "foundSections": 8,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44637241",
+      "title": "Art 18.06: MIDDLE INCOME HOUSING",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 9,
+        "foundSections": 9,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44637337",
+      "title": "Art 18.07: INCENTIVE SYSTEM FOR THE LOCAL WORKFORCE",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 5,
+        "foundSections": 5,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44637383",
+      "title": "Art 18.08: FAIR HOUSING LAWS—REASONABLE ACCOMMODATION",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 10,
+        "foundSections": 10,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44637442",
+      "title": "Art 18.09: UNIVERSAL DESIGN CHECKLIST",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 9,
+        "foundSections": 9,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44637563",
+      "title": "Art 18.10: UNIVERSAL ACCESS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 5,
+        "foundSections": 5,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44637596",
+      "title": "Art 18.11: RESIDENTIAL RENTAL DWELLING UNITS—REGISTRATION AND INSPECTION",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 14,
+        "foundSections": 14,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44637763",
+      "title": "Art 18.12: PROCEDURES AND STANDARDS FOR MOBILE HOME PARK CLOSURES AND CONVERSIONS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 13,
+        "foundSections": 13,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44637905",
+      "title": "Art 19.01: IN GENERAL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 6,
+        "foundSections": 6,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44637932",
+      "title": "Art 19.02: GENERAL LICENSE REQUIREMENTS AND REGULATIONS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 16,
+        "foundSections": 16,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44637971",
+      "title": "Art 19.03: ISSUANCE",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 7,
+        "foundSections": 7,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44637981",
+      "title": "Art 19.04: LICENSE TAXES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 10,
+        "foundSections": 10,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44638059",
+      "title": "Art 19.05: ENFORCEMENT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 7,
+        "foundSections": 7,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44638101",
+      "title": "Art 20.01: IN GENERAL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 8,
+        "foundSections": 8,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44638117",
+      "title": "Art 21.01: GENERAL PROVISIONS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 10,
+        "foundSections": 10,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44638158",
+      "title": "Art 21.02: NOTICE AND APPEAL PROCESS FOR CANNABIS BUSINESS PERMITS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 4,
+        "foundSections": 4,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44638197",
+      "title": "Art 21.03: CANNABIS MANUFACTURING, LABORATORIES, RESEARCH AND DISTRIBUTION BUSINESSES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 21,
+        "foundSections": 21,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44638316",
+      "title": "Art 21.04: RETAIL CANNABIS BUSINESSES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 17,
+        "foundSections": 17,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44638447",
+      "title": "Art 21.05: CANNABIS DELIVERY SERVICES ORIGINATING OUTSIDE OF THE CITY",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 12,
+        "foundSections": 12,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44638524",
+      "title": "Art 22.01: IN GENERAL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 14,
+        "foundSections": 14,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44638576",
+      "title": "Art 22.02: CITY TRAFFIC ENGINEER",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 2,
+        "foundSections": 2,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44638579",
+      "title": "Art 22.04: OPERATION OF VEHICLES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 14,
+        "foundSections": 14,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44638616",
+      "title": "Art 22.05: TURNING AND BACKING MOVEMENTS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 3,
+        "foundSections": 3,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44638624",
+      "title": "Art 22.06: TRAFFIC-CONTROL DEVICES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 8,
+        "foundSections": 8,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44638638",
+      "title": "Art 22.07: SPECIAL STOPS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 7,
+        "foundSections": 7,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44638648",
+      "title": "Art 22.08: STOPPING, STANDING AND PARKING",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 66,
+        "foundSections": 66,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44638775",
+      "title": "Art 22.09: LOADING ZONES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 6,
+        "foundSections": 6,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44638795",
+      "title": "Art 22.10: PEDESTRIANS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 4,
+        "foundSections": 4,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44638803",
+      "title": "Art 22.11: PARKING PERMITS FOR PERSONS WITH IMPAIRED MOBILITY",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 8,
+        "foundSections": 8,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44638822",
+      "title": "Art 22.12: PREFERENTIAL PARKING",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 16,
+        "foundSections": 16,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44638887",
+      "title": "Art 22.13: MOTORCYCLES AND MOTOR-DRIVEN CYCLES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 8,
+        "foundSections": 8,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44638928",
+      "title": "Art 22.14: INTERSTATE TRUCK TERMINALS AND ACCESS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 6,
+        "foundSections": 6,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44638947",
+      "title": "Art 22.15: TRANSPORTATION SYSTEMS MANAGEMENT REQUIREMENTS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 8,
+        "foundSections": 8,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639057",
+      "title": "Art 22.16: ELECTRIC VEHICLES AND CAR SHARE VEHICLES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 10,
+        "foundSections": 10,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639087",
+      "title": "Art 22.17: BIKEBUS PEDICABS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 16,
+        "foundSections": 16,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639213",
+      "title": "Art 22.18: (RESERVED)",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 0,
+        "foundSections": 0,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639229",
+      "title": "Art 23.01: NUISANCES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 4,
+        "foundSections": 4,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639273",
+      "title": "Art 23.02: ENFORCEMENT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 7,
+        "foundSections": 7,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639292",
+      "title": "Art 23.03: SUMMARY ABATEMENT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 1,
+        "foundSections": 1,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639298",
+      "title": "Art 23.04: ADMINISTRATIVE ABATEMENT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 6,
+        "foundSections": 6,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639369",
+      "title": "Art 23.05: ENFORCEMENT OF HEARING OFFICER ORDER",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 6,
+        "foundSections": 6,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639383",
+      "title": "Art 23.06: ADDITIONAL PROVISIONS GOVERNING ABATEMENT OF VEHICLES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 15,
+        "foundSections": 15,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639404",
+      "title": "Art 24.01: GENERAL PROVISIONS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 4,
+        "foundSections": 4,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639430",
+      "title": "Art 24.02: GENERAL RESTRICTIONS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 4,
+        "foundSections": 4,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639452",
+      "title": "Art 24.03: MOTOR VEHICLES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 1,
+        "foundSections": 1,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639454",
+      "title": "Art 24.04: AMPLIFIED SOUND",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 7,
+        "foundSections": 7,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639504",
+      "title": "Art 24.05: GENERAL NOISE REGULATIONS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 1,
+        "foundSections": 1,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639515",
+      "title": "Art 24.06: VARIANCES AND EXCEPTIONS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 1,
+        "foundSections": 1,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639517",
+      "title": "Art 24.07: REGULATIONS NOT EXCLUSIVE",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 1,
+        "foundSections": 1,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639521",
+      "title": "Art 25.01: GRAFFITI",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 4,
+        "foundSections": 4,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639539",
+      "title": "Art 25.02: PUNISHMENT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 2,
+        "foundSections": 2,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639542",
+      "title": "Art 25.03: REMOVAL AND ABATEMENT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 7,
+        "foundSections": 7,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639568",
+      "title": "Art 25.04: MISCELLANEOUS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 1,
+        "foundSections": 1,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639571",
+      "title": "Art 26.01: IN GENERAL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 8,
+        "foundSections": 8,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639593",
+      "title": "Art 26.02: WEAPONS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 6,
+        "foundSections": 6,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639601",
+      "title": "Art 26.03: LOITERING NEAR SCHOOLS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 8,
+        "foundSections": 8,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639624",
+      "title": "Art 26.04: OPEN CONTAINER",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 6,
+        "foundSections": 6,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639653",
+      "title": "Art 26.05: SAFETY ENHANCEMENT ZONES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 4,
+        "foundSections": 4,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639668",
+      "title": "Art 26.06: AGGRESSIVE AND OBSTRUCTIVE CONDUCT AND UNATTENDED PERSONAL PROPERTY IN PUBLIC PLACES AND RIGHTS OF WAY",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 7,
+        "foundSections": 7,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639712",
+      "title": "Art 26.07: SURVEILLANCE TECHNOLOGY",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 8,
+        "foundSections": 8,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639795",
+      "title": "Art 26.08: SALES OF FIREARMS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 19,
+        "foundSections": 19,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639853",
+      "title": "Art 26.09: REGARDING THE SAFE STORAGE OF FIREARMS IN RESIDENCES AND VEHICLES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 5,
+        "foundSections": 5,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639879",
+      "title": "Art 26.10: UNLAWFUL POSSESSION OF CATALYTIC CONVERTERS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 4,
+        "foundSections": 4,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "45822018",
+      "title": "Art 26.11: CAMPING",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 7,
+        "foundSections": 7,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "50076761",
+      "title": "Art 26.12: SAFE PARKING PROGRAM",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 8,
+        "foundSections": 8,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639901",
+      "title": "Art 27.01: IN GENERAL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 2,
+        "foundSections": 2,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639912",
+      "title": "Art 27.02: PARKS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 20,
+        "foundSections": 20,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44639973",
+      "title": "Art 27.03: OPEN SPACE AREAS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 23,
+        "foundSections": 23,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44646432",
+      "title": "Art 28.01: IN GENERAL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 22,
+        "foundSections": 22,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44646473",
+      "title": "Art 28.03: (RESERVED)",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 0,
+        "foundSections": 0,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44646518",
+      "title": "Art 29.01: IN GENERAL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 6,
+        "foundSections": 6,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44646538",
+      "title": "Art 29.02: FURNISHING OF SUMMARY CRIMINAL HISTORY INFORMATION TO AUTHORIZED PERSONS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 3,
+        "foundSections": 3,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44646546",
+      "title": "Art 30.01: PURPOSE, DEFINITIONS, AND GENERAL PROVISIONS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 4,
+        "foundSections": 4,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44646588",
+      "title": "Art 30.02: DISCHARGE PROHIBITIONS AND GENERAL REQUIREMENTS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 10,
+        "foundSections": 10,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44646626",
+      "title": "Art 30.03: STORMWATER REQUIREMENTS AND REGULATIONS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 4,
+        "foundSections": 4,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44646638",
+      "title": "Art 30.04: OPERATION AND MAINTENANCE OF STORMWATER CONTROL MEASURES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 1,
+        "foundSections": 1,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44646640",
+      "title": "Art 30.05: INSPECTIONS AND SAMPLING",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 1,
+        "foundSections": 1,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44646645",
+      "title": "Art 30.06: VIOLATIONS, ENFORCEMENT, AND PENALTIES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 5,
+        "foundSections": 5,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44646669",
+      "title": "Art 30.07: SEVERABILITY OF CHAPTER",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 1,
+        "foundSections": 1,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44646671",
+      "title": "Art 30.08: CHARGES FOR STORM DRAINAGE AND FLOOD CONTROL FACILITIES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 13,
+        "foundSections": 13,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44646714",
+      "title": "Art 32.01: IN GENERAL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 21,
+        "foundSections": 21,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44647015",
+      "title": "Art 32.02: REDEMPTION VALUE: WINE AND SPIRIT COOLER CONTAINERS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 7,
+        "foundSections": 7,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44647050",
+      "title": "Art 32.03: ADEQUATE AREAS FOR COLLECTING RECYCLABLE MATERIALS AND ORGANIC WASTE",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 6,
+        "foundSections": 6,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44647077",
+      "title": "Art 32.04: DIVERSION OF CONSTRUCTION AND DEMOLITION DEBRIS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 12,
+        "foundSections": 12,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44647131",
+      "title": "Art 32.05: DISPOSABLE BAG REDUCTION PROGRAM",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 6,
+        "foundSections": 6,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44647173",
+      "title": "Art 32.06: ENVIRONMENTALLY ACCEPTABLE FOOD PACKAGING",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 3,
+        "foundSections": 3,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44647201",
+      "title": "Art 33.01: IN GENERAL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 3,
+        "foundSections": 3,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44647205",
+      "title": "Art 33.02: SEWER CONNECTIONS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 6,
+        "foundSections": 6,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44647230",
+      "title": "Art 33.03: DISCHARGE REQUIREMENTS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 60,
+        "foundSections": 60,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44647663",
+      "title": "Art 33.04: CHARGES FOR THE WASTEWATER UTILITY",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 14,
+        "foundSections": 14,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44647696",
+      "title": "Art 33.06: DISCHARGE OF HAULED LIQUID WASTE",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 7,
+        "foundSections": 7,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44647785",
+      "title": "Art 34.01: GENERAL PROVISIONS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 3,
+        "foundSections": 3,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44647807",
+      "title": "Art 34.02: GENERAL RESTRICTIONS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 8,
+        "foundSections": 8,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44647874",
+      "title": "Art 34.03: ENFORCEMENT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 12,
+        "foundSections": 12,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44647890",
+      "title": "Art 34.04: SALE OF TOBACCO AND E-CIGARETTES; SALE OF TOBACCO AND E-CIGARETTES FROM VENDING MACHINES PROHIBITED",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 12,
+        "foundSections": 12,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44647908",
+      "title": "Art 34.05: SALE OF CIGARETTES, TOBACCO OR E-CIGARETTES; SELF-SERVICE SALES PROHIBITED",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 2,
+        "foundSections": 2,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44647911",
+      "title": "Art 34.06: TOBACCO RETAILER PERMIT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 2,
+        "foundSections": 2,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44647985",
+      "title": "Art 35.01: IN GENERAL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 6,
+        "foundSections": 6,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44648003",
+      "title": "Art 35.02: SIDEWALK, DRIVEWAY, CURB, ETC., CONSTRUCTION",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 9,
+        "foundSections": 9,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44648013",
+      "title": "Art 35.03: EXCAVATIONS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 12,
+        "foundSections": 12,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44648028",
+      "title": "Art 35.04: PARADES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 16,
+        "foundSections": 16,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44648076",
+      "title": "Art 35.05: STREET LIGHTING",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 4,
+        "foundSections": 4,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44648084",
+      "title": "Art 35.06: PICKETING OF PRIVATE RESIDENCES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 2,
+        "foundSections": 2,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44648096",
+      "title": "Art 35.07: MORATORIUM ON EXCAVATIONS ON NEWLY IMPROVED STREETS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 6,
+        "foundSections": 6,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44648117",
+      "title": "Art 35.08: STREET TRENCH CUT FEE",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 11,
+        "foundSections": 11,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "50471549",
+      "title": "Art 35.09: SIDEWALK MAINTENANCE, REPAIR",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 8,
+        "foundSections": 8,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44648156",
+      "title": "Art 36.01: GENERAL PROVISIONS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 7,
+        "foundSections": 7,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44648177",
+      "title": "Art 36.02: DEFINITIONS AND RESPONSIBILITIES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 2,
+        "foundSections": 2,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44648241",
+      "title": "Art 36.03: MAPS REQUIRED",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 3,
+        "foundSections": 3,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44648256",
+      "title": "Art 36.04: TENTATIVE SUBDIVISIONS MAPS—FIVE OR MORE PARCELS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 13,
+        "foundSections": 13,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44648337",
+      "title": "Art 36.05: FINAL SUBDIVISION MAPS—FIVE OR MORE PARCELS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 11,
+        "foundSections": 11,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44648379",
+      "title": "Art 36.06: SUBDIVISIONS OF FOUR OR LESS PARCELS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 9,
+        "foundSections": 9,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44648402",
+      "title": "Art 36.07: VESTING TENTATIVE MAPS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 10,
+        "foundSections": 10,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44648428",
+      "title": "Art 36.08: DEDICATIONS, RESERVATIONS AND DEVELOPMENT FEES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 14,
+        "foundSections": 14,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44648552",
+      "title": "Art 36.09: IMPROVEMENTS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 11,
+        "foundSections": 11,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44648666",
+      "title": "Art 36.10: REVERSIONS TO ACREAGE",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 6,
+        "foundSections": 6,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44648690",
+      "title": "Art 36.11: PARCEL MERGERS AND UNMERGERS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 10,
+        "foundSections": 10,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "48305527",
+      "title": "Art 36.12: LOT LINE ADJUSTMENTS AND VOLUNTARY MERGERS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 11,
+        "foundSections": 11,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44648721",
+      "title": "Art 36.13: CORRECTION AND AMENDMENT OF MAPS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 4,
+        "foundSections": 4,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44648733",
+      "title": "Art 36.14: CONDOMINIUM CONVERSIONS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 8,
+        "foundSections": 8,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44648852",
+      "title": "Art 36.15: ENFORCEMENT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 6,
+        "foundSections": 6,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44649962",
+      "title": "Art 37.01: ADMINISTRATIVE PROVISIONS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 3,
+        "foundSections": 3,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44650007",
+      "title": "Art 37.02: CITY TREES AND PRIVATE/PROTECTED TREES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 8,
+        "foundSections": 8,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44650039",
+      "title": "Art 37.03: LANDMARK TREES AND TREES OF SIGNIFICANCE LOCATED ON CERTAIN PRIVATE PROPERTY",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 6,
+        "foundSections": 6,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44650086",
+      "title": "Art 37.04: PARKING LOT TREES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 3,
+        "foundSections": 3,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44650090",
+      "title": "Art 37.05: PROTECTION OF TREES DURING NEW CONSTRUCTION",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 1,
+        "foundSections": 1,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44650095",
+      "title": "Art 37.06: VIOLATION OF CHAPTER AS PUBLIC NUISANCE",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 4,
+        "foundSections": 4,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44650111",
+      "title": "Art 37.07: TREE PERMIT APPEAL BOARD",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 5,
+        "foundSections": 5,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44650128",
+      "title": "Art 38.01: IN GENERAL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 16,
+        "foundSections": 16,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44650161",
+      "title": "Art 39.01: IN GENERAL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 1,
+        "foundSections": 1,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44650170",
+      "title": "Art 39.02: SERVICE, FACILITIES, ETC.",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 16,
+        "foundSections": 16,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44650261",
+      "title": "Art 39.03: RATES AND CHARGES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 29,
+        "foundSections": 29,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44650326",
+      "title": "Art 39.04: CROSS-CONNECTION CONTROL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 6,
+        "foundSections": 6,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44650410",
+      "title": "Art 39.05: GROUNDWATER WELLS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 18,
+        "foundSections": 18,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44650505",
+      "title": "Art 39.06: GROUNDWATER EXTRACTION AND EXPORTATION.",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 2,
+        "foundSections": 2,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44650508",
+      "title": "Art 39.10: PARTICIPATION IN THE DAVIS WOODLAND SURFACE WATER SUPPLY PROJECT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 3,
+        "foundSections": 3,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44650521",
+      "title": "Art 40.01: IN GENERAL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 15,
+        "foundSections": 15,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44650786",
+      "title": "Art 40.02: AGRICULTURAL (A) DISTRICT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 7,
+        "foundSections": 7,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44650824",
+      "title": "Art 40.03: RESIDENTIAL ONE-FAMILY (R-1) DISTRICT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 8,
+        "foundSections": 8,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44650893",
+      "title": "Art 40.04: RESIDENTIAL ONE- AND TWO-FAMILY (R-2) DISTRICTS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 7,
+        "foundSections": 7,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44650944",
+      "title": "Art 40.04A: RESIDENTIAL ONE- AND TWO-FAMILY CONSERVATION (R-2-CD) DISTRICT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 10,
+        "foundSections": 10,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44651024",
+      "title": "Art 40.05: (RESERVED)",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 0,
+        "foundSections": 0,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44651079",
+      "title": "Art 40.06: RESIDENTIAL RESTRICTED (R-R) DISTRICT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 7,
+        "foundSections": 7,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44651127",
+      "title": "Art 40.07: RESIDENTIAL ONE- AND TWO-FAMILY AND MOBILE HOME (R-2-MH) DISTRICT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 5,
+        "foundSections": 5,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44651155",
+      "title": "Art 40.08: RESIDENTIAL GARDEN APARTMENT (R-3) DISTRICT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 7,
+        "foundSections": 7,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44651214",
+      "title": "Art 40.09: RESIDENTIAL HIGH DENSITY APARTMENT (R-HD) DISTRICT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 7,
+        "foundSections": 7,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44849665",
+      "title": "Art 40.09A: HIGH DENSITY RESIDENTIAL (HDR) OVERLAY DISTRICT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 14,
+        "foundSections": 14,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44651269",
+      "title": "Art 40.10: RESIDENTIAL TRANSITIONAL (R-T) DISTRICT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 7,
+        "foundSections": 7,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44651315",
+      "title": "Art 40.11: (RESERVED)",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 0,
+        "foundSections": 0,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44651376",
+      "title": "Art 40.12: COMMERCIAL NEIGHBORHOOD (C-N) COMBINING DISTRICT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 8,
+        "foundSections": 8,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44651425",
+      "title": "Art 40.13: DOWNTOWN DAVIS ZONES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 13,
+        "foundSections": 13,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44651467",
+      "title": "Art 40.14: SUPPLEMENTAL TO DOWNTOWN ZONES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 12,
+        "foundSections": 12,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44876432",
+      "title": "Art 40.14A: DOWNTOWN AND TRADITIONAL NEIGHBORHOOD OVERLAY DISTRICT (DTRN)",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 3,
+        "foundSections": 3,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44651523",
+      "title": "Art 40.15: MIXED USE (M-U) DISTRICT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 9,
+        "foundSections": 9,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44651597",
+      "title": "Art 40.16: AUTO CENTER (A-C) DISTRICT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 8,
+        "foundSections": 8,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44651701",
+      "title": "Art 40.17: COMMERCIAL SERVICE (C-S) DISTRICT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 7,
+        "foundSections": 7,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44651763",
+      "title": "Art 40.18: COMMERCIAL MIXED USE (CMU) DISTRICT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 7,
+        "foundSections": 7,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44651822",
+      "title": "Art 40.18A: COMMUNITY RETAIL (C-R) ZONING DISTRICT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 10,
+        "foundSections": 10,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44651864",
+      "title": "Art 40.19: INDUSTRIAL ADMINISTRATION AND RESEARCH (I-R) DISTRICT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 7,
+        "foundSections": 7,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44651896",
+      "title": "Art 40.20: INDUSTRIAL (I) DISTRICT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 7,
+        "foundSections": 7,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44651944",
+      "title": "Art 40.20A: PUBLIC-SEMIPUBLIC (P-SP) DISTRICT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 7,
+        "foundSections": 7,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44651971",
+      "title": "Art 40.21: INTERIM STUDY (S) DISTRICT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 6,
+        "foundSections": 6,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44651980",
+      "title": "Art 40.22: PLANNED DEVELOPMENT (P-D) DISTRICT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 21,
+        "foundSections": 21,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44652051",
+      "title": "Art 40.23: HISTORICAL RESOURCES MANAGEMENT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 21,
+        "foundSections": 21,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44652240",
+      "title": "Art 40.24: PERFORMANCE STANDARDS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 12,
+        "foundSections": 12,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44652304",
+      "title": "Art 40.25: PARKING AND LOADING AREAS, PUBLIC GARAGES AND PARKING LOTS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 6,
+        "foundSections": 6,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44652403",
+      "title": "Art 40.25A: BICYCLE PARKING STANDARDS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 8,
+        "foundSections": 8,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44652438",
+      "title": "Art 40.26: SPECIAL USES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 50,
+        "foundSections": 50,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44653098",
+      "title": "Art 40.26A: PERSONAL CULTIVATION OF CANNABIS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 6,
+        "foundSections": 6,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44653135",
+      "title": "Art 40.26B: COMMERCIAL CANNABIS BUSINESSES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 8,
+        "foundSections": 8,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44653210",
+      "title": "Art 40.27: EXCEPTIONS AND MODIFICATIONS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 12,
+        "foundSections": 12,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44653265",
+      "title": "Art 40.28: NONCONFORMING USES AND STRUCTURES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 12,
+        "foundSections": 12,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44653331",
+      "title": "Art 40.29: WIRELESS COMMUNICATION FACILITIES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 22,
+        "foundSections": 22,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44653518",
+      "title": "Art 40.30: CONDITIONAL USE PERMITS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 11,
+        "foundSections": 11,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44653534",
+      "title": "Art 40.30A: ADMINISTRATIVE USE PERMITS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 10,
+        "foundSections": 10,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44653551",
+      "title": "Art 40.30B: TEMPORARY USES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 8,
+        "foundSections": 8,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44653576",
+      "title": "Art 40.31: SITE PLAN AND ARCHITECTURAL APPROVAL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 12,
+        "foundSections": 12,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44653629",
+      "title": "Art 40.32: PLANNED UNIT DEVELOPMENT APPROVAL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 11,
+        "foundSections": 11,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44653668",
+      "title": "Art 40.33: VARIANCES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 10,
+        "foundSections": 10,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44653683",
+      "title": "Art 40.34: PREZONING",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 5,
+        "foundSections": 5,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44653701",
+      "title": "Art 40.35: APPEALS TO CITY COUNCIL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 10,
+        "foundSections": 10,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44653722",
+      "title": "Art 40.36: AMENDMENTS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 9,
+        "foundSections": 9,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44653747",
+      "title": "Art 40.37: ENFORCEMENT",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 6,
+        "foundSections": 6,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44653756",
+      "title": "Art 40.38: SOLAR SHADE CONTROL",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 6,
+        "foundSections": 6,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44653763",
+      "title": "Art 40.39: ADMINISTRATIVE APPROVALS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 5,
+        "foundSections": 5,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44653769",
+      "title": "Art 40.40: ALCOHOL SALES",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 6,
+        "foundSections": 6,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44653815",
+      "title": "Art 40.42: WATER EFFICIENT LANDSCAPING",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 22,
+        "foundSections": 22,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44663144",
+      "title": "Art 40A.01: RIGHT TO FARM",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 5,
+        "foundSections": 5,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44663170",
+      "title": "Art 40A.02: DISPUTE RESOLUTION",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 2,
+        "foundSections": 2,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44663180",
+      "title": "Art 40A.03: FARMLAND PRESERVATION",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 11,
+        "foundSections": 11,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44663271",
+      "title": "Art 40A.04: VIOLATION",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 1,
+        "foundSections": 1,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44663273",
+      "title": "Art 40A.05: PRECEDENCE",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 1,
+        "foundSections": 1,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44663276",
+      "title": "Art 41.01: CITIZENS' RIGHT TO VOTE ON FUTURE USE OF OPEN SPACE AND AGRICULTURAL LANDS",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 6,
+        "foundSections": 6,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44663335",
+      "title": "Art 42.01: YOLO HABITAT CONSERVATION PLAN/NATURAL COMMUNITIES CONSERVATION PLAN",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 10,
+        "foundSections": 10,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44663395",
+      "title": "Ch SR: Statutory References for California Cities",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 14,
+        "foundSections": 14,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    },
+    {
+      "guid": "44663390",
+      "title": "Ch OL: Ordinance List and Disposition Table",
+      "status": "pass",
+      "checks": {
+        "fileExists": true,
+        "sha256Match": true,
+        "sectionCountMatch": true,
+        "expectedSections": 1,
+        "foundSections": 1,
+        "allSectionsPresent": true,
+        "missingSections": []
+      }
+    }
+  ],
+  "sample": {
+    "attempted": 5,
+    "passes": 5,
+    "mismatches": 0,
+    "failed": 0,
+    "selected": [
+      "44651376",
+      "44635268",
+      "44639273",
+      "44632914",
+      "44639515"
+    ],
+    "results": [
+      {
+        "guid": "44651376",
+        "status": "pass"
+      },
+      {
+        "guid": "44635268",
+        "status": "pass"
+      },
+      {
+        "guid": "44639273",
+        "status": "pass"
+      },
+      {
+        "guid": "44632914",
+        "status": "pass"
+      },
+      {
+        "guid": "44639515",
+        "status": "pass"
+      }
+    ]
+  },
+  "localErrors": []
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "crescent-city-publication-input/v1",
+  "editionId": "2d74bf8205ecde96b88b4183d4d47169d83ee910e5d1ce125fd6c77bd31eca8b",
+  "selection": "verified-output",
+  "files": {
+    "davis-ca-code.json": {
+      "sha256": "18ac914905ade1299fd3d104d5fea1386961e20286dca5f823a938a92863b715",
+      "bytes": 4180533
+    },
+    "toc.json": {
+      "sha256": "78ef729464ca1e0c3bd66c41720b9c8d27e8384f40a97282795134e9b33798c0",
+      "bytes": 1607283
+    },
+    "manifest.json": {
+      "sha256": "2c0742031c0f5574937e3fd1370ba837957ed6a221a9dea1ade1dc989a720ceb",
+      "bytes": 95081
+    },
+    "verification-report.json": {
+      "sha256": "2846e7118cc001954a4bc370ef9c98c3ff658d2d1bb23301dabc2d7e5336b0cf",
+      "bytes": 107227
+    },
+    "readability.json": {
+      "sha256": "154b49eddcdfa43d6807765705cd316794c3316c8ad640f9b88cc0db5a664dc4",
+      "bytes": 996571
+    }
+  },
+  "reason": "Complete same-directory edition bound to local verification",
+  "verification": "hash-bound-local",
+  "sourceVerifiedAt": "2026-10-31T03:39:57.381Z",
+  "sourceExportedAt": "2026-10-31T03:39:58.606Z"
+}

@@ -1,0 +1,2627 @@
+{
+  "municipality": "City of Davis, CA",
+  "municipalityGuid": "DA4922",
+  "sourceUrl": "https://ecode360.com/DA4922",
+  "version": "",
+  "scrapedAt": "2026-10-30T21:57:50.583Z",
+  "completedAt": "2026-10-31T03:39:34.245Z",
+  "tocNodeCount": 2881,
+  "articlePageCount": 290,
+  "sectionCount": 2541,
+  "articles": {
+    "44632384": {
+      "guid": "44632384",
+      "title": "IN GENERAL",
+      "number": "1.01",
+      "sectionCount": 23,
+      "sha256": "b87404905cf85a599257ebfd5b0bf1ddd8534f3c3e6b529bb0739639ca2b50e5",
+      "filePath": "articles/44632384.json",
+      "lastScrapedAt": "2026-10-30T23:30:16.261Z"
+    },
+    "44632455": {
+      "guid": "44632455",
+      "title": "ADMINISTRATIVE CITATIONS",
+      "number": "1.02",
+      "sectionCount": 14,
+      "sha256": "b87404905cf85a599257ebfd5b0bf1ddd8534f3c3e6b529bb0739639ca2b50e5",
+      "filePath": "articles/44632455.json",
+      "lastScrapedAt": "2026-10-30T23:30:24.264Z"
+    },
+    "44632566": {
+      "guid": "44632566",
+      "title": "CITY COUNCIL",
+      "number": "2.01",
+      "sectionCount": 12,
+      "sha256": "d9a88740c706d35fc459b1a1b66ff1d4b76fa60d467e8ddd550f5bd85e2761cc",
+      "filePath": "articles/44632566.json",
+      "lastScrapedAt": "2026-10-30T21:58:07.094Z"
+    },
+    "44632593": {
+      "guid": "44632593",
+      "title": "MAYOR",
+      "number": "2.02",
+      "sectionCount": 2,
+      "sha256": "95a3b6bacfa9b7a020750da1ea1e60c1d12507092a2f1b019e98f0f659e9e6f4",
+      "filePath": "articles/44632593.json",
+      "lastScrapedAt": "2026-10-30T21:58:13.214Z"
+    },
+    "44632596": {
+      "guid": "44632596",
+      "title": "CITY MANAGER",
+      "number": "2.03",
+      "sectionCount": 5,
+      "sha256": "59d7a17490643c852f6705f702a59e8288d1ed4c0f103bb6c9512dba310f1907",
+      "filePath": "articles/44632596.json",
+      "lastScrapedAt": "2026-10-30T21:58:19.752Z"
+    },
+    "44632616": {
+      "guid": "44632616",
+      "title": "CITY ATTORNEY",
+      "number": "2.04",
+      "sectionCount": 2,
+      "sha256": "0d23b1e1d5b69f2bec8b4a60e720b84049ed76df57dc47d14283f80a44cbba65",
+      "filePath": "articles/44632616.json",
+      "lastScrapedAt": "2026-10-30T21:58:25.846Z"
+    },
+    "44632619": {
+      "guid": "44632619",
+      "title": "DIRECTOR OF FINANCE",
+      "number": "2.05",
+      "sectionCount": 3,
+      "sha256": "381e958e5b3f8d1a0dac2b56c414e97e8aae6b75eb57d721f17f2f269d778a5b",
+      "filePath": "articles/44632619.json",
+      "lastScrapedAt": "2026-10-30T21:58:31.970Z"
+    },
+    "44632631": {
+      "guid": "44632631",
+      "title": "CITY CLERK",
+      "number": "2.06",
+      "sectionCount": 3,
+      "sha256": "2dac72f5a984c9583683a0103fff09a431bfbce74940fa0e1c8c31bb3b49a278",
+      "filePath": "articles/44632631.json",
+      "lastScrapedAt": "2026-10-30T21:58:38.265Z"
+    },
+    "44632635": {
+      "guid": "44632635",
+      "title": "PLANNING COMMISSION",
+      "number": "2.07",
+      "sectionCount": 2,
+      "sha256": "d6f6fe8fc04779593dc6f43328be09de4f6f8294db31c160ce778621c6cec240",
+      "filePath": "articles/44632635.json",
+      "lastScrapedAt": "2026-10-30T21:58:44.279Z"
+    },
+    "44632638": {
+      "guid": "44632638",
+      "title": "POLICE FORCE RESERVE",
+      "number": "2.10",
+      "sectionCount": 8,
+      "sha256": "39d140879d0f51ed61e1c2544d291fb9dd2502c1cd630cc0c3d80de824061dd1",
+      "filePath": "articles/44632638.json",
+      "lastScrapedAt": "2026-10-30T21:58:50.870Z"
+    },
+    "44632652": {
+      "guid": "44632652",
+      "title": "MODEL CONFLICT OF INTEREST CODE",
+      "number": "2.12",
+      "sectionCount": 1,
+      "sha256": "e55d4d1254ca06be5434f4f47de0b5c76a82b94e607afc93e3a8f7129b2593ee",
+      "filePath": "articles/44632652.json",
+      "lastScrapedAt": "2026-10-30T21:58:56.959Z"
+    },
+    "44632654": {
+      "guid": "44632654",
+      "title": "INDUSTRIAL DEVELOPMENT AUTHORITY",
+      "number": "2.17",
+      "sectionCount": 3,
+      "sha256": "d4be90b6af396655d9125df1e94b9cc791abf0db3f547deda239a1501947c718",
+      "filePath": "articles/44632654.json",
+      "lastScrapedAt": "2026-10-30T21:59:02.970Z"
+    },
+    "44632660": {
+      "guid": "44632660",
+      "title": "CITY TREASURER",
+      "number": "2.18",
+      "sectionCount": 3,
+      "sha256": "1eb46529610a13577a837a9615d9fb0941ddeff16688d2ae58f431ceec2e0ec1",
+      "filePath": "articles/44632660.json",
+      "lastScrapedAt": "2026-10-30T21:59:09.002Z"
+    },
+    "44632664": {
+      "guid": "44632664",
+      "title": "RESTRICTIONS ON LOBBYING BY FORMER CITY OFFICIALS",
+      "number": "2.19",
+      "sectionCount": 5,
+      "sha256": "e7c1155e9384b6a8f2078f34fa741895e1ff78d39322f6b259f33f5e46ad4132",
+      "filePath": "articles/44632664.json",
+      "lastScrapedAt": "2026-10-30T21:59:15.085Z"
+    },
+    "44632678": {
+      "guid": "44632678",
+      "title": "AUTHORIZATION TO IMPLEMENT A COMMUNITY CHOICE AGGREGATION PROGRAM",
+      "number": "2.20",
+      "sectionCount": 1,
+      "sha256": "b88d138f39c03d223d8dc9bd32c813bcd59c75d7e3512b018b4590df0cb4cbce",
+      "filePath": "articles/44632678.json",
+      "lastScrapedAt": "2026-10-30T21:59:21.106Z"
+    },
+    "44632689": {
+      "guid": "44632689",
+      "title": "IN GENERAL",
+      "number": "3.01",
+      "sectionCount": 8,
+      "sha256": "ba7c3ebf7bf3cef34fa2d3d9649b2589aef0a9c8012883c477622e5e5ab872c4",
+      "filePath": "articles/44632689.json",
+      "lastScrapedAt": "2026-10-30T23:30:32.241Z"
+    },
+    "44632704": {
+      "guid": "44632704",
+      "title": "ADJACENT TO FREEWAYS",
+      "number": "3.02",
+      "sectionCount": 4,
+      "sha256": "ba7c3ebf7bf3cef34fa2d3d9649b2589aef0a9c8012883c477622e5e5ab872c4",
+      "filePath": "articles/44632704.json",
+      "lastScrapedAt": "2026-10-30T23:30:40.263Z"
+    },
+    "44632834": {
+      "guid": "44632834",
+      "title": "IN GENERAL",
+      "number": "4.01",
+      "sectionCount": 10,
+      "sha256": "62d902ba1b9410a3d9db704f3d32da0fb1ff6fad44d0108d079d04d9ee975363",
+      "filePath": "articles/44632834.json",
+      "lastScrapedAt": "2026-10-30T21:59:39.381Z"
+    },
+    "44632901": {
+      "guid": "44632901",
+      "title": "IN GENERAL",
+      "number": "5.01",
+      "sectionCount": 5,
+      "sha256": "326758e755c3956271f822c47206dba378531c4f3be861d0fc9e83e131fc4255",
+      "filePath": "articles/44632901.json",
+      "lastScrapedAt": "2026-10-30T21:59:45.326Z"
+    },
+    "44632912": {
+      "guid": "44632912",
+      "title": "VICIOUS ANIMALS",
+      "number": "5.02",
+      "sectionCount": 1,
+      "sha256": "c1da9f4659b87b98e51bbc2df57fd31cf80edc1f1a647f66d94420d427349522",
+      "filePath": "articles/44632912.json",
+      "lastScrapedAt": "2026-10-30T21:59:51.477Z"
+    },
+    "44632914": {
+      "guid": "44632914",
+      "title": "PROTECTION OF ANIMALS IN MOTOR VEHICLES",
+      "number": "5.03",
+      "sectionCount": 1,
+      "sha256": "5f32f07a2cd412a791bf3767efa2a08f6bbf79605fe6d716888f3fc0085b5f5b",
+      "filePath": "articles/44632914.json",
+      "lastScrapedAt": "2026-10-30T21:59:57.534Z"
+    },
+    "44632919": {
+      "guid": "44632919",
+      "title": "DOGS",
+      "number": "5.04",
+      "sectionCount": 5,
+      "sha256": "b34225192fd539df2d3b16758f63c11420596f8cc127b82062efcf6764380c82",
+      "filePath": "articles/44632919.json",
+      "lastScrapedAt": "2026-10-30T22:00:03.522Z"
+    },
+    "44632947": {
+      "guid": "44632947",
+      "title": "IN GENERAL",
+      "number": "6.01",
+      "sectionCount": 4,
+      "sha256": "531fbd0e7c7d40b49427dae8d80effe49f9fefd724a42dd617ddf1a2bda0bff1",
+      "filePath": "articles/44632947.json",
+      "lastScrapedAt": "2026-10-30T22:00:09.511Z"
+    },
+    "44632954": {
+      "guid": "44632954",
+      "title": "OPERATION GENERALLY",
+      "number": "6.02",
+      "sectionCount": 7,
+      "sha256": "15893a97b47a7a2ccce8c2b187c14919291efb7526659d0746b61bc9a50c69a0",
+      "filePath": "articles/44632954.json",
+      "lastScrapedAt": "2026-10-30T22:00:16.202Z"
+    },
+    "44632973": {
+      "guid": "44632973",
+      "title": "BICYCLE PATHS AND LANES",
+      "number": "6.03",
+      "sectionCount": 4,
+      "sha256": "eb50148e980bbf10498fc65d1efad3ae6872f9eb048e77772e0bf1aae28a4d85",
+      "filePath": "articles/44632973.json",
+      "lastScrapedAt": "2026-10-30T22:00:22.181Z"
+    },
+    "44632987": {
+      "guid": "44632987",
+      "title": "BICYCLE TRAFFIC CONTROL SIGNALS",
+      "number": "6.04",
+      "sectionCount": 5,
+      "sha256": "978590ee4f949a4378fef6c935192c56e633ce48bb50f240065e8de6730d90ff",
+      "filePath": "articles/44632987.json",
+      "lastScrapedAt": "2026-10-30T22:00:28.215Z"
+    },
+    "44633004": {
+      "guid": "44633004",
+      "title": "BICYCLE- AND SCOOTER-SHARING BUSINESSES AND REGULATIONS",
+      "number": "6.05",
+      "sectionCount": 17,
+      "sha256": "d9fada3dde9cb83ffaa0776a55e658eaeb83fdd9d96767172316e555f1400228",
+      "filePath": "articles/44633004.json",
+      "lastScrapedAt": "2026-10-30T22:00:34.225Z"
+    },
+    "44634303": {
+      "guid": "44634303",
+      "title": "IN GENERAL",
+      "number": "7.01",
+      "sectionCount": 17,
+      "sha256": "5f92b736967ea4b5e395503de5f49c2f47aa0cf51a2155fb8479d5c86affb782",
+      "filePath": "articles/44634303.json",
+      "lastScrapedAt": "2026-10-30T22:00:40.362Z"
+    },
+    "44634338": {
+      "guid": "44634338",
+      "title": "IN GENERAL",
+      "number": "8.01",
+      "sectionCount": 17,
+      "sha256": "2fd2a89ade8e35d08cc38edc8f23a521f023835591ff09ebf85c1ae216c5d24c",
+      "filePath": "articles/44634338.json",
+      "lastScrapedAt": "2026-10-30T22:00:46.448Z"
+    },
+    "44634422": {
+      "guid": "44634422",
+      "title": "FLOOD PREVENTION STANDARDS: AUTHORIZATION, PURPOSE AND METHODS",
+      "number": "8.03",
+      "sectionCount": 4,
+      "sha256": "eabefc75580fafbf21b1abf86dc9a139f3d08a9cf8a03fa6347e6bb0603d3579",
+      "filePath": "articles/44634422.json",
+      "lastScrapedAt": "2026-10-30T22:00:52.494Z"
+    },
+    "44634442": {
+      "guid": "44634442",
+      "title": "FLOOD PREVENTION DEFINITIONS",
+      "number": "8.04",
+      "sectionCount": 32,
+      "sha256": "4643ea19cc1a82f8a37c2fc5d6b4d13e7cebfe40b3995367f692e2df54640b86",
+      "filePath": "articles/44634442.json",
+      "lastScrapedAt": "2026-10-30T22:00:58.691Z"
+    },
+    "44634484": {
+      "guid": "44634484",
+      "title": "FLOOD PREVENTION GENERAL PROVISIONS",
+      "number": "8.05",
+      "sectionCount": 6,
+      "sha256": "bd9ce50065e27e1f4ec8dd0d9967f93a87c18351c85e834831723524e0e33274",
+      "filePath": "articles/44634484.json",
+      "lastScrapedAt": "2026-10-30T22:01:04.739Z"
+    },
+    "44634494": {
+      "guid": "44634494",
+      "title": "FLOOD PREVENTION ADMINISTRATION",
+      "number": "8.06",
+      "sectionCount": 3,
+      "sha256": "416a55826fd7ecc9271980e56d94d236c983ece9a11c256b8f45ac6b2a4940d7",
+      "filePath": "articles/44634494.json",
+      "lastScrapedAt": "2026-10-30T22:01:10.761Z"
+    },
+    "44634520": {
+      "guid": "44634520",
+      "title": "PROVISIONS FOR FLOOD HAZARD REDUCTION",
+      "number": "8.07",
+      "sectionCount": 5,
+      "sha256": "d50e7299ef76ec13972de2ace16380c408c4c1949c0b326cf3f7f32ce02ff2bb",
+      "filePath": "articles/44634520.json",
+      "lastScrapedAt": "2026-10-30T22:01:16.752Z"
+    },
+    "44634554": {
+      "guid": "44634554",
+      "title": "FLOOD PREVENTION STANDARDS VARIANCE PROCEDURE",
+      "number": "8.08",
+      "sectionCount": 2,
+      "sha256": "7507511d98eacfb3541fe3bb3e1e8c4888c44f6e7a6bc45ca4e11c796e364e15",
+      "filePath": "articles/44634554.json",
+      "lastScrapedAt": "2026-10-30T22:01:23.009Z"
+    },
+    "44634582": {
+      "guid": "44634582",
+      "title": "RESALE OF PROPERTY",
+      "number": "8.10",
+      "sectionCount": 19,
+      "sha256": "d374ffc391dd119775180e1910b75defceab2a1bcb94b93d6aaacce509e79ef3",
+      "filePath": "articles/44634582.json",
+      "lastScrapedAt": "2026-10-30T22:01:29.018Z"
+    },
+    "44634621": {
+      "guid": "44634621",
+      "title": "MINIMUM SECURITY BUILDING STANDARDS",
+      "number": "8.14",
+      "sectionCount": 22,
+      "sha256": "3e5b60059bde25f5fd5de406f1ce2ad1c082f44c36c8564be96724a3461b2514",
+      "filePath": "articles/44634621.json",
+      "lastScrapedAt": "2026-10-30T22:01:35.061Z"
+    },
+    "44634771": {
+      "guid": "44634771",
+      "title": "OUTDOOR LIGHTING CONTROL",
+      "number": "8.17",
+      "sectionCount": 11,
+      "sha256": "92d7beec68bc8be8f6efe2c6bf7e5e85e66fd68697cebc94abe03e88e9de0a5d",
+      "filePath": "articles/44634771.json",
+      "lastScrapedAt": "2026-10-30T22:01:41.138Z"
+    },
+    "44634851": {
+      "guid": "44634851",
+      "title": "PROHIBITING DISKING, TILLING OR GRADING",
+      "number": "8.18",
+      "sectionCount": 6,
+      "sha256": "cf1a71a4d7a41f2a7bd62550bf9a0d63220b4f76b0ab7a46e76ff57c924c7fa9",
+      "filePath": "articles/44634851.json",
+      "lastScrapedAt": "2026-10-30T22:01:47.118Z"
+    },
+    "44634893": {
+      "guid": "44634893",
+      "title": "DEMOLITION",
+      "number": "8.19",
+      "sectionCount": 7,
+      "sha256": "9530763a227f75c1434b017746fb0e312cc9f8755631d2c5a4b4587af161f879",
+      "filePath": "articles/44634893.json",
+      "lastScrapedAt": "2026-10-30T22:01:53.119Z"
+    },
+    "44634926": {
+      "guid": "44634926",
+      "title": "RENEWABLE ENERGY",
+      "number": "8.20",
+      "sectionCount": 7,
+      "sha256": "6f0fa75fd9bff6bbe25df4bc65cfb173f15f4da36611fdf0d8fa913cf7faae6a",
+      "filePath": "articles/44634926.json",
+      "lastScrapedAt": "2026-10-30T22:01:59.476Z"
+    },
+    "44634968": {
+      "guid": "44634968",
+      "title": "SMALL RESIDENTIAL ROOFTOP SOLAR ENERGY SYSTEM REVIEW PROCESS",
+      "number": "8.21",
+      "sectionCount": 5,
+      "sha256": "96566281b958aaa24ecc81b92e95e2e80cf62fe5d5d36910e2f395c3e41520e4",
+      "filePath": "articles/44634968.json",
+      "lastScrapedAt": "2026-10-30T22:02:05.464Z"
+    },
+    "44634984": {
+      "guid": "44634984",
+      "title": "EMERGENCY AND HAZARD PLACARD POSTING",
+      "number": "8.22",
+      "sectionCount": 5,
+      "sha256": "9bb061f4bc7f72d587ae471ca55e944f2db29c4975f14626ce95a01810ef58c8",
+      "filePath": "articles/44634984.json",
+      "lastScrapedAt": "2026-10-30T22:02:11.683Z"
+    },
+    "44634995": {
+      "guid": "44634995",
+      "title": "ELECTRIC VEHICLE CHARGING STATIONS REVIEW PROCESS",
+      "number": "8.23",
+      "sectionCount": 7,
+      "sha256": "5c943827f8492abad809afabfc6a1baf6c4af975dff233c86fe19066b4c5d65b",
+      "filePath": "articles/44634995.json",
+      "lastScrapedAt": "2026-10-30T22:02:17.758Z"
+    },
+    "44635047": {
+      "guid": "44635047",
+      "title": "IN GENERAL",
+      "number": "8A.01",
+      "sectionCount": 19,
+      "sha256": "98d80aa790f98fa939b4afb2a95851caee6d53f3b249b02545ad3d296de69db6",
+      "filePath": "articles/44635047.json",
+      "lastScrapedAt": "2026-10-30T22:02:23.836Z"
+    },
+    "44635109": {
+      "guid": "44635109",
+      "title": "IN GENERAL",
+      "number": "8B.01",
+      "sectionCount": 30,
+      "sha256": "a01399112b1a2b9b53bb97ce7cc36f634ff8345455c6fa57b0743137ac831c94",
+      "filePath": "articles/44635109.json",
+      "lastScrapedAt": "2026-10-30T22:02:29.836Z"
+    },
+    "44635154": {
+      "guid": "44635154",
+      "title": "GENERAL PROVISIONS",
+      "number": "8B.02",
+      "sectionCount": 37,
+      "sha256": "3bcf2b7f401bc926a1bf10e493515e4fc73aaa9b3ffe6a15f8efacfaa2ab5e22",
+      "filePath": "articles/44635154.json",
+      "lastScrapedAt": "2026-10-30T22:02:35.910Z"
+    },
+    "44635268": {
+      "guid": "44635268",
+      "title": "SPECIAL RULES APPLICABLE TO CABLE SYSTEMS",
+      "number": "8B.03",
+      "sectionCount": 15,
+      "sha256": "dd3b0bdf1343e6167c24465dab6e44720b5b9e1bcc9c6baba1e13b5de2480e03",
+      "filePath": "articles/44635268.json",
+      "lastScrapedAt": "2026-10-30T22:02:42.036Z"
+    },
+    "44635321": {
+      "guid": "44635321",
+      "title": "OPEN VIDEO SYSTEMS",
+      "number": "8B.04",
+      "sectionCount": 10,
+      "sha256": "002d3774ad99342627fc3896fc820a822ebd31950f7e6d0ac933e1445dd3c8dd",
+      "filePath": "articles/44635321.json",
+      "lastScrapedAt": "2026-10-30T23:30:48.329Z"
+    },
+    "44635365": {
+      "guid": "44635365",
+      "title": "CUSTOMER SERVICE STANDARDS",
+      "number": "8B.05",
+      "sectionCount": 28,
+      "sha256": "31b96446bf00837c9bf8ffd90716a76d739f452762121e409cd83bed12925b6b",
+      "filePath": "articles/44635365.json",
+      "lastScrapedAt": "2026-10-30T23:30:56.354Z"
+    },
+    "44635458": {
+      "guid": "44635458",
+      "title": "MISCELLANEOUS",
+      "number": "8B.06",
+      "sectionCount": 4,
+      "sha256": "99541e42eda5a71c6c8d2aab7fea9f605db4c0ba5dfd6a77822d4f79dac4d865",
+      "filePath": "articles/44635458.json",
+      "lastScrapedAt": "2026-10-30T23:31:04.493Z"
+    },
+    "44635467": {
+      "guid": "44635467",
+      "title": "STATE VIDEO FRANCHISES",
+      "number": "8B.07",
+      "sectionCount": 5,
+      "sha256": "3fb903a32a8b965d3ee1b0b7cabe5a360b0994d915827b3e80077cfac5178bb7",
+      "filePath": "articles/44635467.json",
+      "lastScrapedAt": "2026-10-30T23:31:12.481Z"
+    },
+    "44635495": {
+      "guid": "44635495",
+      "title": "IN GENERAL",
+      "number": "9.01",
+      "sectionCount": 10,
+      "sha256": "292c9363c8fa9fc738ebe4276dac5ec6921226f4dad9e1a4620ceddadde5260f",
+      "filePath": "articles/44635495.json",
+      "lastScrapedAt": "2026-10-30T23:31:20.834Z"
+    },
+    "44635531": {
+      "guid": "44635531",
+      "title": "GENERAL PROVISIONS",
+      "number": "10.01",
+      "sectionCount": 4,
+      "sha256": "a3c9bacbd7e7a078c2c0dd4b01e08e5da16d535b1f1ccae2e45e08e6d157fc5c",
+      "filePath": "articles/44635531.json",
+      "lastScrapedAt": "2026-10-30T23:31:28.779Z"
+    },
+    "44635577": {
+      "guid": "44635577",
+      "title": "EMPLOYMENT",
+      "number": "10.02",
+      "sectionCount": 3,
+      "sha256": "c2d23095413bcb6bf03c338ebe98e186ba739a55fd3e61b40b50a916d3a6e645",
+      "filePath": "articles/44635577.json",
+      "lastScrapedAt": "2026-10-30T23:31:36.808Z"
+    },
+    "44635589": {
+      "guid": "44635589",
+      "title": "BUSINESS ESTABLISHMENTS",
+      "number": "10.03",
+      "sectionCount": 1,
+      "sha256": "341ee91da63dc6854fa9374825965f6f8bbcdd814c6bdae7f3e6c4b6e15c2bf4",
+      "filePath": "articles/44635589.json",
+      "lastScrapedAt": "2026-10-30T23:31:44.734Z"
+    },
+    "44635594": {
+      "guid": "44635594",
+      "title": "REAL ESTATE TRANSACTIONS",
+      "number": "10.04",
+      "sectionCount": 2,
+      "sha256": "94112f17cb7bdd8faf9243b979e1fac8e7d714c45a13355c3ffb0e798316c86b",
+      "filePath": "articles/44635594.json",
+      "lastScrapedAt": "2026-10-30T23:31:52.674Z"
+    },
+    "44635613": {
+      "guid": "44635613",
+      "title": "REMEDIES, GENERAL EXEMPTIONS",
+      "number": "10.05",
+      "sectionCount": 7,
+      "sha256": "8666c33fe0c81afa364839facb958e0c9737bcdcd5ddd5e47414678691201fe9",
+      "filePath": "articles/44635613.json",
+      "lastScrapedAt": "2026-10-30T23:32:00.651Z"
+    },
+    "44635666": {
+      "guid": "44635666",
+      "title": "ENTERTAINMENT PERMITS",
+      "number": "11.01",
+      "sectionCount": 4,
+      "sha256": "205b4794875987896692250f8927ac8c3a57806476256361b44f586d7ec19315",
+      "filePath": "articles/44635666.json",
+      "lastScrapedAt": "2026-10-30T23:32:16.603Z"
+    },
+    "44635722": {
+      "guid": "44635722",
+      "title": "OPERATION OF ENTERTAINMENT ESTABLISHMENTS",
+      "number": "11.02",
+      "sectionCount": 10,
+      "sha256": "35725a3f7675f5527bd375a2a1ea7fe8c98073ea5f64823bd799427c6600faad",
+      "filePath": "articles/44635722.json",
+      "lastScrapedAt": "2026-10-30T23:32:24.592Z"
+    },
+    "44635737": {
+      "guid": "44635737",
+      "title": "ISSUANCE, RENEWAL, SUSPENSION, MODIFICATION AND REVOCATION OF PERMITS",
+      "number": "11.03",
+      "sectionCount": 13,
+      "sha256": "a718fdc3fe0d159cc633a209748bd5d3dfc4f930387e015225b8b1d3a5bd2cb2",
+      "filePath": "articles/44635737.json",
+      "lastScrapedAt": "2026-10-30T23:32:32.609Z"
+    },
+    "44635862": {
+      "guid": "44635862",
+      "title": "PENALTIES FOR VIOLATION",
+      "number": "11.04",
+      "sectionCount": 3,
+      "sha256": "c414571a70d407c487bf181b94b4e559b176eb0ac72d09a0baa6bc95760f58b3",
+      "filePath": "articles/44635862.json",
+      "lastScrapedAt": "2026-10-30T23:32:40.614Z"
+    },
+    "44635872": {
+      "guid": "44635872",
+      "title": "IN GENERAL",
+      "number": "12.01",
+      "sectionCount": 5,
+      "sha256": "6f03ba64abbb77510f7fee5661407b8583487ed3feab200cabf05684a303027a",
+      "filePath": "articles/44635872.json",
+      "lastScrapedAt": "2026-10-30T23:32:48.615Z"
+    },
+    "44635884": {
+      "guid": "44635884",
+      "title": "ELECTION CAMPAIGNS",
+      "number": "12.02",
+      "sectionCount": 3,
+      "sha256": "6f03ba64abbb77510f7fee5661407b8583487ed3feab200cabf05684a303027a",
+      "filePath": "articles/44635884.json",
+      "lastScrapedAt": "2026-10-30T23:32:56.581Z"
+    },
+    "44635930": {
+      "guid": "44635930",
+      "title": "ADOPTION OF CALIFORNIA FIRE CODE",
+      "number": "13.01",
+      "sectionCount": 7,
+      "sha256": "713716eb3309e06c93b670f9232d3184cd405c7a7d3396a99308e11fe4d68649",
+      "filePath": "articles/44635930.json",
+      "lastScrapedAt": "2026-10-30T23:33:04.570Z"
+    },
+    "44635977": {
+      "guid": "44635977",
+      "title": "FIREWORKS",
+      "number": "13.02",
+      "sectionCount": 3,
+      "sha256": "66d4ed69b3f3eeaeb23ab08f2f2a2b9d36ad1d0e63d9556330ce9f7fafc9455f",
+      "filePath": "articles/44635977.json",
+      "lastScrapedAt": "2026-10-30T23:33:12.546Z"
+    },
+    "44635981": {
+      "guid": "44635981",
+      "title": "OPEN CAMPFIRES",
+      "number": "13.03",
+      "sectionCount": 5,
+      "sha256": "4e84794ed97f0acc270a6823ace058a3a04c03166d665960c429f437f3e9b432",
+      "filePath": "articles/44635981.json",
+      "lastScrapedAt": "2026-10-30T23:33:20.518Z"
+    },
+    "44636031": {
+      "guid": "44636031",
+      "title": "CEQA IMPLEMENTING REGULATIONS",
+      "number": "13A.01",
+      "sectionCount": 13,
+      "sha256": "daf92afd476a334c5a8993712b4280602afcd80a76242899e04ead533b77f7c5",
+      "filePath": "articles/44636031.json",
+      "lastScrapedAt": "2026-10-30T23:33:28.547Z"
+    },
+    "44636092": {
+      "guid": "44636092",
+      "title": "IN GENERAL",
+      "number": "14.01",
+      "sectionCount": 7,
+      "sha256": "c36a131ba7d8612ea75a6cd39c7d8e6d808bcc416905ea5614fe4d554f827a84",
+      "filePath": "articles/44636092.json",
+      "lastScrapedAt": "2026-10-30T23:33:36.531Z"
+    },
+    "44636169": {
+      "guid": "44636169",
+      "title": "IN GENERAL",
+      "number": "15.01",
+      "sectionCount": 9,
+      "sha256": "0318031cd4243b52f77e4d3f8b4eaf08ae0259d9ff8a3316f9305ad07f0c93aa",
+      "filePath": "articles/44636169.json",
+      "lastScrapedAt": "2026-10-30T23:33:44.542Z"
+    },
+    "44636181": {
+      "guid": "44636181",
+      "title": "PURCHASES",
+      "number": "15.02",
+      "sectionCount": 13,
+      "sha256": "5081a8ae8c511add94a753a5c86038c376cce38b9842a020db629633c8e6fbf9",
+      "filePath": "articles/44636181.json",
+      "lastScrapedAt": "2026-10-30T23:33:52.613Z"
+    },
+    "44636253": {
+      "guid": "44636253",
+      "title": "SALES AND USE TAX",
+      "number": "15.03",
+      "sectionCount": 20,
+      "sha256": "cb6b48522a44aa29245f5cbf30c228bf927ebccdca8d4b287ea19c646da22b94",
+      "filePath": "articles/44636253.json",
+      "lastScrapedAt": "2026-10-30T23:34:00.876Z"
+    },
+    "44636298": {
+      "guid": "44636298",
+      "title": "REAL PROPERTY TRANSFER TAX",
+      "number": "15.04",
+      "sectionCount": 14,
+      "sha256": "dbe3e52fc47305600c798e3b27ee07a568253440e3b86c852552054116a8b182",
+      "filePath": "articles/44636298.json",
+      "lastScrapedAt": "2026-10-30T23:34:08.922Z"
+    },
+    "44636329": {
+      "guid": "44636329",
+      "title": "TRANSIENT OCCUPANCY TAX",
+      "number": "15.05",
+      "sectionCount": 13,
+      "sha256": "c2c77c482500595eae6ce7a3eac1db08c47342d4ba3e29543435e3fc4d731c05",
+      "filePath": "articles/44636329.json",
+      "lastScrapedAt": "2026-10-30T23:34:16.979Z"
+    },
+    "44636366": {
+      "guid": "44636366",
+      "title": "ART IN PUBLIC WORKS FUND ALLOCATION",
+      "number": "15.06",
+      "sectionCount": 5,
+      "sha256": "e75a1f7bccd2361ec7a6c524ef865d60e2ac0e44f4e519b1775528f693441aac",
+      "filePath": "articles/44636366.json",
+      "lastScrapedAt": "2026-10-30T23:34:25.033Z"
+    },
+    "44636385": {
+      "guid": "44636385",
+      "title": "CONSTRUCTION TAX",
+      "number": "15.07",
+      "sectionCount": 8,
+      "sha256": "4a6eb1912354faad12484a589b49351bfe1521adaefefb7cf7d331961c8a5b40",
+      "filePath": "articles/44636385.json",
+      "lastScrapedAt": "2026-10-30T23:34:33.076Z"
+    },
+    "44636409": {
+      "guid": "44636409",
+      "title": "PUBLIC SAFETY CHARGES",
+      "number": "15.08",
+      "sectionCount": 5,
+      "sha256": "0ebe2bddc7a2d822efd0134f8b205cc0a15130dcadca36b3fcd19f33767dc004",
+      "filePath": "articles/44636409.json",
+      "lastScrapedAt": "2026-10-30T23:34:41.108Z"
+    },
+    "44636415": {
+      "guid": "44636415",
+      "title": "MUNICIPAL SERVICE TAX",
+      "number": "15.09",
+      "sectionCount": 4,
+      "sha256": "cbb8986e6d5159d6a744b0a82673e6b1fc4cc411a472d9b1a802d8093b0983ca",
+      "filePath": "articles/44636415.json",
+      "lastScrapedAt": "2026-10-30T23:34:49.149Z"
+    },
+    "44636422": {
+      "guid": "44636422",
+      "title": "BUSINESS IMPROVEMENT DISTRICT",
+      "number": "15.10",
+      "sectionCount": 14,
+      "sha256": "1cd3dc79f62ca9820a7ccaeb1a8663478e6f01a23f73decf6d6c1c25fe9fdccc",
+      "filePath": "articles/44636422.json",
+      "lastScrapedAt": "2026-10-30T23:34:57.226Z"
+    },
+    "44636470": {
+      "guid": "44636470",
+      "title": "INFORMAL BIDDING FOR PUBLIC PROJECTS",
+      "number": "15.11",
+      "sectionCount": 7,
+      "sha256": "3a15132bf245dfdb05bcb40d0e4cd9a1ea4af9aa12cda62225c0f990a4bbc7df",
+      "filePath": "articles/44636470.json",
+      "lastScrapedAt": "2026-10-30T23:35:05.271Z"
+    },
+    "44636498": {
+      "guid": "44636498",
+      "title": "MAJOR PROJECTS FINANCING FEE",
+      "number": "15.12",
+      "sectionCount": 5,
+      "sha256": "84dd75c4b5468e315f85203537b8ff25f5330b516631a4ece4c97cfe5e455b3e",
+      "filePath": "articles/44636498.json",
+      "lastScrapedAt": "2026-10-30T23:35:13.308Z"
+    },
+    "44636508": {
+      "guid": "44636508",
+      "title": "SPECIAL TAX AND ASSESSMENT DISTRICT LIEN DISCLOSURE",
+      "number": "15.13",
+      "sectionCount": 3,
+      "sha256": "f2e86d4e9c465d575d0420cdfe7dc1cd27b181674c294d727b721b3d3f0086ac",
+      "filePath": "articles/44636508.json",
+      "lastScrapedAt": "2026-10-30T23:35:21.387Z"
+    },
+    "44636520": {
+      "guid": "44636520",
+      "title": "PARK MAINTENANCE TAX",
+      "number": "15.14",
+      "sectionCount": 12,
+      "sha256": "9fce2b87436164673f81455dc407999186aa12867b6118f716412a8b3726bbbd",
+      "filePath": "articles/44636520.json",
+      "lastScrapedAt": "2026-10-30T23:35:29.464Z"
+    },
+    "44636566": {
+      "guid": "44636566",
+      "title": "SCHOOL MITIGATION FEE",
+      "number": "15.15",
+      "sectionCount": 11,
+      "sha256": "8b44247f5e84d3185163f121e38231d735869fb0e8d56460c7560ab07a97c911",
+      "filePath": "articles/44636566.json",
+      "lastScrapedAt": "2026-10-30T23:35:37.553Z"
+    },
+    "44636598": {
+      "guid": "44636598",
+      "title": "LOW INCOME REFUND PROGRAM FOR CITY SPECIAL TAXES",
+      "number": "15.16",
+      "sectionCount": 5,
+      "sha256": "f2d7f2cd6bdbeef37b446c054d9c4a15456afc68aa96e6e1827d9f6283cb0247",
+      "filePath": "articles/44636598.json",
+      "lastScrapedAt": "2026-10-30T23:35:45.601Z"
+    },
+    "44636622": {
+      "guid": "44636622",
+      "title": "OPEN SPACE PROTECTION TAX",
+      "number": "15.17",
+      "sectionCount": 10,
+      "sha256": "eeff756f22bdf790f4793406160efc5b655c238b229de8fd48e3d84abd51a679",
+      "filePath": "articles/44636622.json",
+      "lastScrapedAt": "2026-10-30T23:35:53.628Z"
+    },
+    "44636671": {
+      "guid": "44636671",
+      "title": "DAVIS VISITOR ATTRACTION DISTRICT",
+      "number": "15.18",
+      "sectionCount": 13,
+      "sha256": "ded479597b08a4378d5d407792b34c4d21456c6bcd5eee0b3176ae5e9b3f81c0",
+      "filePath": "articles/44636671.json",
+      "lastScrapedAt": "2026-10-30T23:36:01.695Z"
+    },
+    "44636700": {
+      "guid": "44636700",
+      "title": "TRANSACTIONS AND USE TAX",
+      "number": "15.19",
+      "sectionCount": 15,
+      "sha256": "fb1c7fe22f27eabacd3c3ab12fd2b8e37007b9b2b17ddbaf47e12707ae0107ee",
+      "filePath": "articles/44636700.json",
+      "lastScrapedAt": "2026-10-30T23:36:09.756Z"
+    },
+    "44636747": {
+      "guid": "44636747",
+      "title": "LIVING WAGE",
+      "number": "15.20",
+      "sectionCount": 13,
+      "sha256": "8f9ca12ed3727db41869b02f7a3454b6d4f2c927064ab7844b89bddfdf3687ea",
+      "filePath": "articles/44636747.json",
+      "lastScrapedAt": "2026-10-30T23:36:17.827Z"
+    },
+    "44636861": {
+      "guid": "44636861",
+      "title": "IN GENERAL",
+      "number": "18.01",
+      "sectionCount": 12,
+      "sha256": "f1397a708f0108b7665d94990723b1fa054f42bdf9bf44a22ea1883e0715b85a",
+      "filePath": "articles/44636861.json",
+      "lastScrapedAt": "2026-10-30T23:36:25.854Z"
+    },
+    "44636967": {
+      "guid": "44636967",
+      "title": "LANDLORD-TENANT RELATIONS",
+      "number": "18.02",
+      "sectionCount": 3,
+      "sha256": "e025fdf7cd3163359e3c77aede2517e135a4163937b511fb1815e2543552b703",
+      "filePath": "articles/44636967.json",
+      "lastScrapedAt": "2026-10-30T23:36:33.899Z"
+    },
+    "44636978": {
+      "guid": "44636978",
+      "title": "DISCRIMINATION AGAINST FAMILIES PROHIBITED",
+      "number": "18.03",
+      "sectionCount": 6,
+      "sha256": "61d4efaf31723120f982fc34d5a87bf149e727a9ff2780efa35a691bd1693020",
+      "filePath": "articles/44636978.json",
+      "lastScrapedAt": "2026-10-30T23:36:41.912Z"
+    },
+    "44637012": {
+      "guid": "44637012",
+      "title": "OWNER-OCCUPANCY",
+      "number": "18.04",
+      "sectionCount": 9,
+      "sha256": "3f6da0d9190e2e3b5f808c07d07413a6d2186c5f7349b6a18e769e687298448e",
+      "filePath": "articles/44637012.json",
+      "lastScrapedAt": "2026-10-30T23:36:49.955Z"
+    },
+    "44637100": {
+      "guid": "44637100",
+      "title": "AFFORDABLE HOUSING",
+      "number": "18.05",
+      "sectionCount": 8,
+      "sha256": "23c456204d32cc49963680204b7f38597d7fabf9303fa41eb80751ace3615106",
+      "filePath": "articles/44637100.json",
+      "lastScrapedAt": "2026-10-30T23:36:57.975Z"
+    },
+    "44637241": {
+      "guid": "44637241",
+      "title": "MIDDLE INCOME HOUSING",
+      "number": "18.06",
+      "sectionCount": 9,
+      "sha256": "98909286d0f18eb4f7d0b3d65e52ab403dcf74a1ca44c033d70474d3c50cce66",
+      "filePath": "articles/44637241.json",
+      "lastScrapedAt": "2026-10-30T23:37:05.998Z"
+    },
+    "44637337": {
+      "guid": "44637337",
+      "title": "INCENTIVE SYSTEM FOR THE LOCAL WORKFORCE",
+      "number": "18.07",
+      "sectionCount": 5,
+      "sha256": "55fd8e73e9b293ae57fc8fb81fb16d10536347739eaf0dff1ed5030fed6ad422",
+      "filePath": "articles/44637337.json",
+      "lastScrapedAt": "2026-10-30T23:37:14.096Z"
+    },
+    "44637383": {
+      "guid": "44637383",
+      "title": "FAIR HOUSING LAWS—REASONABLE ACCOMMODATION",
+      "number": "18.08",
+      "sectionCount": 10,
+      "sha256": "813b53bc2863e16087ce94713d096b11c9547f643662cfc253a1099edc435f08",
+      "filePath": "articles/44637383.json",
+      "lastScrapedAt": "2026-10-30T23:37:22.122Z"
+    },
+    "44637442": {
+      "guid": "44637442",
+      "title": "UNIVERSAL DESIGN CHECKLIST",
+      "number": "18.09",
+      "sectionCount": 9,
+      "sha256": "2094f60c040aba2130773df0532e7fc461b7422422c54a6a8bd988fdcd9ea13e",
+      "filePath": "articles/44637442.json",
+      "lastScrapedAt": "2026-10-30T23:37:30.271Z"
+    },
+    "44637563": {
+      "guid": "44637563",
+      "title": "UNIVERSAL ACCESS",
+      "number": "18.10",
+      "sectionCount": 5,
+      "sha256": "f81fd40a0b1b7098091b4520d038b2f5ca85abc2c3fa1296853c00f80a073a47",
+      "filePath": "articles/44637563.json",
+      "lastScrapedAt": "2026-10-30T23:37:38.392Z"
+    },
+    "44637596": {
+      "guid": "44637596",
+      "title": "RESIDENTIAL RENTAL DWELLING UNITS—REGISTRATION AND INSPECTION",
+      "number": "18.11",
+      "sectionCount": 14,
+      "sha256": "e220682029a6130f8b66ea9866fee6a81bcc33ab31233e6f2af3d0641e093f76",
+      "filePath": "articles/44637596.json",
+      "lastScrapedAt": "2026-10-30T23:37:46.440Z"
+    },
+    "44637763": {
+      "guid": "44637763",
+      "title": "PROCEDURES AND STANDARDS FOR MOBILE HOME PARK CLOSURES AND CONVERSIONS",
+      "number": "18.12",
+      "sectionCount": 13,
+      "sha256": "0d3388676b96b72d8d23c39665ba933557a49cfc4e20cac17286edc615fc1320",
+      "filePath": "articles/44637763.json",
+      "lastScrapedAt": "2026-10-30T23:37:54.479Z"
+    },
+    "44637905": {
+      "guid": "44637905",
+      "title": "IN GENERAL",
+      "number": "19.01",
+      "sectionCount": 6,
+      "sha256": "a7570e7c85756f51ce2373ea794356491b18e2f5ce2590d0c303aed8137098aa",
+      "filePath": "articles/44637905.json",
+      "lastScrapedAt": "2026-10-30T23:38:02.531Z"
+    },
+    "44637932": {
+      "guid": "44637932",
+      "title": "GENERAL LICENSE REQUIREMENTS AND REGULATIONS",
+      "number": "19.02",
+      "sectionCount": 16,
+      "sha256": "277b1e94ce4dca936fc7efc53f03f04e3abeae1f03c0ce857f8e9a30e5304135",
+      "filePath": "articles/44637932.json",
+      "lastScrapedAt": "2026-10-30T23:38:10.534Z"
+    },
+    "44637971": {
+      "guid": "44637971",
+      "title": "ISSUANCE",
+      "number": "19.03",
+      "sectionCount": 7,
+      "sha256": "1a2124ecf196f4b5b540ba37ad561656396afb81d93fb401bee923254181b616",
+      "filePath": "articles/44637971.json",
+      "lastScrapedAt": "2026-10-30T23:38:18.527Z"
+    },
+    "44637981": {
+      "guid": "44637981",
+      "title": "LICENSE TAXES",
+      "number": "19.04",
+      "sectionCount": 10,
+      "sha256": "79b0b4a26523ea9c0ec7e8659355915e8d4bc315bcae0ad34aaffe877f73d6fc",
+      "filePath": "articles/44637981.json",
+      "lastScrapedAt": "2026-10-30T23:38:26.562Z"
+    },
+    "44638059": {
+      "guid": "44638059",
+      "title": "ENFORCEMENT",
+      "number": "19.05",
+      "sectionCount": 7,
+      "sha256": "f326eb3b5612bbd8e086c686b669d1c91e15ce945dd209f35843faec5ae29708",
+      "filePath": "articles/44638059.json",
+      "lastScrapedAt": "2026-10-30T23:38:34.622Z"
+    },
+    "44638101": {
+      "guid": "44638101",
+      "title": "IN GENERAL",
+      "number": "20.01",
+      "sectionCount": 8,
+      "sha256": "1c6b5c0219fcf481273b8adde5bad3396bc2063be1d4de5017a4f15f5599371a",
+      "filePath": "articles/44638101.json",
+      "lastScrapedAt": "2026-10-30T23:38:42.599Z"
+    },
+    "44638117": {
+      "guid": "44638117",
+      "title": "GENERAL PROVISIONS",
+      "number": "21.01",
+      "sectionCount": 10,
+      "sha256": "2344f6f88b9e6498ffbdc8e7eea3d61d66c6f0e3b0de1612b9232836de751f4f",
+      "filePath": "articles/44638117.json",
+      "lastScrapedAt": "2026-10-30T23:38:50.580Z"
+    },
+    "44638158": {
+      "guid": "44638158",
+      "title": "NOTICE AND APPEAL PROCESS FOR CANNABIS BUSINESS PERMITS",
+      "number": "21.02",
+      "sectionCount": 4,
+      "sha256": "98a13d9e68359680ea7107159180bb5447e11b395f7f943ce9cdb9aaaca909c2",
+      "filePath": "articles/44638158.json",
+      "lastScrapedAt": "2026-10-30T23:38:58.586Z"
+    },
+    "44638197": {
+      "guid": "44638197",
+      "title": "CANNABIS MANUFACTURING, LABORATORIES, RESEARCH AND DISTRIBUTION BUSINESSES",
+      "number": "21.03",
+      "sectionCount": 21,
+      "sha256": "6ad5dbcad2ec35d5e1463218b2f2c1ecd793f5903679a247982f63de8d8794b1",
+      "filePath": "articles/44638197.json",
+      "lastScrapedAt": "2026-10-30T23:39:06.635Z"
+    },
+    "44638316": {
+      "guid": "44638316",
+      "title": "RETAIL CANNABIS BUSINESSES",
+      "number": "21.04",
+      "sectionCount": 17,
+      "sha256": "1a13025bf9d0950bcfcfe46ba23cae1294cf1a18943e0c197e7b511d28799eff",
+      "filePath": "articles/44638316.json",
+      "lastScrapedAt": "2026-10-30T23:39:14.769Z"
+    },
+    "44638447": {
+      "guid": "44638447",
+      "title": "CANNABIS DELIVERY SERVICES ORIGINATING OUTSIDE OF THE CITY",
+      "number": "21.05",
+      "sectionCount": 12,
+      "sha256": "d4a17ada24ca7ecd7a8a185271295c1836d6709833e84f1f0be5584c0db94fce",
+      "filePath": "articles/44638447.json",
+      "lastScrapedAt": "2026-10-30T23:39:22.848Z"
+    },
+    "44638524": {
+      "guid": "44638524",
+      "title": "IN GENERAL",
+      "number": "22.01",
+      "sectionCount": 14,
+      "sha256": "14841f77a5a0fff00f6b288429c9e8f4b1af0cd017a1f19cc3490b1f914e6c96",
+      "filePath": "articles/44638524.json",
+      "lastScrapedAt": "2026-10-30T23:39:30.948Z"
+    },
+    "44638576": {
+      "guid": "44638576",
+      "title": "CITY TRAFFIC ENGINEER",
+      "number": "22.02",
+      "sectionCount": 2,
+      "sha256": "d6bf17f393cfd557348c04d5add45a5bc1573ecc0eb49bebe8627557dce43dff",
+      "filePath": "articles/44638576.json",
+      "lastScrapedAt": "2026-10-30T23:39:38.998Z"
+    },
+    "44638579": {
+      "guid": "44638579",
+      "title": "OPERATION OF VEHICLES",
+      "number": "22.04",
+      "sectionCount": 14,
+      "sha256": "f0a74d7f07bb33075663e7c302cdc3e21e966990261cc1a2144dfc861e867726",
+      "filePath": "articles/44638579.json",
+      "lastScrapedAt": "2026-10-30T23:39:47.073Z"
+    },
+    "44638616": {
+      "guid": "44638616",
+      "title": "TURNING AND BACKING MOVEMENTS",
+      "number": "22.05",
+      "sectionCount": 3,
+      "sha256": "18dcfa882989223f2f5418a79f2cc816905158e15bba336f940241384ccae9b2",
+      "filePath": "articles/44638616.json",
+      "lastScrapedAt": "2026-10-30T23:39:55.127Z"
+    },
+    "44638624": {
+      "guid": "44638624",
+      "title": "TRAFFIC-CONTROL DEVICES",
+      "number": "22.06",
+      "sectionCount": 8,
+      "sha256": "8faa2da187c3bbab3448706de2ac758625659d20c42d604fb638134dc97cae96",
+      "filePath": "articles/44638624.json",
+      "lastScrapedAt": "2026-10-30T23:41:23.896Z"
+    },
+    "44638638": {
+      "guid": "44638638",
+      "title": "SPECIAL STOPS",
+      "number": "22.07",
+      "sectionCount": 7,
+      "sha256": "f82f4718f4cb0912d9d5d054c1444660f1e979554ea88d4fcf0bf7135b517b8b",
+      "filePath": "articles/44638638.json",
+      "lastScrapedAt": "2026-10-30T23:41:32.716Z"
+    },
+    "44638648": {
+      "guid": "44638648",
+      "title": "STOPPING, STANDING AND PARKING",
+      "number": "22.08",
+      "sectionCount": 66,
+      "sha256": "784e1e3bdcefa93e44929c0e0091bd88c704e0e04e6a4af5d22a736ef98c1ee2",
+      "filePath": "articles/44638648.json",
+      "lastScrapedAt": "2026-10-30T23:41:41.199Z"
+    },
+    "44638775": {
+      "guid": "44638775",
+      "title": "LOADING ZONES",
+      "number": "22.09",
+      "sectionCount": 6,
+      "sha256": "85881e33df974f66573a396a460a89f2c317d0da160e36884ef0033f1cce08a7",
+      "filePath": "articles/44638775.json",
+      "lastScrapedAt": "2026-10-30T23:41:49.221Z"
+    },
+    "44638795": {
+      "guid": "44638795",
+      "title": "PEDESTRIANS",
+      "number": "22.10",
+      "sectionCount": 4,
+      "sha256": "b1bfb0bda06dd61f2c243787ca6a02e8d5d9faf87a0108c14325b20320f153bd",
+      "filePath": "articles/44638795.json",
+      "lastScrapedAt": "2026-10-30T23:41:57.235Z"
+    },
+    "44638803": {
+      "guid": "44638803",
+      "title": "PARKING PERMITS FOR PERSONS WITH IMPAIRED MOBILITY",
+      "number": "22.11",
+      "sectionCount": 8,
+      "sha256": "e4116d6f5988876c975b6aed51013238b3df7f517efc5abfd4b8af0601ee6b26",
+      "filePath": "articles/44638803.json",
+      "lastScrapedAt": "2026-10-30T23:42:05.254Z"
+    },
+    "44638822": {
+      "guid": "44638822",
+      "title": "PREFERENTIAL PARKING",
+      "number": "22.12",
+      "sectionCount": 16,
+      "sha256": "7760c7361a62f7084c38f42e045ca23ba5ab21b66af1ab32feb2734aad567ea9",
+      "filePath": "articles/44638822.json",
+      "lastScrapedAt": "2026-10-30T23:42:13.301Z"
+    },
+    "44638887": {
+      "guid": "44638887",
+      "title": "MOTORCYCLES AND MOTOR-DRIVEN CYCLES",
+      "number": "22.13",
+      "sectionCount": 8,
+      "sha256": "d2f78ab641c113379fcdf5b3cc58d20a62cc2ddba5200013a3123511940ad599",
+      "filePath": "articles/44638887.json",
+      "lastScrapedAt": "2026-10-30T23:42:21.345Z"
+    },
+    "44638928": {
+      "guid": "44638928",
+      "title": "INTERSTATE TRUCK TERMINALS AND ACCESS",
+      "number": "22.14",
+      "sectionCount": 6,
+      "sha256": "b49aa305b36df4b4bfe5be4b936595b4ac64227d6e19e1e551d633f77c1422e8",
+      "filePath": "articles/44638928.json",
+      "lastScrapedAt": "2026-10-30T23:42:29.481Z"
+    },
+    "44638947": {
+      "guid": "44638947",
+      "title": "TRANSPORTATION SYSTEMS MANAGEMENT REQUIREMENTS",
+      "number": "22.15",
+      "sectionCount": 8,
+      "sha256": "2f119c168c2a3226920830d14f56b0ac05defba425d464418eae95bbd3252d89",
+      "filePath": "articles/44638947.json",
+      "lastScrapedAt": "2026-10-30T23:42:37.528Z"
+    },
+    "44639057": {
+      "guid": "44639057",
+      "title": "ELECTRIC VEHICLES AND CAR SHARE VEHICLES",
+      "number": "22.16",
+      "sectionCount": 10,
+      "sha256": "39d919193ceb22e2d9eb8082a2a3dce0048bca6f045e18e0d9ea29cf217cc25c",
+      "filePath": "articles/44639057.json",
+      "lastScrapedAt": "2026-10-30T23:42:45.561Z"
+    },
+    "44639087": {
+      "guid": "44639087",
+      "title": "BIKEBUS PEDICABS",
+      "number": "22.17",
+      "sectionCount": 16,
+      "sha256": "a4771add80550ea709202ed7c68ba5b37094b6fe4aec64af3e6dfc60707a9352",
+      "filePath": "articles/44639087.json",
+      "lastScrapedAt": "2026-10-30T23:42:53.612Z"
+    },
+    "44639213": {
+      "guid": "44639213",
+      "title": "(RESERVED)",
+      "number": "22.18",
+      "sectionCount": 0,
+      "sha256": "9c755ff73b66c110e07fc2384dd10f8c318f9d2aada83b1d7d567920b7d210fa",
+      "filePath": "articles/44639213.json",
+      "lastScrapedAt": "2026-10-30T23:43:01.662Z"
+    },
+    "44639229": {
+      "guid": "44639229",
+      "title": "NUISANCES",
+      "number": "23.01",
+      "sectionCount": 4,
+      "sha256": "bcae5ad355b27954b1f1dcaa59eb3e5547570a6d5f5b7f33d81f09a94468be07",
+      "filePath": "articles/44639229.json",
+      "lastScrapedAt": "2026-10-30T23:44:06.398Z"
+    },
+    "44639273": {
+      "guid": "44639273",
+      "title": "ENFORCEMENT",
+      "number": "23.02",
+      "sectionCount": 7,
+      "sha256": "6a7a9ff1ea6c5177dd57097c38d0b325ca253f49293c7094709354a2f313bdc6",
+      "filePath": "articles/44639273.json",
+      "lastScrapedAt": "2026-10-30T23:44:14.364Z"
+    },
+    "44639292": {
+      "guid": "44639292",
+      "title": "SUMMARY ABATEMENT",
+      "number": "23.03",
+      "sectionCount": 1,
+      "sha256": "15b2e707b25a0950bda43b7df8c69c547ed1e4ac668708f9e70027b5bc2ec174",
+      "filePath": "articles/44639292.json",
+      "lastScrapedAt": "2026-10-30T23:44:22.285Z"
+    },
+    "44639298": {
+      "guid": "44639298",
+      "title": "ADMINISTRATIVE ABATEMENT",
+      "number": "23.04",
+      "sectionCount": 6,
+      "sha256": "8cb70e091627539c4720b5466b295ca386d29afb6625a31b560e466858ec6851",
+      "filePath": "articles/44639298.json",
+      "lastScrapedAt": "2026-10-30T23:44:30.349Z"
+    },
+    "44639369": {
+      "guid": "44639369",
+      "title": "ENFORCEMENT OF HEARING OFFICER ORDER",
+      "number": "23.05",
+      "sectionCount": 6,
+      "sha256": "0c9acf3bcc3100f06bb4908dbc0d59d0e1fc607619a5b9fbb5ebf07c7bfb1db7",
+      "filePath": "articles/44639369.json",
+      "lastScrapedAt": "2026-10-30T23:44:38.308Z"
+    },
+    "44639383": {
+      "guid": "44639383",
+      "title": "ADDITIONAL PROVISIONS GOVERNING ABATEMENT OF VEHICLES",
+      "number": "23.06",
+      "sectionCount": 15,
+      "sha256": "39c4746b9a7f04da6245aa02f4bf8e5fdef1c6834d3ae30355af7fa3b1210e01",
+      "filePath": "articles/44639383.json",
+      "lastScrapedAt": "2026-10-30T23:44:46.265Z"
+    },
+    "44639404": {
+      "guid": "44639404",
+      "title": "GENERAL PROVISIONS",
+      "number": "24.01",
+      "sectionCount": 4,
+      "sha256": "4b7654098a9d543c924962fde20e7efcab174cbb9d7427b6ff3ef03f72a88879",
+      "filePath": "articles/44639404.json",
+      "lastScrapedAt": "2026-10-30T23:44:54.200Z"
+    },
+    "44639430": {
+      "guid": "44639430",
+      "title": "GENERAL RESTRICTIONS",
+      "number": "24.02",
+      "sectionCount": 4,
+      "sha256": "b1823ee5e9b2773390e539e28d19c64b606ad03f5f43bd7aed1be0d0b3d009b1",
+      "filePath": "articles/44639430.json",
+      "lastScrapedAt": "2026-10-30T23:45:02.354Z"
+    },
+    "44639452": {
+      "guid": "44639452",
+      "title": "MOTOR VEHICLES",
+      "number": "24.03",
+      "sectionCount": 1,
+      "sha256": "5cec219457524d7d21d93bce13a7e35419d2518d993a23a55d7cb68628caaf04",
+      "filePath": "articles/44639452.json",
+      "lastScrapedAt": "2026-10-30T23:45:10.296Z"
+    },
+    "44639454": {
+      "guid": "44639454",
+      "title": "AMPLIFIED SOUND",
+      "number": "24.04",
+      "sectionCount": 7,
+      "sha256": "e3482fc781d1b2382e63ca8652c49fb1bf809f8abec6ae5d6f9c1eadd42cd12a",
+      "filePath": "articles/44639454.json",
+      "lastScrapedAt": "2026-10-30T23:45:18.246Z"
+    },
+    "44639504": {
+      "guid": "44639504",
+      "title": "GENERAL NOISE REGULATIONS",
+      "number": "24.05",
+      "sectionCount": 1,
+      "sha256": "c6eec4f6de2e53b4cbae7b59cd6cbdf98d6d11d36ee666289d5c415cb7f56f05",
+      "filePath": "articles/44639504.json",
+      "lastScrapedAt": "2026-10-30T23:45:26.219Z"
+    },
+    "44639515": {
+      "guid": "44639515",
+      "title": "VARIANCES AND EXCEPTIONS",
+      "number": "24.06",
+      "sectionCount": 1,
+      "sha256": "01cde208b0b232dc2d36b99c2c8103427acb99f4bcfde39df1527e2d059dcc1b",
+      "filePath": "articles/44639515.json",
+      "lastScrapedAt": "2026-10-30T23:45:34.178Z"
+    },
+    "44639517": {
+      "guid": "44639517",
+      "title": "REGULATIONS NOT EXCLUSIVE",
+      "number": "24.07",
+      "sectionCount": 1,
+      "sha256": "66aceb734649d12ff9c64c4cc23a6c0eefc33ceed43209d04fc29be95c7bed75",
+      "filePath": "articles/44639517.json",
+      "lastScrapedAt": "2026-10-30T23:45:42.137Z"
+    },
+    "44639521": {
+      "guid": "44639521",
+      "title": "GRAFFITI",
+      "number": "25.01",
+      "sectionCount": 4,
+      "sha256": "56e1f1743935c1dc253cdf485d3cc4986a46cddd3455dbbac183bcaba166a872",
+      "filePath": "articles/44639521.json",
+      "lastScrapedAt": "2026-10-30T23:45:50.472Z"
+    },
+    "44639539": {
+      "guid": "44639539",
+      "title": "PUNISHMENT",
+      "number": "25.02",
+      "sectionCount": 2,
+      "sha256": "5d7104da857118648c4ca7c251b915bfc5ea4e2f2f1dbd2324aa9c4cde05d36c",
+      "filePath": "articles/44639539.json",
+      "lastScrapedAt": "2026-10-30T23:45:58.447Z"
+    },
+    "44639542": {
+      "guid": "44639542",
+      "title": "REMOVAL AND ABATEMENT",
+      "number": "25.03",
+      "sectionCount": 7,
+      "sha256": "1ce9834231dfbc157297dd7818b7e5728a00256e625c3ce8135230fa90cb99ef",
+      "filePath": "articles/44639542.json",
+      "lastScrapedAt": "2026-10-30T23:46:06.415Z"
+    },
+    "44639568": {
+      "guid": "44639568",
+      "title": "MISCELLANEOUS",
+      "number": "25.04",
+      "sectionCount": 1,
+      "sha256": "72691f45d00e2dc1c8175d68e174f7cb04a1d37162701b6b367abb57b4cc2c66",
+      "filePath": "articles/44639568.json",
+      "lastScrapedAt": "2026-10-30T23:46:14.371Z"
+    },
+    "44639571": {
+      "guid": "44639571",
+      "title": "IN GENERAL",
+      "number": "26.01",
+      "sectionCount": 8,
+      "sha256": "22a97fb7b840890cfff84a03b74fffe7d118375f882315684406bf8bd2d1e073",
+      "filePath": "articles/44639571.json",
+      "lastScrapedAt": "2026-10-30T23:46:22.347Z"
+    },
+    "44639593": {
+      "guid": "44639593",
+      "title": "WEAPONS",
+      "number": "26.02",
+      "sectionCount": 6,
+      "sha256": "86b6d5089cd70ab47f85f73e671246e9e92a0cc009a7b09a8f083bbd8438f4eb",
+      "filePath": "articles/44639593.json",
+      "lastScrapedAt": "2026-10-30T23:46:30.364Z"
+    },
+    "44639601": {
+      "guid": "44639601",
+      "title": "LOITERING NEAR SCHOOLS",
+      "number": "26.03",
+      "sectionCount": 8,
+      "sha256": "a91ad8589b9395030e6c72870608cd3e5d0c9da0e15967ea2b14628fe556bc27",
+      "filePath": "articles/44639601.json",
+      "lastScrapedAt": "2026-10-30T23:46:38.380Z"
+    },
+    "44639624": {
+      "guid": "44639624",
+      "title": "OPEN CONTAINER",
+      "number": "26.04",
+      "sectionCount": 6,
+      "sha256": "39fdd4d96f6b90230aa3c0da01363d8f0ac2940557ca614f49a1a6e5631353cb",
+      "filePath": "articles/44639624.json",
+      "lastScrapedAt": "2026-10-30T23:46:46.388Z"
+    },
+    "44639653": {
+      "guid": "44639653",
+      "title": "SAFETY ENHANCEMENT ZONES",
+      "number": "26.05",
+      "sectionCount": 4,
+      "sha256": "edd4868521fb23be3b186badaf957d2ed4489fc4423a8e2e7f02f58a6d5a1605",
+      "filePath": "articles/44639653.json",
+      "lastScrapedAt": "2026-10-30T23:46:54.387Z"
+    },
+    "44639668": {
+      "guid": "44639668",
+      "title": "AGGRESSIVE AND OBSTRUCTIVE CONDUCT AND UNATTENDED PERSONAL PROPERTY IN PUBLIC PLACES AND RIGHTS OF WAY",
+      "number": "26.06",
+      "sectionCount": 7,
+      "sha256": "e691e1cf690e0461b1b9ec025e3a59ec8d7f44f557a4001539e3020564177b24",
+      "filePath": "articles/44639668.json",
+      "lastScrapedAt": "2026-10-30T23:47:02.392Z"
+    },
+    "44639712": {
+      "guid": "44639712",
+      "title": "SURVEILLANCE TECHNOLOGY",
+      "number": "26.07",
+      "sectionCount": 8,
+      "sha256": "0f20647208caef29f7ea18291ff1127be50acfd77c75cc2da01c3111622ee9b5",
+      "filePath": "articles/44639712.json",
+      "lastScrapedAt": "2026-10-30T23:47:10.413Z"
+    },
+    "44639795": {
+      "guid": "44639795",
+      "title": "SALES OF FIREARMS",
+      "number": "26.08",
+      "sectionCount": 19,
+      "sha256": "fa25cf54c4767081256e558fe57783538e4bf4aecafe8eac0faddb341d02e98a",
+      "filePath": "articles/44639795.json",
+      "lastScrapedAt": "2026-10-30T23:47:18.436Z"
+    },
+    "44639853": {
+      "guid": "44639853",
+      "title": "REGARDING THE SAFE STORAGE OF FIREARMS IN RESIDENCES AND VEHICLES",
+      "number": "26.09",
+      "sectionCount": 5,
+      "sha256": "0750874649612162501f8bbee7a04fdbbf97281ab2a96130ec0a223d7b4ad585",
+      "filePath": "articles/44639853.json",
+      "lastScrapedAt": "2026-10-30T23:47:26.433Z"
+    },
+    "44639879": {
+      "guid": "44639879",
+      "title": "UNLAWFUL POSSESSION OF CATALYTIC CONVERTERS",
+      "number": "26.10",
+      "sectionCount": 4,
+      "sha256": "8596e72d6d05a2d9b1e5bdecaee14a82d598e3077ff2e955a61ba32aec1bcd64",
+      "filePath": "articles/44639879.json",
+      "lastScrapedAt": "2026-10-30T23:47:34.435Z"
+    },
+    "44639901": {
+      "guid": "44639901",
+      "title": "IN GENERAL",
+      "number": "27.01",
+      "sectionCount": 2,
+      "sha256": "6202c06d43f69373998d5d6ffe08b6803bb1019aed78834d4815778deb268589",
+      "filePath": "articles/44639901.json",
+      "lastScrapedAt": "2026-10-30T23:47:58.411Z"
+    },
+    "44639912": {
+      "guid": "44639912",
+      "title": "PARKS",
+      "number": "27.02",
+      "sectionCount": 20,
+      "sha256": "54f33d5ebbf822e2a736adaf186b11c835e4752a5be8a1147f697a17bf990c38",
+      "filePath": "articles/44639912.json",
+      "lastScrapedAt": "2026-10-30T23:48:06.403Z"
+    },
+    "44639973": {
+      "guid": "44639973",
+      "title": "OPEN SPACE AREAS",
+      "number": "27.03",
+      "sectionCount": 23,
+      "sha256": "f1184433d7c317797c0fa87b47ccc7d6b7aac934290ca8812905e3c2e2ee629e",
+      "filePath": "articles/44639973.json",
+      "lastScrapedAt": "2026-10-30T23:48:14.400Z"
+    },
+    "44646432": {
+      "guid": "44646432",
+      "title": "IN GENERAL",
+      "number": "28.01",
+      "sectionCount": 22,
+      "sha256": "7a23d3da0f8febd6ac5d49cacedb199732ee8e9b3a864d859497241c71e669a8",
+      "filePath": "articles/44646432.json",
+      "lastScrapedAt": "2026-10-30T23:48:22.391Z"
+    },
+    "44646473": {
+      "guid": "44646473",
+      "title": "(RESERVED)",
+      "number": "28.03",
+      "sectionCount": 0,
+      "sha256": "7a23d3da0f8febd6ac5d49cacedb199732ee8e9b3a864d859497241c71e669a8",
+      "filePath": "articles/44646473.json",
+      "lastScrapedAt": "2026-10-30T23:48:30.569Z"
+    },
+    "44646518": {
+      "guid": "44646518",
+      "title": "IN GENERAL",
+      "number": "29.01",
+      "sectionCount": 6,
+      "sha256": "8d539f5fd40830acb2eabba844e4769787bed00b375de91d01cf38d4be51702c",
+      "filePath": "articles/44646518.json",
+      "lastScrapedAt": "2026-10-30T23:48:38.550Z"
+    },
+    "44646538": {
+      "guid": "44646538",
+      "title": "FURNISHING OF SUMMARY CRIMINAL HISTORY INFORMATION TO AUTHORIZED PERSONS",
+      "number": "29.02",
+      "sectionCount": 3,
+      "sha256": "8d539f5fd40830acb2eabba844e4769787bed00b375de91d01cf38d4be51702c",
+      "filePath": "articles/44646538.json",
+      "lastScrapedAt": "2026-10-30T23:48:46.762Z"
+    },
+    "44646546": {
+      "guid": "44646546",
+      "title": "PURPOSE, DEFINITIONS, AND GENERAL PROVISIONS",
+      "number": "30.01",
+      "sectionCount": 4,
+      "sha256": "4e25daa7ed80c8359fc38af33dba7a133ffbc957e981e4a25753aa2c3ce6c1c7",
+      "filePath": "articles/44646546.json",
+      "lastScrapedAt": "2026-10-30T23:48:55.153Z"
+    },
+    "44646588": {
+      "guid": "44646588",
+      "title": "DISCHARGE PROHIBITIONS AND GENERAL REQUIREMENTS",
+      "number": "30.02",
+      "sectionCount": 10,
+      "sha256": "c440b0301d383d1592d3358127330b8d0bd46191f31f441e903e14dbaa693433",
+      "filePath": "articles/44646588.json",
+      "lastScrapedAt": "2026-10-30T23:49:03.140Z"
+    },
+    "44646626": {
+      "guid": "44646626",
+      "title": "STORMWATER REQUIREMENTS AND REGULATIONS",
+      "number": "30.03",
+      "sectionCount": 4,
+      "sha256": "a546aa0eaf4f456e06848449431f1294de93adc3e767d2f3a0cebf66e3d83b06",
+      "filePath": "articles/44646626.json",
+      "lastScrapedAt": "2026-10-30T23:49:11.124Z"
+    },
+    "44646638": {
+      "guid": "44646638",
+      "title": "OPERATION AND MAINTENANCE OF STORMWATER CONTROL MEASURES",
+      "number": "30.04",
+      "sectionCount": 1,
+      "sha256": "4f861a670bdb1bfca2bdf2c282b60804adf420bbe3748446fd6a2bf999e9e7d0",
+      "filePath": "articles/44646638.json",
+      "lastScrapedAt": "2026-10-30T23:49:19.210Z"
+    },
+    "44646640": {
+      "guid": "44646640",
+      "title": "INSPECTIONS AND SAMPLING",
+      "number": "30.05",
+      "sectionCount": 1,
+      "sha256": "4617193daed29bad2ccb2c093d9e0dfa97aee7e2ed64b5e699d6ad496bafb552",
+      "filePath": "articles/44646640.json",
+      "lastScrapedAt": "2026-10-30T23:49:27.174Z"
+    },
+    "44646645": {
+      "guid": "44646645",
+      "title": "VIOLATIONS, ENFORCEMENT, AND PENALTIES",
+      "number": "30.06",
+      "sectionCount": 5,
+      "sha256": "eada8d2047bb88fb3298c4dbc5f4928b835b72a42c6083a8d2358dc05b2f9003",
+      "filePath": "articles/44646645.json",
+      "lastScrapedAt": "2026-10-30T23:49:35.133Z"
+    },
+    "44646669": {
+      "guid": "44646669",
+      "title": "SEVERABILITY OF CHAPTER",
+      "number": "30.07",
+      "sectionCount": 1,
+      "sha256": "cc088b49679281697ef15d3a4e15bf9402e596e4a5592922d216b694c482423c",
+      "filePath": "articles/44646669.json",
+      "lastScrapedAt": "2026-10-30T23:49:43.391Z"
+    },
+    "44646671": {
+      "guid": "44646671",
+      "title": "CHARGES FOR STORM DRAINAGE AND FLOOD CONTROL FACILITIES",
+      "number": "30.08",
+      "sectionCount": 13,
+      "sha256": "0bb5ea767b89d4e08dae8379e4a231b2649e8e97d7827e6de19a91852523589f",
+      "filePath": "articles/44646671.json",
+      "lastScrapedAt": "2026-10-30T23:49:51.381Z"
+    },
+    "44646714": {
+      "guid": "44646714",
+      "title": "IN GENERAL",
+      "number": "32.01",
+      "sectionCount": 21,
+      "sha256": "648439ede398dd17ae6e1180b9854d922e2bc6c57ae20b6efd03ef00858f859e",
+      "filePath": "articles/44646714.json",
+      "lastScrapedAt": "2026-10-30T23:49:59.440Z"
+    },
+    "44647015": {
+      "guid": "44647015",
+      "title": "REDEMPTION VALUE: WINE AND SPIRIT COOLER CONTAINERS",
+      "number": "32.02",
+      "sectionCount": 7,
+      "sha256": "005f1cf004111d94839c10782721f45ffa7b55266a0463cbb191cc37332b2e2e",
+      "filePath": "articles/44647015.json",
+      "lastScrapedAt": "2026-10-30T23:50:07.479Z"
+    },
+    "44647050": {
+      "guid": "44647050",
+      "title": "ADEQUATE AREAS FOR COLLECTING RECYCLABLE MATERIALS AND ORGANIC WASTE",
+      "number": "32.03",
+      "sectionCount": 6,
+      "sha256": "12530e4cf5749086940eddfa9fcc594185359926693f9d04bd9c59cef6767fe1",
+      "filePath": "articles/44647050.json",
+      "lastScrapedAt": "2026-10-30T23:50:15.499Z"
+    },
+    "44647077": {
+      "guid": "44647077",
+      "title": "DIVERSION OF CONSTRUCTION AND DEMOLITION DEBRIS",
+      "number": "32.04",
+      "sectionCount": 12,
+      "sha256": "b1c1c2c2811d8012e242c906023fa48acbe0de8e7d0297bb1e473115827bc69a",
+      "filePath": "articles/44647077.json",
+      "lastScrapedAt": "2026-10-30T23:50:23.523Z"
+    },
+    "44647131": {
+      "guid": "44647131",
+      "title": "DISPOSABLE BAG REDUCTION PROGRAM",
+      "number": "32.05",
+      "sectionCount": 6,
+      "sha256": "513adbf647c5d93ec0658452cf97839aea96f9f70d67c26d67e7bbfb22b82269",
+      "filePath": "articles/44647131.json",
+      "lastScrapedAt": "2026-10-30T23:50:31.576Z"
+    },
+    "44647173": {
+      "guid": "44647173",
+      "title": "ENVIRONMENTALLY ACCEPTABLE FOOD PACKAGING",
+      "number": "32.06",
+      "sectionCount": 3,
+      "sha256": "9173d52680d9173141384971107997fd9be746b914905b29654deac1c56edcba",
+      "filePath": "articles/44647173.json",
+      "lastScrapedAt": "2026-10-30T23:50:39.616Z"
+    },
+    "44647201": {
+      "guid": "44647201",
+      "title": "IN GENERAL",
+      "number": "33.01",
+      "sectionCount": 3,
+      "sha256": "d80b5bd0ab063b318959759e334db365d30859f6551dd0c316451807f553d3a6",
+      "filePath": "articles/44647201.json",
+      "lastScrapedAt": "2026-10-30T23:50:47.713Z"
+    },
+    "44647205": {
+      "guid": "44647205",
+      "title": "SEWER CONNECTIONS",
+      "number": "33.02",
+      "sectionCount": 6,
+      "sha256": "c928ec5580593066a66df56a65d3f78e8b1ba6138c08dfd7f0bad7bd492d3c25",
+      "filePath": "articles/44647205.json",
+      "lastScrapedAt": "2026-10-30T23:50:55.753Z"
+    },
+    "44647230": {
+      "guid": "44647230",
+      "title": "DISCHARGE REQUIREMENTS",
+      "number": "33.03",
+      "sectionCount": 60,
+      "sha256": "85d409b89cdffe1ac3ecf97c43f8165f438cac84fb86de6c36ef3b871347d4ba",
+      "filePath": "articles/44647230.json",
+      "lastScrapedAt": "2026-10-30T23:51:03.904Z"
+    },
+    "44647663": {
+      "guid": "44647663",
+      "title": "CHARGES FOR THE WASTEWATER UTILITY",
+      "number": "33.04",
+      "sectionCount": 14,
+      "sha256": "f6306335db7a78a2e9ec90a8f8d72235b5a554e8943b9b7c3b8c1f0ad9c83dc3",
+      "filePath": "articles/44647663.json",
+      "lastScrapedAt": "2026-10-30T23:51:11.963Z"
+    },
+    "44647696": {
+      "guid": "44647696",
+      "title": "DISCHARGE OF HAULED LIQUID WASTE",
+      "number": "33.06",
+      "sectionCount": 7,
+      "sha256": "4a211ffc6ecd503ccb7b8fa499c5735a871b7e7768fa337740a411565f03224a",
+      "filePath": "articles/44647696.json",
+      "lastScrapedAt": "2026-10-30T23:51:20.010Z"
+    },
+    "44647785": {
+      "guid": "44647785",
+      "title": "GENERAL PROVISIONS",
+      "number": "34.01",
+      "sectionCount": 3,
+      "sha256": "45a71570d50181b9b4b58e680945cdfc0c89976f6734bb63f31412b9a1ac67f9",
+      "filePath": "articles/44647785.json",
+      "lastScrapedAt": "2026-10-30T23:51:28.035Z"
+    },
+    "44647807": {
+      "guid": "44647807",
+      "title": "GENERAL RESTRICTIONS",
+      "number": "34.02",
+      "sectionCount": 8,
+      "sha256": "febaa26bea2d757eb49836929aeaaa3783b01d5e54d8ff69e4ef56d621203c71",
+      "filePath": "articles/44647807.json",
+      "lastScrapedAt": "2026-10-30T23:51:36.079Z"
+    },
+    "44647874": {
+      "guid": "44647874",
+      "title": "ENFORCEMENT",
+      "number": "34.03",
+      "sectionCount": 12,
+      "sha256": "27e0c873963989438dc50bd89647f80741bc6d040ff3512c9fc8e9c85f30e94e",
+      "filePath": "articles/44647874.json",
+      "lastScrapedAt": "2026-10-30T23:51:44.040Z"
+    },
+    "44647890": {
+      "guid": "44647890",
+      "title": "SALE OF TOBACCO AND E-CIGARETTES; SALE OF TOBACCO AND E-CIGARETTES FROM VENDING MACHINES PROHIBITED",
+      "number": "34.04",
+      "sectionCount": 12,
+      "sha256": "e766b1b4708e1e44eb982174937122d4cd3a0f8478e7f2d66e1e1764cf92b2a9",
+      "filePath": "articles/44647890.json",
+      "lastScrapedAt": "2026-10-30T23:51:52.040Z"
+    },
+    "44647908": {
+      "guid": "44647908",
+      "title": "SALE OF CIGARETTES, TOBACCO OR E-CIGARETTES; SELF-SERVICE SALES PROHIBITED",
+      "number": "34.05",
+      "sectionCount": 2,
+      "sha256": "2eb97944dbc01a281e92b5d8f4f4e23aa1678db4834a72dac75c88d5ea12a759",
+      "filePath": "articles/44647908.json",
+      "lastScrapedAt": "2026-10-30T23:52:00.123Z"
+    },
+    "44647911": {
+      "guid": "44647911",
+      "title": "TOBACCO RETAILER PERMIT",
+      "number": "34.06",
+      "sectionCount": 2,
+      "sha256": "5837a0893711e254debe6074a8a0cad675782112f907cc98e2c50f8e7ab04131",
+      "filePath": "articles/44647911.json",
+      "lastScrapedAt": "2026-10-30T23:52:08.156Z"
+    },
+    "44647985": {
+      "guid": "44647985",
+      "title": "IN GENERAL",
+      "number": "35.01",
+      "sectionCount": 6,
+      "sha256": "93548cfac5587ef7163e7cbb231fc571654bd21c94713943fc264f09f6292d0a",
+      "filePath": "articles/44647985.json",
+      "lastScrapedAt": "2026-10-30T23:52:16.191Z"
+    },
+    "44648003": {
+      "guid": "44648003",
+      "title": "SIDEWALK, DRIVEWAY, CURB, ETC., CONSTRUCTION",
+      "number": "35.02",
+      "sectionCount": 9,
+      "sha256": "01e7d11710601a867f0025c6bdbf57fccf20e6df6df6a80a2ffa01821eba370f",
+      "filePath": "articles/44648003.json",
+      "lastScrapedAt": "2026-10-30T23:52:24.177Z"
+    },
+    "44648013": {
+      "guid": "44648013",
+      "title": "EXCAVATIONS",
+      "number": "35.03",
+      "sectionCount": 12,
+      "sha256": "ac7fd5f0f2b7ccf194ddc8ba3878de15a6d636223ba824af3d2b8661bb602605",
+      "filePath": "articles/44648013.json",
+      "lastScrapedAt": "2026-10-30T23:52:32.194Z"
+    },
+    "44648028": {
+      "guid": "44648028",
+      "title": "PARADES",
+      "number": "35.04",
+      "sectionCount": 16,
+      "sha256": "3c67ef9421a950ee7ae6f6edce8ab791f153969657d2207371c6b44ac668a914",
+      "filePath": "articles/44648028.json",
+      "lastScrapedAt": "2026-10-30T23:52:40.364Z"
+    },
+    "44648076": {
+      "guid": "44648076",
+      "title": "STREET LIGHTING",
+      "number": "35.05",
+      "sectionCount": 4,
+      "sha256": "bb649e1d166e904a331aa9de687b15c14e367274433395230583ff083adb118d",
+      "filePath": "articles/44648076.json",
+      "lastScrapedAt": "2026-10-30T23:52:48.519Z"
+    },
+    "44648084": {
+      "guid": "44648084",
+      "title": "PICKETING OF PRIVATE RESIDENCES",
+      "number": "35.06",
+      "sectionCount": 2,
+      "sha256": "62d0e526581749fb74deda92160a11c47ded02879e3bf654827df4460c34ed71",
+      "filePath": "articles/44648084.json",
+      "lastScrapedAt": "2026-10-30T23:52:56.537Z"
+    },
+    "44648096": {
+      "guid": "44648096",
+      "title": "MORATORIUM ON EXCAVATIONS ON NEWLY IMPROVED STREETS",
+      "number": "35.07",
+      "sectionCount": 6,
+      "sha256": "30d6ccb9f3ed2a4a3fee75c7c5fb0514b2fa5253a27c1d967ab0d48370511caa",
+      "filePath": "articles/44648096.json",
+      "lastScrapedAt": "2026-10-30T23:53:04.590Z"
+    },
+    "44648117": {
+      "guid": "44648117",
+      "title": "STREET TRENCH CUT FEE",
+      "number": "35.08",
+      "sectionCount": 11,
+      "sha256": "80b6406ddaa817c9c1e166deed6e6ad4f32f9ad9d717bfd0a6e6e4f2b8d003b2",
+      "filePath": "articles/44648117.json",
+      "lastScrapedAt": "2026-10-30T23:53:12.577Z"
+    },
+    "44648156": {
+      "guid": "44648156",
+      "title": "GENERAL PROVISIONS",
+      "number": "36.01",
+      "sectionCount": 7,
+      "sha256": "7cd4ca27acd060b2e40cc768975b6597bf1420e09c5a0d1bf941e92a56948bda",
+      "filePath": "articles/44648156.json",
+      "lastScrapedAt": "2026-10-30T23:55:18.006Z"
+    },
+    "44648177": {
+      "guid": "44648177",
+      "title": "DEFINITIONS AND RESPONSIBILITIES",
+      "number": "36.02",
+      "sectionCount": 2,
+      "sha256": "a84de5092d3b3677e9329824cbf83abcec9699832289efc51d2218ecd37b0b62",
+      "filePath": "articles/44648177.json",
+      "lastScrapedAt": "2026-10-30T23:55:25.964Z"
+    },
+    "44648241": {
+      "guid": "44648241",
+      "title": "MAPS REQUIRED",
+      "number": "36.03",
+      "sectionCount": 3,
+      "sha256": "360a0146314eaaef8ce19504b15f6b8ca1dcb412b7b613e548e86211520198f9",
+      "filePath": "articles/44648241.json",
+      "lastScrapedAt": "2026-10-30T23:55:33.927Z"
+    },
+    "44648256": {
+      "guid": "44648256",
+      "title": "TENTATIVE SUBDIVISIONS MAPS—FIVE OR MORE PARCELS",
+      "number": "36.04",
+      "sectionCount": 13,
+      "sha256": "77f610e726102f70204491450c4d3a2b85d740bc6fdfb964ea6bead0540f3b83",
+      "filePath": "articles/44648256.json",
+      "lastScrapedAt": "2026-10-30T23:55:42.025Z"
+    },
+    "44648337": {
+      "guid": "44648337",
+      "title": "FINAL SUBDIVISION MAPS—FIVE OR MORE PARCELS",
+      "number": "36.05",
+      "sectionCount": 11,
+      "sha256": "1e21a87fc6b00af68a7b25a9cd471f59942679e727c00037a08fef59904c6992",
+      "filePath": "articles/44648337.json",
+      "lastScrapedAt": "2026-10-30T23:55:50.242Z"
+    },
+    "44648379": {
+      "guid": "44648379",
+      "title": "SUBDIVISIONS OF FOUR OR LESS PARCELS",
+      "number": "36.06",
+      "sectionCount": 9,
+      "sha256": "209b130023f9b9b70e333d87fccbb597b95e7f354b2bef17776d16cdb26a7f4c",
+      "filePath": "articles/44648379.json",
+      "lastScrapedAt": "2026-10-30T23:55:58.195Z"
+    },
+    "44648402": {
+      "guid": "44648402",
+      "title": "VESTING TENTATIVE MAPS",
+      "number": "36.07",
+      "sectionCount": 10,
+      "sha256": "07a68c3e17937af3a9c00fc40071b5753d362f1c0c79c608faff630a36e1d45d",
+      "filePath": "articles/44648402.json",
+      "lastScrapedAt": "2026-10-30T23:56:06.161Z"
+    },
+    "44648428": {
+      "guid": "44648428",
+      "title": "DEDICATIONS, RESERVATIONS AND DEVELOPMENT FEES",
+      "number": "36.08",
+      "sectionCount": 14,
+      "sha256": "24d8a7772af53ecb303d008bbfb9b7c2cce8928aaaf492144018e10d37163760",
+      "filePath": "articles/44648428.json",
+      "lastScrapedAt": "2026-10-31T03:39:05.260Z"
+    },
+    "44648552": {
+      "guid": "44648552",
+      "title": "IMPROVEMENTS",
+      "number": "36.09",
+      "sectionCount": 11,
+      "sha256": "b0c5f9d31a3074149a73546d43beacf1a53e50f1e6ab74db20c27478eb4bc861",
+      "filePath": "articles/44648552.json",
+      "lastScrapedAt": "2026-10-30T23:56:48.832Z"
+    },
+    "44648666": {
+      "guid": "44648666",
+      "title": "REVERSIONS TO ACREAGE",
+      "number": "36.10",
+      "sectionCount": 6,
+      "sha256": "776d6acc74721607416fb1491804228f2ba8ed8b65260760f4260b8ecb8b3836",
+      "filePath": "articles/44648666.json",
+      "lastScrapedAt": "2026-10-30T23:56:56.786Z"
+    },
+    "44648690": {
+      "guid": "44648690",
+      "title": "PARCEL MERGERS AND UNMERGERS",
+      "number": "36.11",
+      "sectionCount": 10,
+      "sha256": "4c7daf17e0e2927966032e55866b826ef7b33539b4fff28d96c1c67758db6349",
+      "filePath": "articles/44648690.json",
+      "lastScrapedAt": "2026-10-30T23:57:04.723Z"
+    },
+    "44648721": {
+      "guid": "44648721",
+      "title": "CORRECTION AND AMENDMENT OF MAPS",
+      "number": "36.13",
+      "sectionCount": 4,
+      "sha256": "06af02b8758ab6032f5e05da8450a78c67b4fdcb8367946ed535c640cb8a8c10",
+      "filePath": "articles/44648721.json",
+      "lastScrapedAt": "2026-10-30T23:57:20.648Z"
+    },
+    "44648733": {
+      "guid": "44648733",
+      "title": "CONDOMINIUM CONVERSIONS",
+      "number": "36.14",
+      "sectionCount": 8,
+      "sha256": "6707f820d536cc248d0c1cdcca75a23b0904e6bc1c05eee412738067a8a202df",
+      "filePath": "articles/44648733.json",
+      "lastScrapedAt": "2026-10-30T23:57:28.647Z"
+    },
+    "44648852": {
+      "guid": "44648852",
+      "title": "ENFORCEMENT",
+      "number": "36.15",
+      "sectionCount": 6,
+      "sha256": "5090bcfaa521a031bcd1d5c37afa29d08c6739aed15f4de947fca263cbdaaf2c",
+      "filePath": "articles/44648852.json",
+      "lastScrapedAt": "2026-10-30T23:57:36.603Z"
+    },
+    "44649962": {
+      "guid": "44649962",
+      "title": "ADMINISTRATIVE PROVISIONS",
+      "number": "37.01",
+      "sectionCount": 3,
+      "sha256": "49bcd67fd77bc9247c8ca6dc32d21b7abe59409e39845048bc1e02e15d4b13ec",
+      "filePath": "articles/44649962.json",
+      "lastScrapedAt": "2026-10-30T23:57:44.582Z"
+    },
+    "44650007": {
+      "guid": "44650007",
+      "title": "CITY TREES AND PRIVATE/PROTECTED TREES",
+      "number": "37.02",
+      "sectionCount": 8,
+      "sha256": "089e360f6976cebd83ac0ea26f572587d1d2a336fde6892026bb8535d0524c5e",
+      "filePath": "articles/44650007.json",
+      "lastScrapedAt": "2026-10-30T23:57:52.535Z"
+    },
+    "44650039": {
+      "guid": "44650039",
+      "title": "LANDMARK TREES AND TREES OF SIGNIFICANCE LOCATED ON CERTAIN PRIVATE PROPERTY",
+      "number": "37.03",
+      "sectionCount": 6,
+      "sha256": "9101e032a5a59c57735a9b98815ba3786ddc0805086d4ac0649cf9d797d24ff4",
+      "filePath": "articles/44650039.json",
+      "lastScrapedAt": "2026-10-30T23:58:00.485Z"
+    },
+    "44650086": {
+      "guid": "44650086",
+      "title": "PARKING LOT TREES",
+      "number": "37.04",
+      "sectionCount": 3,
+      "sha256": "b3f185a1fe48bd05038cce88e3103a6a00fc8cf5c37ff8387bc24482221ff07a",
+      "filePath": "articles/44650086.json",
+      "lastScrapedAt": "2026-10-30T23:58:08.418Z"
+    },
+    "44650090": {
+      "guid": "44650090",
+      "title": "PROTECTION OF TREES DURING NEW CONSTRUCTION",
+      "number": "37.05",
+      "sectionCount": 1,
+      "sha256": "9227852fe5cd476142039b516a829543d749c06bef7d86c0be89e7df5cd5083c",
+      "filePath": "articles/44650090.json",
+      "lastScrapedAt": "2026-10-30T23:58:16.339Z"
+    },
+    "44650095": {
+      "guid": "44650095",
+      "title": "VIOLATION OF CHAPTER AS PUBLIC NUISANCE",
+      "number": "37.06",
+      "sectionCount": 4,
+      "sha256": "aa94c45cfe2caa8926711f9be3ca1434754ac9ddfd5f08fcdc06b5b86f88ba78",
+      "filePath": "articles/44650095.json",
+      "lastScrapedAt": "2026-10-30T23:58:24.331Z"
+    },
+    "44650111": {
+      "guid": "44650111",
+      "title": "TREE PERMIT APPEAL BOARD",
+      "number": "37.07",
+      "sectionCount": 5,
+      "sha256": "724795fd33cd8a86db6606d973398dbd5fde18a0f3d6960d098ea0b36bb548e8",
+      "filePath": "articles/44650111.json",
+      "lastScrapedAt": "2026-10-30T23:58:32.260Z"
+    },
+    "44650128": {
+      "guid": "44650128",
+      "title": "IN GENERAL",
+      "number": "38.01",
+      "sectionCount": 16,
+      "sha256": "d3619dc1a214e9cec6d717a4215998e4ac9cb3783c51dc38987b52ebf325b561",
+      "filePath": "articles/44650128.json",
+      "lastScrapedAt": "2026-10-30T23:58:40.232Z"
+    },
+    "44650161": {
+      "guid": "44650161",
+      "title": "IN GENERAL",
+      "number": "39.01",
+      "sectionCount": 1,
+      "sha256": "86b19d19afc7aa957f99843eb002dd52b5092955c810a0e49c8021b69efa1788",
+      "filePath": "articles/44650161.json",
+      "lastScrapedAt": "2026-10-30T23:58:48.156Z"
+    },
+    "44650170": {
+      "guid": "44650170",
+      "title": "SERVICE, FACILITIES, ETC.",
+      "number": "39.02",
+      "sectionCount": 16,
+      "sha256": "0fd3e9ba52297667f2c608d98d74cf88a4447fa6b0149d73683cd5e9ab3eceb0",
+      "filePath": "articles/44650170.json",
+      "lastScrapedAt": "2026-10-30T23:58:56.244Z"
+    },
+    "44650261": {
+      "guid": "44650261",
+      "title": "RATES AND CHARGES",
+      "number": "39.03",
+      "sectionCount": 29,
+      "sha256": "f7ea0a585aa301ec6c11a3b60725487bb70c32a78717d6a203f849474b77b46e",
+      "filePath": "articles/44650261.json",
+      "lastScrapedAt": "2026-10-30T23:59:04.687Z"
+    },
+    "44650326": {
+      "guid": "44650326",
+      "title": "CROSS-CONNECTION CONTROL",
+      "number": "39.04",
+      "sectionCount": 6,
+      "sha256": "819c7c70b501919d86afefd442aebaebc8572551d2052262705f16971ba3036a",
+      "filePath": "articles/44650326.json",
+      "lastScrapedAt": "2026-10-30T23:59:12.636Z"
+    },
+    "44650410": {
+      "guid": "44650410",
+      "title": "GROUNDWATER WELLS",
+      "number": "39.05",
+      "sectionCount": 18,
+      "sha256": "898d02f8080c05b6d23529becc97110bfd264bc22b4897c9161f6f0f4da7acee",
+      "filePath": "articles/44650410.json",
+      "lastScrapedAt": "2026-10-30T23:59:20.618Z"
+    },
+    "44650505": {
+      "guid": "44650505",
+      "title": "GROUNDWATER EXTRACTION AND EXPORTATION.",
+      "number": "39.06",
+      "sectionCount": 2,
+      "sha256": "cb620173065ceafce6646fd508cc804d977ec29c58297e39f6d0d08236e92626",
+      "filePath": "articles/44650505.json",
+      "lastScrapedAt": "2026-10-30T23:59:28.569Z"
+    },
+    "44650508": {
+      "guid": "44650508",
+      "title": "PARTICIPATION IN THE DAVIS WOODLAND SURFACE WATER SUPPLY PROJECT",
+      "number": "39.10",
+      "sectionCount": 3,
+      "sha256": "bf515fd0b7bfb4e1d8dcfb9245feab65ab5bc3c368a4460efcba48de32473ce7",
+      "filePath": "articles/44650508.json",
+      "lastScrapedAt": "2026-10-30T23:59:36.587Z"
+    },
+    "44650521": {
+      "guid": "44650521",
+      "title": "IN GENERAL",
+      "number": "40.01",
+      "sectionCount": 15,
+      "sha256": "9a59d148902fe95b66545ca45010d617556ca6b2617c5983b97a3905ea195ae0",
+      "filePath": "articles/44650521.json",
+      "lastScrapedAt": "2026-10-31T03:39:13.606Z"
+    },
+    "44650786": {
+      "guid": "44650786",
+      "title": "AGRICULTURAL (A) DISTRICT",
+      "number": "40.02",
+      "sectionCount": 7,
+      "sha256": "052691323043af079e5b1c07fb2c63cb3f1a23cb04c50e59e39a8691a00fa41c",
+      "filePath": "articles/44650786.json",
+      "lastScrapedAt": "2026-10-31T00:00:19.911Z"
+    },
+    "44650824": {
+      "guid": "44650824",
+      "title": "RESIDENTIAL ONE-FAMILY (R-1) DISTRICT",
+      "number": "40.03",
+      "sectionCount": 8,
+      "sha256": "7f4d694a49966c0307d41b5bd0d0f71b2c0259b1fce13a9f2469eb0c1344b013",
+      "filePath": "articles/44650824.json",
+      "lastScrapedAt": "2026-10-31T00:00:27.983Z"
+    },
+    "44650893": {
+      "guid": "44650893",
+      "title": "RESIDENTIAL ONE- AND TWO-FAMILY (R-2) DISTRICTS",
+      "number": "40.04",
+      "sectionCount": 7,
+      "sha256": "8b4450d80843411e35b0b061199a726f876387bee7d1a351b87e7af7238f0cea",
+      "filePath": "articles/44650893.json",
+      "lastScrapedAt": "2026-10-31T00:00:36.061Z"
+    },
+    "44650944": {
+      "guid": "44650944",
+      "title": "RESIDENTIAL ONE- AND TWO-FAMILY CONSERVATION (R-2-CD) DISTRICT",
+      "number": "40.04A",
+      "sectionCount": 10,
+      "sha256": "7229322d046318b6902eb32ef2f0073444b38fe3a5f9f80edee84229dba5b746",
+      "filePath": "articles/44650944.json",
+      "lastScrapedAt": "2026-10-31T00:00:44.144Z"
+    },
+    "44651024": {
+      "guid": "44651024",
+      "title": "(RESERVED)",
+      "number": "40.05",
+      "sectionCount": 0,
+      "sha256": "c32d03ef3bfb24d5051ae7c25f4ea3658def33361789afef93339357db730639",
+      "filePath": "articles/44651024.json",
+      "lastScrapedAt": "2026-10-31T00:00:52.206Z"
+    },
+    "44651079": {
+      "guid": "44651079",
+      "title": "RESIDENTIAL RESTRICTED (R-R) DISTRICT",
+      "number": "40.06",
+      "sectionCount": 7,
+      "sha256": "c8e81df5d04afeeb87b157b35e1adb8f6d5480dd6f6e315f1efe64dfa5667009",
+      "filePath": "articles/44651079.json",
+      "lastScrapedAt": "2026-10-31T00:01:00.289Z"
+    },
+    "44651127": {
+      "guid": "44651127",
+      "title": "RESIDENTIAL ONE- AND TWO-FAMILY AND MOBILE HOME (R-2-MH) DISTRICT",
+      "number": "40.07",
+      "sectionCount": 5,
+      "sha256": "8203c75206f86d5ee4e92ae9a1d1eab5026dc11f6ea59ed63653929449f4abb3",
+      "filePath": "articles/44651127.json",
+      "lastScrapedAt": "2026-10-31T00:01:08.488Z"
+    },
+    "44651155": {
+      "guid": "44651155",
+      "title": "RESIDENTIAL GARDEN APARTMENT (R-3) DISTRICT",
+      "number": "40.08",
+      "sectionCount": 7,
+      "sha256": "13c82e7ead112d7f488310b4b12ae4e2f5e69e7b4106e1d237f2d2fb04b028a1",
+      "filePath": "articles/44651155.json",
+      "lastScrapedAt": "2026-10-31T00:01:16.804Z"
+    },
+    "44651214": {
+      "guid": "44651214",
+      "title": "RESIDENTIAL HIGH DENSITY APARTMENT (R-HD) DISTRICT",
+      "number": "40.09",
+      "sectionCount": 7,
+      "sha256": "ed7610a0ac67369110a018b33ca4289682608d2e450752dbbcfceb3afd6fc5b1",
+      "filePath": "articles/44651214.json",
+      "lastScrapedAt": "2026-10-31T00:01:24.864Z"
+    },
+    "44651269": {
+      "guid": "44651269",
+      "title": "RESIDENTIAL TRANSITIONAL (R-T) DISTRICT",
+      "number": "40.10",
+      "sectionCount": 7,
+      "sha256": "49e32f4bb49980ae1fa6eaaa19ffeaea613d0b8f18af2f0b9a3aa382a42c3218",
+      "filePath": "articles/44651269.json",
+      "lastScrapedAt": "2026-10-31T00:01:41.001Z"
+    },
+    "44651315": {
+      "guid": "44651315",
+      "title": "(RESERVED)",
+      "number": "40.11",
+      "sectionCount": 0,
+      "sha256": "79f1653a6acf932ff49faed938a693cd68ba9337e24d810cc6c7a18067c02f52",
+      "filePath": "articles/44651315.json",
+      "lastScrapedAt": "2026-10-31T00:01:49.340Z"
+    },
+    "44651376": {
+      "guid": "44651376",
+      "title": "COMMERCIAL NEIGHBORHOOD (C-N) COMBINING DISTRICT",
+      "number": "40.12",
+      "sectionCount": 8,
+      "sha256": "7262100709848bc9e244923511dd2a1b43e62b62d9d32ac3d90a81a42e7417b3",
+      "filePath": "articles/44651376.json",
+      "lastScrapedAt": "2026-10-31T00:01:57.503Z"
+    },
+    "44651425": {
+      "guid": "44651425",
+      "title": "DOWNTOWN DAVIS ZONES",
+      "number": "40.13",
+      "sectionCount": 13,
+      "sha256": "5c13a94ea7ec28439d0dedb9f24c5813b3e960f77c6c45ee91701372de073608",
+      "filePath": "articles/44651425.json",
+      "lastScrapedAt": "2026-10-31T00:02:09.015Z"
+    },
+    "44651467": {
+      "guid": "44651467",
+      "title": "SUPPLEMENTAL TO DOWNTOWN ZONES",
+      "number": "40.14",
+      "sectionCount": 12,
+      "sha256": "e8b08f23a4069930bb163e6223123c4e84614c9618cedfc485056b4ae3f9811d",
+      "filePath": "articles/44651467.json",
+      "lastScrapedAt": "2026-10-31T00:02:30.794Z"
+    },
+    "44651523": {
+      "guid": "44651523",
+      "title": "MIXED USE (M-U) DISTRICT",
+      "number": "40.15",
+      "sectionCount": 9,
+      "sha256": "735d424faf2906343eb22c55c453a5ac684b83879a1077be9ace017371cc1ade",
+      "filePath": "articles/44651523.json",
+      "lastScrapedAt": "2026-10-31T00:02:47.851Z"
+    },
+    "44651597": {
+      "guid": "44651597",
+      "title": "AUTO CENTER (A-C) DISTRICT",
+      "number": "40.16",
+      "sectionCount": 8,
+      "sha256": "e5d2bf4e0465ce3de9c16a9f1455321d31fad03d41e7a2c7165af33e76e0bbb3",
+      "filePath": "articles/44651597.json",
+      "lastScrapedAt": "2026-10-31T00:02:56.130Z"
+    },
+    "44651701": {
+      "guid": "44651701",
+      "title": "COMMERCIAL SERVICE (C-S) DISTRICT",
+      "number": "40.17",
+      "sectionCount": 7,
+      "sha256": "c75aaa2cbde29ff60723c6e996b7de94ed94a3196e7bdc6252095c09fb7e13ae",
+      "filePath": "articles/44651701.json",
+      "lastScrapedAt": "2026-10-31T00:03:04.280Z"
+    },
+    "44651763": {
+      "guid": "44651763",
+      "title": "COMMERCIAL MIXED USE (CMU) DISTRICT",
+      "number": "40.18",
+      "sectionCount": 7,
+      "sha256": "20fe690fdbbefaeb372ed5b1c0a30a464f4f708aea1d59e2c0e8ba0583566637",
+      "filePath": "articles/44651763.json",
+      "lastScrapedAt": "2026-10-31T00:03:12.383Z"
+    },
+    "44651822": {
+      "guid": "44651822",
+      "title": "COMMUNITY RETAIL (C-R) ZONING DISTRICT",
+      "number": "40.18A",
+      "sectionCount": 10,
+      "sha256": "fdc6c87ef1060977cdf763c6de1fd63f924c3382de2112ac2a884148d2573369",
+      "filePath": "articles/44651822.json",
+      "lastScrapedAt": "2026-10-31T00:03:20.714Z"
+    },
+    "44651864": {
+      "guid": "44651864",
+      "title": "INDUSTRIAL ADMINISTRATION AND RESEARCH (I-R) DISTRICT",
+      "number": "40.19",
+      "sectionCount": 7,
+      "sha256": "6ab83cde46af049d81f98b7c30533d86b04769124483c8c504cf9ef52310a317",
+      "filePath": "articles/44651864.json",
+      "lastScrapedAt": "2026-10-31T00:03:29.168Z"
+    },
+    "44651896": {
+      "guid": "44651896",
+      "title": "INDUSTRIAL (I) DISTRICT",
+      "number": "40.20",
+      "sectionCount": 7,
+      "sha256": "430a1afb38c8ff5a5b89b18fd61d2b887962c2b03bd4eb3ada3dcc42b84c3553",
+      "filePath": "articles/44651896.json",
+      "lastScrapedAt": "2026-10-31T00:03:37.367Z"
+    },
+    "44651944": {
+      "guid": "44651944",
+      "title": "PUBLIC-SEMIPUBLIC (P-SP) DISTRICT",
+      "number": "40.20A",
+      "sectionCount": 7,
+      "sha256": "ce88c038d6ce1a106eaaaeddcbc9a29ad78fdbd503b5e856b7f737aecf516adb",
+      "filePath": "articles/44651944.json",
+      "lastScrapedAt": "2026-10-31T00:03:45.691Z"
+    },
+    "44651971": {
+      "guid": "44651971",
+      "title": "INTERIM STUDY (S) DISTRICT",
+      "number": "40.21",
+      "sectionCount": 6,
+      "sha256": "14652aa0be3ebf98b358c6751d565b423a92170dae3dd39325ee39feceea5e8d",
+      "filePath": "articles/44651971.json",
+      "lastScrapedAt": "2026-10-31T00:03:53.793Z"
+    },
+    "44651980": {
+      "guid": "44651980",
+      "title": "PLANNED DEVELOPMENT (P-D) DISTRICT",
+      "number": "40.22",
+      "sectionCount": 21,
+      "sha256": "e7b5b5aa707074912f822480b1d056845285d8bfaff87cd579e6b67c1f8eb154",
+      "filePath": "articles/44651980.json",
+      "lastScrapedAt": "2026-10-31T00:04:01.991Z"
+    },
+    "44652051": {
+      "guid": "44652051",
+      "title": "HISTORICAL RESOURCES MANAGEMENT",
+      "number": "40.23",
+      "sectionCount": 21,
+      "sha256": "fca4ce5db5e67b7d8664e8432b318abdc2bd5dd3f1f79b1057655dfa9363d2c7",
+      "filePath": "articles/44652051.json",
+      "lastScrapedAt": "2026-10-31T00:04:10.164Z"
+    },
+    "44652240": {
+      "guid": "44652240",
+      "title": "PERFORMANCE STANDARDS",
+      "number": "40.24",
+      "sectionCount": 12,
+      "sha256": "137e904cf08c27461637526c12f2936dab93fc13fc7492ff9f4004730162e86d",
+      "filePath": "articles/44652240.json",
+      "lastScrapedAt": "2026-10-31T03:39:21.890Z"
+    },
+    "44652304": {
+      "guid": "44652304",
+      "title": "PARKING AND LOADING AREAS, PUBLIC GARAGES AND PARKING LOTS",
+      "number": "40.25",
+      "sectionCount": 6,
+      "sha256": "6bfa762001a921bebd88600745151a71827d3c2b4b90f9540f38ca5de83c8245",
+      "filePath": "articles/44652304.json",
+      "lastScrapedAt": "2026-10-31T00:04:54.491Z"
+    },
+    "44652403": {
+      "guid": "44652403",
+      "title": "BICYCLE PARKING STANDARDS",
+      "number": "40.25A",
+      "sectionCount": 8,
+      "sha256": "f51bb72c3574e92a90c0c715adede13269ac6b91c934a3dfdc685c4a02ef4b68",
+      "filePath": "articles/44652403.json",
+      "lastScrapedAt": "2026-10-31T00:05:02.790Z"
+    },
+    "44652438": {
+      "guid": "44652438",
+      "title": "SPECIAL USES",
+      "number": "40.26",
+      "sectionCount": 50,
+      "sha256": "e9b077fc696e700f90ea40ec70d4f51af3aa1a66fa64a9ac94d58797f64fa90d",
+      "filePath": "articles/44652438.json",
+      "lastScrapedAt": "2026-10-31T00:05:11.272Z"
+    },
+    "44653098": {
+      "guid": "44653098",
+      "title": "PERSONAL CULTIVATION OF CANNABIS",
+      "number": "40.26A",
+      "sectionCount": 6,
+      "sha256": "371d6e11c8c548ceb36feabd1ea16350143d0d1c0f999b9128cc002763aef119",
+      "filePath": "articles/44653098.json",
+      "lastScrapedAt": "2026-10-31T00:05:19.744Z"
+    },
+    "44653135": {
+      "guid": "44653135",
+      "title": "COMMERCIAL CANNABIS BUSINESSES",
+      "number": "40.26B",
+      "sectionCount": 8,
+      "sha256": "ff5e1ba7abfbb7461235d83f90004c35a26be9ba42b41ea6f8364346b300d3ef",
+      "filePath": "articles/44653135.json",
+      "lastScrapedAt": "2026-10-31T00:05:27.912Z"
+    },
+    "44653210": {
+      "guid": "44653210",
+      "title": "EXCEPTIONS AND MODIFICATIONS",
+      "number": "40.27",
+      "sectionCount": 12,
+      "sha256": "0185c4e1a3ea6a3d7296191e503a3dc0f60c07bc0772ad598b21574b69f4a18d",
+      "filePath": "articles/44653210.json",
+      "lastScrapedAt": "2026-10-31T03:39:30.075Z"
+    },
+    "44653265": {
+      "guid": "44653265",
+      "title": "NONCONFORMING USES AND STRUCTURES",
+      "number": "40.28",
+      "sectionCount": 12,
+      "sha256": "c83464b7b0763540083f3c4340ef9bdf7e69821fe118172db77e9d36aa27d1d6",
+      "filePath": "articles/44653265.json",
+      "lastScrapedAt": "2026-10-31T00:06:12.040Z"
+    },
+    "44653331": {
+      "guid": "44653331",
+      "title": "WIRELESS COMMUNICATION FACILITIES",
+      "number": "40.29",
+      "sectionCount": 22,
+      "sha256": "83c4a88072281e926e5fcaf83d61e4aa30ca99411e87e9c9358f295219412978",
+      "filePath": "articles/44653331.json",
+      "lastScrapedAt": "2026-10-31T00:06:20.410Z"
+    },
+    "44653518": {
+      "guid": "44653518",
+      "title": "CONDITIONAL USE PERMITS",
+      "number": "40.30",
+      "sectionCount": 11,
+      "sha256": "06ca00619f0d2b9b77c596da8058d7a7dd06c125bf217ffd858184b67a07456f",
+      "filePath": "articles/44653518.json",
+      "lastScrapedAt": "2026-10-31T00:06:28.584Z"
+    },
+    "44653534": {
+      "guid": "44653534",
+      "title": "ADMINISTRATIVE USE PERMITS",
+      "number": "40.30A",
+      "sectionCount": 10,
+      "sha256": "362dd5369d0c376624faa4077e3cb3140fe8c38a5246873a3656ff633023570a",
+      "filePath": "articles/44653534.json",
+      "lastScrapedAt": "2026-10-31T00:06:36.779Z"
+    },
+    "44653551": {
+      "guid": "44653551",
+      "title": "TEMPORARY USES",
+      "number": "40.30B",
+      "sectionCount": 8,
+      "sha256": "d59145f427db1ec99df9fd0045a71dc4d73ca130f899e918e5801c077a1ce4dc",
+      "filePath": "articles/44653551.json",
+      "lastScrapedAt": "2026-10-31T00:06:44.955Z"
+    },
+    "44653576": {
+      "guid": "44653576",
+      "title": "SITE PLAN AND ARCHITECTURAL APPROVAL",
+      "number": "40.31",
+      "sectionCount": 12,
+      "sha256": "f8d4ea1ffbd36f4271c245a3ac6636ebbcd48c644edaddcf6716494cb958f2bd",
+      "filePath": "articles/44653576.json",
+      "lastScrapedAt": "2026-10-31T00:06:53.131Z"
+    },
+    "44653629": {
+      "guid": "44653629",
+      "title": "PLANNED UNIT DEVELOPMENT APPROVAL",
+      "number": "40.32",
+      "sectionCount": 11,
+      "sha256": "7d5b3d9062733056df93b4aaa5f6529d411d6ca7395aec6f9ecadd5393638a37",
+      "filePath": "articles/44653629.json",
+      "lastScrapedAt": "2026-10-31T00:07:01.300Z"
+    },
+    "44653668": {
+      "guid": "44653668",
+      "title": "VARIANCES",
+      "number": "40.33",
+      "sectionCount": 10,
+      "sha256": "4aa439ec470e1e77ff589f32fd8c2d4d02aef13781c628ae657073da93965675",
+      "filePath": "articles/44653668.json",
+      "lastScrapedAt": "2026-10-31T00:07:09.551Z"
+    },
+    "44653683": {
+      "guid": "44653683",
+      "title": "PREZONING",
+      "number": "40.34",
+      "sectionCount": 5,
+      "sha256": "3ee701921d4f48c9385fb04950818eddaa39bd7265001d4df76c7ad46bc16f5f",
+      "filePath": "articles/44653683.json",
+      "lastScrapedAt": "2026-10-31T00:07:17.654Z"
+    },
+    "44653701": {
+      "guid": "44653701",
+      "title": "APPEALS TO CITY COUNCIL",
+      "number": "40.35",
+      "sectionCount": 10,
+      "sha256": "aeab2e163883e30a9c8c0ad2807dacad9b1a459a521a810d52cefb2cc9a47793",
+      "filePath": "articles/44653701.json",
+      "lastScrapedAt": "2026-10-31T00:07:25.764Z"
+    },
+    "44653722": {
+      "guid": "44653722",
+      "title": "AMENDMENTS",
+      "number": "40.36",
+      "sectionCount": 9,
+      "sha256": "26d646a3d23c3e4407b5f6cfebfe44a5da7e8cda6a91beffc496244a8c6c09d7",
+      "filePath": "articles/44653722.json",
+      "lastScrapedAt": "2026-10-31T00:07:33.862Z"
+    },
+    "44653747": {
+      "guid": "44653747",
+      "title": "ENFORCEMENT",
+      "number": "40.37",
+      "sectionCount": 6,
+      "sha256": "2e2697f5c09d7a5d67ee24c362aa17ffee0508bad201f687ae17112b4fe938a2",
+      "filePath": "articles/44653747.json",
+      "lastScrapedAt": "2026-10-31T00:07:41.982Z"
+    },
+    "44653756": {
+      "guid": "44653756",
+      "title": "SOLAR SHADE CONTROL",
+      "number": "40.38",
+      "sectionCount": 6,
+      "sha256": "39927b80fd53a51e0c85a4c9430bd295d94e06ed82495768a8a241178f703ff4",
+      "filePath": "articles/44653756.json",
+      "lastScrapedAt": "2026-10-31T00:07:50.136Z"
+    },
+    "44653763": {
+      "guid": "44653763",
+      "title": "ADMINISTRATIVE APPROVALS",
+      "number": "40.39",
+      "sectionCount": 5,
+      "sha256": "6e000f9c37533f2a1551095e89d1fd059f773f7bba6aee62f8297ce8dfb553dd",
+      "filePath": "articles/44653763.json",
+      "lastScrapedAt": "2026-10-31T00:07:58.241Z"
+    },
+    "44653769": {
+      "guid": "44653769",
+      "title": "ALCOHOL SALES",
+      "number": "40.40",
+      "sectionCount": 6,
+      "sha256": "6e483ce975d305604a4e51ea5155139ede6c946b224eb9806f328e7c2497d21d",
+      "filePath": "articles/44653769.json",
+      "lastScrapedAt": "2026-10-31T00:08:06.358Z"
+    },
+    "44653815": {
+      "guid": "44653815",
+      "title": "WATER EFFICIENT LANDSCAPING",
+      "number": "40.42",
+      "sectionCount": 22,
+      "sha256": "11ccb428f2f74b35ae8d50b3aa23a18bc6939cc4962475b5e66194ec6b52789a",
+      "filePath": "articles/44653815.json",
+      "lastScrapedAt": "2026-10-31T00:08:14.720Z"
+    },
+    "44663144": {
+      "guid": "44663144",
+      "title": "RIGHT TO FARM",
+      "number": "40A.01",
+      "sectionCount": 5,
+      "sha256": "ea95cd35b5de313b0b99596e15bee49ce4e4e6ebcc04c912119b717de4d28656",
+      "filePath": "articles/44663144.json",
+      "lastScrapedAt": "2026-10-31T00:08:22.698Z"
+    },
+    "44663170": {
+      "guid": "44663170",
+      "title": "DISPUTE RESOLUTION",
+      "number": "40A.02",
+      "sectionCount": 2,
+      "sha256": "95aa483783fd9b8c889c1f72bf9920afa8fbb0aab14dd28f96e67150d559ee76",
+      "filePath": "articles/44663170.json",
+      "lastScrapedAt": "2026-10-31T00:08:30.653Z"
+    },
+    "44663180": {
+      "guid": "44663180",
+      "title": "FARMLAND PRESERVATION",
+      "number": "40A.03",
+      "sectionCount": 11,
+      "sha256": "ff530a65019a21c0a56894cd3221974058c42e3300f979684a0f093463e1168e",
+      "filePath": "articles/44663180.json",
+      "lastScrapedAt": "2026-10-31T00:08:38.650Z"
+    },
+    "44663271": {
+      "guid": "44663271",
+      "title": "VIOLATION",
+      "number": "40A.04",
+      "sectionCount": 1,
+      "sha256": "a1e562b4c3a43c09c3158b8d715bc66d7fc7fc0555645c28e3d6965659563489",
+      "filePath": "articles/44663271.json",
+      "lastScrapedAt": "2026-10-31T00:09:27.813Z"
+    },
+    "44663273": {
+      "guid": "44663273",
+      "title": "PRECEDENCE",
+      "number": "40A.05",
+      "sectionCount": 1,
+      "sha256": "05e3531c6f8d1192105262a0b3f4da14dbeafd3fa31949e55d02dcc92b25f18f",
+      "filePath": "articles/44663273.json",
+      "lastScrapedAt": "2026-10-31T00:09:35.776Z"
+    },
+    "44663276": {
+      "guid": "44663276",
+      "title": "CITIZENS' RIGHT TO VOTE ON FUTURE USE OF OPEN SPACE AND AGRICULTURAL LANDS",
+      "number": "41.01",
+      "sectionCount": 6,
+      "sha256": "5b969975efb9079e9258be2cac7a4083f11ec0c471c87ed220769e0c0b92c59f",
+      "filePath": "articles/44663276.json",
+      "lastScrapedAt": "2026-10-31T00:09:43.742Z"
+    },
+    "44663335": {
+      "guid": "44663335",
+      "title": "YOLO HABITAT CONSERVATION PLAN/NATURAL COMMUNITIES CONSERVATION PLAN",
+      "number": "42.01",
+      "sectionCount": 10,
+      "sha256": "facca2633505f34372c33856103cab2a9aaaf6a1f50753c78a12330f8de29965",
+      "filePath": "articles/44663335.json",
+      "lastScrapedAt": "2026-10-31T00:09:51.723Z"
+    },
+    "44663390": {
+      "guid": "44663390",
+      "title": "Ordinance List and Disposition Table",
+      "number": "OL",
+      "sectionCount": 1,
+      "sha256": "31b93b5eadbd68f1804993a188a003384496e67516f11b4f7ca416690fcee529",
+      "filePath": "articles/44663390.json",
+      "lastScrapedAt": "2026-10-31T00:10:08.068Z"
+    },
+    "44663395": {
+      "guid": "44663395",
+      "title": "Statutory References for California Cities",
+      "number": "SR",
+      "sectionCount": 14,
+      "sha256": "04be08ba0be9d2f94f02eaf223d10ac0b5929ad34a76d1bc170c6e5f3999ed92",
+      "filePath": "articles/44663395.json",
+      "lastScrapedAt": "2026-10-31T00:09:59.708Z"
+    },
+    "44849665": {
+      "guid": "44849665",
+      "title": "HIGH DENSITY RESIDENTIAL (HDR) OVERLAY DISTRICT",
+      "number": "40.09A",
+      "sectionCount": 14,
+      "sha256": "77fa60e2ca210db275072cc475e11040bb44afd301a79021a58755146cb11461",
+      "filePath": "articles/44849665.json",
+      "lastScrapedAt": "2026-10-31T00:01:32.921Z"
+    },
+    "44876432": {
+      "guid": "44876432",
+      "title": "DOWNTOWN AND TRADITIONAL NEIGHBORHOOD OVERLAY DISTRICT (DTRN)",
+      "number": "40.14A",
+      "sectionCount": 3,
+      "sha256": "cb22f8389b63b4616334d817a99ee60c94280a952bc6539a238c3f0d2fde8dc1",
+      "filePath": "articles/44876432.json",
+      "lastScrapedAt": "2026-10-31T00:02:39.543Z"
+    },
+    "45822018": {
+      "guid": "45822018",
+      "title": "CAMPING",
+      "number": "26.11",
+      "sectionCount": 7,
+      "sha256": "d7615d393cf709a96ba12ebce57b51022dacd50ade094b02b05b972ffafb111a",
+      "filePath": "articles/45822018.json",
+      "lastScrapedAt": "2026-10-30T23:47:42.442Z"
+    },
+    "48305527": {
+      "guid": "48305527",
+      "title": "LOT LINE ADJUSTMENTS AND VOLUNTARY MERGERS",
+      "number": "36.12",
+      "sectionCount": 11,
+      "sha256": "49e9ee8a4734cf79630ffdce6dc0ddb7eae904481c50fdfd83e17c407c66d166",
+      "filePath": "articles/48305527.json",
+      "lastScrapedAt": "2026-10-30T23:57:12.702Z"
+    },
+    "50076686": {
+      "guid": "50076686",
+      "title": "INTERACTION WITH IMMIGRATION AUTHORITIES",
+      "number": "10.06",
+      "sectionCount": 5,
+      "sha256": "38baf8df0e8de35047f2eda2d172200969837964666f8cf7694c890a42008852",
+      "filePath": "articles/50076686.json",
+      "lastScrapedAt": "2026-10-30T23:32:08.629Z"
+    },
+    "50076761": {
+      "guid": "50076761",
+      "title": "SAFE PARKING PROGRAM",
+      "number": "26.12",
+      "sectionCount": 8,
+      "sha256": "322360717f3f04d640c7fde158a5ed5f2405a1a3840e694b5ef76a0b9b73bef4",
+      "filePath": "articles/50076761.json",
+      "lastScrapedAt": "2026-10-30T23:47:50.454Z"
+    },
+    "50471549": {
+      "guid": "50471549",
+      "title": "SIDEWALK MAINTENANCE, REPAIR",
+      "number": "35.09",
+      "sectionCount": 8,
+      "sha256": "4a662b1e3858c748b2f89f8fab38bbe046fb9b0c27b9757e760aa4f2020f7f44",
+      "filePath": "articles/50471549.json",
+      "lastScrapedAt": "2026-10-30T23:53:20.575Z"
+    }
+  },
+  "tocFingerprint": "06da8407990283d823c630af69c7bbd1f3077f28dad609880196bd164a71bedd",
+  "tocFetchedAt": "2026-10-31T03:39:00.469Z",
+  "tocSource": "live",
+  "lastRunAt": "2026-10-31T03:39:00.469Z"
+}

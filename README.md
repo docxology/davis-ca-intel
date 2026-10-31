@@ -43,8 +43,7 @@ Permits, school-closure inference and PG&E PSPS are also disabled pending their
 own local adapter acceptance. DJUSD is a reference source only.
 
 The configured publication target is
-[the Davis project site](https://docxology.github.io/davis-ca-intel); configuration
-alone does not establish that GitHub Pages has been enabled or deployed.
+[the Davis project site](https://docxology.github.io/davis-ca-intel); the public deployment is separately checked after each accepted publication.
 
 ## Evidence and documentation
 
@@ -57,4 +56,7 @@ of current upstream availability or legal accuracy.
 Generic module documentation and the evidence-bound reference manuscript live
 in [region-intel](https://github.com/docxology/region-intel/tree/main/docs).
 Its recorded Crescent City findings must never be relabelled as Davis results.
-Davis begins without an imported Crescent corpus or regional result claims.
+The accepted Davis seed contains only Davis municipal evidence. No Crescent corpus or findings are imported.
+
+See the [accepted municipal edition and exact input hashes](docs/edition.md) and
+[acquisition/promotion procedure](docs/acquisition.md).
