@@ -1,5 +1,10 @@
 # Changelog
 
+## Hosted native font preparation
+
+- Install the explicit OpenType font packages and verify all ten required files
+  before rendering; retain native diagnostic staging even on workflow failure.
+
 ## Complete native packet publication
 
 - Anchor the local output ignore rule so the two required MathJax output modules

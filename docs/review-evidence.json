@@ -299,5 +299,16 @@
     "supersededConsumerCommit": "519b1b8e0d3b24181b5a3b0e4fdc3ece02908cde",
     "supersededHostedNativeRun": "https://github.com/docxology/davis-ca-intel/actions/runs/41264307024",
     "cause": "Unanchored output ignore rule omitted two MathJax output modules; root-only ignore rule includes their original declared bytes."
+  },
+  "nativePlatformPreparation": {
+    "supersededHostedNativeRun": "https://github.com/docxology/davis-ca-intel/actions/runs/41264953829",
+    "cause": "Missing explicit Ubuntu OpenType font packages",
+    "packages": [
+      "fonts-texgyre",
+      "fonts-lmodern"
+    ],
+    "requiredFontFilesChecked": 10,
+    "nativeDiagnosticsRetainedOnFailure": true,
+    "reviewedArtifactHashesUnchanged": true
   }
 }

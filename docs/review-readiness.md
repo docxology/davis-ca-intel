@@ -103,3 +103,12 @@ complete packet hashes are unchanged. A staged Git-tree archive is validated for
 The prior independent AI technical approval binds the unchanged manuscript
 inputs and complete packet bytes. This correction changes publication assembly
 and CI ordering; it does not regenerate or edit the reviewed PDF or HTML.
+
+The next hosted run passed committed-packet replay, then failed native PDF
+rendering because the Ubuntu preparation omitted the explicit OpenType packages.
+That [failure](https://github.com/docxology/davis-ca-intel/actions/runs/41264953829)
+is retained. The workflow now installs
+[fonts-texgyre](https://packages.ubuntu.com/noble/fonts-texgyre) and
+[fonts-lmodern](https://packages.ubuntu.com/noble/fonts-lmodern), checks all ten
+required font files, and uploads native diagnostic staging on failure. This is
+platform preparation; the approved local manuscript and native bytes are unchanged.

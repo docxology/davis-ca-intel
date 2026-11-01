@@ -41,7 +41,17 @@ jobs:
         shell: bash
         run: |
           sudo apt-get update
-          sudo apt-get install -y --no-install-recommends texlive-xetex texlive-fonts-recommended texlive-latex-recommended texlive-latex-extra tex-gyre lmodern qpdf poppler-utils
+          sudo apt-get install -y --no-install-recommends texlive-xetex texlive-fonts-recommended texlive-latex-recommended texlive-latex-extra tex-gyre fonts-texgyre lmodern fonts-lmodern qpdf poppler-utils
+          sudo mktexlsr
+          for regional_font in texgyrepagella-regular.otf texgyrepagella-bold.otf texgyrepagella-italic.otf texgyrepagella-bolditalic.otf texgyreheros-regular.otf texgyreheros-bold.otf texgyreheros-italic.otf texgyreheros-bolditalic.otf lmmono10-regular.otf latinmodern-math.otf; do
+            if ! regional_font_path="$(kpsewhich "$regional_font")"; then
+              printf 'Required OpenType font missing: %s\n' "$regional_font"
+              exit 1
+            fi
+            test -n "$regional_font_path"
+            test -r "$regional_font_path"
+            printf 'Verified OpenType font: %s\n' "$regional_font"
+          done
           render_bin="$RUNNER_TEMP/regional-native-tools"
           mkdir "$render_bin"
           cd "$render_bin"
@@ -63,8 +73,14 @@ jobs:
       - run: bun run manuscript:check
       - run: bun run manuscript:render
       - run: bun run manuscript:validate-render
-      - uses: actions/upload-artifact@v4
+      - name: Retain native outputs and failure diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
         with:
           name: davis-manuscript-template-review
-          path: output/manuscript-review/
+          path: |
+            output/manuscript-review/
+            output/.manuscript-review-build-*/
+            .template/output/region-intel-builds/
+          include-hidden-files: true
           retention-days: 7
