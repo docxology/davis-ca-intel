@@ -1,35 +1,56 @@
 # Results {#sec:results}
 
-## Recorded Davis edition
+## Accepted snapshot and configuration
 
-The accepted public projection contains {{CODE_ARTICLES}} article pages and
-{{CODE_SECTIONS}} sections. The recorded verification time is {{VERIFIED_AT}}.
-The verification report declares passing local, current-TOC and sample planes,
-with no missing sections in its expected denominator. These statements report
-the retained receipt and public projection; preparing this paper did not perform
-a new live acquisition or independently interpret the law.
+The accepted Davis edition contains {{CODE_ARTICLES}} article pages and
+{{CODE_SECTIONS}} section records. These counts refer to the retained DA4922
+edition and its verification timestamp, not a new collection conducted for
+this manuscript.
 
-| Recorded item | Value | Meaning |
-| --- | --- | --- |
-| Municipality | {{MUNICIPALITY_CODE}} | Provider identity, not a geography survey |
-| Article pages | {{CODE_ARTICLES}} | Accepted provider acquisition units |
-| Sections | {{CODE_SECTIONS}} | Retained section records, including inactive headings |
-| Source declarations | {{SOURCE_COUNT}} | Configured catalog, not collection completeness |
-| Enabled monitors | {{MONITOR_COUNT}} | Selected adapters, not verified hazard coverage |
+| Recorded item | Value | Interpretation |
+|---|---:|---|
+| Municipality code | DA4922 | Source identity |
+| Article pages | {{CODE_ARTICLES}} | Accepted publisher/extractor article units |
+| Section records | {{CODE_SECTIONS}} | Retained section objects in those articles |
+| Declared sources | {{SOURCE_COUNT}} | Configured catalog entries |
+| Enabled monitors | {{MONITOR_COUNT}} | Selected adapter policy |
 
-## Inland policy and public surfaces
+These rows have different denominators. A configured monitor is not an
+observation, and the source catalog does not enumerate the city's complete
+information environment. Davis selects inland operating policy; unused coastal
+fields retained for compatibility do not establish coastal coverage in Davis.
 
-The configured monitors cover earthquake, weather, air quality, wildfire,
-drought, smoke, roads and California statewide fuel observations. Marine, tide,
-harbor and other coastal adapters are excluded. The full policy schema still
-contains compatibility fields for disabled adapters; their presence is not
-evidence of Davis coverage. Official-page meeting collection retains bounded
-links and explicit unavailable states, rather than claiming a complete archive.
+## Article-level structure
 
-The static edition searches the accepted public code projection. The local
-dashboard's corpus search uses separately acquired and promoted raw articles.
-Optional retrieval-augmented generation requires its own model/vector services
-and accepted index. Neither a configured model nor a renderable paper supplies
-an evaluated Davis model-answer result. Software test counts and browser
-acceptance are intentionally kept in their versioned engineering receipts rather
-than presented here as measurements of civic usefulness.
+Across all {{CODE_ARTICLES}} article pages, the median is
+{{CODE_MEDIAN_SECTIONS}} section records per page, with a minimum of
+{{CODE_MIN_SECTIONS}}, maximum of {{CODE_MAX_SECTIONS}} and
+{{CODE_EMPTY_ARTICLES}} zero-section article pages. All values are injected
+from the shared profile of the accepted seed.
+
+![Article-level section counts in the accepted Davis edition. Panel A includes every article page and marks the median; Panel B shows the twelve largest article pages, ordered deterministically. Counts measure retained source structure, not legal importance or civic burden. The complete numerical fallback is article-sections.csv.](../output/figures/corpus-profile.png){#fig:corpus_profile}
+
+The distribution in @fig:corpus_profile makes the within-edition segmentation visible without
+claiming that larger article pages are more important. The associated CSV
+contains GUID, article identifier, title and section count for every page.
+The aggregate is reconciled against the same accepted article and section
+denominators used in the manuscript. No population statistic about Davis
+residents is derived from this distribution.
+
+## Reusable boundary and public surfaces
+
+The local dashboard and static edition use the deployment's accepted evidence
+and official source links. A successful source search is distinguishable from
+a model-generated answer. Retrieval-augmented generation combines retrieval
+with a generative model [@lewis2020], but that architectural relationship does
+not establish the factuality of this deployment's generated answers. No model
+benchmark or answer-quality result is presented here.
+
+![Three evidence planes remain distinct: accepted corpus bytes support snapshot claims, selected policy supports configuration claims, and native output checks support rendering claims. Legal currency, interpretation, usability, civic impact and publication require separate evidence or decisions. This is a conceptual claim-boundary diagram.](../output/figures/evidence-boundaries.png){#fig:evidence_boundaries}
+
+The distinction illustrated in @fig:evidence_boundaries is an explicit
+ownership and reporting boundary. Software acceptance and native artifact checks
+are retained in the review record rather than interpreted as measurements of
+civic usefulness. The rendered packet contains the template identity, input
+fingerprint, complete offline asset inventory and output hashes. Those
+commitments make a candidate inspectable; they do not certify its interpretation.

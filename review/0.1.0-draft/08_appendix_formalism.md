@@ -1,24 +1,45 @@
 # Appendix: Formal Contracts and Worked Records {#sec:appendix}
 
-For this review edition, a claim-evidence entry names captured public file paths
-and states both its scope and what is not established. The counts in the Results
-table are substituted from validated seed records rather than entered by hand.
-The complete file-by-file byte commitments are in `evidence.json`; rendered
-members and tool versions are in `review-receipt.json`.
+## Data statement
 
-```text
+| Question | Davis record |
+|---|---|
+| Unit | Accepted article-page and section objects |
+| Origin | eCode360 DA4922 municipal-code publication |
+| Edition | Snapshot identified in the evidence receipt |
+| Observation time | 2026-10-31T03:39:57.381Z |
+| Intended use | Source-linked inspection, descriptive corpus structure and reproducible software study |
+| Not represented | Resident population, complete city activity, legal adjudication or a model benchmark |
+| Excluded public members | Credentials, raw acquisition HTML and private operational diagnostics |
+| Numerical fallback | Complete article-sections.csv and corpus-profile.json |
+
+This compact statement is informed by dataset documentation scholarship
+[@gebru2021; @bender2018]. It supplements the source and claim ledger; it does
+not claim compliance with every proposed datasheet question.
+
+## Constructed arithmetic control
+
+For a deliberately synthetic vector of article section counts
+$[2,0,4]$, the profiler must return three article pages, six section records,
+a median of two, a minimum of zero, a maximum of four and one zero-section
+page. This example tests the transformation; none of these values is a Davis
+observation. A duplicate article identifier must fail rather than silently
+increase a denominator.
+
+## Candidate bindings
+
+~~~text
 profile: davis-ca
 municipality: DA4922
-source edition:
-2d74bf8205ecde96b88b4183d4d47169d83ee910e5d1ce125fd6c77bd31eca8b
-shared runtime:
-7cb15fa1af0455e4d756551ddf828da0cbf5095e
-manuscript input fingerprint:
-2d34a2664e2f140bdee02d53277b93225a76122f8848ed3620d00d74c5067af3
-```
+source edition: 2d74bf8205ecde96b88b4183d4d47169d83ee910e5d1ce125fd6c77bd31eca8b
+shared runtime: 7667ae7fdfa7cc54fc80d90153c2873051f29ac4
+template revision: c18dae54a07fe6ac3a7b1a1a274251c169a12e7a
+manuscript input: 08013accbc134f81375f357fd0f2422f2a324105e43fdd81de84b4b1e0e29cd7
+~~~
 
-Three separate acceptance questions remain visible: whether captured inputs
-match their declared edition; whether the PDF/HTML render matches the captured
-manuscript inputs; and whether reviewers accept the claims and interpretation.
-The software checks the first two operational boundaries. It cannot certify the
-third by writing a successful receipt or a version number.
+The complete file-by-file commitments are in evidence.json and
+review-receipt.json. template-render.json records the actual rendering API,
+template identity and native versions. Three acceptance questions remain
+separate: whether captured inputs match their declared edition; whether the
+rendering methods produce a coherent artifact from those inputs; and whether
+the research interpretation is suitable for its intended audience and use.

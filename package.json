@@ -55,7 +55,7 @@
     "manuscript:bundle": "bun run scripts/region.ts manuscript:bundle"
   },
   "dependencies": {
-    "region-intel": "github:docxology/region-intel#7cb15fa1af0455e4d756551ddf828da0cbf5095e"
+    "region-intel": "github:docxology/region-intel#7667ae7fdfa7cc54fc80d90153c2873051f29ac4"
   },
   "devDependencies": {
     "typescript": "5.9.3",

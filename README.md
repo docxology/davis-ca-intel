@@ -1,5 +1,9 @@
 # Davis CA Intel
 
+![Davis civic information: conceptual editorial landscape](docs/assets/davis-editorial.png)
+
+*Conceptual editorial artwork; [provenance and scope](docs/assets/ARTWORK.md).*
+
 Civic intelligence for Davis, California, built as a thin deployment of
 [region-intel](https://github.com/docxology/region-intel). This repository owns
 Davis identity, source selection, monitor policy and regional evidence. Shared

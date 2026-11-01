@@ -1,0 +1,294 @@
+{
+  "schemaVersion": "regional-review-readiness/v1",
+  "date": "2026-11-01",
+  "status": "technically-review-ready-draft",
+  "core": "7667ae7fdfa7cc54fc80d90153c2873051f29ac4",
+  "template": {
+    "repository": "https://github.com/docxology/template",
+    "revision": "c18dae54a07fe6ac3a7b1a1a274251c169a12e7a"
+  },
+  "inputFingerprint": "08013accbc134f81375f357fd0f2422f2a324105e43fdd81de84b4b1e0e29cd7",
+  "pdfSha256": "0473c66f705d89debd22cc63c4ed4fba6860d9af274fd0838f55e78605dddd85",
+  "htmlSha256": "1bf28676703449a86641c357e8b66e5874737d43bdc1dea9f5c56cf761aa5529",
+  "packetMembersExcludingReceipt": 290,
+  "independentReview": {
+    "kind": "independent AI technical gate",
+    "verdict": "APPROVE",
+    "reportSha256": "4303a2971c33143f80e9df4c67d85e9dc05dcd4f4ad9ec6e54174f07520983e8",
+    "all239SharedSourceFilesMatchedInBothConsumers": true
+  },
+  "controls": [
+    {
+      "scenario": "baseline",
+      "expected": "accept",
+      "passed": true
+    },
+    {
+      "scenario": "missing-asset",
+      "expected": "reject-or-preserve",
+      "passed": true
+    },
+    {
+      "scenario": "extra-member",
+      "expected": "reject-or-preserve",
+      "passed": true
+    },
+    {
+      "scenario": "prototype-member",
+      "expected": "reject-or-preserve",
+      "passed": true
+    },
+    {
+      "scenario": "empty-directory",
+      "expected": "reject-or-preserve",
+      "passed": true
+    },
+    {
+      "scenario": "comma-member-collision",
+      "expected": "reject-or-preserve",
+      "passed": true
+    },
+    {
+      "scenario": "comma-tool-collision",
+      "expected": "reject-or-preserve",
+      "passed": true
+    },
+    {
+      "scenario": "linked-member",
+      "expected": "reject-or-preserve",
+      "passed": true
+    },
+    {
+      "scenario": "changed-bytes",
+      "expected": "reject-or-preserve",
+      "passed": true
+    },
+    {
+      "scenario": "changed-pinned-asset-rehashed",
+      "expected": "reject-or-preserve",
+      "passed": true
+    },
+    {
+      "scenario": "forged-publication",
+      "expected": "reject-or-preserve",
+      "passed": true
+    },
+    {
+      "scenario": "forged-review",
+      "expected": "reject-or-preserve",
+      "passed": true
+    },
+    {
+      "scenario": "forged-template",
+      "expected": "reject-or-preserve",
+      "passed": true
+    },
+    {
+      "scenario": "forged-renderer",
+      "expected": "reject-or-preserve",
+      "passed": true
+    },
+    {
+      "scenario": "changed-profile-rehashed",
+      "expected": "reject-or-preserve",
+      "passed": true
+    },
+    {
+      "scenario": "changed-text-rehashed",
+      "expected": "reject-or-preserve",
+      "passed": true
+    },
+    {
+      "scenario": "native-failure-preservation",
+      "expected": "reject-or-preserve",
+      "passed": true
+    }
+  ],
+  "pdf": {
+    "inputFingerprint": "08013accbc134f81375f357fd0f2422f2a324105e43fdd81de84b4b1e0e29cd7",
+    "pdfSha256": "0473c66f705d89debd22cc63c4ed4fba6860d9af274fd0838f55e78605dddd85",
+    "pages": 13,
+    "size": "A4",
+    "embeddedSubsetUnicodeFonts": 7,
+    "wordsOutsidePhysicalPage": [],
+    "qpdf": "pass",
+    "unresolvedText": false,
+    "rasterPages": 13,
+    "sourcePdfUnchanged": true
+  },
+  "html": {
+    "core": "7667ae7fdfa7cc54fc80d90153c2873051f29ac4",
+    "inputFingerprint": "08013accbc134f81375f357fd0f2422f2a324105e43fdd81de84b4b1e0e29cd7",
+    "pdfSha256": "0473c66f705d89debd22cc63c4ed4fba6860d9af274fd0838f55e78605dddd85",
+    "htmlSha256": "1bf28676703449a86641c357e8b66e5874737d43bdc1dea9f5c56cf761aa5529",
+    "surfaces": [
+      {
+        "width": 1440,
+        "headings": 10,
+        "references": 10,
+        "figures": 3,
+        "imageCount": 4,
+        "brokenImages": [],
+        "brokenAnchors": [],
+        "overflow": false,
+        "measured": true,
+        "unresolved": false,
+        "duplicateFigure": false,
+        "fontsStatus": "loaded",
+        "mathErrors": 0,
+        "pageErrors": [],
+        "externalRequests": [],
+        "failedResponses": [],
+        "compatibilityRedirect": true
+      },
+      {
+        "width": 390,
+        "headings": 10,
+        "references": 10,
+        "figures": 3,
+        "imageCount": 4,
+        "brokenImages": [],
+        "brokenAnchors": [],
+        "overflow": false,
+        "measured": true,
+        "unresolved": false,
+        "duplicateFigure": false,
+        "fontsStatus": "loaded",
+        "mathErrors": 0,
+        "pageErrors": [],
+        "externalRequests": [],
+        "failedResponses": [],
+        "compatibilityRedirect": true
+      }
+    ],
+    "browserClosed": true,
+    "serverClosed": true
+  },
+  "figureView": {
+    "results": [
+      {
+        "width": 1440,
+        "dimensions": {
+          "x": 180.015625,
+          "width": 1079.96875,
+          "viewport": 1440,
+          "naturalWidth": 2373,
+          "naturalHeight": 1149
+        },
+        "fullSize": null
+      },
+      {
+        "width": 390,
+        "dimensions": {
+          "x": 16,
+          "width": 358,
+          "viewport": 390,
+          "naturalWidth": 2373,
+          "naturalHeight": 1149
+        },
+        "fullSize": {
+          "path": "/figures/corpus-profile.png",
+          "width": 2373,
+          "height": 1149,
+          "complete": true
+        }
+      }
+    ],
+    "browserClosed": true,
+    "serverClosed": true
+  },
+  "gates": {
+    "core-member-full-gate": {
+      "exitCode": 0,
+      "reaped": true,
+      "receiptSha256": "598b81f6f23b9720b16a5d66cc6ccd797e69113099c8b9e1009da164b78e12c2"
+    },
+    "davis-corrected-frozen": {
+      "exitCode": 0,
+      "reaped": true,
+      "receiptSha256": "4e719da604a226c2f35535c6685e4f822d346938e8455540a81967715f22f98a"
+    },
+    "crescent-corrected-frozen": {
+      "exitCode": 0,
+      "reaped": true,
+      "receiptSha256": "8559b6af7d9821ef106e97d8ca7103f4ce9e28fcae8f21071733bc3fdca0cbb8"
+    },
+    "davis-corrected-template-bundle": {
+      "exitCode": 0,
+      "reaped": true,
+      "receiptSha256": "96339fa383aa60a53ada5827540985e3d4571237d2dad28e6d70fe94601b384d"
+    },
+    "davis-final-release-check": {
+      "exitCode": 0,
+      "reaped": true,
+      "receiptSha256": "89528a4cb54ccb57ab4721bd9d997606bbaf91b2dbf4a767fd9d835461436ecf"
+    },
+    "davis-final-native-html": {
+      "exitCode": 0,
+      "reaped": true,
+      "receiptSha256": "284a81662ea33bbc7356a7529cd6b981caaa18303b08cb0ceb871f8ce0c46edb"
+    },
+    "davis-final-native-pdf": {
+      "exitCode": 0,
+      "reaped": true,
+      "receiptSha256": "54d8e5c39ecb230d9bf1091e1f3edf846eb791ff48f33ebe37fa9617efc89a1f"
+    },
+    "davis-final-figure-view": {
+      "exitCode": 0,
+      "reaped": true,
+      "receiptSha256": "65a1124e9722fa070943ef307ae5116d1191efadeb8af987f5120f5294f4daa4"
+    },
+    "davis-pages-export": {
+      "exitCode": 0,
+      "reaped": true,
+      "receiptSha256": "9f19745c08a4f468720e709b359188e3853b930425d2810d5fafe5f4d9af4cd5"
+    },
+    "davis-pages-validate": {
+      "exitCode": 0,
+      "reaped": true,
+      "receiptSha256": "646da4cecf84f0435ede39d3c846c26a49a949a2bad494a6be405f36a2a27ab9"
+    },
+    "davis-reader-smoke": {
+      "exitCode": 0,
+      "reaped": true,
+      "receiptSha256": "d360c5f38b313cdfa493a1ae4445d34ae5807de6cbb8c408e9bf2eddbff7516c"
+    },
+    "crescent-corrected-validate": {
+      "exitCode": 0,
+      "reaped": true,
+      "receiptSha256": "d462718262e73cea591de9762bf64d97b3d09696669bb01cd0267fa6ffdd0442"
+    },
+    "crescent-pages-export": {
+      "exitCode": 0,
+      "reaped": true,
+      "receiptSha256": "36e95ba5e77a3f8d2b0edd73a6e664aef6ce4093c82a1c3cb8a12671f6751506"
+    },
+    "crescent-pages-validate": {
+      "exitCode": 0,
+      "reaped": true,
+      "receiptSha256": "3c264ee6bd37a6493717ae8ad1aa84072c23414ded3996b4c8c65ba9f2df3bd4"
+    },
+    "crescent-reader-smoke": {
+      "exitCode": 0,
+      "reaped": true,
+      "receiptSha256": "3a5e696fd35c4ce423cf7d3262ce86390bbabeb1273c596d790af3019ede8671"
+    },
+    "independent-final-controls": {
+      "exitCode": 0,
+      "reaped": true,
+      "receiptSha256": "5c6b01c6f715527ec9dc3cbf6cd7fa9bea61f09fc5ffb66c9c0087c4dabfeed5"
+    },
+    "independent-final-installed": {
+      "exitCode": 0,
+      "reaped": true,
+      "receiptSha256": "65e80ced472f7139ec477456e3f02df7221bbd5245569b306326c016ad0f554c"
+    },
+    "independent-final-profile": {
+      "exitCode": 0,
+      "reaped": true,
+      "receiptSha256": "3e577caeaddec319edda16b0f6d237390e3b3d906314b39bb9c50c40d52b84b9"
+    }
+  },
+  "publication": "no release, tag or DOI created by this work",
+  "scope": "Technical source/native/UI review; author, scientific, legal and editorial acceptance remain separate."
+}

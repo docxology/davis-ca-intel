@@ -1,0 +1,1751 @@
+{
+  "schemaVersion": "regional-corpus-profile/v1",
+  "articles": [
+    {
+      "guid": "44632384",
+      "number": "1.01",
+      "title": "IN GENERAL",
+      "sections": 23
+    },
+    {
+      "guid": "44632455",
+      "number": "1.02",
+      "title": "ADMINISTRATIVE CITATIONS",
+      "sections": 14
+    },
+    {
+      "guid": "44632566",
+      "number": "2.01",
+      "title": "CITY COUNCIL",
+      "sections": 12
+    },
+    {
+      "guid": "44632593",
+      "number": "2.02",
+      "title": "MAYOR",
+      "sections": 2
+    },
+    {
+      "guid": "44632596",
+      "number": "2.03",
+      "title": "CITY MANAGER",
+      "sections": 5
+    },
+    {
+      "guid": "44632616",
+      "number": "2.04",
+      "title": "CITY ATTORNEY",
+      "sections": 2
+    },
+    {
+      "guid": "44632619",
+      "number": "2.05",
+      "title": "DIRECTOR OF FINANCE",
+      "sections": 3
+    },
+    {
+      "guid": "44632631",
+      "number": "2.06",
+      "title": "CITY CLERK",
+      "sections": 3
+    },
+    {
+      "guid": "44632635",
+      "number": "2.07",
+      "title": "PLANNING COMMISSION",
+      "sections": 2
+    },
+    {
+      "guid": "44632638",
+      "number": "2.10",
+      "title": "POLICE FORCE RESERVE",
+      "sections": 8
+    },
+    {
+      "guid": "44632652",
+      "number": "2.12",
+      "title": "MODEL CONFLICT OF INTEREST CODE",
+      "sections": 1
+    },
+    {
+      "guid": "44632654",
+      "number": "2.17",
+      "title": "INDUSTRIAL DEVELOPMENT AUTHORITY",
+      "sections": 3
+    },
+    {
+      "guid": "44632660",
+      "number": "2.18",
+      "title": "CITY TREASURER",
+      "sections": 3
+    },
+    {
+      "guid": "44632664",
+      "number": "2.19",
+      "title": "RESTRICTIONS ON LOBBYING BY FORMER CITY OFFICIALS",
+      "sections": 5
+    },
+    {
+      "guid": "44632678",
+      "number": "2.20",
+      "title": "AUTHORIZATION TO IMPLEMENT A COMMUNITY CHOICE AGGREGATION PROGRAM",
+      "sections": 1
+    },
+    {
+      "guid": "44632689",
+      "number": "3.01",
+      "title": "IN GENERAL",
+      "sections": 8
+    },
+    {
+      "guid": "44632704",
+      "number": "3.02",
+      "title": "ADJACENT TO FREEWAYS",
+      "sections": 4
+    },
+    {
+      "guid": "44632834",
+      "number": "4.01",
+      "title": "IN GENERAL",
+      "sections": 10
+    },
+    {
+      "guid": "44632901",
+      "number": "5.01",
+      "title": "IN GENERAL",
+      "sections": 5
+    },
+    {
+      "guid": "44632912",
+      "number": "5.02",
+      "title": "VICIOUS ANIMALS",
+      "sections": 1
+    },
+    {
+      "guid": "44632914",
+      "number": "5.03",
+      "title": "PROTECTION OF ANIMALS IN MOTOR VEHICLES",
+      "sections": 1
+    },
+    {
+      "guid": "44632919",
+      "number": "5.04",
+      "title": "DOGS",
+      "sections": 5
+    },
+    {
+      "guid": "44632947",
+      "number": "6.01",
+      "title": "IN GENERAL",
+      "sections": 4
+    },
+    {
+      "guid": "44632954",
+      "number": "6.02",
+      "title": "OPERATION GENERALLY",
+      "sections": 7
+    },
+    {
+      "guid": "44632973",
+      "number": "6.03",
+      "title": "BICYCLE PATHS AND LANES",
+      "sections": 4
+    },
+    {
+      "guid": "44632987",
+      "number": "6.04",
+      "title": "BICYCLE TRAFFIC CONTROL SIGNALS",
+      "sections": 5
+    },
+    {
+      "guid": "44633004",
+      "number": "6.05",
+      "title": "BICYCLE- AND SCOOTER-SHARING BUSINESSES AND REGULATIONS",
+      "sections": 17
+    },
+    {
+      "guid": "44634303",
+      "number": "7.01",
+      "title": "IN GENERAL",
+      "sections": 17
+    },
+    {
+      "guid": "44634338",
+      "number": "8.01",
+      "title": "IN GENERAL",
+      "sections": 17
+    },
+    {
+      "guid": "44634422",
+      "number": "8.03",
+      "title": "FLOOD PREVENTION STANDARDS: AUTHORIZATION, PURPOSE AND METHODS",
+      "sections": 4
+    },
+    {
+      "guid": "44634442",
+      "number": "8.04",
+      "title": "FLOOD PREVENTION DEFINITIONS",
+      "sections": 32
+    },
+    {
+      "guid": "44634484",
+      "number": "8.05",
+      "title": "FLOOD PREVENTION GENERAL PROVISIONS",
+      "sections": 6
+    },
+    {
+      "guid": "44634494",
+      "number": "8.06",
+      "title": "FLOOD PREVENTION ADMINISTRATION",
+      "sections": 3
+    },
+    {
+      "guid": "44634520",
+      "number": "8.07",
+      "title": "PROVISIONS FOR FLOOD HAZARD REDUCTION",
+      "sections": 5
+    },
+    {
+      "guid": "44634554",
+      "number": "8.08",
+      "title": "FLOOD PREVENTION STANDARDS VARIANCE PROCEDURE",
+      "sections": 2
+    },
+    {
+      "guid": "44634582",
+      "number": "8.10",
+      "title": "RESALE OF PROPERTY",
+      "sections": 19
+    },
+    {
+      "guid": "44634621",
+      "number": "8.14",
+      "title": "MINIMUM SECURITY BUILDING STANDARDS",
+      "sections": 22
+    },
+    {
+      "guid": "44634771",
+      "number": "8.17",
+      "title": "OUTDOOR LIGHTING CONTROL",
+      "sections": 11
+    },
+    {
+      "guid": "44634851",
+      "number": "8.18",
+      "title": "PROHIBITING DISKING, TILLING OR GRADING",
+      "sections": 6
+    },
+    {
+      "guid": "44634893",
+      "number": "8.19",
+      "title": "DEMOLITION",
+      "sections": 7
+    },
+    {
+      "guid": "44634926",
+      "number": "8.20",
+      "title": "RENEWABLE ENERGY",
+      "sections": 7
+    },
+    {
+      "guid": "44634968",
+      "number": "8.21",
+      "title": "SMALL RESIDENTIAL ROOFTOP SOLAR ENERGY SYSTEM REVIEW PROCESS",
+      "sections": 5
+    },
+    {
+      "guid": "44634984",
+      "number": "8.22",
+      "title": "EMERGENCY AND HAZARD PLACARD POSTING",
+      "sections": 5
+    },
+    {
+      "guid": "44634995",
+      "number": "8.23",
+      "title": "ELECTRIC VEHICLE CHARGING STATIONS REVIEW PROCESS",
+      "sections": 7
+    },
+    {
+      "guid": "44635047",
+      "number": "8A.01",
+      "title": "IN GENERAL",
+      "sections": 19
+    },
+    {
+      "guid": "44635109",
+      "number": "8B.01",
+      "title": "IN GENERAL",
+      "sections": 30
+    },
+    {
+      "guid": "44635154",
+      "number": "8B.02",
+      "title": "GENERAL PROVISIONS",
+      "sections": 37
+    },
+    {
+      "guid": "44635268",
+      "number": "8B.03",
+      "title": "SPECIAL RULES APPLICABLE TO CABLE SYSTEMS",
+      "sections": 15
+    },
+    {
+      "guid": "44635321",
+      "number": "8B.04",
+      "title": "OPEN VIDEO SYSTEMS",
+      "sections": 10
+    },
+    {
+      "guid": "44635365",
+      "number": "8B.05",
+      "title": "CUSTOMER SERVICE STANDARDS",
+      "sections": 28
+    },
+    {
+      "guid": "44635458",
+      "number": "8B.06",
+      "title": "MISCELLANEOUS",
+      "sections": 4
+    },
+    {
+      "guid": "44635467",
+      "number": "8B.07",
+      "title": "STATE VIDEO FRANCHISES",
+      "sections": 5
+    },
+    {
+      "guid": "44635495",
+      "number": "9.01",
+      "title": "IN GENERAL",
+      "sections": 10
+    },
+    {
+      "guid": "44635531",
+      "number": "10.01",
+      "title": "GENERAL PROVISIONS",
+      "sections": 4
+    },
+    {
+      "guid": "44635577",
+      "number": "10.02",
+      "title": "EMPLOYMENT",
+      "sections": 3
+    },
+    {
+      "guid": "44635589",
+      "number": "10.03",
+      "title": "BUSINESS ESTABLISHMENTS",
+      "sections": 1
+    },
+    {
+      "guid": "44635594",
+      "number": "10.04",
+      "title": "REAL ESTATE TRANSACTIONS",
+      "sections": 2
+    },
+    {
+      "guid": "44635613",
+      "number": "10.05",
+      "title": "REMEDIES, GENERAL EXEMPTIONS",
+      "sections": 7
+    },
+    {
+      "guid": "44635666",
+      "number": "11.01",
+      "title": "ENTERTAINMENT PERMITS",
+      "sections": 4
+    },
+    {
+      "guid": "44635722",
+      "number": "11.02",
+      "title": "OPERATION OF ENTERTAINMENT ESTABLISHMENTS",
+      "sections": 10
+    },
+    {
+      "guid": "44635737",
+      "number": "11.03",
+      "title": "ISSUANCE, RENEWAL, SUSPENSION, MODIFICATION AND REVOCATION OF PERMITS",
+      "sections": 13
+    },
+    {
+      "guid": "44635862",
+      "number": "11.04",
+      "title": "PENALTIES FOR VIOLATION",
+      "sections": 3
+    },
+    {
+      "guid": "44635872",
+      "number": "12.01",
+      "title": "IN GENERAL",
+      "sections": 5
+    },
+    {
+      "guid": "44635884",
+      "number": "12.02",
+      "title": "ELECTION CAMPAIGNS",
+      "sections": 3
+    },
+    {
+      "guid": "44635930",
+      "number": "13.01",
+      "title": "ADOPTION OF CALIFORNIA FIRE CODE",
+      "sections": 7
+    },
+    {
+      "guid": "44635977",
+      "number": "13.02",
+      "title": "FIREWORKS",
+      "sections": 3
+    },
+    {
+      "guid": "44635981",
+      "number": "13.03",
+      "title": "OPEN CAMPFIRES",
+      "sections": 5
+    },
+    {
+      "guid": "44636031",
+      "number": "13A.01",
+      "title": "CEQA IMPLEMENTING REGULATIONS",
+      "sections": 13
+    },
+    {
+      "guid": "44636092",
+      "number": "14.01",
+      "title": "IN GENERAL",
+      "sections": 7
+    },
+    {
+      "guid": "44636169",
+      "number": "15.01",
+      "title": "IN GENERAL",
+      "sections": 9
+    },
+    {
+      "guid": "44636181",
+      "number": "15.02",
+      "title": "PURCHASES",
+      "sections": 13
+    },
+    {
+      "guid": "44636253",
+      "number": "15.03",
+      "title": "SALES AND USE TAX",
+      "sections": 20
+    },
+    {
+      "guid": "44636298",
+      "number": "15.04",
+      "title": "REAL PROPERTY TRANSFER TAX",
+      "sections": 14
+    },
+    {
+      "guid": "44636329",
+      "number": "15.05",
+      "title": "TRANSIENT OCCUPANCY TAX",
+      "sections": 13
+    },
+    {
+      "guid": "44636366",
+      "number": "15.06",
+      "title": "ART IN PUBLIC WORKS FUND ALLOCATION",
+      "sections": 5
+    },
+    {
+      "guid": "44636385",
+      "number": "15.07",
+      "title": "CONSTRUCTION TAX",
+      "sections": 8
+    },
+    {
+      "guid": "44636409",
+      "number": "15.08",
+      "title": "PUBLIC SAFETY CHARGES",
+      "sections": 5
+    },
+    {
+      "guid": "44636415",
+      "number": "15.09",
+      "title": "MUNICIPAL SERVICE TAX",
+      "sections": 4
+    },
+    {
+      "guid": "44636422",
+      "number": "15.10",
+      "title": "BUSINESS IMPROVEMENT DISTRICT",
+      "sections": 14
+    },
+    {
+      "guid": "44636470",
+      "number": "15.11",
+      "title": "INFORMAL BIDDING FOR PUBLIC PROJECTS",
+      "sections": 7
+    },
+    {
+      "guid": "44636498",
+      "number": "15.12",
+      "title": "MAJOR PROJECTS FINANCING FEE",
+      "sections": 5
+    },
+    {
+      "guid": "44636508",
+      "number": "15.13",
+      "title": "SPECIAL TAX AND ASSESSMENT DISTRICT LIEN DISCLOSURE",
+      "sections": 3
+    },
+    {
+      "guid": "44636520",
+      "number": "15.14",
+      "title": "PARK MAINTENANCE TAX",
+      "sections": 12
+    },
+    {
+      "guid": "44636566",
+      "number": "15.15",
+      "title": "SCHOOL MITIGATION FEE",
+      "sections": 11
+    },
+    {
+      "guid": "44636598",
+      "number": "15.16",
+      "title": "LOW INCOME REFUND PROGRAM FOR CITY SPECIAL TAXES",
+      "sections": 5
+    },
+    {
+      "guid": "44636622",
+      "number": "15.17",
+      "title": "OPEN SPACE PROTECTION TAX",
+      "sections": 10
+    },
+    {
+      "guid": "44636671",
+      "number": "15.18",
+      "title": "DAVIS VISITOR ATTRACTION DISTRICT",
+      "sections": 13
+    },
+    {
+      "guid": "44636700",
+      "number": "15.19",
+      "title": "TRANSACTIONS AND USE TAX",
+      "sections": 15
+    },
+    {
+      "guid": "44636747",
+      "number": "15.20",
+      "title": "LIVING WAGE",
+      "sections": 13
+    },
+    {
+      "guid": "44636861",
+      "number": "18.01",
+      "title": "IN GENERAL",
+      "sections": 12
+    },
+    {
+      "guid": "44636967",
+      "number": "18.02",
+      "title": "LANDLORD-TENANT RELATIONS",
+      "sections": 3
+    },
+    {
+      "guid": "44636978",
+      "number": "18.03",
+      "title": "DISCRIMINATION AGAINST FAMILIES PROHIBITED",
+      "sections": 6
+    },
+    {
+      "guid": "44637012",
+      "number": "18.04",
+      "title": "OWNER-OCCUPANCY",
+      "sections": 9
+    },
+    {
+      "guid": "44637100",
+      "number": "18.05",
+      "title": "AFFORDABLE HOUSING",
+      "sections": 8
+    },
+    {
+      "guid": "44637241",
+      "number": "18.06",
+      "title": "MIDDLE INCOME HOUSING",
+      "sections": 9
+    },
+    {
+      "guid": "44637337",
+      "number": "18.07",
+      "title": "INCENTIVE SYSTEM FOR THE LOCAL WORKFORCE",
+      "sections": 5
+    },
+    {
+      "guid": "44637383",
+      "number": "18.08",
+      "title": "FAIR HOUSING LAWS—REASONABLE ACCOMMODATION",
+      "sections": 10
+    },
+    {
+      "guid": "44637442",
+      "number": "18.09",
+      "title": "UNIVERSAL DESIGN CHECKLIST",
+      "sections": 9
+    },
+    {
+      "guid": "44637563",
+      "number": "18.10",
+      "title": "UNIVERSAL ACCESS",
+      "sections": 5
+    },
+    {
+      "guid": "44637596",
+      "number": "18.11",
+      "title": "RESIDENTIAL RENTAL DWELLING UNITS—REGISTRATION AND INSPECTION",
+      "sections": 14
+    },
+    {
+      "guid": "44637763",
+      "number": "18.12",
+      "title": "PROCEDURES AND STANDARDS FOR MOBILE HOME PARK CLOSURES AND CONVERSIONS",
+      "sections": 13
+    },
+    {
+      "guid": "44637905",
+      "number": "19.01",
+      "title": "IN GENERAL",
+      "sections": 6
+    },
+    {
+      "guid": "44637932",
+      "number": "19.02",
+      "title": "GENERAL LICENSE REQUIREMENTS AND REGULATIONS",
+      "sections": 16
+    },
+    {
+      "guid": "44637971",
+      "number": "19.03",
+      "title": "ISSUANCE",
+      "sections": 7
+    },
+    {
+      "guid": "44637981",
+      "number": "19.04",
+      "title": "LICENSE TAXES",
+      "sections": 10
+    },
+    {
+      "guid": "44638059",
+      "number": "19.05",
+      "title": "ENFORCEMENT",
+      "sections": 7
+    },
+    {
+      "guid": "44638101",
+      "number": "20.01",
+      "title": "IN GENERAL",
+      "sections": 8
+    },
+    {
+      "guid": "44638117",
+      "number": "21.01",
+      "title": "GENERAL PROVISIONS",
+      "sections": 10
+    },
+    {
+      "guid": "44638158",
+      "number": "21.02",
+      "title": "NOTICE AND APPEAL PROCESS FOR CANNABIS BUSINESS PERMITS",
+      "sections": 4
+    },
+    {
+      "guid": "44638197",
+      "number": "21.03",
+      "title": "CANNABIS MANUFACTURING, LABORATORIES, RESEARCH AND DISTRIBUTION BUSINESSES",
+      "sections": 21
+    },
+    {
+      "guid": "44638316",
+      "number": "21.04",
+      "title": "RETAIL CANNABIS BUSINESSES",
+      "sections": 17
+    },
+    {
+      "guid": "44638447",
+      "number": "21.05",
+      "title": "CANNABIS DELIVERY SERVICES ORIGINATING OUTSIDE OF THE CITY",
+      "sections": 12
+    },
+    {
+      "guid": "44638524",
+      "number": "22.01",
+      "title": "IN GENERAL",
+      "sections": 14
+    },
+    {
+      "guid": "44638576",
+      "number": "22.02",
+      "title": "CITY TRAFFIC ENGINEER",
+      "sections": 2
+    },
+    {
+      "guid": "44638579",
+      "number": "22.04",
+      "title": "OPERATION OF VEHICLES",
+      "sections": 14
+    },
+    {
+      "guid": "44638616",
+      "number": "22.05",
+      "title": "TURNING AND BACKING MOVEMENTS",
+      "sections": 3
+    },
+    {
+      "guid": "44638624",
+      "number": "22.06",
+      "title": "TRAFFIC-CONTROL DEVICES",
+      "sections": 8
+    },
+    {
+      "guid": "44638638",
+      "number": "22.07",
+      "title": "SPECIAL STOPS",
+      "sections": 7
+    },
+    {
+      "guid": "44638648",
+      "number": "22.08",
+      "title": "STOPPING, STANDING AND PARKING",
+      "sections": 66
+    },
+    {
+      "guid": "44638775",
+      "number": "22.09",
+      "title": "LOADING ZONES",
+      "sections": 6
+    },
+    {
+      "guid": "44638795",
+      "number": "22.10",
+      "title": "PEDESTRIANS",
+      "sections": 4
+    },
+    {
+      "guid": "44638803",
+      "number": "22.11",
+      "title": "PARKING PERMITS FOR PERSONS WITH IMPAIRED MOBILITY",
+      "sections": 8
+    },
+    {
+      "guid": "44638822",
+      "number": "22.12",
+      "title": "PREFERENTIAL PARKING",
+      "sections": 16
+    },
+    {
+      "guid": "44638887",
+      "number": "22.13",
+      "title": "MOTORCYCLES AND MOTOR-DRIVEN CYCLES",
+      "sections": 8
+    },
+    {
+      "guid": "44638928",
+      "number": "22.14",
+      "title": "INTERSTATE TRUCK TERMINALS AND ACCESS",
+      "sections": 6
+    },
+    {
+      "guid": "44638947",
+      "number": "22.15",
+      "title": "TRANSPORTATION SYSTEMS MANAGEMENT REQUIREMENTS",
+      "sections": 8
+    },
+    {
+      "guid": "44639057",
+      "number": "22.16",
+      "title": "ELECTRIC VEHICLES AND CAR SHARE VEHICLES",
+      "sections": 10
+    },
+    {
+      "guid": "44639087",
+      "number": "22.17",
+      "title": "BIKEBUS PEDICABS",
+      "sections": 16
+    },
+    {
+      "guid": "44639213",
+      "number": "22.18",
+      "title": "(RESERVED)",
+      "sections": 0
+    },
+    {
+      "guid": "44639229",
+      "number": "23.01",
+      "title": "NUISANCES",
+      "sections": 4
+    },
+    {
+      "guid": "44639273",
+      "number": "23.02",
+      "title": "ENFORCEMENT",
+      "sections": 7
+    },
+    {
+      "guid": "44639292",
+      "number": "23.03",
+      "title": "SUMMARY ABATEMENT",
+      "sections": 1
+    },
+    {
+      "guid": "44639298",
+      "number": "23.04",
+      "title": "ADMINISTRATIVE ABATEMENT",
+      "sections": 6
+    },
+    {
+      "guid": "44639369",
+      "number": "23.05",
+      "title": "ENFORCEMENT OF HEARING OFFICER ORDER",
+      "sections": 6
+    },
+    {
+      "guid": "44639383",
+      "number": "23.06",
+      "title": "ADDITIONAL PROVISIONS GOVERNING ABATEMENT OF VEHICLES",
+      "sections": 15
+    },
+    {
+      "guid": "44639404",
+      "number": "24.01",
+      "title": "GENERAL PROVISIONS",
+      "sections": 4
+    },
+    {
+      "guid": "44639430",
+      "number": "24.02",
+      "title": "GENERAL RESTRICTIONS",
+      "sections": 4
+    },
+    {
+      "guid": "44639452",
+      "number": "24.03",
+      "title": "MOTOR VEHICLES",
+      "sections": 1
+    },
+    {
+      "guid": "44639454",
+      "number": "24.04",
+      "title": "AMPLIFIED SOUND",
+      "sections": 7
+    },
+    {
+      "guid": "44639504",
+      "number": "24.05",
+      "title": "GENERAL NOISE REGULATIONS",
+      "sections": 1
+    },
+    {
+      "guid": "44639515",
+      "number": "24.06",
+      "title": "VARIANCES AND EXCEPTIONS",
+      "sections": 1
+    },
+    {
+      "guid": "44639517",
+      "number": "24.07",
+      "title": "REGULATIONS NOT EXCLUSIVE",
+      "sections": 1
+    },
+    {
+      "guid": "44639521",
+      "number": "25.01",
+      "title": "GRAFFITI",
+      "sections": 4
+    },
+    {
+      "guid": "44639539",
+      "number": "25.02",
+      "title": "PUNISHMENT",
+      "sections": 2
+    },
+    {
+      "guid": "44639542",
+      "number": "25.03",
+      "title": "REMOVAL AND ABATEMENT",
+      "sections": 7
+    },
+    {
+      "guid": "44639568",
+      "number": "25.04",
+      "title": "MISCELLANEOUS",
+      "sections": 1
+    },
+    {
+      "guid": "44639571",
+      "number": "26.01",
+      "title": "IN GENERAL",
+      "sections": 8
+    },
+    {
+      "guid": "44639593",
+      "number": "26.02",
+      "title": "WEAPONS",
+      "sections": 6
+    },
+    {
+      "guid": "44639601",
+      "number": "26.03",
+      "title": "LOITERING NEAR SCHOOLS",
+      "sections": 8
+    },
+    {
+      "guid": "44639624",
+      "number": "26.04",
+      "title": "OPEN CONTAINER",
+      "sections": 6
+    },
+    {
+      "guid": "44639653",
+      "number": "26.05",
+      "title": "SAFETY ENHANCEMENT ZONES",
+      "sections": 4
+    },
+    {
+      "guid": "44639668",
+      "number": "26.06",
+      "title": "AGGRESSIVE AND OBSTRUCTIVE CONDUCT AND UNATTENDED PERSONAL PROPERTY IN PUBLIC PLACES AND RIGHTS OF WAY",
+      "sections": 7
+    },
+    {
+      "guid": "44639712",
+      "number": "26.07",
+      "title": "SURVEILLANCE TECHNOLOGY",
+      "sections": 8
+    },
+    {
+      "guid": "44639795",
+      "number": "26.08",
+      "title": "SALES OF FIREARMS",
+      "sections": 19
+    },
+    {
+      "guid": "44639853",
+      "number": "26.09",
+      "title": "REGARDING THE SAFE STORAGE OF FIREARMS IN RESIDENCES AND VEHICLES",
+      "sections": 5
+    },
+    {
+      "guid": "44639879",
+      "number": "26.10",
+      "title": "UNLAWFUL POSSESSION OF CATALYTIC CONVERTERS",
+      "sections": 4
+    },
+    {
+      "guid": "44639901",
+      "number": "27.01",
+      "title": "IN GENERAL",
+      "sections": 2
+    },
+    {
+      "guid": "44639912",
+      "number": "27.02",
+      "title": "PARKS",
+      "sections": 20
+    },
+    {
+      "guid": "44639973",
+      "number": "27.03",
+      "title": "OPEN SPACE AREAS",
+      "sections": 23
+    },
+    {
+      "guid": "44646432",
+      "number": "28.01",
+      "title": "IN GENERAL",
+      "sections": 22
+    },
+    {
+      "guid": "44646473",
+      "number": "28.03",
+      "title": "(RESERVED)",
+      "sections": 0
+    },
+    {
+      "guid": "44646518",
+      "number": "29.01",
+      "title": "IN GENERAL",
+      "sections": 6
+    },
+    {
+      "guid": "44646538",
+      "number": "29.02",
+      "title": "FURNISHING OF SUMMARY CRIMINAL HISTORY INFORMATION TO AUTHORIZED PERSONS",
+      "sections": 3
+    },
+    {
+      "guid": "44646546",
+      "number": "30.01",
+      "title": "PURPOSE, DEFINITIONS, AND GENERAL PROVISIONS",
+      "sections": 4
+    },
+    {
+      "guid": "44646588",
+      "number": "30.02",
+      "title": "DISCHARGE PROHIBITIONS AND GENERAL REQUIREMENTS",
+      "sections": 10
+    },
+    {
+      "guid": "44646626",
+      "number": "30.03",
+      "title": "STORMWATER REQUIREMENTS AND REGULATIONS",
+      "sections": 4
+    },
+    {
+      "guid": "44646638",
+      "number": "30.04",
+      "title": "OPERATION AND MAINTENANCE OF STORMWATER CONTROL MEASURES",
+      "sections": 1
+    },
+    {
+      "guid": "44646640",
+      "number": "30.05",
+      "title": "INSPECTIONS AND SAMPLING",
+      "sections": 1
+    },
+    {
+      "guid": "44646645",
+      "number": "30.06",
+      "title": "VIOLATIONS, ENFORCEMENT, AND PENALTIES",
+      "sections": 5
+    },
+    {
+      "guid": "44646669",
+      "number": "30.07",
+      "title": "SEVERABILITY OF CHAPTER",
+      "sections": 1
+    },
+    {
+      "guid": "44646671",
+      "number": "30.08",
+      "title": "CHARGES FOR STORM DRAINAGE AND FLOOD CONTROL FACILITIES",
+      "sections": 13
+    },
+    {
+      "guid": "44646714",
+      "number": "32.01",
+      "title": "IN GENERAL",
+      "sections": 21
+    },
+    {
+      "guid": "44647015",
+      "number": "32.02",
+      "title": "REDEMPTION VALUE: WINE AND SPIRIT COOLER CONTAINERS",
+      "sections": 7
+    },
+    {
+      "guid": "44647050",
+      "number": "32.03",
+      "title": "ADEQUATE AREAS FOR COLLECTING RECYCLABLE MATERIALS AND ORGANIC WASTE",
+      "sections": 6
+    },
+    {
+      "guid": "44647077",
+      "number": "32.04",
+      "title": "DIVERSION OF CONSTRUCTION AND DEMOLITION DEBRIS",
+      "sections": 12
+    },
+    {
+      "guid": "44647131",
+      "number": "32.05",
+      "title": "DISPOSABLE BAG REDUCTION PROGRAM",
+      "sections": 6
+    },
+    {
+      "guid": "44647173",
+      "number": "32.06",
+      "title": "ENVIRONMENTALLY ACCEPTABLE FOOD PACKAGING",
+      "sections": 3
+    },
+    {
+      "guid": "44647201",
+      "number": "33.01",
+      "title": "IN GENERAL",
+      "sections": 3
+    },
+    {
+      "guid": "44647205",
+      "number": "33.02",
+      "title": "SEWER CONNECTIONS",
+      "sections": 6
+    },
+    {
+      "guid": "44647230",
+      "number": "33.03",
+      "title": "DISCHARGE REQUIREMENTS",
+      "sections": 60
+    },
+    {
+      "guid": "44647663",
+      "number": "33.04",
+      "title": "CHARGES FOR THE WASTEWATER UTILITY",
+      "sections": 14
+    },
+    {
+      "guid": "44647696",
+      "number": "33.06",
+      "title": "DISCHARGE OF HAULED LIQUID WASTE",
+      "sections": 7
+    },
+    {
+      "guid": "44647785",
+      "number": "34.01",
+      "title": "GENERAL PROVISIONS",
+      "sections": 3
+    },
+    {
+      "guid": "44647807",
+      "number": "34.02",
+      "title": "GENERAL RESTRICTIONS",
+      "sections": 8
+    },
+    {
+      "guid": "44647874",
+      "number": "34.03",
+      "title": "ENFORCEMENT",
+      "sections": 12
+    },
+    {
+      "guid": "44647890",
+      "number": "34.04",
+      "title": "SALE OF TOBACCO AND E-CIGARETTES; SALE OF TOBACCO AND E-CIGARETTES FROM VENDING MACHINES PROHIBITED",
+      "sections": 12
+    },
+    {
+      "guid": "44647908",
+      "number": "34.05",
+      "title": "SALE OF CIGARETTES, TOBACCO OR E-CIGARETTES; SELF-SERVICE SALES PROHIBITED",
+      "sections": 2
+    },
+    {
+      "guid": "44647911",
+      "number": "34.06",
+      "title": "TOBACCO RETAILER PERMIT",
+      "sections": 2
+    },
+    {
+      "guid": "44647985",
+      "number": "35.01",
+      "title": "IN GENERAL",
+      "sections": 6
+    },
+    {
+      "guid": "44648003",
+      "number": "35.02",
+      "title": "SIDEWALK, DRIVEWAY, CURB, ETC., CONSTRUCTION",
+      "sections": 9
+    },
+    {
+      "guid": "44648013",
+      "number": "35.03",
+      "title": "EXCAVATIONS",
+      "sections": 12
+    },
+    {
+      "guid": "44648028",
+      "number": "35.04",
+      "title": "PARADES",
+      "sections": 16
+    },
+    {
+      "guid": "44648076",
+      "number": "35.05",
+      "title": "STREET LIGHTING",
+      "sections": 4
+    },
+    {
+      "guid": "44648084",
+      "number": "35.06",
+      "title": "PICKETING OF PRIVATE RESIDENCES",
+      "sections": 2
+    },
+    {
+      "guid": "44648096",
+      "number": "35.07",
+      "title": "MORATORIUM ON EXCAVATIONS ON NEWLY IMPROVED STREETS",
+      "sections": 6
+    },
+    {
+      "guid": "44648117",
+      "number": "35.08",
+      "title": "STREET TRENCH CUT FEE",
+      "sections": 11
+    },
+    {
+      "guid": "44648156",
+      "number": "36.01",
+      "title": "GENERAL PROVISIONS",
+      "sections": 7
+    },
+    {
+      "guid": "44648177",
+      "number": "36.02",
+      "title": "DEFINITIONS AND RESPONSIBILITIES",
+      "sections": 2
+    },
+    {
+      "guid": "44648241",
+      "number": "36.03",
+      "title": "MAPS REQUIRED",
+      "sections": 3
+    },
+    {
+      "guid": "44648256",
+      "number": "36.04",
+      "title": "TENTATIVE SUBDIVISIONS MAPS—FIVE OR MORE PARCELS",
+      "sections": 13
+    },
+    {
+      "guid": "44648337",
+      "number": "36.05",
+      "title": "FINAL SUBDIVISION MAPS—FIVE OR MORE PARCELS",
+      "sections": 11
+    },
+    {
+      "guid": "44648379",
+      "number": "36.06",
+      "title": "SUBDIVISIONS OF FOUR OR LESS PARCELS",
+      "sections": 9
+    },
+    {
+      "guid": "44648402",
+      "number": "36.07",
+      "title": "VESTING TENTATIVE MAPS",
+      "sections": 10
+    },
+    {
+      "guid": "44648428",
+      "number": "36.08",
+      "title": "DEDICATIONS, RESERVATIONS AND DEVELOPMENT FEES",
+      "sections": 14
+    },
+    {
+      "guid": "44648552",
+      "number": "36.09",
+      "title": "IMPROVEMENTS",
+      "sections": 11
+    },
+    {
+      "guid": "44648666",
+      "number": "36.10",
+      "title": "REVERSIONS TO ACREAGE",
+      "sections": 6
+    },
+    {
+      "guid": "44648690",
+      "number": "36.11",
+      "title": "PARCEL MERGERS AND UNMERGERS",
+      "sections": 10
+    },
+    {
+      "guid": "44648721",
+      "number": "36.13",
+      "title": "CORRECTION AND AMENDMENT OF MAPS",
+      "sections": 4
+    },
+    {
+      "guid": "44648733",
+      "number": "36.14",
+      "title": "CONDOMINIUM CONVERSIONS",
+      "sections": 8
+    },
+    {
+      "guid": "44648852",
+      "number": "36.15",
+      "title": "ENFORCEMENT",
+      "sections": 6
+    },
+    {
+      "guid": "44649962",
+      "number": "37.01",
+      "title": "ADMINISTRATIVE PROVISIONS",
+      "sections": 3
+    },
+    {
+      "guid": "44650007",
+      "number": "37.02",
+      "title": "CITY TREES AND PRIVATE/PROTECTED TREES",
+      "sections": 8
+    },
+    {
+      "guid": "44650039",
+      "number": "37.03",
+      "title": "LANDMARK TREES AND TREES OF SIGNIFICANCE LOCATED ON CERTAIN PRIVATE PROPERTY",
+      "sections": 6
+    },
+    {
+      "guid": "44650086",
+      "number": "37.04",
+      "title": "PARKING LOT TREES",
+      "sections": 3
+    },
+    {
+      "guid": "44650090",
+      "number": "37.05",
+      "title": "PROTECTION OF TREES DURING NEW CONSTRUCTION",
+      "sections": 1
+    },
+    {
+      "guid": "44650095",
+      "number": "37.06",
+      "title": "VIOLATION OF CHAPTER AS PUBLIC NUISANCE",
+      "sections": 4
+    },
+    {
+      "guid": "44650111",
+      "number": "37.07",
+      "title": "TREE PERMIT APPEAL BOARD",
+      "sections": 5
+    },
+    {
+      "guid": "44650128",
+      "number": "38.01",
+      "title": "IN GENERAL",
+      "sections": 16
+    },
+    {
+      "guid": "44650161",
+      "number": "39.01",
+      "title": "IN GENERAL",
+      "sections": 1
+    },
+    {
+      "guid": "44650170",
+      "number": "39.02",
+      "title": "SERVICE, FACILITIES, ETC.",
+      "sections": 16
+    },
+    {
+      "guid": "44650261",
+      "number": "39.03",
+      "title": "RATES AND CHARGES",
+      "sections": 29
+    },
+    {
+      "guid": "44650326",
+      "number": "39.04",
+      "title": "CROSS-CONNECTION CONTROL",
+      "sections": 6
+    },
+    {
+      "guid": "44650410",
+      "number": "39.05",
+      "title": "GROUNDWATER WELLS",
+      "sections": 18
+    },
+    {
+      "guid": "44650505",
+      "number": "39.06",
+      "title": "GROUNDWATER EXTRACTION AND EXPORTATION.",
+      "sections": 2
+    },
+    {
+      "guid": "44650508",
+      "number": "39.10",
+      "title": "PARTICIPATION IN THE DAVIS WOODLAND SURFACE WATER SUPPLY PROJECT",
+      "sections": 3
+    },
+    {
+      "guid": "44650521",
+      "number": "40.01",
+      "title": "IN GENERAL",
+      "sections": 15
+    },
+    {
+      "guid": "44650786",
+      "number": "40.02",
+      "title": "AGRICULTURAL (A) DISTRICT",
+      "sections": 7
+    },
+    {
+      "guid": "44650824",
+      "number": "40.03",
+      "title": "RESIDENTIAL ONE-FAMILY (R-1) DISTRICT",
+      "sections": 8
+    },
+    {
+      "guid": "44650893",
+      "number": "40.04",
+      "title": "RESIDENTIAL ONE- AND TWO-FAMILY (R-2) DISTRICTS",
+      "sections": 7
+    },
+    {
+      "guid": "44650944",
+      "number": "40.04A",
+      "title": "RESIDENTIAL ONE- AND TWO-FAMILY CONSERVATION (R-2-CD) DISTRICT",
+      "sections": 10
+    },
+    {
+      "guid": "44651024",
+      "number": "40.05",
+      "title": "(RESERVED)",
+      "sections": 0
+    },
+    {
+      "guid": "44651079",
+      "number": "40.06",
+      "title": "RESIDENTIAL RESTRICTED (R-R) DISTRICT",
+      "sections": 7
+    },
+    {
+      "guid": "44651127",
+      "number": "40.07",
+      "title": "RESIDENTIAL ONE- AND TWO-FAMILY AND MOBILE HOME (R-2-MH) DISTRICT",
+      "sections": 5
+    },
+    {
+      "guid": "44651155",
+      "number": "40.08",
+      "title": "RESIDENTIAL GARDEN APARTMENT (R-3) DISTRICT",
+      "sections": 7
+    },
+    {
+      "guid": "44651214",
+      "number": "40.09",
+      "title": "RESIDENTIAL HIGH DENSITY APARTMENT (R-HD) DISTRICT",
+      "sections": 7
+    },
+    {
+      "guid": "44651269",
+      "number": "40.10",
+      "title": "RESIDENTIAL TRANSITIONAL (R-T) DISTRICT",
+      "sections": 7
+    },
+    {
+      "guid": "44651315",
+      "number": "40.11",
+      "title": "(RESERVED)",
+      "sections": 0
+    },
+    {
+      "guid": "44651376",
+      "number": "40.12",
+      "title": "COMMERCIAL NEIGHBORHOOD (C-N) COMBINING DISTRICT",
+      "sections": 8
+    },
+    {
+      "guid": "44651425",
+      "number": "40.13",
+      "title": "DOWNTOWN DAVIS ZONES",
+      "sections": 13
+    },
+    {
+      "guid": "44651467",
+      "number": "40.14",
+      "title": "SUPPLEMENTAL TO DOWNTOWN ZONES",
+      "sections": 12
+    },
+    {
+      "guid": "44651523",
+      "number": "40.15",
+      "title": "MIXED USE (M-U) DISTRICT",
+      "sections": 9
+    },
+    {
+      "guid": "44651597",
+      "number": "40.16",
+      "title": "AUTO CENTER (A-C) DISTRICT",
+      "sections": 8
+    },
+    {
+      "guid": "44651701",
+      "number": "40.17",
+      "title": "COMMERCIAL SERVICE (C-S) DISTRICT",
+      "sections": 7
+    },
+    {
+      "guid": "44651763",
+      "number": "40.18",
+      "title": "COMMERCIAL MIXED USE (CMU) DISTRICT",
+      "sections": 7
+    },
+    {
+      "guid": "44651822",
+      "number": "40.18A",
+      "title": "COMMUNITY RETAIL (C-R) ZONING DISTRICT",
+      "sections": 10
+    },
+    {
+      "guid": "44651864",
+      "number": "40.19",
+      "title": "INDUSTRIAL ADMINISTRATION AND RESEARCH (I-R) DISTRICT",
+      "sections": 7
+    },
+    {
+      "guid": "44651896",
+      "number": "40.20",
+      "title": "INDUSTRIAL (I) DISTRICT",
+      "sections": 7
+    },
+    {
+      "guid": "44651944",
+      "number": "40.20A",
+      "title": "PUBLIC-SEMIPUBLIC (P-SP) DISTRICT",
+      "sections": 7
+    },
+    {
+      "guid": "44651971",
+      "number": "40.21",
+      "title": "INTERIM STUDY (S) DISTRICT",
+      "sections": 6
+    },
+    {
+      "guid": "44651980",
+      "number": "40.22",
+      "title": "PLANNED DEVELOPMENT (P-D) DISTRICT",
+      "sections": 21
+    },
+    {
+      "guid": "44652051",
+      "number": "40.23",
+      "title": "HISTORICAL RESOURCES MANAGEMENT",
+      "sections": 21
+    },
+    {
+      "guid": "44652240",
+      "number": "40.24",
+      "title": "PERFORMANCE STANDARDS",
+      "sections": 12
+    },
+    {
+      "guid": "44652304",
+      "number": "40.25",
+      "title": "PARKING AND LOADING AREAS, PUBLIC GARAGES AND PARKING LOTS",
+      "sections": 6
+    },
+    {
+      "guid": "44652403",
+      "number": "40.25A",
+      "title": "BICYCLE PARKING STANDARDS",
+      "sections": 8
+    },
+    {
+      "guid": "44652438",
+      "number": "40.26",
+      "title": "SPECIAL USES",
+      "sections": 50
+    },
+    {
+      "guid": "44653098",
+      "number": "40.26A",
+      "title": "PERSONAL CULTIVATION OF CANNABIS",
+      "sections": 6
+    },
+    {
+      "guid": "44653135",
+      "number": "40.26B",
+      "title": "COMMERCIAL CANNABIS BUSINESSES",
+      "sections": 8
+    },
+    {
+      "guid": "44653210",
+      "number": "40.27",
+      "title": "EXCEPTIONS AND MODIFICATIONS",
+      "sections": 12
+    },
+    {
+      "guid": "44653265",
+      "number": "40.28",
+      "title": "NONCONFORMING USES AND STRUCTURES",
+      "sections": 12
+    },
+    {
+      "guid": "44653331",
+      "number": "40.29",
+      "title": "WIRELESS COMMUNICATION FACILITIES",
+      "sections": 22
+    },
+    {
+      "guid": "44653518",
+      "number": "40.30",
+      "title": "CONDITIONAL USE PERMITS",
+      "sections": 11
+    },
+    {
+      "guid": "44653534",
+      "number": "40.30A",
+      "title": "ADMINISTRATIVE USE PERMITS",
+      "sections": 10
+    },
+    {
+      "guid": "44653551",
+      "number": "40.30B",
+      "title": "TEMPORARY USES",
+      "sections": 8
+    },
+    {
+      "guid": "44653576",
+      "number": "40.31",
+      "title": "SITE PLAN AND ARCHITECTURAL APPROVAL",
+      "sections": 12
+    },
+    {
+      "guid": "44653629",
+      "number": "40.32",
+      "title": "PLANNED UNIT DEVELOPMENT APPROVAL",
+      "sections": 11
+    },
+    {
+      "guid": "44653668",
+      "number": "40.33",
+      "title": "VARIANCES",
+      "sections": 10
+    },
+    {
+      "guid": "44653683",
+      "number": "40.34",
+      "title": "PREZONING",
+      "sections": 5
+    },
+    {
+      "guid": "44653701",
+      "number": "40.35",
+      "title": "APPEALS TO CITY COUNCIL",
+      "sections": 10
+    },
+    {
+      "guid": "44653722",
+      "number": "40.36",
+      "title": "AMENDMENTS",
+      "sections": 9
+    },
+    {
+      "guid": "44653747",
+      "number": "40.37",
+      "title": "ENFORCEMENT",
+      "sections": 6
+    },
+    {
+      "guid": "44653756",
+      "number": "40.38",
+      "title": "SOLAR SHADE CONTROL",
+      "sections": 6
+    },
+    {
+      "guid": "44653763",
+      "number": "40.39",
+      "title": "ADMINISTRATIVE APPROVALS",
+      "sections": 5
+    },
+    {
+      "guid": "44653769",
+      "number": "40.40",
+      "title": "ALCOHOL SALES",
+      "sections": 6
+    },
+    {
+      "guid": "44653815",
+      "number": "40.42",
+      "title": "WATER EFFICIENT LANDSCAPING",
+      "sections": 22
+    },
+    {
+      "guid": "44663144",
+      "number": "40A.01",
+      "title": "RIGHT TO FARM",
+      "sections": 5
+    },
+    {
+      "guid": "44663170",
+      "number": "40A.02",
+      "title": "DISPUTE RESOLUTION",
+      "sections": 2
+    },
+    {
+      "guid": "44663180",
+      "number": "40A.03",
+      "title": "FARMLAND PRESERVATION",
+      "sections": 11
+    },
+    {
+      "guid": "44663271",
+      "number": "40A.04",
+      "title": "VIOLATION",
+      "sections": 1
+    },
+    {
+      "guid": "44663273",
+      "number": "40A.05",
+      "title": "PRECEDENCE",
+      "sections": 1
+    },
+    {
+      "guid": "44663276",
+      "number": "41.01",
+      "title": "CITIZENS' RIGHT TO VOTE ON FUTURE USE OF OPEN SPACE AND AGRICULTURAL LANDS",
+      "sections": 6
+    },
+    {
+      "guid": "44663335",
+      "number": "42.01",
+      "title": "YOLO HABITAT CONSERVATION PLAN/NATURAL COMMUNITIES CONSERVATION PLAN",
+      "sections": 10
+    },
+    {
+      "guid": "44663390",
+      "number": "OL",
+      "title": "Ordinance List and Disposition Table",
+      "sections": 1
+    },
+    {
+      "guid": "44663395",
+      "number": "SR",
+      "title": "Statutory References for California Cities",
+      "sections": 14
+    },
+    {
+      "guid": "44849665",
+      "number": "40.09A",
+      "title": "HIGH DENSITY RESIDENTIAL (HDR) OVERLAY DISTRICT",
+      "sections": 14
+    },
+    {
+      "guid": "44876432",
+      "number": "40.14A",
+      "title": "DOWNTOWN AND TRADITIONAL NEIGHBORHOOD OVERLAY DISTRICT (DTRN)",
+      "sections": 3
+    },
+    {
+      "guid": "45822018",
+      "number": "26.11",
+      "title": "CAMPING",
+      "sections": 7
+    },
+    {
+      "guid": "48305527",
+      "number": "36.12",
+      "title": "LOT LINE ADJUSTMENTS AND VOLUNTARY MERGERS",
+      "sections": 11
+    },
+    {
+      "guid": "50076686",
+      "number": "10.06",
+      "title": "INTERACTION WITH IMMIGRATION AUTHORITIES",
+      "sections": 5
+    },
+    {
+      "guid": "50076761",
+      "number": "26.12",
+      "title": "SAFE PARKING PROGRAM",
+      "sections": 8
+    },
+    {
+      "guid": "50471549",
+      "number": "35.09",
+      "title": "SIDEWALK MAINTENANCE, REPAIR",
+      "sections": 8
+    }
+  ],
+  "totalArticles": 290,
+  "totalSections": 2541,
+  "minSections": 0,
+  "medianSections": 7,
+  "maxSections": 66,
+  "emptyArticles": 4
+}

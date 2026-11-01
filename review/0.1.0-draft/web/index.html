@@ -1,0 +1,1495 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc 3.12.1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Daniel Ari Friedman" />
+  <meta name="description" content="Version 0.1.0 — review draft; not a published release" />
+  <title>Davis CA Intel: Source-Bound Civic Intelligence through Shared
+Methods and Reproducible Publication</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      color: light-dark(#1a1a1a, #fdfdfd);
+      background-color: #fdfdfd;
+      background-color: light-dark(#fdfdfd, #1a1a1a);
+      color-scheme: light dark;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        color-scheme: light only;
+      }
+      html, body, pre, code {
+        background-color: transparent;
+      }
+      body, a, a:visited, blockquote {
+        color: black;
+      }
+      pre, code {
+        padding: 0;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a, a:visited {
+      color: inherit;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid;
+      border-color: #e6e6e6;
+      border-color: light-dark(#e6e6e6, #4c4c4c);
+      color: #606060;
+      color: light-dark(#606060, #b6b6b6);
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid currentColor;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid currentColor;
+      border-bottom: 1px solid currentColor;
+    }
+    th {
+      border-top: 1px solid currentColor;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <script data-template-mathjax-config>
+window.MathJax = window.MathJax || {};
+window.MathJax.loader = Object.assign({}, window.MathJax.loader, {paths: {mathjax: "assets/mathjax-4.0.0/mathjax"}});
+window.MathJax.chtml = Object.assign({}, window.MathJax.chtml, {
+  fontURL: "assets/mathjax-4.0.0/newcm/chtml/woff2",
+  dynamicPrefix: "assets/mathjax-4.0.0/newcm/chtml/dynamic"
+});
+var templateMathOutput = window.MathJax.output || {};
+window.MathJax.output = Object.assign({}, templateMathOutput, {
+  displayOverflow: "linebreak",
+  linebreaks: Object.assign({}, templateMathOutput.linebreaks, {
+    inline: true,
+    width: "100%",
+    lineleading: 0.5
+  })
+});
+window.normalizeTemplateMathJaxAria = function () {
+  document.querySelectorAll("mjx-speech[aria-roledescription]").forEach(function (node) {
+    var roleDescription = node.getAttribute("aria-roledescription") || "";
+    if (/[-]/.test(roleDescription)) {
+      node.setAttribute("aria-roledescription", "mathematical expression");
+    }
+  });
+};
+window.MathJax.startup = Object.assign({}, window.MathJax.startup, {
+  ready: function () {
+    var measuredWidth = document.documentElement.clientWidth;
+    var reflowQueued = false;
+    window.MathJax.startup.defaultReady();
+    window.templateMathJaxReflowPromise = window.MathJax.startup.promise.then(
+      window.normalizeTemplateMathJaxAria
+    );
+    function reflowDisplayMath() {
+      if (reflowQueued || document.documentElement.clientWidth === measuredWidth) return;
+      reflowQueued = true;
+      window.templateMathJaxReflowPromise = window.templateMathJaxReflowPromise
+        .catch(function () { /* A later resize may retry a failed render. */ })
+        .then(async function () {
+          var width = document.documentElement.clientWidth;
+          try {
+            // MathJax 4 MathItem.STATE.METRICS = 110. The default RERENDER
+            // state retains old container metrics and cannot reflow on zoom.
+            await window.MathJax.startup.document.rerenderPromise(110);
+            window.normalizeTemplateMathJaxAria();
+            window.templateMathJaxReflowError = null;
+          } catch (error) {
+            window.templateMathJaxReflowError = String(error);
+            console.error("MathJax viewport reflow failed", error);
+            throw error;
+          } finally {
+            measuredWidth = width;
+            reflowQueued = false;
+          }
+        })
+        .then(reflowDisplayMath);
+      // Keep failure observable to callers without an unhandled rejection.
+      window.templateMathJaxReflowPromise.catch(function () {});
+    }
+    window.addEventListener("resize", reflowDisplayMath);
+    // Also cover a resize that happened during the initial asynchronous render.
+    window.templateMathJaxReflowPromise.then(reflowDisplayMath);
+  }
+});
+</script>
+<script defer=""
+  type="text/javascript" src="assets/mathjax-4.0.0/mathjax/tex-chtml.js" integrity="sha384-2BWc4dVaHADUocwKrUrK9u3iDwHxVMKXWEcoRmUkXYSFKhAsgVAYClu9ydNuo5Oz" crossorigin="anonymous"></script>
+
+<link data-template-favicon rel="icon" href="favicon.ico">
+
+<style>
+:root {
+  --brand-1: #5b6ee0;
+  --web-bg: #f8f8f8;
+  --web-surface: #ffffff;
+  --web-text: #2c3e50;
+  --web-border: #bdc3c7;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --brand-1: #7e8ce8;
+    --web-bg: #0f1420;
+    --web-surface: #161c2b;
+    --web-text: #e6eaf2;
+    --web-border: #2a3447;
+  }
+}
+.theorem-box {
+  border-left: 4px solid var(--brand-1);
+  background: var(--web-surface);
+  padding: 0.6em 1em;
+  margin: 1.1em 0;
+  border-radius: 0 4px 4px 0;
+}
+.theorem-box.definition { border-left-style: dashed; }
+.theorem-box > p:first-child { margin-top: 0; }
+.theorem-box > p:last-child { margin-bottom: 0; }
+.figure-long-description {
+  border: 1px solid var(--web-border);
+  border-radius: 4px;
+  margin-block: 0.75rem;
+  padding: 0.5rem 0.75rem;
+}
+.figure-long-description > summary { cursor: pointer; font-weight: 700; }
+.figure-long-description > p { max-width: 80ch; overflow-wrap: anywhere; }
+.figure-exact-values { max-width: 80ch; overflow-wrap: anywhere; }
+code { overflow-wrap: anywhere; word-break: break-word; }
+pre {
+  max-width: 100%;
+  overflow: visible;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+pre code { overflow-wrap: inherit; white-space: inherit; word-break: inherit; }
+div.sourceCode { max-width: 100%; overflow: visible; }
+pre.sourceCode { background: #2c3e50; color: #ecf0f1; }
+pre.sourceCode code,
+pre.sourceCode code span { color: inherit; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span {
+  display: block;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+mjx-container[display="true"] { max-width: 100%; overflow: visible; }
+.table-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scrollbar-gutter: stable;
+}
+.table-scroll:focus-visible {
+  outline: 3px solid var(--brand-1);
+  outline-offset: 3px;
+}
+.table-scroll > table { margin-block: 0; display: table; min-width: 100%; width: 100%; }
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-x: clip;
+}
+
+body {
+  font-family: 'Liberation Serif', 'Times New Roman', serif;
+  line-height: 1.6;
+  width: min(100%, 800px);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  color: #1a1a1a;
+  overflow-wrap: break-word;
+  overflow-x: hidden;
+  overflow-x: clip;
+}
+
+main,
+nav,
+section,
+article,
+figure,
+figcaption {
+  min-width: 0;
+}
+
+.skip-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 0.65rem 0.9rem;
+  transform: translateY(-120%);
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.skip-link:visited {
+  color: #ffffff;
+}
+
+.skip-link:focus,
+.skip-link:focus-visible {
+  transform: translateY(0);
+}
+
+@media (max-width: 600px) {
+  body {
+    width: 100%;
+    max-width: 100%;
+    padding: 16px;
+  }
+
+  figure img {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    width: 100%;
+    max-width: 100vw;
+    margin: 0 auto;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 5px;
+  overflow-wrap: anywhere;
+}
+
+code {
+  background-color: #ecf0f1;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-family: 'Liberation Mono', 'Courier New', monospace;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+pre {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 15px;
+  border-radius: 5px;
+  max-width: 100%;
+  overflow: visible;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+  overflow-wrap: inherit;
+  white-space: inherit;
+  word-break: inherit;
+}
+
+div.sourceCode {
+  max-width: 100%;
+  overflow: visible;
+}
+
+pre.sourceCode {
+  background: #2c3e50;
+  color: #ecf0f1;
+}
+
+pre.sourceCode code,
+pre.sourceCode code span {
+  color: inherit;
+}
+
+pre > code.sourceCode {
+  white-space: pre-wrap;
+}
+
+pre > code.sourceCode > span {
+  display: block;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.table-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scrollbar-gutter: stable;
+}
+
+.table-scroll:focus-visible {
+  outline: 3px solid #1f6f8b;
+  outline-offset: 3px;
+}
+
+.table-scroll > table {
+  margin-block: 0;
+  display: table;
+  min-width: 100%;
+  width: 100%;
+}
+
+figure {
+  max-width: 100%;
+  margin: 1.5rem 0;
+}
+
+th, td {
+  border: 1px solid #bdc3c7;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #1f6f8b;
+  color: white;
+}
+
+/* Preserve a complete inline-code header within the table's scroll region. */
+th code {
+  color: inherit;
+  background-color: transparent;
+  white-space: nowrap;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  margin: 20px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: #b91c1c;
+  text-decoration: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.14em;
+  overflow-wrap: anywhere;
+}
+
+a:visited {
+  color: #8f1d1d;
+}
+
+a:hover {
+  text-decoration-thickness: 0.14em;
+}
+
+a:focus-visible {
+  outline: 3px solid #1f6f8b;
+  outline-offset: 3px;
+}
+
+.toc {
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.toc a,
+#TOC a {
+  color: #b91c1c;
+  display: inline-block;
+  min-height: 28px;
+  line-height: 1.5;
+  padding-block: 2px;
+}
+
+.toc li,
+#TOC li {
+  margin-block: 1px;
+}
+
+.math {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.1em;
+}
+
+mjx-container[display="true"] {
+  display: block;
+  max-width: 100%;
+  overflow: visible;
+  padding-bottom: 0.25rem;
+}
+
+.figure {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.figure img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* A reading column keeps prose comfortable, but dense scientific figures need
+   a larger inspection surface.  The rendered image remains responsive and the
+   explicit link opens its source-resolution asset without changing the PDF. */
+.figure-full-size-link {
+  color: inherit;
+  display: block;
+  max-width: 100%;
+  text-align: center;
+}
+
+.figure-full-size-link img {
+  cursor: zoom-in;
+  margin-bottom: 0.45rem;
+}
+
+.figure-full-size-label {
+  color: #1f6f8b;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  text-decoration: underline;
+  text-underline-offset: 0.14em;
+}
+
+.figure-full-size-link:focus-visible {
+  outline: 3px solid #1f6f8b;
+  outline-offset: 4px;
+}
+
+@media (min-width: 1000px) {
+  /* Wide figure links stay within the viewport but extend beyond the prose
+     column. Do not clip their labels at the narrower body boundary. */
+  body {
+    overflow-x: visible;
+  }
+
+  .figure-full-size-link {
+    left: 50%;
+    max-width: none;
+    position: relative;
+    transform: translateX(-50%);
+    width: min(1080px, calc(100vw - 3rem));
+  }
+}
+
+.figure-caption {
+  font-style: italic;
+  color: #4b5563;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.figure-long-description,
+.figure-exact-values {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+</style>
+<script data-template-source-font-loader src="assets/source-web-fonts.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header id="title-block-header">
+<h1 class="title">Davis CA Intel: Source-Bound Civic Intelligence
+through Shared Methods and Reproducible Publication</h1>
+<p class="subtitle">Version 0.1.0 — review draft; not a published
+release</p>
+<p class="author">Daniel Ari Friedman</p>
+</header>
+
+<main id="main-content" tabindex="-1">
+<div id="paper-cover" class="paper-cover"><img src="assets/paper-cover.png" alt="Conceptual inland landscape with valley oaks, agricultural fields and a bicycle path beneath abstract linked documents; not a surveyed map." style="max-width:100%;height:auto" /></div>
+<div id="paper-frontmatter" class="paper-frontmatter">
+<div id="paper-frontmatter-1" class="paper-frontmatter-page">
+<h1 data-number="1" id="graphical-abstract"><span
+class="header-section-number">1</span> Graphical abstract</h1>
+<figure id="fig:graphical_abstract">
+<a class="figure-full-size-link" href="../figures/architecture.png" target="_blank" rel="noopener" aria-label="Open full-size Figure 1, Shared methods connect regional identity, an accepted source snapshot"><img src="../figures/architecture.png"
+alt="Figure 1: Shared methods connect regional identity, an accepted source snapshot and authored prose to pinned template rendering and a separately reviewed packet. This is an architecture diagram, not a measured civic outcome." /><span class="figure-full-size-label" aria-hidden="true">Open full-size figure</span></a>
+<figcaption>Figure 1: Shared methods connect regional
+identity, an accepted source snapshot and authored prose to pinned
+template rendering and a separately reviewed packet. This is an
+architecture diagram, not a measured civic outcome.</figcaption>
+</figure>
+</div>
+</div>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#graphical-abstract" id="toc-graphical-abstract"><span
+class="toc-section-number">1</span> Graphical abstract</a></li>
+<li><a href="#sec:abstract" id="toc-sec:abstract"><span
+class="toc-section-number">2</span> Abstract</a></li>
+<li><a href="#sec:introduction" id="toc-sec:introduction"><span
+class="toc-section-number">3</span> Introduction</a>
+<ul>
+<li><a href="#problem-and-scope" id="toc-problem-and-scope"><span
+class="toc-section-number">3.1</span> Problem and scope</a></li>
+<li><a href="#scholarship-and-design-commitments"
+id="toc-scholarship-and-design-commitments"><span
+class="toc-section-number">3.2</span> Scholarship and design
+commitments</a></li>
+</ul></li>
+<li><a href="#sec:methods" id="toc-sec:methods"><span
+class="toc-section-number">4</span> Methods</a>
+<ul>
+<li><a href="#deployment-identity-and-source-admission"
+id="toc-deployment-identity-and-source-admission"><span
+class="toc-section-number">4.1</span> Deployment identity and source
+admission</a></li>
+<li><a href="#descriptive-corpus-profile"
+id="toc-descriptive-corpus-profile"><span
+class="toc-section-number">4.2</span> Descriptive corpus
+profile</a></li>
+<li><a href="#evidence-projection-and-figure-production"
+id="toc-evidence-projection-and-figure-production"><span
+class="toc-section-number">4.3</span> Evidence projection and figure
+production</a></li>
+<li><a href="#template-backed-publication"
+id="toc-template-backed-publication"><span
+class="toc-section-number">4.4</span> Template-backed
+publication</a></li>
+</ul></li>
+<li><a href="#sec:results" id="toc-sec:results"><span
+class="toc-section-number">5</span> Results</a>
+<ul>
+<li><a href="#accepted-snapshot-and-configuration"
+id="toc-accepted-snapshot-and-configuration"><span
+class="toc-section-number">5.1</span> Accepted snapshot and
+configuration</a></li>
+<li><a href="#article-level-structure"
+id="toc-article-level-structure"><span
+class="toc-section-number">5.2</span> Article-level structure</a></li>
+<li><a href="#reusable-boundary-and-public-surfaces"
+id="toc-reusable-boundary-and-public-surfaces"><span
+class="toc-section-number">5.3</span> Reusable boundary and public
+surfaces</a></li>
+</ul></li>
+<li><a href="#sec:discussion" id="toc-sec:discussion"><span
+class="toc-section-number">6</span> Discussion</a>
+<ul>
+<li><a href="#what-this-case-establishes"
+id="toc-what-this-case-establishes"><span
+class="toc-section-number">6.1</span> What this case
+establishes</a></li>
+<li><a href="#portability-without-semantic-substitution"
+id="toc-portability-without-semantic-substitution"><span
+class="toc-section-number">6.2</span> Portability without semantic
+substitution</a></li>
+<li><a href="#research-agenda" id="toc-research-agenda"><span
+class="toc-section-number">6.3</span> Research agenda</a></li>
+</ul></li>
+<li><a href="#sec:limitations" id="toc-sec:limitations"><span
+class="toc-section-number">7</span> Limitations, Ethics, and Threats to
+Validity</a></li>
+<li><a href="#sec:reproducibility" id="toc-sec:reproducibility"><span
+class="toc-section-number">8</span> Reproducibility and Artifact
+Specification</a></li>
+<li><a href="#sec:conclusion" id="toc-sec:conclusion"><span
+class="toc-section-number">9</span> Conclusion</a></li>
+<li><a href="#sec:appendix" id="toc-sec:appendix"><span
+class="toc-section-number">10</span> Appendix: Formal Contracts and
+Worked Records</a>
+<ul>
+<li><a href="#data-statement" id="toc-data-statement"><span
+class="toc-section-number">10.1</span> Data statement</a></li>
+<li><a href="#constructed-arithmetic-control"
+id="toc-constructed-arithmetic-control"><span
+class="toc-section-number">10.2</span> Constructed arithmetic
+control</a></li>
+<li><a href="#candidate-bindings" id="toc-candidate-bindings"><span
+class="toc-section-number">10.3</span> Candidate bindings</a></li>
+</ul></li>
+<li><a href="#sec:references" id="toc-sec:references"><span
+class="toc-section-number">11</span> References</a></li>
+</ul>
+</nav>
+<div id="paper-body" class="paper-body">
+<h1 data-number="2" id="sec:abstract"><span
+class="header-section-number">2</span> Abstract</h1>
+<p>Regional civic information systems combine municipal texts, agency
+notices and time-sensitive observations, but software reuse can obscure
+which evidence and operating assumptions belong to a particular place.
+We present Davis CA Intel as a reproducible software-deployment and
+corpus-description case study. A thin regional repository selects
+identity, source policy and accepted public evidence, while Region Intel
+supplies shared acquisition, validation, search and manuscript methods.
+The recorded Davis municipal edition contains 290 article pages and 2541
+section records from eCode360 DA4922, verified at
+2026-10-31T03:39:57.381Z. We derive a complete article-level structural
+profile from that accepted snapshot and retain the exact numerical table
+behind the figures. Configuration declares 10 sources and 8 enabled
+monitors; these are not successful-collection counts. A pinned revision
+of docxology/template produces the cover, graphical abstract, PDF and
+offline HTML, with source, artwork, derived-data and rendering
+identities bound in the review packet. The contribution is an
+inspectable boundary between reusable computation, local evidence and
+publication presentation. No civic-impact experiment, human usability
+study, independent legal review or model-answer benchmark is
+reported.</p>
+<hr />
+<h1 data-number="3" id="sec:introduction"><span
+class="header-section-number">3</span> Introduction</h1>
+<h2 data-number="3.1" id="problem-and-scope"><span
+class="header-section-number">3.1</span> Problem and scope</h2>
+<p>A useful regional information system must answer two different
+questions: what its software can do, and what its retained evidence
+actually supports. A source adapter may be implemented without a current
+observation. A searchable municipal snapshot may be internally coherent
+without establishing that every provision remains current. A well-formed
+generated answer may still require substantive review. These
+distinctions become harder to maintain when a second locality inherits a
+first locality’s configuration, language and publication artifacts.</p>
+<p>This case study concerns Davis, California. Its unit of observation
+is the accepted DA4922 municipal-code record set and the deployment
+documents that select its operating policy. It examines whether shared
+software can preserve regional identity, reproduce a descriptive corpus
+profile and publish a manuscript whose numerical statements remain
+attributable to that record set. It does not estimate public benefit,
+legal completeness or hazard exposure. The original Crescent City
+application supplies compatibility history in the shared package; its
+empirical findings are not Davis observations.</p>
+<h2 data-number="3.2" id="scholarship-and-design-commitments"><span
+class="header-section-number">3.2</span> Scholarship and design
+commitments</h2>
+<p>Open-government data scholarship cautions against treating the act of
+opening data as a sufficient mechanism for realizing public value <span
+class="citation" data-cites="janssen2012">(<a href="#ref-janssen2012"
+role="doc-biblioref">Janssen et al. 2012</a>)</span>. For this project,
+the practical implication is a research boundary: accessible records and
+working interfaces are intermediate artifacts, whereas usefulness to
+residents requires separate empirical assessment.</p>
+<p>PROV-DM distinguishes entities, activities and responsible agents
+<span class="citation" data-cites="prov2013">(<a href="#ref-prov2013"
+role="doc-biblioref">World Wide Web Consortium 2013</a>)</span>. We use
+that distinction to separate a retained municipal edition, the
+transformations applied to it and the ownership of the resulting packet.
+Our receipts are a project-specific implementation of those concerns,
+not a claim of complete PROV serialization or formal conformance. The
+W3C’s Data on the Web Best Practices adds an operational emphasis on
+provenance, quality, version indicators and preservation <span
+class="citation" data-cites="dwbp2017">(<a href="#ref-dwbp2017"
+role="doc-biblioref">World Wide Web Consortium 2017</a>)</span>.</p>
+<p>Dataset documentation offers a complementary perspective. Datasheets
+describe motivation, composition, collection and intended uses <span
+class="citation" data-cites="gebru2021">(<a href="#ref-gebru2021"
+role="doc-biblioref">Gebru et al. 2021</a>)</span>; data statements make
+context and limits of generalization explicit <span class="citation"
+data-cites="bender2018">(<a href="#ref-bender2018"
+role="doc-biblioref">Bender and Friedman 2018</a>)</span>. The Davis
+claim ledger and data statement adapt those questions to a municipal
+text deployment. They do not convert administrative text into a
+representative sample of residents or describe a machine-learning
+training population.</p>
+<p>The manuscript makes three bounded contributions: an explicit
+shared/local ownership boundary; a reproducible, complete description of
+article-level section counts in the accepted snapshot; and a publication
+workflow that uses the external template’s actual rendering APIs while
+retaining input and output commitments. These are engineering and
+documentation contributions. Novel civic outcomes, legal interpretation
+and model capability are outside the reported evidence.</p>
+<hr />
+<h1 data-number="4" id="sec:methods"><span
+class="header-section-number">4</span> Methods</h1>
+<h2 data-number="4.1"
+id="deployment-identity-and-source-admission"><span
+class="header-section-number">4.1</span> Deployment identity and source
+admission</h2>
+<p>The versioned deployment document selects a civic profile, regional
+provider policy, output directory, accepted-seed directory, enabled
+monitors and source catalog. The loader rejects crossed profile
+identities before starting a producer. Davis uses municipality code
+DA4922. Configured zones, routes and watch bounds are operating
+parameters, not surveyed city boundaries. Generic acquisition, artifact
+contracts, search, rendering and algorithm tests belong to Region Intel.
+Davis owns its regional declarations, evidence and authored
+manuscript.</p>
+<p>Acquisition, when separately undertaken, uses a candidate root rather
+than overwriting accepted output. The accepted edition records article
+and section membership, local extraction/binding checks, a current
+table-of-contents comparison and a bounded deterministic live sample. A
+sample pass is not an all-page currentness claim. Source-marked reserved
+or repealed sections can remain legitimate retained records when the
+corresponding heading is present; an unmarked empty extraction is a
+different state. Failed or interrupted candidates retain their evidence
+instead of replacing the accepted edition.</p>
+<p>This paper reads the tracked accepted public seed. It does not rerun
+acquisition or substitute whichever live producer output is newest. Its
+verification clock therefore remains 2026-10-31T03:39:57.381Z through
+later figure generation and rendering. Raw acquisition diagnostics
+remain local; public commitments identify their recorded role without
+making omitted source files reconstructible from a hash.</p>
+<h2 data-number="4.2" id="descriptive-corpus-profile"><span
+class="header-section-number">4.2</span> Descriptive corpus profile</h2>
+<p>Let the accepted article-page set be <span
+class="math inline">\(A\)</span>, with <span
+class="math inline">\(n=|A|\)</span>, and let <span
+class="math inline">\(c_i\)</span> be the number of retained section
+objects in article page <span class="math inline">\(i\)</span>. The
+total section-record count is <span class="math inline">\(N=\sum_i
+c_i\)</span>. The shared profiler computes these quantities and the
+minimum, median and maximum of the complete vector of counts. Duplicate
+article identifiers or malformed article structure fail admission.</p>
+<p>The histogram includes every accepted article page, including a zero
+count if present. The companion horizontal bars display at most the
+twelve article pages with the largest counts; ties are resolved by
+article identifier and GUID. The exact CSV retains every row, so a
+reader can inspect the complete distribution rather than infer it from
+the selected bars. The histogram uses at most 25 equal-width bins,
+bounded by the observed range. No resampling, population inference,
+significance test or uncertainty interval is applied: these are
+descriptive properties of a finite retained snapshot.</p>
+<p>Counts describe publisher/extractor segmentation. They are not
+measures of policy importance, regulatory burden, textual difficulty or
+neighborhood experience. Article titles and numbers help a reader locate
+records; the analysis does not infer legal topics or assign normative
+weights.</p>
+<h2 data-number="4.3"
+id="evidence-projection-and-figure-production"><span
+class="header-section-number">4.3</span> Evidence projection and figure
+production</h2>
+<p>Required and optional seed members are captured through bounded,
+no-follow reads into a private snapshot before the existing publication
+validator parses them. Counts must agree with the accepted verification
+report. The manuscript also captures deployment/configuration bytes, the
+immutable shared dependency and frozen lock, bibliography, claim ledger,
+numbered sources and cover image. The effective selected configuration
+participates even when a caller explicitly selects an alternative
+deployment document.</p>
+<p>A composite renderer fingerprint binds the shared input, projection,
+membership, template-adapter and figure-generation modules, together
+with the pinned template asset inventory. Evidence tokens hydrate prose
+from those captured inputs. Matplotlib produces the measured corpus plot
+and two explicitly conceptual method diagrams as PNG, PDF and SVG. The
+CSV and profile JSON remain available alongside them. The cover is an
+AI-generated editorial illustration; it is not a map, observation or
+analytical figure.</p>
+<h2 data-number="4.4" id="template-backed-publication"><span
+class="header-section-number">4.4</span> Template-backed
+publication</h2>
+<p>The native backend is docxology/template at revision
+c18dae54a07fe6ac3a7b1a1a274251c169a12e7a. The shared adapter verifies
+the checkout’s identity, commit and tracked cleanliness and verifies
+that the imported rendering module belongs to that checkout. It calls
+the actual combined PDF and HTML RenderManager APIs. The template
+supplies title/cover composition, graphical front matter, typography,
+citations and offline reader assets. Direct Pandoc invocation is not an
+alternative regional backend.</p>
+<p>Native work occurs in a fresh ignored namespace under the selected
+template checkout because its offline asset writer confines outputs to
+that root. The adapter copies only declared publication members to the
+regional staging directory. The template source remains unchanged.
+Source inputs are checked again before recoverable promotion; failed
+staging and the previous complete edition remain available. Rendering
+behavior follows reproducibility principles that connect reported
+results to the code and data that produced them <span class="citation"
+data-cites="sandve2013">(<a href="#ref-sandve2013"
+role="doc-biblioref">Sandve et al. 2013</a>)</span>, while making the
+rendering toolchain an explicit dependency.</p>
+<hr />
+<h1 data-number="5" id="sec:results"><span
+class="header-section-number">5</span> Results</h1>
+<h2 data-number="5.1" id="accepted-snapshot-and-configuration"><span
+class="header-section-number">5.1</span> Accepted snapshot and
+configuration</h2>
+<p>The accepted Davis edition contains 290 article pages and 2541
+section records. These counts refer to the retained DA4922 edition and
+its verification timestamp, not a new collection conducted for this
+manuscript.</p>
+<div class="table-scroll" role="region" tabindex="0" aria-label="Scrollable data table"><table data-responsive-table="true">
+<thead>
+<tr>
+<th>Recorded item</th>
+<th style="text-align: right;">Value</th>
+<th>Interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Municipality code</td>
+<td style="text-align: right;">DA4922</td>
+<td>Source identity</td>
+</tr>
+<tr>
+<td>Article pages</td>
+<td style="text-align: right;">290</td>
+<td>Accepted publisher/extractor article units</td>
+</tr>
+<tr>
+<td>Section records</td>
+<td style="text-align: right;">2541</td>
+<td>Retained section objects in those articles</td>
+</tr>
+<tr>
+<td>Declared sources</td>
+<td style="text-align: right;">10</td>
+<td>Configured catalog entries</td>
+</tr>
+<tr>
+<td>Enabled monitors</td>
+<td style="text-align: right;">8</td>
+<td>Selected adapter policy</td>
+</tr>
+</tbody>
+</table></div>
+<p>These rows have different denominators. A configured monitor is not
+an observation, and the source catalog does not enumerate the city’s
+complete information environment. Davis selects inland operating policy;
+unused coastal fields retained for compatibility do not establish
+coastal coverage in Davis.</p>
+<h2 data-number="5.2" id="article-level-structure"><span
+class="header-section-number">5.2</span> Article-level structure</h2>
+<p>Across all 290 article pages, the median is 7 section records per
+page, with a minimum of 0, maximum of 66 and 4 zero-section article
+pages. All values are injected from the shared profile of the accepted
+seed.</p>
+<figure id="fig:corpus_profile">
+<a class="figure-full-size-link" href="../figures/corpus-profile.png" target="_blank" rel="noopener" aria-label="Open full-size Figure 2, Article-level section counts in the accepted Davis edition."><img src="../figures/corpus-profile.png"
+alt="Figure 2: Article-level section counts in the accepted Davis edition. Panel A includes every article page and marks the median; Panel B shows the twelve largest article pages, ordered deterministically. Counts measure retained source structure, not legal importance or civic burden. The complete numerical fallback is article-sections.csv." /><span class="figure-full-size-label" aria-hidden="true">Open full-size figure</span></a>
+<figcaption>Figure 2: Article-level section counts in
+the accepted Davis edition. Panel A includes every article page and
+marks the median; Panel B shows the twelve largest article pages,
+ordered deterministically. Counts measure retained source structure, not
+legal importance or civic burden. The complete numerical fallback is
+article-sections.csv.</figcaption>
+</figure>
+<p>The distribution in fig. <a href="#fig:corpus_profile">2</a> makes
+the within-edition segmentation visible without claiming that larger
+article pages are more important. The associated CSV contains GUID,
+article identifier, title and section count for every page. The
+aggregate is reconciled against the same accepted article and section
+denominators used in the manuscript. No population statistic about Davis
+residents is derived from this distribution.</p>
+<h2 data-number="5.3" id="reusable-boundary-and-public-surfaces"><span
+class="header-section-number">5.3</span> Reusable boundary and public
+surfaces</h2>
+<p>The local dashboard and static edition use the deployment’s accepted
+evidence and official source links. A successful source search is
+distinguishable from a model-generated answer. Retrieval-augmented
+generation combines retrieval with a generative model <span
+class="citation" data-cites="lewis2020">(<a href="#ref-lewis2020"
+role="doc-biblioref">Lewis et al. 2020</a>)</span>, but that
+architectural relationship does not establish the factuality of this
+deployment’s generated answers. No model benchmark or answer-quality
+result is presented here.</p>
+<figure id="fig:evidence_boundaries">
+<a class="figure-full-size-link" href="../figures/evidence-boundaries.png" target="_blank" rel="noopener" aria-label="Open full-size Figure 3, Three evidence planes remain distinct: accepted corpus bytes support snapshot claims…"><img src="../figures/evidence-boundaries.png"
+alt="Figure 3: Three evidence planes remain distinct: accepted corpus bytes support snapshot claims, selected policy supports configuration claims, and native output checks support rendering claims. Legal currency, interpretation, usability, civic impact and publication require separate evidence or decisions. This is a conceptual claim-boundary diagram." /><span class="figure-full-size-label" aria-hidden="true">Open full-size figure</span></a>
+<figcaption>Figure 3: Three evidence planes remain
+distinct: accepted corpus bytes support snapshot claims, selected policy
+supports configuration claims, and native output checks support
+rendering claims. Legal currency, interpretation, usability, civic
+impact and publication require separate evidence or decisions. This is a
+conceptual claim-boundary diagram.</figcaption>
+</figure>
+<p>The distinction illustrated in fig. <a
+href="#fig:evidence_boundaries">3</a> is an explicit ownership and
+reporting boundary. Software acceptance and native artifact checks are
+retained in the review record rather than interpreted as measurements of
+civic usefulness. The rendered packet contains the template identity,
+input fingerprint, complete offline asset inventory and output hashes.
+Those commitments make a candidate inspectable; they do not certify its
+interpretation.</p>
+<hr />
+<h1 data-number="6" id="sec:discussion"><span
+class="header-section-number">6</span> Discussion</h1>
+<h2 data-number="6.1" id="what-this-case-establishes"><span
+class="header-section-number">6.1</span> What this case establishes</h2>
+<p>The Davis deployment demonstrates an implemented separation between
+shared computation and local evidence. A regional consumer can retain
+its municipality, provider policy, accepted seed and scholarly narrative
+while importing a common runner and manuscript pipeline. That separation
+reduces opportunities to relabel another locality’s records, although it
+does not eliminate the need for source review or prove generality across
+every supported adapter.</p>
+<p>The corpus profile adds a modest but reproducible empirical
+description. Publishing its complete numerical table makes the chart
+auditable and makes the article/section denominator explicit. It does
+not turn a municipal-code snapshot into a comprehensive account of
+governance. A record absent from this corpus might be outside the
+publisher’s organization, outside the retained edition or unavailable to
+the acquisition procedure; the present data cannot distinguish every
+such explanation.</p>
+<p>FAIR principles distinguish findability, accessibility,
+interoperability and reuse <span class="citation"
+data-cites="fair2016">(<a href="#ref-fair2016"
+role="doc-biblioref"><span class="nocase">Wilkinson et al.</span>
+2016</a>)</span>. Stable identities, public descriptive metadata and
+explicit source-use boundaries address some related engineering concerns
+here. However, this work does not perform a FAIR maturity assessment or
+claim that public accessibility grants unrestricted redistribution
+rights. An exact hash helps identify an artifact; it does not settle
+permissions or meaning.</p>
+<h2 data-number="6.2"
+id="portability-without-semantic-substitution"><span
+class="header-section-number">6.2</span> Portability without semantic
+substitution</h2>
+<p>The reusable unit is a computation and its declared contract, not a
+place name or a claimed outcome. Source access, official geographic
+identifiers, rights, observation clocks and intended uses must be
+reviewed for each locality. Separating configuration from implemented
+methods makes that review easier to locate. It cannot supply a missing
+provider, community perspective or institutional mandate.</p>
+<p>Dataset documentation practices motivate this emphasis on context
+<span class="citation" data-cites="gebru2021 bender2018">(<a
+href="#ref-gebru2021" role="doc-biblioref">Gebru et al. 2021</a>; <a
+href="#ref-bender2018" role="doc-biblioref">Bender and Friedman
+2018</a>)</span>. In a regional setting, the unit being documented is an
+administrative-text snapshot and its deployment policy. It would be a
+category error to infer demographic representativeness, accessibility to
+residents or public trust from that documentation alone.</p>
+<h2 data-number="6.3" id="research-agenda"><span
+class="header-section-number">6.3</span> Research agenda</h2>
+<p>Future evaluation should begin with named user tasks and appropriate
+expertise. Examples include locating an official code provision,
+distinguishing a source update from a stale cached record, and
+recognizing when the interface lacks enough evidence to answer. Outcomes
+could include task completion, citation correctness, recognition of
+uncertainty and accessibility barriers. Any study requires a declared
+sample, protocol, baseline and ethics/consent decisions suited to its
+participants.</p>
+<p>A legal-answer evaluation would need expert-adjudicated questions,
+jurisdiction and edition controls, an explicit definition of supported
+versus unsupported answers, and separate scoring of citations and
+interpretation. Dahl and colleagues document legal hallucinations in the
+models and tasks they studied <span class="citation"
+data-cites="dahl2024">(<a href="#ref-dahl2024" role="doc-biblioref">Dahl
+et al. 2024</a>)</span>; their rates are not Davis measurements and are
+not imported as a forecast for this system. Their relevance is the need
+for task-specific evaluation rather than an assumption that fluent
+retrieval-grounded text is legally correct.</p>
+<p>The NIST AI Risk Management Framework separates governance, context
+mapping, measurement and management <span class="citation"
+data-cites="nist2023">(<a href="#ref-nist2023"
+role="doc-biblioref">National Institute of Standards and Technology
+2023</a>)</span>. The present artifact controls contribute to an
+inspectable engineering record, but they do not establish a completed
+risk-management program or a trustworthiness certification.</p>
+<hr />
+<h1 data-number="7" id="sec:limitations"><span
+class="header-section-number">7</span> Limitations, Ethics, and Threats
+to Validity</h1>
+<p><strong>Time and completeness.</strong> Local hash agreement concerns
+retained bytes. A table-of-contents check and deterministic sample at
+acquisition time do not prove continuing all-page currentness,
+comprehensive city communications or legal completeness. Rendering never
+advances the source-verification clock. Changed upstream pages can
+invalidate an interpretation while leaving the historical snapshot
+perfectly reproducible.</p>
+<p><strong>Segmentation and interpretation.</strong> Articles and
+sections are operational publisher/extractor units. Larger counts do not
+imply greater legal importance, regulatory burden or community
+attention. Reserved or repealed units can remain meaningful records. The
+profile does not resolve amendment history, effective dates,
+cross-references or legal interpretation beyond the accepted source
+contract.</p>
+<p><strong>Selection and geography.</strong> The configured catalog is a
+reviewed selection, not an exhaustive list of institutions or events.
+Zones, watch boxes and radii are adapter settings, not authoritative
+municipal boundaries. Missing, unavailable, stale and empty observations
+remain distinct states. An accessible code corpus cannot supply resident
+experience, neighborhood-level conditions or the views of groups absent
+from administrative records.</p>
+<p><strong>Models and automation.</strong> No model-generated answer is
+evaluated. A retrieval result, citation link or successful model
+invocation is not a demonstration of legal accuracy. General legal-AI
+findings motivate caution but do not establish this system’s error rate.
+Human expert review remains necessary for any claimed legal
+interpretation or answer-quality result.</p>
+<p><strong>Artwork and visual rhetoric.</strong> The cover is an
+original AI-generated conceptual illustration. It is not a photograph,
+official city branding, surveyed map or depiction of a measured event.
+The architecture and evidence diagrams are explanatory designs. Only the
+corpus-profile figure reports measured counts, with an exact numerical
+fallback. These roles are stated so that visual polish cannot substitute
+for evidence.</p>
+<p><strong>Rights, privacy and declarations.</strong> Repository
+software/manuscript terms do not grant additional rights over
+third-party municipal material. Public review members exclude
+credentials, raw acquisition HTML and private operational diagnostics.
+Bundled template fonts and MathJax retain their upstream notices and
+terms. AI-assisted drafting and software work do not constitute
+independent human peer review. Final authorship/contribution,
+funding/conflict and redistribution declarations require owner
+confirmation before publication; no organization is represented as
+endorsing this study.</p>
+<hr />
+<h1 data-number="8" id="sec:reproducibility"><span
+class="header-section-number">8</span> Reproducibility and Artifact
+Specification</h1>
+<p>The consumer installs its full public Region Intel commit through a
+frozen Bun lockfile. Shared algorithms and publication methods remain in
+that dependency. A sibling source checkout is not required for normal
+consumer commands. Native manuscript rendering additionally requires the
+pinned external docxology/template checkout and its prepared
+Python/native tools.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">bun</span> install <span class="at">--frozen-lockfile</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">bun</span> run validate</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ex">bun</span> run manuscript:check</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="ex">bun</span> run manuscript:render</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="ex">bun</span> run manuscript:validate-render</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="ex">bun</span> run manuscript:bundle</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="ex">bun</span> run manuscript:validate-render <span class="at">--</span> <span class="at">--bundle</span></span></code></pre></div>
+<p>The documented environment selects the template root and interpreter
+explicitly. The shared adapter rejects a wrong repository, commit or
+modified tracked source. It records actual template, Python, Matplotlib,
+Pandoc and TeX versions; the completed native packet is also checked
+with qpdf and pdftotext. The template’s combined writers generate the
+manuscript; regional code does not silently substitute a separate
+direct-Pandoc rendering path.</p>
+<p>The accepted seed, effective configuration, package/lock, numbered
+sources, bibliography, claim ledger and cover bytes bind the manuscript
+fingerprint. That fingerprint also binds the shared
+adapter/projection/figure source and pinned web-asset inventory. The
+article-level CSV and profile JSON are exact derived tables. PDF, SVG
+and PNG variants preserve the distinction between measured counts and
+explanatory diagrams.</p>
+<p>A complete HTML edition includes its assets and figure directory.
+Copying only the HTML entry point omits font, mathematics and image
+dependencies. The review validator checks bounded regular files, exact
+member inventory, current source projection, output hashes and pinned
+template asset hashes. These checks are consistent with the W3C emphasis
+on version and preservation metadata <span class="citation"
+data-cites="dwbp2017">(<a href="#ref-dwbp2017"
+role="doc-biblioref">World Wide Web Consortium 2017</a>)</span>, but
+successful replay is not a proof of semantic correctness.</p>
+<p>The reproducibility record distinguishes computational repeatability,
+native rendering and substantive acceptance. Bitwise PDF identity across
+different native toolchains is not promised: versions, timestamps and
+font machinery can affect serialization. Rebuilding a changed candidate
+requires renewed source, figure, page and applicable independent review.
+Previous failed work and the last complete packet remain available
+rather than being overwritten with a partial artifact.</p>
+<p>Data and source are available in the public Davis repository. Raw
+source acquisition and operational diagnostics remain local. A public
+digest identifies omitted evidence; it is not a replacement for that
+evidence and does not allow a reader to reconstruct it.</p>
+<hr />
+<h1 data-number="9" id="sec:conclusion"><span
+class="header-section-number">9</span> Conclusion</h1>
+<p>Davis CA Intel provides an implemented thin regional consumer with
+its own identity, accepted municipal edition and scholarly manuscript.
+Shared methods derive a 290-article, 2541-section structural profile
+from retained evidence and pass the hydrated sources to a pinned
+external template for native publication rendering. Exact tables, asset
+identities and source/output commitments make the case inspectable.</p>
+<p>The study’s contribution is a reproducible boundary between shared
+computation, regional evidence and presentation. It does not establish
+ongoing legal currency, legal correctness, usability, civic impact or
+model factuality. Those questions require their own methods and evidence
+before a 0.1 publication decision.</p>
+<hr />
+<h1 data-number="10" id="sec:appendix"><span
+class="header-section-number">10</span> Appendix: Formal Contracts and
+Worked Records</h1>
+<h2 data-number="10.1" id="data-statement"><span
+class="header-section-number">10.1</span> Data statement</h2>
+<div class="table-scroll" role="region" tabindex="0" aria-label="Scrollable data table"><table data-responsive-table="true">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Question</th>
+<th>Davis record</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unit</td>
+<td>Accepted article-page and section objects</td>
+</tr>
+<tr>
+<td>Origin</td>
+<td>eCode360 DA4922 municipal-code publication</td>
+</tr>
+<tr>
+<td>Edition</td>
+<td>Snapshot identified in the evidence receipt</td>
+</tr>
+<tr>
+<td>Observation time</td>
+<td>2026-10-31T03:39:57.381Z</td>
+</tr>
+<tr>
+<td>Intended use</td>
+<td>Source-linked inspection, descriptive corpus structure and
+reproducible software study</td>
+</tr>
+<tr>
+<td>Not represented</td>
+<td>Resident population, complete city activity, legal adjudication or a
+model benchmark</td>
+</tr>
+<tr>
+<td>Excluded public members</td>
+<td>Credentials, raw acquisition HTML and private operational
+diagnostics</td>
+</tr>
+<tr>
+<td>Numerical fallback</td>
+<td>Complete article-sections.csv and corpus-profile.json</td>
+</tr>
+</tbody>
+</table></div>
+<p>This compact statement is informed by dataset documentation
+scholarship <span class="citation" data-cites="gebru2021 bender2018">(<a
+href="#ref-gebru2021" role="doc-biblioref">Gebru et al. 2021</a>; <a
+href="#ref-bender2018" role="doc-biblioref">Bender and Friedman
+2018</a>)</span>. It supplements the source and claim ledger; it does
+not claim compliance with every proposed datasheet question.</p>
+<h2 data-number="10.2" id="constructed-arithmetic-control"><span
+class="header-section-number">10.2</span> Constructed arithmetic
+control</h2>
+<p>For a deliberately synthetic vector of article section counts <span
+class="math inline">\([2,0,4]\)</span>, the profiler must return three
+article pages, six section records, a median of two, a minimum of zero,
+a maximum of four and one zero-section page. This example tests the
+transformation; none of these values is a Davis observation. A duplicate
+article identifier must fail rather than silently increase a
+denominator.</p>
+<h2 data-number="10.3" id="candidate-bindings"><span
+class="header-section-number">10.3</span> Candidate bindings</h2>
+<pre class="text"><code>profile: davis-ca
+municipality: DA4922
+source edition: 2d74bf8205ecde96b88b4183d4d47169d83ee910e5d1ce125fd6c77bd31eca8b
+shared runtime: 7667ae7fdfa7cc54fc80d90153c2873051f29ac4
+template revision: c18dae54a07fe6ac3a7b1a1a274251c169a12e7a
+manuscript input: 08013accbc134f81375f357fd0f2422f2a324105e43fdd81de84b4b1e0e29cd7</code></pre>
+<p>The complete file-by-file commitments are in evidence.json and
+review-receipt.json. template-render.json records the actual rendering
+API, template identity and native versions. Three acceptance questions
+remain separate: whether captured inputs match their declared edition;
+whether the rendering methods produce a coherent artifact from those
+inputs; and whether the research interpretation is suitable for its
+intended audience and use.</p>
+<hr />
+<h1 data-number="11" id="sec:references"><span
+class="header-section-number">11</span> References</h1>
+<p>The cited scholarly and standards literature supplies context for
+provenance, dataset documentation, reproducibility, open-government data
+and model-evaluation limits. The accepted municipal seed supplies the
+Davis observations. No external benchmark result is treated as a
+measured outcome of this deployment.</p>
+</div>
+<div id="refs" class="references csl-bib-body hanging-indent"
+role="list">
+<div id="ref-bender2018" class="csl-entry" role="listitem">
+Bender, Emily M., and Batya Friedman. 2018. <span>“Data Statements for
+Natural Language Processing: Toward Mitigating System Bias and Enabling
+Better Science.”</span> <em>Transactions of the Association for
+Computational Linguistics</em> 6: 587–604. <a
+href="https://doi.org/10.1162/tacl_a_00041">https://doi.org/10.1162/tacl_a_00041</a>.
+</div>
+<div id="ref-dahl2024" class="csl-entry" role="listitem">
+Dahl, Matthew, Varun Magesh, Mirac Suzgun, and Daniel E. Ho. 2024.
+<span>“Large Legal Fictions: Profiling Legal Hallucinations in Large
+Language Models.”</span> <em>Journal of Legal Analysis</em> 16 (1):
+64–93. <a
+href="https://doi.org/10.1093/jla/laae003">https://doi.org/10.1093/jla/laae003</a>.
+</div>
+<div id="ref-gebru2021" class="csl-entry" role="listitem">
+Gebru, Timnit, Jamie Morgenstern, Briana Vecchione, et al. 2021.
+<span>“Datasheets for Datasets.”</span> <em>Communications of the
+ACM</em> 64 (12): 86–92. <a
+href="https://doi.org/10.1145/3458723">https://doi.org/10.1145/3458723</a>.
+</div>
+<div id="ref-janssen2012" class="csl-entry" role="listitem">
+Janssen, Marijn, Yannis Charalabidis, and Anneke Zuiderwijk. 2012.
+<span>“Benefits, Adoption Barriers and Myths of Open Data and Open
+Government.”</span> <em>Information Systems Management</em> 29 (4):
+258–68. <a
+href="https://doi.org/10.1080/10580530.2012.716740">https://doi.org/10.1080/10580530.2012.716740</a>.
+</div>
+<div id="ref-lewis2020" class="csl-entry" role="listitem">
+Lewis, Patrick, Ethan Perez, Aleksandra Piktus, et al. 2020.
+<span>“Retrieval-Augmented Generation for Knowledge-Intensive
+<span>NLP</span> Tasks.”</span> <em>Advances in Neural Information
+Processing Systems</em> 33: 9459–74. <a
+href="https://arxiv.org/abs/2005.11401">https://arxiv.org/abs/2005.11401</a>.
+</div>
+<div id="ref-nist2023" class="csl-entry" role="listitem">
+National Institute of Standards and Technology. 2023. <em>Artificial
+Intelligence Risk Management Framework (<span>AI RMF</span> 1.0)</em>.
+NIST AI 100-1. National Institute of Standards; Technology. <a
+href="https://doi.org/10.6028/NIST.AI.100-1">https://doi.org/10.6028/NIST.AI.100-1</a>.
+</div>
+<div id="ref-sandve2013" class="csl-entry" role="listitem">
+Sandve, Geir Kjetil, Anton Nekrutenko, James Taylor, and Eivind Hovig.
+2013. <span>“Ten Simple Rules for Reproducible Computational
+Research.”</span> <em>PLOS Computational Biology</em> 9 (10): e1003285.
+<a
+href="https://doi.org/10.1371/journal.pcbi.1003285">https://doi.org/10.1371/journal.pcbi.1003285</a>.
+</div>
+<div id="ref-fair2016" class="csl-entry" role="listitem">
+<span class="nocase">Wilkinson, Mark D., Michel Dumontier, IJsbrand Jan
+Aalbersberg, et al.</span> 2016. <span>“The <span>FAIR</span> Guiding
+Principles for Scientific Data Management and Stewardship.”</span>
+<em>Scientific Data</em> 3: 160018. <a
+href="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18</a>.
+</div>
+<div id="ref-prov2013" class="csl-entry" role="listitem">
+World Wide Web Consortium. 2013. <em><span>PROV-DM</span>: The
+<span>PROV</span> Data Model</em>. W3C Recommendation. Edited by Luc
+Moreau and Paolo Missier. World Wide Web Consortium. <a
+href="https://www.w3.org/TR/2013/REC-prov-dm-20130430/">https://www.w3.org/TR/2013/REC-prov-dm-20130430/</a>.
+</div>
+<div id="ref-dwbp2017" class="csl-entry" role="listitem">
+World Wide Web Consortium. 2017. <em>Data on the Web Best
+Practices</em>. W3C Recommendation. World Wide Web Consortium. <a
+href="https://www.w3.org/TR/2017/REC-dwbp-20170131/">https://www.w3.org/TR/2017/REC-dwbp-20170131/</a>.
+</div>
+</div>
+</main>
+</body>
+</html>

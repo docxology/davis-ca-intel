@@ -14,7 +14,8 @@ bun run release:check
 
 This checks consumer identity, authored manuscript/evidence contracts and the
 exact committed PDF/HTML bundle against current captured inputs. Native
-regeneration additionally requires Pandoc, XeLaTeX, qpdf and pdftotext; its tool
+regeneration additionally requires the pinned external docxology/template,
+its prepared Python environment, Pandoc/pandoc-crossref, XeLaTeX, qpdf and pdftotext; its tool
 versions and hashes are retained. Preserve earlier failures and replace a packet
 only through the shared renderer. After any numbered source, seed, policy,
 dependency or renderer change, rebuild and inspect the new packet and renew the

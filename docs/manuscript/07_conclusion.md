@@ -1,9 +1,14 @@
 # Conclusion {#sec:conclusion}
 
-Davis CA Intel demonstrates a configured regional consumer that imports shared
-methods while retaining its own accepted municipal evidence and manuscript
-sources. The recorded {{CODE_ARTICLES}}-article, {{CODE_SECTIONS}}-section edition
-supports a precise description of this software artifact. It does not establish
-ongoing legal currency, complete source access, evaluated model factuality or
-public benefit. A separately bound native review edition makes those reporting
-limits and reproducibility inputs inspectable before a 0.1 publication decision.
+Davis CA Intel provides an implemented thin regional consumer with its own
+identity, accepted municipal edition and scholarly manuscript. Shared methods
+derive a {{CODE_ARTICLES}}-article, {{CODE_SECTIONS}}-section structural profile
+from retained evidence and pass the hydrated sources to a pinned external
+template for native publication rendering. Exact tables, asset identities and
+source/output commitments make the case inspectable.
+
+The study's contribution is a reproducible boundary between shared computation,
+regional evidence and presentation. It does not establish ongoing legal
+currency, legal correctness, usability, civic impact or model factuality.
+Those questions require their own methods and evidence before a 0.1
+publication decision.

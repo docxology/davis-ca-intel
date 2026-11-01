@@ -47,6 +47,29 @@
         "docs/manuscript/config.json"
       ],
       "notEstablished": "Scientific or publication approval from a hash or renderer pass"
+    },
+    {
+      "id": "D05",
+      "statement": "The complete article-level section-count profile derives from the accepted seed.",
+      "status": "descriptive-snapshot",
+      "scope": "Accepted article segmentation",
+      "evidence": [
+        "pages-data/davis-ca-code.json",
+        "pages-data/verification-report.json"
+      ],
+      "notEstablished": "Legal importance, regulatory burden, resident experience or population inference"
+    },
+    {
+      "id": "D06",
+      "statement": "Native publication uses a pinned external docxology/template revision through shared methods.",
+      "status": "implementation",
+      "scope": "This publication workflow",
+      "evidence": [
+        "package.json",
+        "bun.lock",
+        "docs/manuscript/config.json"
+      ],
+      "notEstablished": "Scientific, legal or release approval from a template build"
     }
   ]
 }

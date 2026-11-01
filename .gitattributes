@@ -1,3 +1,7 @@
 # Preserve native Pandoc output byte-for-byte, including its generated CSS whitespace.
 # Only blank-at-eol is exempt; current-input and exact-byte bundle gates still apply.
 review/0.1.0-draft/manuscript.html whitespace=-blank-at-eol linguist-generated=true
+# Preserve the pinned template's generated native reader and third-party assets.
+review/0.1.0-draft/web/** -whitespace linguist-generated=true
+# Preserve Matplotlib SVG path whitespace; exact artifact hashes remain checked.
+review/0.1.0-draft/figures/*.svg whitespace=-blank-at-eol linguist-generated=true

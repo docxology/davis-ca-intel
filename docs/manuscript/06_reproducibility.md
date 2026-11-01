@@ -1,33 +1,51 @@
 # Reproducibility and Artifact Specification {#sec:reproducibility}
 
-The Davis consumer installs its full public Git dependency SHA through a frozen
-Bun lockfile. It does not require a sibling core checkout. From that checkout,
-the review workflow is:
+The consumer installs its full public Region Intel commit through a frozen Bun
+lockfile. Shared algorithms and publication methods remain in that dependency.
+A sibling source checkout is not required for normal consumer commands.
+Native manuscript rendering additionally requires the pinned external
+docxology/template checkout and its prepared Python/native tools.
 
-```sh
+~~~sh
 bun install --frozen-lockfile
 bun run validate
 bun run manuscript:check
 bun run manuscript:render
 bun run manuscript:validate-render
-```
+bun run manuscript:bundle
+bun run manuscript:validate-render -- --bundle
+~~~
 
-The renderer uses native Pandoc citation processing and XeLaTeX for PDF and
-standalone HTML for web review. It disables raw HTML/TeX in source Markdown,
-uses a finite owned child for each tool, checks the PDF with qpdf and extracts
-text for unresolved-content checks. Exact tool versions and member hashes are
-recorded alongside the rendered edition. Failed builds preserve the prior
-complete edition; successful rendering alone does not imply peer review.
+The documented environment selects the template root and interpreter explicitly.
+The shared adapter rejects a wrong repository, commit or modified tracked
+source. It records actual template, Python, Matplotlib, Pandoc and TeX versions;
+the completed native packet is also checked with qpdf and pdftotext.
+The template's combined writers generate the manuscript; regional code does
+not silently substitute a separate direct-Pandoc rendering path.
 
-The input fingerprint is recorded in the appendix and evidence JSON. It binds
-the accepted seed, configuration, dependency manifest and lock, authored source,
-bibliography, claim ledger and renderer source. Re-checking an edition compares
-current inputs and exact output members. Rendered PDF timestamps may differ
-across independent builds; compare the declared inputs and semantic content
-separately from the receipt that identifies one actual PDF/HTML byte edition.
+The accepted seed, effective configuration, package/lock, numbered sources,
+bibliography, claim ledger and cover bytes bind the manuscript fingerprint.
+That fingerprint also binds the shared adapter/projection/figure source and
+pinned web-asset inventory. The article-level CSV and profile JSON are exact
+derived tables. PDF, SVG and PNG variants preserve the distinction between
+measured counts and explanatory diagrams.
 
-The public data and source are available at the Davis CA Intel repository.
-Raw source custody and acquisition diagnostics remain local; the public seed
-retains their commitments rather than claiming that omitted raw files can be
-reconstructed from a digest. This distinction limits independent re-extraction
-from the public bundle and should guide any replication claim.
+A complete HTML edition includes its assets and figure directory. Copying only
+the HTML entry point omits font, mathematics and image dependencies. The review
+validator checks bounded regular files, exact member inventory, current source
+projection, output hashes and pinned template asset hashes. These checks are
+consistent with the W3C emphasis on version and preservation metadata
+[@dwbp2017], but successful replay is not a proof of semantic correctness.
+
+The reproducibility record distinguishes computational repeatability, native
+rendering and substantive acceptance. Bitwise PDF identity across different
+native toolchains is not promised: versions, timestamps and font machinery
+can affect serialization. Rebuilding a changed candidate requires renewed
+source, figure, page and applicable independent review. Previous failed work
+and the last complete packet remain available rather than being overwritten
+with a partial artifact.
+
+Data and source are available in the public Davis repository. Raw source
+acquisition and operational diagnostics remain local. A public digest identifies
+omitted evidence; it is not a replacement for that evidence and does not allow
+a reader to reconstruct it.

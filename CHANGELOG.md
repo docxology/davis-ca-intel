@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased — expanded template-backed manuscript
+
+- Use the pinned docxology/template RenderManager for native publication.
+- Expand the contextual scholarship to ten references and add a data statement and evaluation agenda.
+- Add measured article/section profiles with complete CSV/JSON, three vector/raster figure sets and an original editorial cover.
+- Retain complete offline HTML assets, native provenance and a new exact-candidate review record.
+
 ## Unreleased — Davis manuscript 0.1 review
 
 - Add independent Davis scholarly sources, claim ledger and accepted-seed evidence binding.

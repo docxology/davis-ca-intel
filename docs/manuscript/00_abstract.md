@@ -1,18 +1,19 @@
 # Abstract {#sec:abstract}
 
-Davis CA Intel is a configured inland deployment of the Region Intel civic
-intelligence package. This software case study describes how a thin regional
-repository can retain its own identity, provider policy and public evidence
-while importing shared acquisition, validation, search and publication methods.
-The recorded Davis municipal edition contains {{CODE_ARTICLES}} article pages
-and {{CODE_SECTIONS}} sections from eCode360 {{MUNICIPALITY_CODE}}. Its verification
-receipt is dated {{VERIFIED_AT}}. Those counts describe the accepted source
-snapshot; they are not estimates of legal completeness or current civic activity.
-We present a reproducible manuscript pipeline that binds authored prose and
-claim evidence to exact public input bytes, then produces native PDF and HTML
-review editions. The configured catalog contains {{SOURCE_COUNT}} source
-declarations and enables {{MONITOR_COUNT}} inland monitors. Configuration counts
-are distinguished from successful collection. No civic-impact experiment,
-human usability study, model-answer evaluation or independent legal review is
-reported. The contribution is a source-bound deployment and review workflow,
-with explicit limits on what its software and artifact checks establish.
+Regional civic information systems combine municipal texts, agency notices and
+time-sensitive observations, but software reuse can obscure which evidence and
+operating assumptions belong to a particular place. We present Davis CA Intel
+as a reproducible software-deployment and corpus-description case study. A thin
+regional repository selects identity, source policy and accepted public evidence,
+while Region Intel supplies shared acquisition, validation, search and manuscript
+methods. The recorded Davis municipal edition contains {{CODE_ARTICLES}} article
+pages and {{CODE_SECTIONS}} section records from eCode360 DA4922, verified at
+{{VERIFIED_AT}}. We derive a complete article-level structural profile from that
+accepted snapshot and retain the exact numerical table behind the figures.
+Configuration declares {{SOURCE_COUNT}} sources and {{MONITOR_COUNT}} enabled
+monitors; these are not successful-collection counts. A pinned revision of
+docxology/template produces the cover, graphical abstract, PDF and offline HTML,
+with source, artwork, derived-data and rendering identities bound in the review
+packet. The contribution is an inspectable boundary between reusable computation,
+local evidence and publication presentation. No civic-impact experiment, human
+usability study, independent legal review or model-answer benchmark is reported.

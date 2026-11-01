@@ -269,7 +269,11 @@
       "schemaVersion": "region-config/v1"
     }
   },
-  "schemaVersion": "regional-manuscript-evidence/v1",
+  "template": {
+    "repository": "https://github.com/docxology/template",
+    "revision": "c18dae54a07fe6ac3a7b1a1a274251c169a12e7a"
+  },
+  "schemaVersion": "regional-manuscript-evidence/v2",
   "profileId": "davis-ca",
   "editionId": "2d74bf8205ecde96b88b4183d4d47169d83ee910e5d1ce125fd6c77bd31eca8b",
   "variables": {
@@ -282,8 +286,13 @@
     "MONITOR_COUNT": "8",
     "VERIFIED_AT": "2026-10-31T03:39:57.381Z",
     "EDITION_ID": "2d74bf8205ecde96b88b4183d4d47169d83ee910e5d1ce125fd6c77bd31eca8b",
-    "CORE_PIN": "7cb15fa1af0455e4d756551ddf828da0cbf5095e",
-    "EVIDENCE_FINGERPRINT": "2d34a2664e2f140bdee02d53277b93225a76122f8848ed3620d00d74c5067af3"
+    "CORE_PIN": "7667ae7fdfa7cc54fc80d90153c2873051f29ac4",
+    "EVIDENCE_FINGERPRINT": "08013accbc134f81375f357fd0f2422f2a324105e43fdd81de84b4b1e0e29cd7",
+    "CODE_MEDIAN_SECTIONS": "7",
+    "CODE_MAX_SECTIONS": "66",
+    "CODE_MIN_SECTIONS": "0",
+    "CODE_EMPTY_ARTICLES": "4",
+    "TEMPLATE_PIN": "c18dae54a07fe6ac3a7b1a1a274251c169a12e7a"
   },
   "files": {
     "pages-data/davis-ca-code.json": {
@@ -319,11 +328,11 @@
       "bytes": 3558
     },
     "package.json": {
-      "sha256": "e514cdeff913578b976cc78f2de6e6e8eab887afdf4a939eb5d9f592064683f7",
+      "sha256": "fa2d54a393a098c93bc64aac9cbbcb7760c3a379cbcf85fe02c0bb8bbe24afbb",
       "bytes": 3244
     },
     "bun.lock": {
-      "sha256": "953c9674e421e7ce8987ae3bd7e6f2e5b930a456e0a387b37733f0e642d7b129",
+      "sha256": "968ca5b2d0987297326e821c16b5a6f880bd823f3b8fae7409cbc5cc1fc3e6ac",
       "bytes": 9005
     },
     "pages-data/publication-input.json": {
@@ -331,60 +340,64 @@
       "bytes": 1102
     },
     "docs/manuscript/config.json": {
-      "sha256": "5c72754f2cab8adea9f54dd43968746f412a15aee2dfdca44e7c6b252b4fbe36",
-      "bytes": 222
+      "sha256": "2a2669575bd7f6933fc569a8e433e3a81374cd698eb5f5d4a3a3af21b1ec8959",
+      "bytes": 724
     },
     "docs/manuscript/00_abstract.md": {
-      "sha256": "c45c9413b4e6d6e10a9c24686b71fe094d8bcf0770cc8c26e2f41dfd7248528a",
-      "bytes": 1267
+      "sha256": "bb2f486534df3f4546c86e6bd3b4da2c9d5fa99b0c4bd271ab11c558f8d3c1ea",
+      "bytes": 1379
     },
     "docs/manuscript/01_introduction.md": {
-      "sha256": "95a2997c79311a269431eb129ae577e1084acc841ffd06623d2f7621faf7e877",
-      "bytes": 1651
+      "sha256": "106bbd22d5713df3cb3932135904cc973423774c66c662d971c70e367bc462f4",
+      "bytes": 3046
     },
     "docs/manuscript/02_methods.md": {
-      "sha256": "d77dc2178dc5746d3724082c9832a8e67e8eb687331928afccab58627e3cd4ef",
-      "bytes": 2563
+      "sha256": "e0c1666c190419e3fb220cc482b133cd5979391133da718e8a11a8f1d808a295",
+      "bytes": 5103
     },
     "docs/manuscript/03_results.md": {
-      "sha256": "8483497d4b3517429fd9da4263f2b01e20853faffa477ffe891f05d0f7e6891b",
-      "bytes": 2021
+      "sha256": "cee87fbde711fe5d2f8d525ea8b88f05f9cc3e9114b82029aa72a37b30b89786",
+      "bytes": 3549
     },
     "docs/manuscript/04_discussion.md": {
-      "sha256": "2d8caa806b5b83c9e1472ef18349d76be455782528b748dfafe646678a236593",
-      "bytes": 1457
+      "sha256": "eee2c62b5da279539062f60f3e379fe0343ea2f2a73ce58341ffae119ba0fb08",
+      "bytes": 3620
     },
     "docs/manuscript/05_limitations_and_ethics.md": {
-      "sha256": "8283164812cd0b85a33eea1261a0f518dcec583ac5d083f74dc6da4867229d84",
-      "bytes": 1784
+      "sha256": "b75f22b2872d8749d4736a0c26081d5524258440b389f8e1d71d6d761d138bc4",
+      "bytes": 2712
     },
     "docs/manuscript/06_reproducibility.md": {
-      "sha256": "05446c4708987e3b270bf04ca4b3dfa71c4e25cbd93812eeb4b228ee0e2ede9e",
-      "bytes": 1696
+      "sha256": "ed9f840b7acb07e9905f1ff0b98c445f728f724a412a5ff9a6698039c9387872",
+      "bytes": 2726
     },
     "docs/manuscript/07_conclusion.md": {
-      "sha256": "b5f307dc732161df7039936dd6a56fd9a6f64bb67e66057c537db3ef38c50406",
-      "bytes": 587
+      "sha256": "5d01583050a758ad1b6e9db3609a1884a31ee90fc9dcd7af6666ea408c420c6a",
+      "bytes": 788
     },
     "docs/manuscript/08_appendix_formalism.md": {
-      "sha256": "bf8dc2cb165e9982bca69b2097ecad8f7ca318d027ac24cea828c34407b1c870",
-      "bytes": 1000
+      "sha256": "b3c42a12c439266d17bd59f3320afb0772dfa33c9858e84ad46821a15aafce4b",
+      "bytes": 2036
     },
     "docs/manuscript/99_references.md": {
-      "sha256": "7a10d91fb9cb8d3b352eca32824427f73e44dc2af7095203283818d4c56f2ae7",
-      "bytes": 268
+      "sha256": "1c68cad915105309f157e59e49f0b12f4f7c5ba411f82e24a18f8b10491ed4fc",
+      "bytes": 343
     },
     "docs/manuscript/references.bib": {
-      "sha256": "41e7282190ce3a5bb3e0137138d6e6c2e920c9572916c53b2d069d82224e19e3",
-      "bytes": 1081
+      "sha256": "238dd3024c57b7bff64458e29af17d5b0e04b0f41141d8287f07ebcaac455d00",
+      "bytes": 3846
     },
     "docs/manuscript/claim_ledger.json": {
-      "sha256": "619d20f7705b0a4098659eaae1307318ec0c2fd94df59c7cdc925eb30c30c4c9",
-      "bytes": 1776
+      "sha256": "a93e2ca3d7dcec2e1c0ed596cf2b91d9e24fe3ea269c5dcfb1cfd91e8a5c23be",
+      "bytes": 2645
+    },
+    "docs/assets/davis-editorial.png": {
+      "sha256": "abc9cb9b1a48968d98877cc1338bb94b03f24738fca8260ee609727271f3d9a5",
+      "bytes": 3285319
     }
   },
-  "rendererSha256": "62cd33591f10a0c1319c70b4d7537db4ea84484ace649fd54cc2b6469b5a10f0",
-  "inputFingerprint": "2d34a2664e2f140bdee02d53277b93225a76122f8848ed3620d00d74c5067af3",
+  "rendererSha256": "ebae7c0671c4bee44ec8dc368517d371a69891f247c0fd09925692e0c66ba596",
+  "inputFingerprint": "08013accbc134f81375f357fd0f2422f2a324105e43fdd81de84b4b1e0e29cd7",
   "limitations": [
     "Recorded accepted seed; no new upstream acquisition",
     "Live TOC and sample do not establish all-page currentness",

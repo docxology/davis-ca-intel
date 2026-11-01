@@ -13,3 +13,5 @@ output/
 .corpus-candidates/
 
 review/.review-build-*/
+
+.template/

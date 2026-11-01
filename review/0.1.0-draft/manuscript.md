@@ -1,263 +1,454 @@
 # Abstract {#sec:abstract}
 
-Davis CA Intel is a configured inland deployment of the Region Intel civic
-intelligence package. This software case study describes how a thin regional
-repository can retain its own identity, provider policy and public evidence
-while importing shared acquisition, validation, search and publication methods.
-The recorded Davis municipal edition contains 290 article pages
-and 2541 sections from eCode360 DA4922. Its verification
-receipt is dated 2026-10-31T03:39:57.381Z. Those counts describe the accepted source
-snapshot; they are not estimates of legal completeness or current civic activity.
-We present a reproducible manuscript pipeline that binds authored prose and
-claim evidence to exact public input bytes, then produces native PDF and HTML
-review editions. The configured catalog contains 10 source
-declarations and enables 8 inland monitors. Configuration counts
-are distinguished from successful collection. No civic-impact experiment,
-human usability study, model-answer evaluation or independent legal review is
-reported. The contribution is a source-bound deployment and review workflow,
-with explicit limits on what its software and artifact checks establish.
+Regional civic information systems combine municipal texts, agency notices and
+time-sensitive observations, but software reuse can obscure which evidence and
+operating assumptions belong to a particular place. We present Davis CA Intel
+as a reproducible software-deployment and corpus-description case study. A thin
+regional repository selects identity, source policy and accepted public evidence,
+while Region Intel supplies shared acquisition, validation, search and manuscript
+methods. The recorded Davis municipal edition contains 290 article
+pages and 2541 section records from eCode360 DA4922, verified at
+2026-10-31T03:39:57.381Z. We derive a complete article-level structural profile from that
+accepted snapshot and retain the exact numerical table behind the figures.
+Configuration declares 10 sources and 8 enabled
+monitors; these are not successful-collection counts. A pinned revision of
+docxology/template produces the cover, graphical abstract, PDF and offline HTML,
+with source, artwork, derived-data and rendering identities bound in the review
+packet. The contribution is an inspectable boundary between reusable computation,
+local evidence and publication presentation. No civic-impact experiment, human
+usability study, independent legal review or model-answer benchmark is reported.
 
 
 # Introduction {#sec:introduction}
 
-Local civic information is distributed across municipal codes, agency notices,
-meeting references and time-sensitive feeds. Combining these materials creates
-two distinct problems: implementing reusable data-handling methods and deciding
-which sources, geographic policies and interpretations belong to a locality.
-A coastal application's defaults are especially unsuitable as implicit policy
-for an inland city. A second deployment therefore provides a useful engineering
-case for examining the boundary between shared computation and local evidence.
+## Problem and scope
 
-This paper concerns Davis, California, in Yolo County. It describes the public
-Davis repository and its dependency on Region Intel. The original Crescent City
-application is a compatibility preset in that package; its manuscript findings
-and coastal source coverage are not Davis observations. The case study asks
-whether deployment identity, accepted corpus evidence and manuscript numbers
-can remain independently attributable while implementation is shared.
+A useful regional information system must answer two different questions: what
+its software can do, and what its retained evidence actually supports. A source
+adapter may be implemented without a current observation. A searchable municipal
+snapshot may be internally coherent without establishing that every provision
+remains current. A well-formed generated answer may still require substantive
+review. These distinctions become harder to maintain when a second locality
+inherits a first locality's configuration, language and publication artifacts.
 
-The design draws on the distinction between provenance entities, activities and
-responsible agents in PROV-DM [@moreau2013prov]. Input hashes and execution
-receipts are operational commitments, not a claim that this implementation is a
-complete PROV serializer. FAIR provides a relevant vocabulary for reusable
-metadata and identifiable inputs [@wilkinson2016fair]; this paper does not claim
-a formal FAIR assessment or unrestricted redistribution rights. The following
-sections describe a reproducible engineering record, rather than an assessment
-of governmental performance or community outcomes.
+This case study concerns Davis, California. Its unit of observation is the
+accepted DA4922 municipal-code record set and the deployment documents that
+select its operating policy. It examines whether shared software can preserve
+regional identity, reproduce a descriptive corpus profile and publish a
+manuscript whose numerical statements remain attributable to that record set.
+It does not estimate public benefit, legal completeness or hazard exposure.
+The original Crescent City application supplies compatibility history in the
+shared package; its empirical findings are not Davis observations.
+
+## Scholarship and design commitments
+
+Open-government data scholarship cautions against treating the act of opening
+data as a sufficient mechanism for realizing public value
+[@janssen2012]. For this project, the practical implication is a research
+boundary: accessible records and working interfaces are intermediate artifacts,
+whereas usefulness to residents requires separate empirical assessment.
+
+PROV-DM distinguishes entities, activities and responsible agents
+[@prov2013]. We use that distinction to separate a retained municipal edition,
+the transformations applied to it and the ownership of the resulting packet.
+Our receipts are a project-specific implementation of those concerns, not a
+claim of complete PROV serialization or formal conformance. The W3C's Data on
+the Web Best Practices adds an operational emphasis on provenance, quality,
+version indicators and preservation [@dwbp2017].
+
+Dataset documentation offers a complementary perspective. Datasheets describe
+motivation, composition, collection and intended uses [@gebru2021]; data
+statements make context and limits of generalization explicit [@bender2018].
+The Davis claim ledger and data statement adapt those questions to a municipal
+text deployment. They do not convert administrative text into a representative
+sample of residents or describe a machine-learning training population.
+
+The manuscript makes three bounded contributions: an explicit shared/local
+ownership boundary; a reproducible, complete description of article-level
+section counts in the accepted snapshot; and a publication workflow that uses
+the external template's actual rendering APIs while retaining input and output
+commitments. These are engineering and documentation contributions. Novel
+civic outcomes, legal interpretation and model capability are outside the
+reported evidence.
 
 
 # Methods {#sec:methods}
 
-## Deployment admission and isolation
+## Deployment identity and source admission
 
-The consumer's versioned deployment document binds a civic profile, regional
-provider policy, active output directory, public seed directory, enabled roster
-and source catalog. The loader validates profile-policy identity before running
-producers. The civic profile names eCode360 DA4922, the Davis
-corpus/vector namespace and a distinct calendar identity. The monitoring anchor
-and watch bounds are operating policy, not surveyed city boundaries. Generic
-methods and algorithm tests remain in Region Intel; the consumer contains
-configuration, its importer, regional evidence and deployment acceptance.
+The versioned deployment document selects a civic profile, regional provider
+policy, output directory, accepted-seed directory, enabled monitors and source
+catalog. The loader rejects crossed profile identities before starting a
+producer. Davis uses municipality code DA4922. Configured zones, routes and
+watch bounds are operating parameters, not surveyed city boundaries.
+Generic acquisition, artifact contracts, search, rendering and algorithm tests
+belong to Region Intel. Davis owns its regional declarations, evidence and
+authored manuscript.
 
-## Municipal acquisition and acceptance
+Acquisition, when separately undertaken, uses a candidate root rather than
+overwriting accepted output. The accepted edition records article and section
+membership, local extraction/binding checks, a current table-of-contents
+comparison and a bounded deterministic live sample. A sample pass is not an
+all-page currentness claim. Source-marked reserved or repealed sections can
+remain legitimate retained records when the corresponding heading is present;
+an unmarked empty extraction is a different state. Failed or interrupted
+candidates retain their evidence instead of replacing the accepted edition.
 
-Acquisition uses a candidate root separate from active output and public seeds.
-The accepted edition must have complete expected article/section membership,
-local source/extraction custody and exact manifest, TOC and article-set bindings.
-The recorded verification also includes a current TOC comparison and a bounded
-deterministic live sample. A passing sample is not an instantaneous check of
-every upstream page. A source-marked reserved or repealed section may retain an
-empty body only when the source heading and parsed status agree. Unmarked empty
-extraction is rejected. Failure or interruption leaves the candidate unaccepted;
-bounded, journaled promotion preserves an earlier complete active edition.
+This paper reads the tracked accepted public seed. It does not rerun acquisition
+or substitute whichever live producer output is newest. Its verification clock
+therefore remains 2026-10-31T03:39:57.381Z through later figure generation and rendering.
+Raw acquisition diagnostics remain local; public commitments identify their
+recorded role without making omitted source files reconstructible from a hash.
 
-## Manuscript derivation
+## Descriptive corpus profile
 
-The manuscript reads the accepted public seed, not whichever live producer
-output happens to be newest. The shared builder validates the seed's v2
-verification and exact publication-input receipt, recomputes article and section
-denominators from the public code projection, and captures configuration,
-dependency lock, bibliography, claim ledger and numbered source bytes. It
-substitutes declared evidence tokens and records an input fingerprint. This
-follows the reproducibility principle that a reported result should retain its
-computational inputs and procedure [@sandve2013rules]. Rendering is a later
-operation with tool versions and output hashes; it does not update source clocks.
+Let the accepted article-page set be $A$, with $n=|A|$, and let $c_i$ be the
+number of retained section objects in article page $i$. The total section-record
+count is $N=\sum_i c_i$. The shared profiler computes these quantities and the
+minimum, median and maximum of the complete vector of counts. Duplicate article
+identifiers or malformed article structure fail admission.
 
-## Evidence scope
+The histogram includes every accepted article page, including a zero count if
+present. The companion horizontal bars display at most the twelve article pages
+with the largest counts; ties are resolved by article identifier and GUID.
+The exact CSV retains every row, so a reader can inspect the complete
+distribution rather than infer it from the selected bars. The histogram uses
+at most 25 equal-width bins, bounded by the observed range. No resampling,
+population inference, significance test or uncertainty interval is applied:
+these are descriptive properties of a finite retained snapshot.
 
-The unit of analysis is one accepted Davis edition and its configured deployment.
-Article pages are provider acquisition units; sections are retained municipal
-records, including explicitly inactive entries. Catalog entries and enabled
-adapters are configuration units. They are not interchangeable denominators,
-and none is a count of local events, citizens, legal obligations or hazards.
+Counts describe publisher/extractor segmentation. They are not measures of
+policy importance, regulatory burden, textual difficulty or neighborhood
+experience. Article titles and numbers help a reader locate records; the
+analysis does not infer legal topics or assign normative weights.
+
+## Evidence projection and figure production
+
+Required and optional seed members are captured through bounded, no-follow
+reads into a private snapshot before the existing publication validator parses
+them. Counts must agree with the accepted verification report. The manuscript
+also captures deployment/configuration bytes, the immutable shared dependency
+and frozen lock, bibliography, claim ledger, numbered sources and cover image.
+The effective selected configuration participates even when a caller explicitly
+selects an alternative deployment document.
+
+A composite renderer fingerprint binds the shared input, projection, membership,
+template-adapter and figure-generation modules, together with the pinned
+template asset inventory. Evidence tokens hydrate prose from those captured
+inputs. Matplotlib produces the measured corpus plot and two explicitly
+conceptual method diagrams as PNG, PDF and SVG. The CSV and profile JSON remain
+available alongside them. The cover is an AI-generated editorial illustration;
+it is not a map, observation or analytical figure.
+
+## Template-backed publication
+
+The native backend is docxology/template at revision
+c18dae54a07fe6ac3a7b1a1a274251c169a12e7a. The shared adapter verifies the checkout's identity, commit
+and tracked cleanliness and verifies that the imported rendering module belongs
+to that checkout. It calls the actual combined PDF and HTML RenderManager APIs.
+The template supplies title/cover composition, graphical front matter,
+typography, citations and offline reader assets. Direct Pandoc invocation is
+not an alternative regional backend.
+
+Native work occurs in a fresh ignored namespace under the selected template
+checkout because its offline asset writer confines outputs to that root. The
+adapter copies only declared publication members to the regional staging
+directory. The template source remains unchanged. Source inputs are checked
+again before recoverable promotion; failed staging and the previous complete
+edition remain available. Rendering behavior follows reproducibility principles
+that connect reported results to the code and data that produced them
+[@sandve2013], while making the rendering toolchain an explicit dependency.
 
 
 # Results {#sec:results}
 
-## Recorded Davis edition
+## Accepted snapshot and configuration
 
-The accepted public projection contains 290 article pages and
-2541 sections. The recorded verification time is 2026-10-31T03:39:57.381Z.
-The verification report declares passing local, current-TOC and sample planes,
-with no missing sections in its expected denominator. These statements report
-the retained receipt and public projection; preparing this paper did not perform
-a new live acquisition or independently interpret the law.
+The accepted Davis edition contains 290 article pages and
+2541 section records. These counts refer to the retained DA4922
+edition and its verification timestamp, not a new collection conducted for
+this manuscript.
 
-| Recorded item | Value | Meaning |
-| --- | --- | --- |
-| Municipality | DA4922 | Provider identity, not a geography survey |
-| Article pages | 290 | Accepted provider acquisition units |
-| Sections | 2541 | Retained section records, including inactive headings |
-| Source declarations | 10 | Configured catalog, not collection completeness |
-| Enabled monitors | 8 | Selected adapters, not verified hazard coverage |
+| Recorded item | Value | Interpretation |
+|---|---:|---|
+| Municipality code | DA4922 | Source identity |
+| Article pages | 290 | Accepted publisher/extractor article units |
+| Section records | 2541 | Retained section objects in those articles |
+| Declared sources | 10 | Configured catalog entries |
+| Enabled monitors | 8 | Selected adapter policy |
 
-## Inland policy and public surfaces
+These rows have different denominators. A configured monitor is not an
+observation, and the source catalog does not enumerate the city's complete
+information environment. Davis selects inland operating policy; unused coastal
+fields retained for compatibility do not establish coastal coverage in Davis.
 
-The configured monitors cover earthquake, weather, air quality, wildfire,
-drought, smoke, roads and California statewide fuel observations. Marine, tide,
-harbor and other coastal adapters are excluded. The full policy schema still
-contains compatibility fields for disabled adapters; their presence is not
-evidence of Davis coverage. Official-page meeting collection retains bounded
-links and explicit unavailable states, rather than claiming a complete archive.
+## Article-level structure
 
-The static edition searches the accepted public code projection. The local
-dashboard's corpus search uses separately acquired and promoted raw articles.
-Optional retrieval-augmented generation requires its own model/vector services
-and accepted index. Neither a configured model nor a renderable paper supplies
-an evaluated Davis model-answer result. Software test counts and browser
-acceptance are intentionally kept in their versioned engineering receipts rather
-than presented here as measurements of civic usefulness.
+Across all 290 article pages, the median is
+7 section records per page, with a minimum of
+0, maximum of 66 and
+4 zero-section article pages. All values are injected
+from the shared profile of the accepted seed.
+
+![Article-level section counts in the accepted Davis edition. Panel A includes every article page and marks the median; Panel B shows the twelve largest article pages, ordered deterministically. Counts measure retained source structure, not legal importance or civic burden. The complete numerical fallback is article-sections.csv.](../output/figures/corpus-profile.png){#fig:corpus_profile}
+
+The distribution in @fig:corpus_profile makes the within-edition segmentation visible without
+claiming that larger article pages are more important. The associated CSV
+contains GUID, article identifier, title and section count for every page.
+The aggregate is reconciled against the same accepted article and section
+denominators used in the manuscript. No population statistic about Davis
+residents is derived from this distribution.
+
+## Reusable boundary and public surfaces
+
+The local dashboard and static edition use the deployment's accepted evidence
+and official source links. A successful source search is distinguishable from
+a model-generated answer. Retrieval-augmented generation combines retrieval
+with a generative model [@lewis2020], but that architectural relationship does
+not establish the factuality of this deployment's generated answers. No model
+benchmark or answer-quality result is presented here.
+
+![Three evidence planes remain distinct: accepted corpus bytes support snapshot claims, selected policy supports configuration claims, and native output checks support rendering claims. Legal currency, interpretation, usability, civic impact and publication require separate evidence or decisions. This is a conceptual claim-boundary diagram.](../output/figures/evidence-boundaries.png){#fig:evidence_boundaries}
+
+The distinction illustrated in @fig:evidence_boundaries is an explicit
+ownership and reporting boundary. Software acceptance and native artifact checks
+are retained in the review record rather than interpreted as measurements of
+civic usefulness. The rendered packet contains the template identity, input
+fingerprint, complete offline asset inventory and output hashes. Those
+commitments make a candidate inspectable; they do not certify its interpretation.
 
 
 # Discussion {#sec:discussion}
 
-The Davis case makes the dependency boundary inspectable: the consumer names a
-single immutable shared revision and owns the configuration and evidence that
-give that implementation a local meaning. This arrangement reduces the need to
-maintain copied methods, but it does not eliminate locality-specific decisions.
-Provider access, geographic filters, data rights and interpretation remain
-deployment responsibilities. The existence of a second repository is evidence
-of an implemented configuration seam, not proof that every supported adapter
-works in every municipality.
+## What this case establishes
 
-The manuscript pipeline applies the same separation to reporting. Authored
-arguments are versioned locally, computed counts come from a captured seed, and
-rendered outputs have a distinct byte receipt. This is useful for tracing which
-edition a reader is examining. It is insufficient to determine whether an
-ordinance was adopted, whether a cited rule remains effective, or whether a
-particular interface supports a resident's decision. Those require different
-evidence and appropriately qualified review.
+The Davis deployment demonstrates an implemented separation between shared
+computation and local evidence. A regional consumer can retain its municipality,
+provider policy, accepted seed and scholarly narrative while importing a common
+runner and manuscript pipeline. That separation reduces opportunities to
+relabel another locality's records, although it does not eliminate the need
+for source review or prove generality across every supported adapter.
 
-Further empirical work could study reader tasks, source-specific temporal
-coverage and independently interpreted legal examples. Such work would need
-declared sampling units, recruitment or review procedures, comparison criteria
-and retained disagreements. No result from those proposed studies is inferred
-from the present artifact record.
+The corpus profile adds a modest but reproducible empirical description.
+Publishing its complete numerical table makes the chart auditable and makes
+the article/section denominator explicit. It does not turn a municipal-code
+snapshot into a comprehensive account of governance. A record absent from this
+corpus might be outside the publisher's organization, outside the retained
+edition or unavailable to the acquisition procedure; the present data cannot
+distinguish every such explanation.
+
+FAIR principles distinguish findability, accessibility, interoperability and
+reuse [@fair2016]. Stable identities, public descriptive metadata and explicit
+source-use boundaries address some related engineering concerns here.
+However, this work does not perform a FAIR maturity assessment or claim that
+public accessibility grants unrestricted redistribution rights. An exact hash
+helps identify an artifact; it does not settle permissions or meaning.
+
+## Portability without semantic substitution
+
+The reusable unit is a computation and its declared contract, not a place name
+or a claimed outcome. Source access, official geographic identifiers, rights,
+observation clocks and intended uses must be reviewed for each locality.
+Separating configuration from implemented methods makes that review easier
+to locate. It cannot supply a missing provider, community perspective or
+institutional mandate.
+
+Dataset documentation practices motivate this emphasis on context
+[@gebru2021; @bender2018]. In a regional setting, the unit being documented is
+an administrative-text snapshot and its deployment policy. It would be a
+category error to infer demographic representativeness, accessibility to
+residents or public trust from that documentation alone.
+
+## Research agenda
+
+Future evaluation should begin with named user tasks and appropriate expertise.
+Examples include locating an official code provision, distinguishing a source
+update from a stale cached record, and recognizing when the interface lacks
+enough evidence to answer. Outcomes could include task completion, citation
+correctness, recognition of uncertainty and accessibility barriers. Any study
+requires a declared sample, protocol, baseline and ethics/consent decisions
+suited to its participants.
+
+A legal-answer evaluation would need expert-adjudicated questions, jurisdiction
+and edition controls, an explicit definition of supported versus unsupported
+answers, and separate scoring of citations and interpretation. Dahl and
+colleagues document legal hallucinations in the models and tasks they studied
+[@dahl2024]; their rates are not Davis measurements and are not imported as a
+forecast for this system. Their relevance is the need for task-specific
+evaluation rather than an assumption that fluent retrieval-grounded text is
+legally correct.
+
+The NIST AI Risk Management Framework separates governance, context mapping,
+measurement and management [@nist2023]. The present artifact controls contribute
+to an inspectable engineering record, but they do not establish a completed
+risk-management program or a trustworthiness certification.
 
 
 # Limitations, Ethics, and Threats to Validity {#sec:limitations}
 
-**Time and completeness.** Local hash agreement concerns retained bytes. A live
-TOC and deterministic sample at acquisition time do not prove continuing
-all-page currency, comprehensive City communications or legal completeness.
-Changing upstream pages can invalidate later interpretation without changing a
-retained seed. The verification timestamp must remain visible.
+**Time and completeness.** Local hash agreement concerns retained bytes.
+A table-of-contents check and deterministic sample at acquisition time do not
+prove continuing all-page currentness, comprehensive city communications or
+legal completeness. Rendering never advances the source-verification clock.
+Changed upstream pages can invalidate an interpretation while leaving the
+historical snapshot perfectly reproducible.
 
-**Coverage and interpretation.** Configured zones, radii, counties and road
-queries are explicit operating choices. Missing, unavailable, stale and empty
-states are distinct; an inaccessible source cannot become evidence of quiet
-conditions. Statewide fuel observations are not a Davis pump-price survey.
-Meeting links are not verified proceedings, votes or complete archived content.
-No independent legal review, human usability assessment or civic-impact estimate
-is supplied by this paper.
+**Segmentation and interpretation.** Articles and sections are operational
+publisher/extractor units. Larger counts do not imply greater legal importance,
+regulatory burden or community attention. Reserved or repealed units can
+remain meaningful records. The profile does not resolve amendment history,
+effective dates, cross-references or legal interpretation beyond the accepted
+source contract.
 
-**Models and automation.** No model-generated answer is evaluated in this study.
-Shared model functionality cannot be promoted to Davis factuality or usefulness
-by reusing another region's findings. AI-assisted drafting and software editing
-do not constitute independent human peer review. Responsibility for final
-authorship, interpretation and publication declarations remains with the author.
+**Selection and geography.** The configured catalog is a reviewed selection,
+not an exhaustive list of institutions or events. Zones, watch boxes and radii
+are adapter settings, not authoritative municipal boundaries. Missing,
+unavailable, stale and empty observations remain distinct states. An accessible
+code corpus cannot supply resident experience, neighborhood-level conditions
+or the views of groups absent from administrative records.
 
-**Rights and disclosure.** The repository's software/manuscript licensing does
-not grant additional rights over third-party source material. Preserve source
-attribution and applicable provider terms. Public review artifacts exclude
-credentials, raw acquisition HTML and private operational diagnostics. Funding,
-conflict and final contribution declarations require owner confirmation before
-publication; no declaration is inferred from missing metadata.
+**Models and automation.** No model-generated answer is evaluated. A retrieval
+result, citation link or successful model invocation is not a demonstration of
+legal accuracy. General legal-AI findings motivate caution but do not establish
+this system's error rate. Human expert review remains necessary for any claimed
+legal interpretation or answer-quality result.
+
+**Artwork and visual rhetoric.** The cover is an original AI-generated
+conceptual illustration. It is not a photograph, official city branding,
+surveyed map or depiction of a measured event. The architecture and evidence
+diagrams are explanatory designs. Only the corpus-profile figure reports
+measured counts, with an exact numerical fallback. These roles are stated so
+that visual polish cannot substitute for evidence.
+
+**Rights, privacy and declarations.** Repository software/manuscript terms
+do not grant additional rights over third-party municipal material. Public
+review members exclude credentials, raw acquisition HTML and private
+operational diagnostics. Bundled template fonts and MathJax retain their
+upstream notices and terms. AI-assisted drafting and software work do not
+constitute independent human peer review. Final authorship/contribution,
+funding/conflict and redistribution declarations require owner confirmation
+before publication; no organization is represented as endorsing this study.
 
 
 # Reproducibility and Artifact Specification {#sec:reproducibility}
 
-The Davis consumer installs its full public Git dependency SHA through a frozen
-Bun lockfile. It does not require a sibling core checkout. From that checkout,
-the review workflow is:
+The consumer installs its full public Region Intel commit through a frozen Bun
+lockfile. Shared algorithms and publication methods remain in that dependency.
+A sibling source checkout is not required for normal consumer commands.
+Native manuscript rendering additionally requires the pinned external
+docxology/template checkout and its prepared Python/native tools.
 
-```sh
+~~~sh
 bun install --frozen-lockfile
 bun run validate
 bun run manuscript:check
 bun run manuscript:render
 bun run manuscript:validate-render
-```
+bun run manuscript:bundle
+bun run manuscript:validate-render -- --bundle
+~~~
 
-The renderer uses native Pandoc citation processing and XeLaTeX for PDF and
-standalone HTML for web review. It disables raw HTML/TeX in source Markdown,
-uses a finite owned child for each tool, checks the PDF with qpdf and extracts
-text for unresolved-content checks. Exact tool versions and member hashes are
-recorded alongside the rendered edition. Failed builds preserve the prior
-complete edition; successful rendering alone does not imply peer review.
+The documented environment selects the template root and interpreter explicitly.
+The shared adapter rejects a wrong repository, commit or modified tracked
+source. It records actual template, Python, Matplotlib, Pandoc and TeX versions;
+the completed native packet is also checked with qpdf and pdftotext.
+The template's combined writers generate the manuscript; regional code does
+not silently substitute a separate direct-Pandoc rendering path.
 
-The input fingerprint is recorded in the appendix and evidence JSON. It binds
-the accepted seed, configuration, dependency manifest and lock, authored source,
-bibliography, claim ledger and renderer source. Re-checking an edition compares
-current inputs and exact output members. Rendered PDF timestamps may differ
-across independent builds; compare the declared inputs and semantic content
-separately from the receipt that identifies one actual PDF/HTML byte edition.
+The accepted seed, effective configuration, package/lock, numbered sources,
+bibliography, claim ledger and cover bytes bind the manuscript fingerprint.
+That fingerprint also binds the shared adapter/projection/figure source and
+pinned web-asset inventory. The article-level CSV and profile JSON are exact
+derived tables. PDF, SVG and PNG variants preserve the distinction between
+measured counts and explanatory diagrams.
 
-The public data and source are available at the Davis CA Intel repository.
-Raw source custody and acquisition diagnostics remain local; the public seed
-retains their commitments rather than claiming that omitted raw files can be
-reconstructed from a digest. This distinction limits independent re-extraction
-from the public bundle and should guide any replication claim.
+A complete HTML edition includes its assets and figure directory. Copying only
+the HTML entry point omits font, mathematics and image dependencies. The review
+validator checks bounded regular files, exact member inventory, current source
+projection, output hashes and pinned template asset hashes. These checks are
+consistent with the W3C emphasis on version and preservation metadata
+[@dwbp2017], but successful replay is not a proof of semantic correctness.
+
+The reproducibility record distinguishes computational repeatability, native
+rendering and substantive acceptance. Bitwise PDF identity across different
+native toolchains is not promised: versions, timestamps and font machinery
+can affect serialization. Rebuilding a changed candidate requires renewed
+source, figure, page and applicable independent review. Previous failed work
+and the last complete packet remain available rather than being overwritten
+with a partial artifact.
+
+Data and source are available in the public Davis repository. Raw source
+acquisition and operational diagnostics remain local. A public digest identifies
+omitted evidence; it is not a replacement for that evidence and does not allow
+a reader to reconstruct it.
 
 
 # Conclusion {#sec:conclusion}
 
-Davis CA Intel demonstrates a configured regional consumer that imports shared
-methods while retaining its own accepted municipal evidence and manuscript
-sources. The recorded 290-article, 2541-section edition
-supports a precise description of this software artifact. It does not establish
-ongoing legal currency, complete source access, evaluated model factuality or
-public benefit. A separately bound native review edition makes those reporting
-limits and reproducibility inputs inspectable before a 0.1 publication decision.
+Davis CA Intel provides an implemented thin regional consumer with its own
+identity, accepted municipal edition and scholarly manuscript. Shared methods
+derive a 290-article, 2541-section structural profile
+from retained evidence and pass the hydrated sources to a pinned external
+template for native publication rendering. Exact tables, asset identities and
+source/output commitments make the case inspectable.
+
+The study's contribution is a reproducible boundary between shared computation,
+regional evidence and presentation. It does not establish ongoing legal
+currency, legal correctness, usability, civic impact or model factuality.
+Those questions require their own methods and evidence before a 0.1
+publication decision.
 
 
 # Appendix: Formal Contracts and Worked Records {#sec:appendix}
 
-For this review edition, a claim-evidence entry names captured public file paths
-and states both its scope and what is not established. The counts in the Results
-table are substituted from validated seed records rather than entered by hand.
-The complete file-by-file byte commitments are in `evidence.json`; rendered
-members and tool versions are in `review-receipt.json`.
+## Data statement
 
-```text
+| Question | Davis record |
+|---|---|
+| Unit | Accepted article-page and section objects |
+| Origin | eCode360 DA4922 municipal-code publication |
+| Edition | Snapshot identified in the evidence receipt |
+| Observation time | 2026-10-31T03:39:57.381Z |
+| Intended use | Source-linked inspection, descriptive corpus structure and reproducible software study |
+| Not represented | Resident population, complete city activity, legal adjudication or a model benchmark |
+| Excluded public members | Credentials, raw acquisition HTML and private operational diagnostics |
+| Numerical fallback | Complete article-sections.csv and corpus-profile.json |
+
+This compact statement is informed by dataset documentation scholarship
+[@gebru2021; @bender2018]. It supplements the source and claim ledger; it does
+not claim compliance with every proposed datasheet question.
+
+## Constructed arithmetic control
+
+For a deliberately synthetic vector of article section counts
+$[2,0,4]$, the profiler must return three article pages, six section records,
+a median of two, a minimum of zero, a maximum of four and one zero-section
+page. This example tests the transformation; none of these values is a Davis
+observation. A duplicate article identifier must fail rather than silently
+increase a denominator.
+
+## Candidate bindings
+
+~~~text
 profile: davis-ca
 municipality: DA4922
-source edition:
-2d74bf8205ecde96b88b4183d4d47169d83ee910e5d1ce125fd6c77bd31eca8b
-shared runtime:
-7cb15fa1af0455e4d756551ddf828da0cbf5095e
-manuscript input fingerprint:
-2d34a2664e2f140bdee02d53277b93225a76122f8848ed3620d00d74c5067af3
-```
+source edition: 2d74bf8205ecde96b88b4183d4d47169d83ee910e5d1ce125fd6c77bd31eca8b
+shared runtime: 7667ae7fdfa7cc54fc80d90153c2873051f29ac4
+template revision: c18dae54a07fe6ac3a7b1a1a274251c169a12e7a
+manuscript input: 08013accbc134f81375f357fd0f2422f2a324105e43fdd81de84b4b1e0e29cd7
+~~~
 
-Three separate acceptance questions remain visible: whether captured inputs
-match their declared edition; whether the PDF/HTML render matches the captured
-manuscript inputs; and whether reviewers accept the claims and interpretation.
-The software checks the first two operational boundaries. It cannot certify the
-third by writing a successful receipt or a version number.
+The complete file-by-file commitments are in evidence.json and
+review-receipt.json. template-render.json records the actual rendering API,
+template identity and native versions. Three acceptance questions remain
+separate: whether captured inputs match their declared edition; whether the
+rendering methods produce a coherent artifact from those inputs; and whether
+the research interpretation is suitable for its intended audience and use.
 
 
 # References {#sec:references}
 
-Bibliographic entries cited in the text follow below. The source receipt and
-repository files supply the empirical artifact record; the scholarly sources
-provide context for provenance, metadata reuse and computational reproducibility.
+The cited scholarly and standards literature supplies context for provenance,
+dataset documentation, reproducibility, open-government data and model-evaluation
+limits. The accepted municipal seed supplies the Davis observations. No external
+benchmark result is treated as a measured outcome of this deployment.
