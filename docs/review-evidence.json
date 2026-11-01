@@ -1,21 +1,57 @@
 {
-  "schemaVersion": "regional-review-readiness/v1",
+  "schemaVersion": "regional-review-readiness/v2",
   "date": "2026-11-01",
   "status": "technically-review-ready-draft",
-  "core": "7667ae7fdfa7cc54fc80d90153c2873051f29ac4",
+  "core": "dfa78895e45fba9885e0fe9e1edfca152bed88da",
   "template": {
     "repository": "https://github.com/docxology/template",
     "revision": "c18dae54a07fe6ac3a7b1a1a274251c169a12e7a"
   },
-  "inputFingerprint": "08013accbc134f81375f357fd0f2422f2a324105e43fdd81de84b4b1e0e29cd7",
-  "pdfSha256": "0473c66f705d89debd22cc63c4ed4fba6860d9af274fd0838f55e78605dddd85",
-  "htmlSha256": "1bf28676703449a86641c357e8b66e5874737d43bdc1dea9f5c56cf761aa5529",
+  "inputFingerprint": "2b8dc3d4d9bb8531a59c19f412e5adf11814c3fb6a1f8907580174ebb210a2f8",
+  "pdfSha256": "08b2ae6606293a99b1e4fd86ee899f3678cb2f42bd3504129128b03c6a425ec5",
+  "htmlSha256": "60be5427f66a5642a6f38ec5f0404b6aad205a81802e9128918ada2a397b539a",
   "packetMembersExcludingReceipt": 290,
   "independentReview": {
-    "kind": "independent AI technical gate",
+    "kind": "independent AI technical native artifact review",
     "verdict": "APPROVE",
-    "reportSha256": "4303a2971c33143f80e9df4c67d85e9dc05dcd4f4ad9ec6e54174f07520983e8",
-    "all239SharedSourceFilesMatchedInBothConsumers": true
+    "scope": "Exact source/data/native candidate; consumer publication and its hosted checks are separately bound to their commits. No scientific, legal or human peer-review certification.",
+    "reportSha256": "501200b9d41f6668deb2c0081ee6ac21552c48a4de562d5fb0956cd04b947825",
+    "sourceFilesPerConsumer": 240,
+    "bothInstalledSourceGraphsMatched": true
+  },
+  "sourceQualification": {
+    "conclusion": "success",
+    "event": "workflow_dispatch",
+    "head_branch": "build/publication-preflight-20261101-qo4z506v",
+    "head_sha": "dfa78895e45fba9885e0fe9e1edfca152bed88da",
+    "html_url": "https://github.com/docxology/region-intel/actions/runs/41354853182",
+    "id": 41354853182,
+    "name": "Shared platform qualification",
+    "path": ".github/workflows/core.yml",
+    "run_attempt": 1,
+    "status": "completed",
+    "runtime": "1.4.2",
+    "platform": "declared ubuntu-latest workflow",
+    "plain": {
+      "passed": 2132,
+      "skipped": 2,
+      "failed": 0,
+      "total": 2134,
+      "files": 207
+    },
+    "coverage": {
+      "passed": 2132,
+      "skipped": 2,
+      "failed": 0,
+      "total": 2134,
+      "files": 207,
+      "lines": 86.55,
+      "functions": 88.96,
+      "branches": "not measured",
+      "lineFloor": 60
+    },
+    "fullLogSha256": "464a87e9073bf140694a743294141f8ce9403b365d661944225e64ed41f58398",
+    "localMacOSRedsRetained": true
   },
   "controls": [
     {
@@ -105,8 +141,8 @@
     }
   ],
   "pdf": {
-    "inputFingerprint": "08013accbc134f81375f357fd0f2422f2a324105e43fdd81de84b4b1e0e29cd7",
-    "pdfSha256": "0473c66f705d89debd22cc63c4ed4fba6860d9af274fd0838f55e78605dddd85",
+    "inputFingerprint": "2b8dc3d4d9bb8531a59c19f412e5adf11814c3fb6a1f8907580174ebb210a2f8",
+    "pdfSha256": "08b2ae6606293a99b1e4fd86ee899f3678cb2f42bd3504129128b03c6a425ec5",
     "pages": 13,
     "size": "A4",
     "embeddedSubsetUnicodeFonts": 7,
@@ -117,13 +153,15 @@
     "sourcePdfUnchanged": true
   },
   "html": {
-    "core": "7667ae7fdfa7cc54fc80d90153c2873051f29ac4",
-    "inputFingerprint": "08013accbc134f81375f357fd0f2422f2a324105e43fdd81de84b4b1e0e29cd7",
-    "pdfSha256": "0473c66f705d89debd22cc63c4ed4fba6860d9af274fd0838f55e78605dddd85",
-    "htmlSha256": "1bf28676703449a86641c357e8b66e5874737d43bdc1dea9f5c56cf761aa5529",
+    "core": "dfa78895e45fba9885e0fe9e1edfca152bed88da",
+    "inputFingerprint": "2b8dc3d4d9bb8531a59c19f412e5adf11814c3fb6a1f8907580174ebb210a2f8",
+    "pdfSha256": "08b2ae6606293a99b1e4fd86ee899f3678cb2f42bd3504129128b03c6a425ec5",
+    "htmlSha256": "60be5427f66a5642a6f38ec5f0404b6aad205a81802e9128918ada2a397b539a",
     "surfaces": [
       {
         "width": 1440,
+        "stagedCommand": true,
+        "committedCommand": true,
         "headings": 10,
         "references": 10,
         "figures": 3,
@@ -143,6 +181,8 @@
       },
       {
         "width": 390,
+        "stagedCommand": true,
+        "committedCommand": true,
         "headings": 10,
         "references": 10,
         "figures": 3,
@@ -198,117 +238,154 @@
     "serverClosed": true
   },
   "gates": {
-    "core-member-full-gate": {
+    "core-final-contracts": {
       "exitCode": 0,
       "reaped": true,
-      "receiptSha256": "598b81f6f23b9720b16a5d66cc6ccd797e69113099c8b9e1009da164b78e12c2"
+      "receiptSha256": "2205c6ea995e8ccbd7e745e7d61ab5d64e909f2561f95583874e300d39ffe5ae"
     },
-    "davis-corrected-frozen": {
+    "corrected-publication-tests": {
       "exitCode": 0,
       "reaped": true,
-      "receiptSha256": "4e719da604a226c2f35535c6685e4f822d346938e8455540a81967715f22f98a"
+      "receiptSha256": "643990eb84c158eab5c8cd3f51d31a3cf1183e377a7e1b1034639f183addc0d4"
     },
-    "crescent-corrected-frozen": {
+    "reviewer-optional-green": {
       "exitCode": 0,
       "reaped": true,
-      "receiptSha256": "8559b6af7d9821ef106e97d8ca7103f4ce9e28fcae8f21071733bc3fdca0cbb8"
+      "receiptSha256": "42d761e9cb65ad3e59af5e3d6f2633931fe6ca270ad9a6b1f3055f2b7af77930"
     },
-    "davis-corrected-template-bundle": {
+    "crescent-public-frozen": {
       "exitCode": 0,
       "reaped": true,
-      "receiptSha256": "96339fa383aa60a53ada5827540985e3d4571237d2dad28e6d70fe94601b384d"
+      "receiptSha256": "729a52176a4b229e7aab98f782cc6e84d85a028a83dbe1de2304f5d79f57c709"
     },
-    "davis-final-release-check": {
+    "davis-public-frozen": {
       "exitCode": 0,
       "reaped": true,
-      "receiptSha256": "89528a4cb54ccb57ab4721bd9d997606bbaf91b2dbf4a767fd9d835461436ecf"
+      "receiptSha256": "212a587666d109e47aef29c81e8f1b70c238fc989b694beda1f5abf11c18bcb8"
     },
-    "davis-final-native-html": {
+    "crescent-installed-source": {
       "exitCode": 0,
       "reaped": true,
-      "receiptSha256": "284a81662ea33bbc7356a7529cd6b981caaa18303b08cb0ceb871f8ce0c46edb"
+      "receiptSha256": "4152182410313c9f37ffdfd61f04ebc2901beb35c8f88b67c28bdf657fb313a6"
     },
-    "davis-final-native-pdf": {
+    "davis-installed-source": {
       "exitCode": 0,
       "reaped": true,
-      "receiptSha256": "54d8e5c39ecb230d9bf1091e1f3edf846eb791ff48f33ebe37fa9617efc89a1f"
+      "receiptSha256": "870e1f160077a65775e9ac5749da03f85ab435b9fa56e02c42639fc27058716b"
     },
-    "davis-final-figure-view": {
+    "davis-final-bundle-r3": {
       "exitCode": 0,
       "reaped": true,
-      "receiptSha256": "65a1124e9722fa070943ef307ae5116d1191efadeb8af987f5120f5294f4daa4"
+      "receiptSha256": "6729ea8b00d2644291ed1eac9e3a53c5d468f7538b253f992969213256db3706"
     },
-    "davis-pages-export": {
+    "davis-final-release-r3": {
       "exitCode": 0,
       "reaped": true,
-      "receiptSha256": "9f19745c08a4f468720e709b359188e3853b930425d2810d5fafe5f4d9af4cd5"
+      "receiptSha256": "e11329ea2ac4a5848b0c5220514ef8be64f62cedec38cf5744cb4be88a532d1f"
     },
-    "davis-pages-validate": {
+    "davis-final-native-html-r3": {
       "exitCode": 0,
       "reaped": true,
-      "receiptSha256": "646da4cecf84f0435ede39d3c846c26a49a949a2bad494a6be405f36a2a27ab9"
+      "receiptSha256": "6e456014ff4ace66def3dc30faec65d3f2ddb3a59faf9706e6caf3241b618d36"
     },
-    "davis-reader-smoke": {
+    "davis-final-native-pdf-r3": {
       "exitCode": 0,
       "reaped": true,
-      "receiptSha256": "d360c5f38b313cdfa493a1ae4445d34ae5807de6cbb8c408e9bf2eddbff7516c"
+      "receiptSha256": "5a02390d2a2fdbb9fb322cb8828641d51fcb087cbbe29c53a74877b3a6de2ca3"
     },
-    "crescent-corrected-validate": {
+    "davis-final-figure-view-r3": {
       "exitCode": 0,
       "reaped": true,
-      "receiptSha256": "d462718262e73cea591de9762bf64d97b3d09696669bb01cd0267fa6ffdd0442"
+      "receiptSha256": "8f51f12ef3a13a62f3df5e6c1b2cad86a4df518da0c8d64d6a836ffe95ac5db0"
     },
-    "crescent-pages-export": {
+    "crescent-final-acceptance": {
       "exitCode": 0,
       "reaped": true,
-      "receiptSha256": "36e95ba5e77a3f8d2b0edd73a6e664aef6ce4093c82a1c3cb8a12671f6751506"
+      "receiptSha256": "e69d4fd6dacf44e15caf672034f981a7b2c4ccfcd5ae2cb77fc2b4475b55cce8"
     },
-    "crescent-pages-validate": {
+    "crescent-final-pages-export": {
       "exitCode": 0,
       "reaped": true,
-      "receiptSha256": "3c264ee6bd37a6493717ae8ad1aa84072c23414ded3996b4c8c65ba9f2df3bd4"
+      "receiptSha256": "663849a735de867eb58c9cabc43b8b7452b6e6b999dfcbe7dcaf13c32adfa25c"
     },
-    "crescent-reader-smoke": {
+    "crescent-final-pages-validate": {
       "exitCode": 0,
       "reaped": true,
-      "receiptSha256": "3a5e696fd35c4ce423cf7d3262ce86390bbabeb1273c596d790af3019ede8671"
+      "receiptSha256": "316698c2a4a7ce8ec799794a9635f82775b7ead105edcbf875ad89d4979ced08"
     },
-    "independent-final-controls": {
+    "davis-final-pages-export": {
       "exitCode": 0,
       "reaped": true,
-      "receiptSha256": "5c6b01c6f715527ec9dc3cbf6cd7fa9bea61f09fc5ffb66c9c0087c4dabfeed5"
+      "receiptSha256": "eb0d54da37deb7724049210699bc8b1a0feaab7291fe9a925d73db441b97fee9"
     },
-    "independent-final-installed": {
+    "davis-final-pages-validate": {
       "exitCode": 0,
       "reaped": true,
-      "receiptSha256": "65e80ced472f7139ec477456e3f02df7221bbd5245569b306326c016ad0f554c"
+      "receiptSha256": "6efa00944ddb1d62ae9b45f870ac0e49967b07bc4a759e8c1d1e2ea4b21ff0dd"
     },
-    "independent-final-profile": {
+    "crescent-final-reader-smoke": {
       "exitCode": 0,
       "reaped": true,
-      "receiptSha256": "3e577caeaddec319edda16b0f6d237390e3b3d906314b39bb9c50c40d52b84b9"
+      "receiptSha256": "6c67b37ea04c11593e01780aa94bc310bf4b691d09bd6098c57f239da390eaaf"
+    },
+    "davis-final-reader-smoke": {
+      "exitCode": 0,
+      "reaped": true,
+      "receiptSha256": "4c29b4f30a417308f11390bfd0259e317987fbb978a46e1d1e36f91ef480845c"
+    },
+    "crescent-negative-head-preflight": {
+      "exitCode": 0,
+      "reaped": true,
+      "receiptSha256": "5106f2155013768042533425c8df1c229781f1ad8ad40f5e9c01a036d6c8a577"
+    },
+    "davis-negative-head-preflight": {
+      "exitCode": 0,
+      "reaped": true,
+      "receiptSha256": "3bba2698617f69f179e4e618544fc30fba3d163e8f091d515ac111c581c00f18"
+    },
+    "reviewer-native-r3-controls": {
+      "exitCode": 0,
+      "reaped": true,
+      "receiptSha256": "6a464f5952447c5b5d0ea87465b5d6cddde7a90719af20cf0b1462de64fa5282"
+    },
+    "reviewer-r3-bindings": {
+      "exitCode": 0,
+      "reaped": true,
+      "receiptSha256": "c0b578b3b6076e9b798d0d3c78d73bfafe4aff8df4e7c754769a4ee11e0d65d5"
+    },
+    "reviewer-r3-profile": {
+      "exitCode": 0,
+      "reaped": true,
+      "receiptSha256": "3e957d88c92d96dcff69ac3b0e8997ef02123e75f95569a308631c5128fe312a"
+    },
+    "reviewer-r3-raster-bindings": {
+      "exitCode": 0,
+      "reaped": true,
+      "receiptSha256": "de9df1420f17b035edca2055a5094a302910ee292775d16b44ec1b4415fb612c"
     }
   },
-  "publication": "no release, tag or DOI created by this work",
-  "scope": "Technical source/native/UI review; author, scientific, legal and editorial acceptance remain separate.",
-  "publicationTreeReplay": {
-    "completePacketMembersFromIndex": 291,
-    "freshTrackedTreeReplay": "pass",
-    "oneMissingAssetControl": "rejected",
-    "sourceInputAndRenderedHashesUnchanged": true,
-    "supersededConsumerCommit": "519b1b8e0d3b24181b5a3b0e4fdc3ece02908cde",
-    "supersededHostedNativeRun": "https://github.com/docxology/davis-ca-intel/actions/runs/41264307024",
-    "cause": "Unanchored output ignore rule omitted two MathJax output modules; root-only ignore rule includes their original declared bytes."
+  "observation": {
+    "articles": 290,
+    "sections": 2541,
+    "minimumSectionsPerArticle": 0,
+    "medianSectionsPerArticle": 7,
+    "maximumSectionsPerArticle": 66,
+    "zeroSectionArticles": 4,
+    "verifiedAt": "2026-10-31T03:39:57.381Z",
+    "editionId": "2d74bf8205ecde96b88b4183d4d47169d83ee910e5d1ce125fd6c77bd31eca8b",
+    "csvSha256": "79bffd75094aecb3c2d4e7b9cf3c5e0304df1a8e0b322ee78a64a9ceb1fcdfd3",
+    "reacquiredForThisRender": false
   },
-  "nativePlatformPreparation": {
-    "supersededHostedNativeRun": "https://github.com/docxology/davis-ca-intel/actions/runs/41264953829",
-    "cause": "Missing explicit Ubuntu OpenType font packages",
-    "packages": [
-      "fonts-texgyre",
-      "fonts-lmodern"
-    ],
-    "requiredFontFilesChecked": 10,
-    "nativeDiagnosticsRetainedOnFailure": true,
-    "reviewedArtifactHashesUnchanged": true
-  }
+  "commandFidelity": {
+    "r2NegativeControl": "rejected a hyphenated extracted command",
+    "r3SameFullCommandControl": "pass",
+    "pdfStandaloneAsciiCommands": true,
+    "htmlStandaloneAsciiCommandsAtBothViewports": true
+  },
+  "retainedLocalMacOSResults": {
+    "completeGatePassed": false,
+    "scope": "Local ordinary and coverage deadline failures remain unresolved. The complete source qualification above is the exact-SHA declared Linux workflow. No timeout, floor or failure check was relaxed."
+  },
+  "supersededReadiness": "https://github.com/docxology/davis-ca-intel/blob/c8a1a5dc45658968acf040f61ca23a335b5393f6/docs/review-evidence.json",
+  "publication": "Review draft; no release, tag or DOI created by this work."
 }

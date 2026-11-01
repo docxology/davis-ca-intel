@@ -48,8 +48,8 @@ diagram, not a measured civic outcome.
 
 10 Appendix: Formal Contracts and Worked Records                                                    10
    10.1 Data statement . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      10
-   10.2 Constructed arithmetic control . . . . . . . . . . . . . . . . . . . . . . . . . . . .      10
-   10.3 Candidate bindings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      10
+   10.2 Constructed arithmetic control . . . . . . . . . . . . . . . . . . . . . . . . . . . .      11
+   10.3 Candidate bindings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      11
 
 11 References                                                                                       11
 
@@ -383,7 +383,21 @@ ment for that evidence and does not allow a reader to reconstruct it.
 
 
                                                 9
-9      Conclusion
+Before committing, the operator stages the intended public files and checks the index. After
+committing, the second command compares the current commit with public input and complete
+packet bytes:
+
+# After staging, before committing
+bun run publication:check -- --staged
+
+# After committing
+bun run publication:check
+
+This shared preflight rejects missing, ignored, linked or changed required Git members. It does
+not stage files, publish a release or certify source interpretation.
+
+
+9      Conclusion
 Davis CA Intel provides an implemented thin regional consumer with its own identity, accepted
 municipal edition and scholarly manuscript. Shared methods derive a 290-article, 2541-section
 structural profile from retained evidence and pass the hydrated sources to a pinned external
@@ -398,43 +412,44 @@ before a 0.1 publication decision.
 10     Appendix: Formal Contracts and Worked Records
 10.1     Data statement
 
-Question                                               Davis record
-Unit                                                   Accepted article-page and section objects
-Origin                                                 eCode360 DA4922 municipal-code
-                                                       publication
-Edition                                                Snapshot identified in the evidence receipt
-Observation time                                       2026-10-31T03:39:57.381Z
-Intended use                                           Source-linked inspection, descriptive corpus
-                                                       structure and reproducible software study
-Not represented                                        Resident population, complete city activity,
-                                                       legal adjudication or a model benchmark
-Excluded public members                                Credentials, raw acquisition HTML and
-                                                       private operational diagnostics
-Numerical fallback                                     Complete article-sections.csv and
-                                                       corpus-profile.json
+Question                                            Davis record
+Unit                                                Accepted article-page and section objects
+Origin                                              eCode360 DA4922 municipal-code
+                                                    publication
+Edition                                             Snapshot identified in the evidence receipt
+Observation time                                    2026-10-31T03:39:57.381Z
+Intended use                                        Source-linked inspection, descriptive corpus
+                                                    structure and reproducible software study
+Not represented                                     Resident population, complete city activity,
+                                                    legal adjudication or a model benchmark
+Excluded public members                             Credentials, raw acquisition HTML and
+                                                    private operational diagnostics
+Numerical fallback                                  Complete article-sections.csv and
+                                                    corpus-profile.json
 
 
 This compact statement is informed by dataset documentation scholarship [Gebru et al., 2021,
 Bender and Friedman, 2018]. It supplements the source and claim ledger; it does not claim
 compliance with every proposed datasheet question.
 
-10.2     Constructed arithmetic control
+
+
+                                               10
+10.2   Constructed arithmetic control
 For a deliberately synthetic vector of article section counts [2, 0, 4], the profiler must return three
 article pages, six section records, a median of two, a minimum of zero, a maximum of four and
 one zero-section page. This example tests the transformation; none of these values is a Davis
 observation. A duplicate article identifier must fail rather than silently increase a denominator.
 
-10.3     Candidate bindings
+10.3   Candidate bindings
 profile: davis-ca
 municipality: DA4922
 source edition:
 2d74bf8205ecde96b88b4183d4d47169d83ee910e5d1ce125fd6c77bd31eca8b
-shared runtime: 7667ae7fdfa7cc54fc80d90153c2873051f29ac4
+shared runtime: dfa78895e45fba9885e0fe9e1edfca152bed88da
 template revision: c18dae54a07fe6ac3a7b1a1a274251c169a12e7a
-
-                                                  10
-manuscript input:
-08013accbc134f81375f357fd0f2422f2a324105e43fdd81de84b4b1e0e29cd7
+manuscript input:
+2b8dc3d4d9bb8531a59c19f412e5adf11814c3fb6a1f8907580174ebb210a2f8
 
 The complete file-by-file commitments are in evidence.json and review-receipt.json. template-
 render.json records the actual rendering API, template identity and native versions. Three ac-
@@ -443,7 +458,7 @@ whether the rendering methods produce a coherent artifact from those inputs; and
 research interpretation is suitable for its intended audience and use.
 
 
-11    References
+11     References
 The cited scholarly and standards literature supplies context for provenance, dataset documen-
 tation, reproducibility, open-government data and model-evaluation limits. The accepted mu-
 nicipal seed supplies the Davis observations. No external benchmark result is treated as a mea-
@@ -468,7 +483,9 @@ Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin
   Douwe Kiela. Retrieval-augmented generation for knowledge-intensive NLP tasks. In Ad-
   vances in Neural Information Processing Systems, volume 33, pages 9459–9474, 2020. URL
   https://arxiv.org/abs/2005.11401.
-National Institute of Standards and Technology. Artificial intelligence risk management frame-
+
+                                                  11
+National Institute of Standards and Technology. Artificial intelligence risk management frame-
  work (AI RMF 1.0). Nist ai 100-1, National Institute of Standards and Technology, 2023. URL
  https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf.
 Geir Kjetil Sandve, Anton Nekrutenko, James Taylor, and Eivind Hovig. Ten simple rules for
@@ -480,14 +497,11 @@ Mark D. Wilkinson, Michel Dumontier, IJsbrand Jan Aalbersberg, et al. The FAIR g
  10.1038/sdata.2016.18. URL https://www.nature.com/articles/sdata201618.
 World Wide Web Consortium. PROV-DM: The PROV data model. W3c recommendation, World
  Wide Web Consortium, 2013. URL https://www.w3.org/TR/2013/REC-prov-dm-20130430/.
-
-
-                                               11
-World Wide Web Consortium. Data on the web best practices. W3c recommendation, World
+World Wide Web Consortium. Data on the web best practices. W3c recommendation, World
  Wide Web Consortium, 2017. URL https://www.w3.org/TR/2017/REC-dwbp-20170131/.
 
 
 
 
-                                        12
+                                             12
 

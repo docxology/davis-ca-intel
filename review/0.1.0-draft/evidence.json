@@ -286,8 +286,8 @@
     "MONITOR_COUNT": "8",
     "VERIFIED_AT": "2026-10-31T03:39:57.381Z",
     "EDITION_ID": "2d74bf8205ecde96b88b4183d4d47169d83ee910e5d1ce125fd6c77bd31eca8b",
-    "CORE_PIN": "7667ae7fdfa7cc54fc80d90153c2873051f29ac4",
-    "EVIDENCE_FINGERPRINT": "08013accbc134f81375f357fd0f2422f2a324105e43fdd81de84b4b1e0e29cd7",
+    "CORE_PIN": "dfa78895e45fba9885e0fe9e1edfca152bed88da",
+    "EVIDENCE_FINGERPRINT": "2b8dc3d4d9bb8531a59c19f412e5adf11814c3fb6a1f8907580174ebb210a2f8",
     "CODE_MEDIAN_SECTIONS": "7",
     "CODE_MAX_SECTIONS": "66",
     "CODE_MIN_SECTIONS": "0",
@@ -328,12 +328,12 @@
       "bytes": 3558
     },
     "package.json": {
-      "sha256": "fa2d54a393a098c93bc64aac9cbbcb7760c3a379cbcf85fe02c0bb8bbe24afbb",
-      "bytes": 3244
+      "sha256": "f3a19df6a23c6675d6aee59d8d2b3113b5860afd89edad26da945e9590a46208",
+      "bytes": 3316
     },
     "bun.lock": {
-      "sha256": "968ca5b2d0987297326e821c16b5a6f880bd823f3b8fae7409cbc5cc1fc3e6ac",
-      "bytes": 9005
+      "sha256": "ae2b89f9fa4ee2ce55d8870b37cb1e5db3a9c0b90b1b55a59a9692d470abebff",
+      "bytes": 8945
     },
     "pages-data/publication-input.json": {
       "sha256": "8be33bd5d34ba8cd65b1d3a7cb72b3def10e3ef8f65e44faee9ee760b5e3311b",
@@ -368,8 +368,8 @@
       "bytes": 2712
     },
     "docs/manuscript/06_reproducibility.md": {
-      "sha256": "ed9f840b7acb07e9905f1ff0b98c445f728f724a412a5ff9a6698039c9387872",
-      "bytes": 2726
+      "sha256": "85f5e17cc2dc54ac4cfa9c839355e8889a7d751e5c216f892702be33d5a59130",
+      "bytes": 3220
     },
     "docs/manuscript/07_conclusion.md": {
       "sha256": "5d01583050a758ad1b6e9db3609a1884a31ee90fc9dcd7af6666ea408c420c6a",
@@ -397,7 +397,7 @@
     }
   },
   "rendererSha256": "ebae7c0671c4bee44ec8dc368517d371a69891f247c0fd09925692e0c66ba596",
-  "inputFingerprint": "08013accbc134f81375f357fd0f2422f2a324105e43fdd81de84b4b1e0e29cd7",
+  "inputFingerprint": "2b8dc3d4d9bb8531a59c19f412e5adf11814c3fb6a1f8907580174ebb210a2f8",
   "limitations": [
     "Recorded accepted seed; no new upstream acquisition",
     "Live TOC and sample do not establish all-page currentness",

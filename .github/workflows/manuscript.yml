@@ -29,8 +29,8 @@ jobs:
         with:
           node-version: '24'
       - run: bun install --frozen-lockfile
-      - name: Replay the committed review packet before native installation
-        run: bun run manuscript:validate-render -- --bundle
+      - name: Verify committed public inputs before native installation
+        run: bun run publication:check
       - name: Prepare the pinned template environment
         working-directory: .template
         run: |

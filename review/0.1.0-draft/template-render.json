@@ -1,7 +1,7 @@
 {
   "repository": "https://github.com/docxology/template",
   "revision": "c18dae54a07fe6ac3a7b1a1a274251c169a12e7a",
-  "inputFingerprint": "08013accbc134f81375f357fd0f2422f2a324105e43fdd81de84b4b1e0e29cd7",
+  "inputFingerprint": "2b8dc3d4d9bb8531a59c19f412e5adf11814c3fb6a1f8907580174ebb210a2f8",
   "tools": {
     "template": "docxology/template@c18dae54a07fe6ac3a7b1a1a274251c169a12e7a",
     "python": "3.14.8 (main, Oct  9 2026, 15:11:09) [Clang 22.1.3 ]",

@@ -49,3 +49,19 @@ Data and source are available in the public Davis repository. Raw source
 acquisition and operational diagnostics remain local. A public digest identifies
 omitted evidence; it is not a replacement for that evidence and does not allow
 a reader to reconstruct it.
+
+Before committing, the operator stages the intended public files and checks the
+index. After committing, the second command compares the current commit with
+public input and complete packet bytes:
+
+```sh
+# After staging, before committing
+bun run publication:check -- --staged
+
+# After committing
+bun run publication:check
+```
+
+This shared preflight rejects missing, ignored, linked or changed required Git
+members. It does not stage files, publish a release or certify source
+interpretation.

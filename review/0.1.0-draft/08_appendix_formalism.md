@@ -32,9 +32,9 @@ increase a denominator.
 profile: davis-ca
 municipality: DA4922
 source edition: 2d74bf8205ecde96b88b4183d4d47169d83ee910e5d1ce125fd6c77bd31eca8b
-shared runtime: 7667ae7fdfa7cc54fc80d90153c2873051f29ac4
+shared runtime: dfa78895e45fba9885e0fe9e1edfca152bed88da
 template revision: c18dae54a07fe6ac3a7b1a1a274251c169a12e7a
-manuscript input: 08013accbc134f81375f357fd0f2422f2a324105e43fdd81de84b4b1e0e29cd7
+manuscript input: 2b8dc3d4d9bb8531a59c19f412e5adf11814c3fb6a1f8907580174ebb210a2f8
 ~~~
 
 The complete file-by-file commitments are in evidence.json and
