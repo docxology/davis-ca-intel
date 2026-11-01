@@ -11,3 +11,5 @@ output/
 .*.publication-*
 .*.previous-*/
 .corpus-candidates/
+
+review/.review-build-*/

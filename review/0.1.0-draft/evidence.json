@@ -1,0 +1,393 @@
+{
+  "selectedConfiguration": {
+    "deployment": {
+      "schemaVersion": "region-deployment/v1",
+      "civicProfile": "configs/davis-civic.json",
+      "regionConfig": "configs/davis-region.json",
+      "outputDir": "output",
+      "seedDir": "pages-data",
+      "enabledMonitors": [
+        "earthquake",
+        "weather",
+        "airquality",
+        "wildfire",
+        "drought",
+        "smoke",
+        "roads",
+        "fuel"
+      ],
+      "sources": [
+        {
+          "id": "davis-code",
+          "name": "City of Davis municipal code",
+          "url": "https://ecode360.com/DA4922",
+          "kind": "code"
+        },
+        {
+          "id": "davis-city-news",
+          "name": "City of Davis news",
+          "url": "https://www.cityofdavis.org",
+          "kind": "news",
+          "feedUrl": "https://www.cityofdavis.org/Home/Components/RssFeeds/RssFeed/View?ctID=5&cateIDs=1"
+        },
+        {
+          "id": "davis-council",
+          "name": "Davis City Council meetings",
+          "url": "https://www.cityofdavis.org/city-hall/city-council/city-council-meetings",
+          "kind": "meetings"
+        },
+        {
+          "id": "davis-agendas",
+          "name": "Davis commissions and committee agendas",
+          "url": "https://www.cityofdavis.org/city-hall/agendas",
+          "kind": "meetings"
+        },
+        {
+          "id": "davis-video",
+          "name": "Davis meeting recordings and agendas",
+          "url": "https://davis.granicus.com/ViewPublisher.php?view_id=6",
+          "kind": "meetings"
+        },
+        {
+          "id": "davis-calendar",
+          "name": "City of Davis calendar",
+          "url": "https://www.cityofdavis.org/calendar",
+          "kind": "events"
+        },
+        {
+          "id": "davis-schools",
+          "name": "Davis Joint Unified School District",
+          "url": "https://www.djusd.net",
+          "kind": "official"
+        },
+        {
+          "id": "davis-weather",
+          "name": "NWS Davis forecast zone CAZ153",
+          "url": "https://api.weather.gov/alerts/active?zone=CAZ153",
+          "kind": "official"
+        },
+        {
+          "id": "davis-earthquakes",
+          "name": "USGS past-hour earthquakes (regional filter applied)",
+          "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
+          "kind": "official"
+        },
+        {
+          "id": "caltrans-davis",
+          "name": "Caltrans Yolo County highway conditions",
+          "url": "https://roads.dot.ca.gov",
+          "kind": "official"
+        }
+      ]
+    },
+    "profile": {
+      "schemaVersion": "civic-profile/v1",
+      "id": "davis-ca",
+      "name": "Davis",
+      "municipality": "Davis, CA",
+      "county": "Yolo County",
+      "state": "California",
+      "countryCode": "US",
+      "timeZone": "America/Los_Angeles",
+      "anchor": {
+        "latitude": 38.5449,
+        "longitude": -121.7405,
+        "bounds": {
+          "west": -121.9,
+          "south": 38.4,
+          "east": -121.55,
+          "north": 38.72
+        }
+      },
+      "code": {
+        "provider": "ecode360",
+        "municipalityCode": "DA4922"
+      },
+      "corpusSlug": "davis-ca-code",
+      "vectorNamespace": "davis-ca-code",
+      "calendar": {
+        "uidDomain": "davis-ca-intel",
+        "productId": "-//Davis CA Intel//Events Calendar//EN"
+      },
+      "publication": {
+        "title": "Davis CA Intel",
+        "description": "Source-grounded civic intelligence for Davis and Yolo County, California",
+        "siteUrl": "https://docxology.github.io/davis-ca-intel",
+        "repositoryUrl": "https://github.com/docxology/davis-ca-intel"
+      },
+      "capabilities": [
+        "analytics",
+        "ecode360",
+        "events",
+        "geo",
+        "news"
+      ]
+    },
+    "policy": {
+      "alerts": {
+        "airQuality": {
+          "latitude": 38.5449,
+          "longitude": -121.7405,
+          "publicStationRadiusKm": 50,
+          "zip": "95616"
+        },
+        "ais": {
+          "feedUrl": "https://meri.digitraffic.fi/api/ais/v1/locations",
+          "watchBox": {
+            "maxLat": 42.1,
+            "maxLon": -123.9,
+            "minLat": 41.6,
+            "minLon": -124.45
+          }
+        },
+        "dredging": {
+          "sitemapUrl": "https://www.ccharbor.com/sitemap.xml",
+          "windowDays": 90
+        },
+        "drought": {
+          "county": "Yolo",
+          "fips": "06113",
+          "state": "CA"
+        },
+        "earthquake": {
+          "latitude": 38.5449,
+          "longitude": -121.7405,
+          "minMagnitude": 4,
+          "radiusKm": 200
+        },
+        "fishing": {
+          "bulletinUrl": "https://wildlife.ca.gov/Fishing/Ocean/Regulations/Bulletins",
+          "region": "California"
+        },
+        "fuel": {
+          "seriesId": "EMM_EPM0_PTE_SCA_DPG",
+          "spikeThreshold": 0.15,
+          "state": "California",
+          "trendWeeks": 8,
+          "url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=EMM_EPM0_PTE_SCA_DPG&f=W"
+        },
+        "marine": {
+          "stations": [
+            {
+              "distanceNm": 27,
+              "id": "46027",
+              "latitude": 41.85,
+              "longitude": -124.38,
+              "name": "St Georges CA"
+            },
+            {
+              "distanceNm": 120,
+              "id": "46022",
+              "latitude": 40.72,
+              "longitude": -124.53,
+              "name": "Eel River CA"
+            },
+            {
+              "distanceNm": 60,
+              "id": "46214",
+              "latitude": 40.88,
+              "longitude": -124.36,
+              "name": "Humboldt Bay CA"
+            }
+          ],
+          "waveHeightWarningFt": 15,
+          "waveHeightWatchFt": 10,
+          "windSpeedWarningKt": 34,
+          "windSpeedWatchKt": 22
+        },
+        "marineForecast": {
+          "productLocation": "EKA",
+          "zoneCode": "PZZ450"
+        },
+        "pacfin": {
+          "dashboardUrl": "https://reports.psmfc.org/pacfin/"
+        },
+        "permits": {
+          "catalogUrl": "https://public.mygov.us/crescent_city_ca/module?module=pi"
+        },
+        "psps": {
+          "county": "Yolo",
+          "utility": "PG&E"
+        },
+        "roads": {
+          "county": "Yolo",
+          "routes": [
+            "80",
+            "113"
+          ],
+          "textUrl": "https://roads.dot.ca.gov/?roadnumber="
+        },
+        "schools": {
+          "alertsUrl": "https://www.djusd.net",
+          "district": "Davis Joint Unified School District",
+          "fallbackUrl": "https://www.djusd.net",
+          "websiteUrl": "https://www.djusd.net"
+        },
+        "smoke": {
+          "box": {
+            "latMax": 38.72,
+            "latMin": 38.4,
+            "lonMax": -121.55,
+            "lonMin": -121.9
+          }
+        },
+        "tides": {
+          "highTideAlertFt": 7,
+          "stationId": "9419750",
+          "stationName": "Crescent City, CA"
+        },
+        "tsunami": {
+          "capArea": "CA"
+        },
+        "uscg": {
+          "district": 11,
+          "listUrl": "https://www.navcen.uscg.gov/broadcast-notice-to-mariners-search-results?district=11&sector=0&date-range={START}--{END}&items_per_page=50",
+          "messageUrl": "https://www.navcen.uscg.gov/broadcast-notice-to-mariners-message?guid={GUID}",
+          "windowDays": 35
+        },
+        "weather": {
+          "latitude": 38.5449,
+          "longitude": -121.7405,
+          "nwsZone": "CAZ153"
+        },
+        "wildfire": {
+          "counties": [
+            "Yolo",
+            "Solano",
+            "Sacramento",
+            "Napa",
+            "Lake",
+            "Colusa"
+          ],
+          "latitude": 38.5449,
+          "longitude": -121.7405,
+          "radiusKm": 150
+        }
+      },
+      "id": "davis-ca",
+      "profileId": "davis-ca",
+      "schemaVersion": "region-config/v1"
+    }
+  },
+  "schemaVersion": "regional-manuscript-evidence/v1",
+  "profileId": "davis-ca",
+  "editionId": "2d74bf8205ecde96b88b4183d4d47169d83ee910e5d1ce125fd6c77bd31eca8b",
+  "variables": {
+    "REGION_NAME": "Davis",
+    "PROFILE_ID": "davis-ca",
+    "MUNICIPALITY_CODE": "DA4922",
+    "CODE_ARTICLES": "290",
+    "CODE_SECTIONS": "2541",
+    "SOURCE_COUNT": "10",
+    "MONITOR_COUNT": "8",
+    "VERIFIED_AT": "2026-10-31T03:39:57.381Z",
+    "EDITION_ID": "2d74bf8205ecde96b88b4183d4d47169d83ee910e5d1ce125fd6c77bd31eca8b",
+    "CORE_PIN": "7cb15fa1af0455e4d756551ddf828da0cbf5095e",
+    "EVIDENCE_FINGERPRINT": "2d34a2664e2f140bdee02d53277b93225a76122f8848ed3620d00d74c5067af3"
+  },
+  "files": {
+    "pages-data/davis-ca-code.json": {
+      "sha256": "18ac914905ade1299fd3d104d5fea1386961e20286dca5f823a938a92863b715",
+      "bytes": 4180533
+    },
+    "pages-data/toc.json": {
+      "sha256": "78ef729464ca1e0c3bd66c41720b9c8d27e8384f40a97282795134e9b33798c0",
+      "bytes": 1607283
+    },
+    "pages-data/manifest.json": {
+      "sha256": "2c0742031c0f5574937e3fd1370ba837957ed6a221a9dea1ade1dc989a720ceb",
+      "bytes": 95081
+    },
+    "pages-data/verification-report.json": {
+      "sha256": "2846e7118cc001954a4bc370ef9c98c3ff658d2d1bb23301dabc2d7e5336b0cf",
+      "bytes": 107227
+    },
+    "pages-data/readability.json": {
+      "sha256": "154b49eddcdfa43d6807765705cd316794c3316c8ad640f9b88cc0db5a664dc4",
+      "bytes": 996571
+    },
+    "region.json": {
+      "sha256": "7ad02c9d70edbeb847b0be572b97214b2e90806bce48373ae676a3870e3d8823",
+      "bytes": 2228
+    },
+    "configs/davis-civic.json": {
+      "sha256": "70b4894152c1873d64abc73c06c2717a6ecc81de3e3e55aa56f9cce107b78b33",
+      "bytes": 1040
+    },
+    "configs/davis-region.json": {
+      "sha256": "62dcf484dc97e16e5d33acb2d963350b568bd17aed669495499b022ef95a2aa6",
+      "bytes": 3558
+    },
+    "package.json": {
+      "sha256": "e514cdeff913578b976cc78f2de6e6e8eab887afdf4a939eb5d9f592064683f7",
+      "bytes": 3244
+    },
+    "bun.lock": {
+      "sha256": "953c9674e421e7ce8987ae3bd7e6f2e5b930a456e0a387b37733f0e642d7b129",
+      "bytes": 9005
+    },
+    "pages-data/publication-input.json": {
+      "sha256": "8be33bd5d34ba8cd65b1d3a7cb72b3def10e3ef8f65e44faee9ee760b5e3311b",
+      "bytes": 1102
+    },
+    "docs/manuscript/config.json": {
+      "sha256": "5c72754f2cab8adea9f54dd43968746f412a15aee2dfdca44e7c6b252b4fbe36",
+      "bytes": 222
+    },
+    "docs/manuscript/00_abstract.md": {
+      "sha256": "c45c9413b4e6d6e10a9c24686b71fe094d8bcf0770cc8c26e2f41dfd7248528a",
+      "bytes": 1267
+    },
+    "docs/manuscript/01_introduction.md": {
+      "sha256": "95a2997c79311a269431eb129ae577e1084acc841ffd06623d2f7621faf7e877",
+      "bytes": 1651
+    },
+    "docs/manuscript/02_methods.md": {
+      "sha256": "d77dc2178dc5746d3724082c9832a8e67e8eb687331928afccab58627e3cd4ef",
+      "bytes": 2563
+    },
+    "docs/manuscript/03_results.md": {
+      "sha256": "8483497d4b3517429fd9da4263f2b01e20853faffa477ffe891f05d0f7e6891b",
+      "bytes": 2021
+    },
+    "docs/manuscript/04_discussion.md": {
+      "sha256": "2d8caa806b5b83c9e1472ef18349d76be455782528b748dfafe646678a236593",
+      "bytes": 1457
+    },
+    "docs/manuscript/05_limitations_and_ethics.md": {
+      "sha256": "8283164812cd0b85a33eea1261a0f518dcec583ac5d083f74dc6da4867229d84",
+      "bytes": 1784
+    },
+    "docs/manuscript/06_reproducibility.md": {
+      "sha256": "05446c4708987e3b270bf04ca4b3dfa71c4e25cbd93812eeb4b228ee0e2ede9e",
+      "bytes": 1696
+    },
+    "docs/manuscript/07_conclusion.md": {
+      "sha256": "b5f307dc732161df7039936dd6a56fd9a6f64bb67e66057c537db3ef38c50406",
+      "bytes": 587
+    },
+    "docs/manuscript/08_appendix_formalism.md": {
+      "sha256": "bf8dc2cb165e9982bca69b2097ecad8f7ca318d027ac24cea828c34407b1c870",
+      "bytes": 1000
+    },
+    "docs/manuscript/99_references.md": {
+      "sha256": "7a10d91fb9cb8d3b352eca32824427f73e44dc2af7095203283818d4c56f2ae7",
+      "bytes": 268
+    },
+    "docs/manuscript/references.bib": {
+      "sha256": "41e7282190ce3a5bb3e0137138d6e6c2e920c9572916c53b2d069d82224e19e3",
+      "bytes": 1081
+    },
+    "docs/manuscript/claim_ledger.json": {
+      "sha256": "619d20f7705b0a4098659eaae1307318ec0c2fd94df59c7cdc925eb30c30c4c9",
+      "bytes": 1776
+    }
+  },
+  "rendererSha256": "62cd33591f10a0c1319c70b4d7537db4ea84484ace649fd54cc2b6469b5a10f0",
+  "inputFingerprint": "2d34a2664e2f140bdee02d53277b93225a76122f8848ed3620d00d74c5067af3",
+  "limitations": [
+    "Recorded accepted seed; no new upstream acquisition",
+    "Live TOC and sample do not establish all-page currentness",
+    "No legal, civic-impact, model-factuality or release acceptance implied"
+  ]
+}

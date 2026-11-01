@@ -1,0 +1,30 @@
+name: Davis manuscript native review
+on:
+  push:
+    branches: [main]
+    paths: ['docs/manuscript/**', 'review/**', 'package.json', 'bun.lock', '.github/workflows/manuscript.yml']
+  pull_request:
+    paths: ['docs/manuscript/**', 'review/**', 'package.json', 'bun.lock', '.github/workflows/manuscript.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  manuscript:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: '1.4.2'
+      - run: bun install --frozen-lockfile
+      - run: sudo apt-get update && sudo apt-get install -y --no-install-recommends pandoc texlive-xetex texlive-fonts-recommended texlive-latex-recommended lmodern qpdf poppler-utils
+      - run: bun run manuscript:check
+      - run: bun run manuscript:validate-render -- --bundle
+      - run: bun run manuscript:render
+      - run: bun run manuscript:validate-render
+      - uses: actions/upload-artifact@v4
+        with:
+          name: davis-manuscript-native-review
+          path: output/manuscript-review/
+          retention-days: 7

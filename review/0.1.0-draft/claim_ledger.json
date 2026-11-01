@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "1.0.0",
+  "claims": [
+    {
+      "id": "D01",
+      "statement": "The accepted Davis edition has its own source-bound article and section denominator.",
+      "status": "recorded-snapshot",
+      "scope": "One accepted DA4922 edition",
+      "evidence": [
+        "pages-data/davis-ca-code.json",
+        "pages-data/manifest.json",
+        "pages-data/verification-report.json"
+      ],
+      "notEstablished": "All-page continuing currentness, independent legal review or legal completeness"
+    },
+    {
+      "id": "D02",
+      "statement": "The consumer declares independent identity, provider policy and selected inland monitors.",
+      "status": "configuration",
+      "scope": "Public deployment documents",
+      "evidence": [
+        "region.json",
+        "configs/davis-civic.json",
+        "configs/davis-region.json"
+      ],
+      "notEstablished": "Successful collection from every configured provider or surveyed boundaries"
+    },
+    {
+      "id": "D03",
+      "statement": "The dependency is pinned to an immutable shared commit.",
+      "status": "implementation",
+      "scope": "Manifest and frozen lock",
+      "evidence": [
+        "package.json",
+        "bun.lock"
+      ],
+      "notEstablished": "Independent native-service or model-answer qualification"
+    },
+    {
+      "id": "D04",
+      "statement": "Manuscript numbers and source commitments derive from the accepted public seed.",
+      "status": "implementation",
+      "scope": "This review workflow",
+      "evidence": [
+        "pages-data/publication-input.json",
+        "pages-data/verification-report.json",
+        "docs/manuscript/config.json"
+      ],
+      "notEstablished": "Scientific or publication approval from a hash or renderer pass"
+    }
+  ]
+}

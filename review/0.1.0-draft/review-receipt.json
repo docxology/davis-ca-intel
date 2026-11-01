@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "regional-manuscript-review/v1",
+  "inputFingerprint": "2d34a2664e2f140bdee02d53277b93225a76122f8848ed3620d00d74c5067af3",
+  "profileId": "davis-ca",
+  "version": "0.1.0",
+  "status": "review-draft",
+  "rendered": true,
+  "tools": {
+    "pandoc": "pandoc 3.12.1\nFeatures: +server +lua",
+    "xelatex": "XeTeX 3.141592653-2.6-0.999998 (TeX Live 2026)\nkpathsea version 6.4.2",
+    "qpdf": "qpdf version 12.4.2\nRun qpdf --copyright to see copyright and license information.",
+    "pdftotext": "pdftotext version 26.10.0"
+  },
+  "files": {
+    "00_abstract.md": "f00a255b84b47520da1e76c9917ff69bcf6a017437ce3e244032b33fb9b9212e",
+    "01_introduction.md": "95a2997c79311a269431eb129ae577e1084acc841ffd06623d2f7621faf7e877",
+    "02_methods.md": "c1e4d4ea5f76c7ead7d60d9ddcdbbe66581d66c453770ef50491292eb82b51c3",
+    "03_results.md": "95fd2457d263253f772b9ad16d356db7fab6f0b68a0d6cf637898f69fb726445",
+    "04_discussion.md": "2d8caa806b5b83c9e1472ef18349d76be455782528b748dfafe646678a236593",
+    "05_limitations_and_ethics.md": "8283164812cd0b85a33eea1261a0f518dcec583ac5d083f74dc6da4867229d84",
+    "06_reproducibility.md": "05446c4708987e3b270bf04ca4b3dfa71c4e25cbd93812eeb4b228ee0e2ede9e",
+    "07_conclusion.md": "cca3c4de1eedd24f19e621072461a8b235f94b09cfa2abfaf1605265f48955b3",
+    "08_appendix_formalism.md": "5dbfb6dcf0679651cf416ab5c4f7ec1dede57cdfb1eb52a82b8bdb4e7fbfbb11",
+    "99_references.md": "7a10d91fb9cb8d3b352eca32824427f73e44dc2af7095203283818d4c56f2ae7",
+    "claim_ledger.json": "619d20f7705b0a4098659eaae1307318ec0c2fd94df59c7cdc925eb30c30c4c9",
+    "evidence.json": "6ce3490146b8ecd28582ca1a3baa941d8b41f95188c7b5e97a22403a0b7ee17b",
+    "manuscript.html": "3b95875d08b51560fb253bc375528786792ca9fb0bd440057971b3e5554fd0f5",
+    "manuscript.md": "4c5591d535d3694a08d86b5170654a94429352ae3e238259066d6246f6c6abd6",
+    "manuscript.pdf": "3c4a6977a366d5e35213d36225a90fc7de1b3f8b5a320a5825ff7163c09aa4b1",
+    "manuscript.txt": "9de5781d06ae2e403a6e4a8b700adfdfe27c9cceb9da0dbbe09271031bffa141",
+    "metadata.yaml": "0e5666b1a1d83c2bed7ee4c8f8aaa2869cc959baebb42ef992ecdbf2b793aec6",
+    "references.bib": "41e7282190ce3a5bb3e0137138d6e6c2e920c9572916c53b2d069d82224e19e3"
+  },
+  "independentReview": "not-established-by-renderer",
+  "publication": "not-authorized-by-this-receipt"
+}

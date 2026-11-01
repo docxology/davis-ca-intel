@@ -34,11 +34,11 @@
     "source-discovery": "bun run scripts/region.ts source-discovery",
     "pages:export": "bun run scripts/region.ts pages:export",
     "pages:validate": "bun run scripts/region.ts pages:validate",
-    "validate": "bun run typecheck && bun run scripts/region.ts validate && bun test tests/",
+    "validate": "bun run typecheck && bun run scripts/region.ts validate && bun test tests/ && bun run manuscript:check",
     "typecheck": "bunx tsc --noEmit",
     "test:coverage": "bun test tests/ --coverage",
     "geo:intel": "bun run scripts/region.ts geo:intel",
-    "release:check": "bun run validate",
+    "release:check": "bun run validate && bun run manuscript:validate-render -- --bundle",
     "test": "bun test tests/",
     "test:typecheck": "bunx tsc --noEmit",
     "civic:profile": "bun run scripts/region.ts civic:profile",
@@ -49,10 +49,13 @@
     "pages:seed": "bun run scripts/region.ts pages:seed",
     "alerts:drought": "bun run scripts/region.ts alerts:drought",
     "alerts:smoke": "bun run scripts/region.ts alerts:smoke",
-    "alerts:roads": "bun run scripts/region.ts alerts:roads"
+    "alerts:roads": "bun run scripts/region.ts alerts:roads",
+    "manuscript:render": "bun run scripts/region.ts manuscript:render",
+    "manuscript:validate-render": "bun run scripts/region.ts manuscript:validate-render",
+    "manuscript:bundle": "bun run scripts/region.ts manuscript:bundle"
   },
   "dependencies": {
-    "region-intel": "github:docxology/region-intel#cde5048bc9316ed6d1baf8e7e64f3d06c9e86385"
+    "region-intel": "github:docxology/region-intel#7cb15fa1af0455e4d756551ddf828da0cbf5095e"
   },
   "devDependencies": {
     "typescript": "5.9.3",

@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased — Davis manuscript 0.1 review
+
+- Add independent Davis scholarly sources, claim ledger and accepted-seed evidence binding.
+- Import shared native PDF/HTML review rendering, exact-byte validation and review packaging.
+- Keep manuscript 0.1 readiness separate from application version, legal/scientific acceptance and publication.
+
 ## Unreleased — deployment documentation
 
 - Add a version-aware documentation index, fresh-clone instructions, operations and workflow guidance.

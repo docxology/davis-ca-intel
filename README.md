@@ -78,6 +78,8 @@ of current upstream availability or legal accuracy.
 Generic module documentation and the evidence-bound reference manuscript live
 in [region-intel](https://github.com/docxology/region-intel/tree/main/docs).
 Its recorded Crescent City findings must never be relabelled as Davis results.
+The [Davis manuscript](docs/manuscript.md) has independent authored sources,
+accepted-seed evidence and a native PDF/HTML review candidate for manuscript 0.1.0.
 The accepted Davis seed contains only Davis municipal evidence. No Crescent corpus or findings are imported.
 
 See the [accepted municipal edition and exact input hashes](docs/edition.md) and

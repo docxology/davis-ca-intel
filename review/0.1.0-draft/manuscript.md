@@ -1,0 +1,263 @@
+# Abstract {#sec:abstract}
+
+Davis CA Intel is a configured inland deployment of the Region Intel civic
+intelligence package. This software case study describes how a thin regional
+repository can retain its own identity, provider policy and public evidence
+while importing shared acquisition, validation, search and publication methods.
+The recorded Davis municipal edition contains 290 article pages
+and 2541 sections from eCode360 DA4922. Its verification
+receipt is dated 2026-10-31T03:39:57.381Z. Those counts describe the accepted source
+snapshot; they are not estimates of legal completeness or current civic activity.
+We present a reproducible manuscript pipeline that binds authored prose and
+claim evidence to exact public input bytes, then produces native PDF and HTML
+review editions. The configured catalog contains 10 source
+declarations and enables 8 inland monitors. Configuration counts
+are distinguished from successful collection. No civic-impact experiment,
+human usability study, model-answer evaluation or independent legal review is
+reported. The contribution is a source-bound deployment and review workflow,
+with explicit limits on what its software and artifact checks establish.
+
+
+# Introduction {#sec:introduction}
+
+Local civic information is distributed across municipal codes, agency notices,
+meeting references and time-sensitive feeds. Combining these materials creates
+two distinct problems: implementing reusable data-handling methods and deciding
+which sources, geographic policies and interpretations belong to a locality.
+A coastal application's defaults are especially unsuitable as implicit policy
+for an inland city. A second deployment therefore provides a useful engineering
+case for examining the boundary between shared computation and local evidence.
+
+This paper concerns Davis, California, in Yolo County. It describes the public
+Davis repository and its dependency on Region Intel. The original Crescent City
+application is a compatibility preset in that package; its manuscript findings
+and coastal source coverage are not Davis observations. The case study asks
+whether deployment identity, accepted corpus evidence and manuscript numbers
+can remain independently attributable while implementation is shared.
+
+The design draws on the distinction between provenance entities, activities and
+responsible agents in PROV-DM [@moreau2013prov]. Input hashes and execution
+receipts are operational commitments, not a claim that this implementation is a
+complete PROV serializer. FAIR provides a relevant vocabulary for reusable
+metadata and identifiable inputs [@wilkinson2016fair]; this paper does not claim
+a formal FAIR assessment or unrestricted redistribution rights. The following
+sections describe a reproducible engineering record, rather than an assessment
+of governmental performance or community outcomes.
+
+
+# Methods {#sec:methods}
+
+## Deployment admission and isolation
+
+The consumer's versioned deployment document binds a civic profile, regional
+provider policy, active output directory, public seed directory, enabled roster
+and source catalog. The loader validates profile-policy identity before running
+producers. The civic profile names eCode360 DA4922, the Davis
+corpus/vector namespace and a distinct calendar identity. The monitoring anchor
+and watch bounds are operating policy, not surveyed city boundaries. Generic
+methods and algorithm tests remain in Region Intel; the consumer contains
+configuration, its importer, regional evidence and deployment acceptance.
+
+## Municipal acquisition and acceptance
+
+Acquisition uses a candidate root separate from active output and public seeds.
+The accepted edition must have complete expected article/section membership,
+local source/extraction custody and exact manifest, TOC and article-set bindings.
+The recorded verification also includes a current TOC comparison and a bounded
+deterministic live sample. A passing sample is not an instantaneous check of
+every upstream page. A source-marked reserved or repealed section may retain an
+empty body only when the source heading and parsed status agree. Unmarked empty
+extraction is rejected. Failure or interruption leaves the candidate unaccepted;
+bounded, journaled promotion preserves an earlier complete active edition.
+
+## Manuscript derivation
+
+The manuscript reads the accepted public seed, not whichever live producer
+output happens to be newest. The shared builder validates the seed's v2
+verification and exact publication-input receipt, recomputes article and section
+denominators from the public code projection, and captures configuration,
+dependency lock, bibliography, claim ledger and numbered source bytes. It
+substitutes declared evidence tokens and records an input fingerprint. This
+follows the reproducibility principle that a reported result should retain its
+computational inputs and procedure [@sandve2013rules]. Rendering is a later
+operation with tool versions and output hashes; it does not update source clocks.
+
+## Evidence scope
+
+The unit of analysis is one accepted Davis edition and its configured deployment.
+Article pages are provider acquisition units; sections are retained municipal
+records, including explicitly inactive entries. Catalog entries and enabled
+adapters are configuration units. They are not interchangeable denominators,
+and none is a count of local events, citizens, legal obligations or hazards.
+
+
+# Results {#sec:results}
+
+## Recorded Davis edition
+
+The accepted public projection contains 290 article pages and
+2541 sections. The recorded verification time is 2026-10-31T03:39:57.381Z.
+The verification report declares passing local, current-TOC and sample planes,
+with no missing sections in its expected denominator. These statements report
+the retained receipt and public projection; preparing this paper did not perform
+a new live acquisition or independently interpret the law.
+
+| Recorded item | Value | Meaning |
+| --- | --- | --- |
+| Municipality | DA4922 | Provider identity, not a geography survey |
+| Article pages | 290 | Accepted provider acquisition units |
+| Sections | 2541 | Retained section records, including inactive headings |
+| Source declarations | 10 | Configured catalog, not collection completeness |
+| Enabled monitors | 8 | Selected adapters, not verified hazard coverage |
+
+## Inland policy and public surfaces
+
+The configured monitors cover earthquake, weather, air quality, wildfire,
+drought, smoke, roads and California statewide fuel observations. Marine, tide,
+harbor and other coastal adapters are excluded. The full policy schema still
+contains compatibility fields for disabled adapters; their presence is not
+evidence of Davis coverage. Official-page meeting collection retains bounded
+links and explicit unavailable states, rather than claiming a complete archive.
+
+The static edition searches the accepted public code projection. The local
+dashboard's corpus search uses separately acquired and promoted raw articles.
+Optional retrieval-augmented generation requires its own model/vector services
+and accepted index. Neither a configured model nor a renderable paper supplies
+an evaluated Davis model-answer result. Software test counts and browser
+acceptance are intentionally kept in their versioned engineering receipts rather
+than presented here as measurements of civic usefulness.
+
+
+# Discussion {#sec:discussion}
+
+The Davis case makes the dependency boundary inspectable: the consumer names a
+single immutable shared revision and owns the configuration and evidence that
+give that implementation a local meaning. This arrangement reduces the need to
+maintain copied methods, but it does not eliminate locality-specific decisions.
+Provider access, geographic filters, data rights and interpretation remain
+deployment responsibilities. The existence of a second repository is evidence
+of an implemented configuration seam, not proof that every supported adapter
+works in every municipality.
+
+The manuscript pipeline applies the same separation to reporting. Authored
+arguments are versioned locally, computed counts come from a captured seed, and
+rendered outputs have a distinct byte receipt. This is useful for tracing which
+edition a reader is examining. It is insufficient to determine whether an
+ordinance was adopted, whether a cited rule remains effective, or whether a
+particular interface supports a resident's decision. Those require different
+evidence and appropriately qualified review.
+
+Further empirical work could study reader tasks, source-specific temporal
+coverage and independently interpreted legal examples. Such work would need
+declared sampling units, recruitment or review procedures, comparison criteria
+and retained disagreements. No result from those proposed studies is inferred
+from the present artifact record.
+
+
+# Limitations, Ethics, and Threats to Validity {#sec:limitations}
+
+**Time and completeness.** Local hash agreement concerns retained bytes. A live
+TOC and deterministic sample at acquisition time do not prove continuing
+all-page currency, comprehensive City communications or legal completeness.
+Changing upstream pages can invalidate later interpretation without changing a
+retained seed. The verification timestamp must remain visible.
+
+**Coverage and interpretation.** Configured zones, radii, counties and road
+queries are explicit operating choices. Missing, unavailable, stale and empty
+states are distinct; an inaccessible source cannot become evidence of quiet
+conditions. Statewide fuel observations are not a Davis pump-price survey.
+Meeting links are not verified proceedings, votes or complete archived content.
+No independent legal review, human usability assessment or civic-impact estimate
+is supplied by this paper.
+
+**Models and automation.** No model-generated answer is evaluated in this study.
+Shared model functionality cannot be promoted to Davis factuality or usefulness
+by reusing another region's findings. AI-assisted drafting and software editing
+do not constitute independent human peer review. Responsibility for final
+authorship, interpretation and publication declarations remains with the author.
+
+**Rights and disclosure.** The repository's software/manuscript licensing does
+not grant additional rights over third-party source material. Preserve source
+attribution and applicable provider terms. Public review artifacts exclude
+credentials, raw acquisition HTML and private operational diagnostics. Funding,
+conflict and final contribution declarations require owner confirmation before
+publication; no declaration is inferred from missing metadata.
+
+
+# Reproducibility and Artifact Specification {#sec:reproducibility}
+
+The Davis consumer installs its full public Git dependency SHA through a frozen
+Bun lockfile. It does not require a sibling core checkout. From that checkout,
+the review workflow is:
+
+```sh
+bun install --frozen-lockfile
+bun run validate
+bun run manuscript:check
+bun run manuscript:render
+bun run manuscript:validate-render
+```
+
+The renderer uses native Pandoc citation processing and XeLaTeX for PDF and
+standalone HTML for web review. It disables raw HTML/TeX in source Markdown,
+uses a finite owned child for each tool, checks the PDF with qpdf and extracts
+text for unresolved-content checks. Exact tool versions and member hashes are
+recorded alongside the rendered edition. Failed builds preserve the prior
+complete edition; successful rendering alone does not imply peer review.
+
+The input fingerprint is recorded in the appendix and evidence JSON. It binds
+the accepted seed, configuration, dependency manifest and lock, authored source,
+bibliography, claim ledger and renderer source. Re-checking an edition compares
+current inputs and exact output members. Rendered PDF timestamps may differ
+across independent builds; compare the declared inputs and semantic content
+separately from the receipt that identifies one actual PDF/HTML byte edition.
+
+The public data and source are available at the Davis CA Intel repository.
+Raw source custody and acquisition diagnostics remain local; the public seed
+retains their commitments rather than claiming that omitted raw files can be
+reconstructed from a digest. This distinction limits independent re-extraction
+from the public bundle and should guide any replication claim.
+
+
+# Conclusion {#sec:conclusion}
+
+Davis CA Intel demonstrates a configured regional consumer that imports shared
+methods while retaining its own accepted municipal evidence and manuscript
+sources. The recorded 290-article, 2541-section edition
+supports a precise description of this software artifact. It does not establish
+ongoing legal currency, complete source access, evaluated model factuality or
+public benefit. A separately bound native review edition makes those reporting
+limits and reproducibility inputs inspectable before a 0.1 publication decision.
+
+
+# Appendix: Formal Contracts and Worked Records {#sec:appendix}
+
+For this review edition, a claim-evidence entry names captured public file paths
+and states both its scope and what is not established. The counts in the Results
+table are substituted from validated seed records rather than entered by hand.
+The complete file-by-file byte commitments are in `evidence.json`; rendered
+members and tool versions are in `review-receipt.json`.
+
+```text
+profile: davis-ca
+municipality: DA4922
+source edition:
+2d74bf8205ecde96b88b4183d4d47169d83ee910e5d1ce125fd6c77bd31eca8b
+shared runtime:
+7cb15fa1af0455e4d756551ddf828da0cbf5095e
+manuscript input fingerprint:
+2d34a2664e2f140bdee02d53277b93225a76122f8848ed3620d00d74c5067af3
+```
+
+Three separate acceptance questions remain visible: whether captured inputs
+match their declared edition; whether the PDF/HTML render matches the captured
+manuscript inputs; and whether reviewers accept the claims and interpretation.
+The software checks the first two operational boundaries. It cannot certify the
+third by writing a successful receipt or a version number.
+
+
+# References {#sec:references}
+
+Bibliographic entries cited in the text follow below. The source receipt and
+repository files supply the empirical artifact record; the scholarly sources
+provide context for provenance, metadata reuse and computational reproducibility.

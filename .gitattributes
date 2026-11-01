@@ -1,0 +1,3 @@
+# Preserve native Pandoc output byte-for-byte, including its generated CSS whitespace.
+# Only blank-at-eol is exempt; current-input and exact-byte bundle gates still apply.
+review/0.1.0-draft/manuscript.html whitespace=-blank-at-eol linguist-generated=true

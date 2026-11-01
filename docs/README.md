@@ -6,13 +6,15 @@
 | [Architecture](architecture.md) | Thin importer, shared ownership and versioned configuration |
 | [Accepted edition](edition.md) | 290 article pages / 2541 sections from DA4922, exact hashes and verification scope |
 | [Acquisition](acquisition.md) | Separate candidate acquisition, complete-corpus checks, promotion and public seeding |
-| [Manuscript](manuscript.md) | Shared reference manuscript ownership and regional claim boundaries |
+| [Manuscript](manuscript.md) | Davis-specific authored manuscript, evidence-bound native rendering and pre-publication review |
+| [Review readiness](review-readiness.md) | Exact candidate hashes, independent technical review and native inspection |
+| [0.1 publication](publication-0.1.md) | Preflight and remaining author/publication decisions |
 | [Sources](sources.md) | Reviewed Davis source identities, enabled inland policy and access observations |
 
 The [repository guide](../README.md) is the starting point. Generic methods and
 their documentation live in [region-intel](https://github.com/docxology/region-intel/tree/main/docs).
 For documentation matching the installed runtime, use
-[the pinned shared revision](https://github.com/docxology/region-intel/tree/cde5048bc9316ed6d1baf8e7e64f3d06c9e86385/docs).
+[the pinned shared revision](https://github.com/docxology/region-intel/tree/7cb15fa1af0455e4d756551ddf828da0cbf5095e/docs).
 The shared repository's main branch can contain documentation or code newer
 than this consumer's frozen dependency. Public source material retains its own
 rights; the repository license does not grant additional rights over it.

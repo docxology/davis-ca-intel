@@ -1,13 +1,28 @@
-# Manuscript ownership
+# Davis manuscript and 0.1 review candidate
 
-The generic methods and evidence-bound reference manuscript are maintained in
-[region-intel/docs/manuscript](https://github.com/docxology/region-intel/tree/main/docs/manuscript).
-The renderer project must point to the shared checkout, which owns the adapter
-and numbered sources; follow the
-[shared rendering procedure](https://github.com/docxology/region-intel/blob/main/docs/manuscript.md).
-Consumer `manuscript:check` checks the installed reference source contract.
-It does not validate a newly authored regional paper or rendered publication.
-This deployment does not copy method code or numerical findings. Any regional
-manuscript must bind its claims to this deployment's own artifacts and receipt
-hashes. The reference manuscript's Crescent observations do not establish Davis
-results. Native PDF/DOCX inspection remains separate from Markdown validation.
+Davis owns [ten authored source sections](manuscript/README.md), a bibliography,
+claim ledger and manuscript configuration. Shared checking, evidence hydration,
+PDF/HTML rendering and packaging remain in region-intel. The manuscript's 0.1.0
+review target is independent of the application's 4.0.0 package version.
+
+```sh
+bun run manuscript:check
+bun run manuscript:render
+bun run manuscript:validate-render
+bun run manuscript:bundle
+bun run manuscript:validate-render -- --bundle
+```
+
+The native renderer requires Pandoc, XeLaTeX, qpdf and pdftotext. A clean install
+can check the source against tracked public evidence without those native tools.
+The review workflow builds PDF/HTML from accepted Davis seed counts and exact
+input hashes; it does not refresh the upstream code or import Crescent findings.
+
+The [review PDF](../review/0.1.0-draft/manuscript.pdf),
+[standalone HTML](../review/0.1.0-draft/manuscript.html),
+[evidence](../review/0.1.0-draft/evidence.json) and
+[render receipt](../review/0.1.0-draft/review-receipt.json) form a labelled
+pre-publication candidate. Read the [readiness record](review-readiness.md) for
+the actual independent review, native page inspection, prerequisites and limits.
+Neither a renderer success nor this packet creates a release, tag or DOI.
+The retained Crescent reference paper remains separately owned by region-intel.

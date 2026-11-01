@@ -85,6 +85,11 @@ failure and re-export from unchanged accepted inputs before checking again.
 If only local search is empty, check whether raw articles have been acquired
 and promoted before investigating model services.
 
+The [Davis manuscript procedure](manuscript.md) uses the consumer-owned sources
+and accepted public seed through shared rendering methods. `manuscript:check`
+is part of consumer validation. The native workflow is separately declared in
+[manuscript review](../.github/workflows/manuscript.yml).
+
 Shared [operations](https://github.com/docxology/region-intel/blob/main/docs/operations.md)
 and [command routing](https://github.com/docxology/region-intel/blob/main/docs/deployments.md#command-routing)
 provide method details. [The docs index](README.md) links the installed revision.
