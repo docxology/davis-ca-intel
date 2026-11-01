@@ -290,5 +290,14 @@
     }
   },
   "publication": "no release, tag or DOI created by this work",
-  "scope": "Technical source/native/UI review; author, scientific, legal and editorial acceptance remain separate."
+  "scope": "Technical source/native/UI review; author, scientific, legal and editorial acceptance remain separate.",
+  "publicationTreeReplay": {
+    "completePacketMembersFromIndex": 291,
+    "freshTrackedTreeReplay": "pass",
+    "oneMissingAssetControl": "rejected",
+    "sourceInputAndRenderedHashesUnchanged": true,
+    "supersededConsumerCommit": "519b1b8e0d3b24181b5a3b0e4fdc3ece02908cde",
+    "supersededHostedNativeRun": "https://github.com/docxology/davis-ca-intel/actions/runs/41264307024",
+    "cause": "Unanchored output ignore rule omitted two MathJax output modules; root-only ignore rule includes their original declared bytes."
+  }
 }

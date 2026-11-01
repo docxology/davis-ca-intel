@@ -88,3 +88,18 @@ use, editorial assessment and any scientific or legal interpretation still need
 their appropriate owner or expert disposition before publication. Technical
 review does not supply those decisions. No release, tag or DOI was created.
 See the [0.1 publication procedure](publication-0.1.md).
+
+## Fresh-checkout publication correction
+
+The first hosted native run for the 519b1b8 consumer commit rejected the shipped
+packet before rendering: an unanchored output-directory ignore rule omitted
+MathJax's two output JavaScript modules from Git even though both were present
+in the reviewed local packet. The failed [Actions run](https://github.com/docxology/davis-ca-intel/actions/runs/41264307024)
+is retained. The corrected root-only ignore rule includes both exact declared
+members; committed-tree replay is now part of fast consumer acceptance and runs
+before native tool installation. The approved manuscript inputs, PDF, HTML and
+complete packet hashes are unchanged. A staged Git-tree archive is validated for complete membership and replay before the corrective push.
+
+The prior independent AI technical approval binds the unchanged manuscript
+inputs and complete packet bytes. This correction changes publication assembly
+and CI ordering; it does not regenerate or edit the reviewed PDF or HTML.

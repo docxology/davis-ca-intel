@@ -1,5 +1,12 @@
 # Changelog
 
+## Complete native packet publication
+
+- Anchor the local output ignore rule so the two required MathJax output modules
+  remain in the committed offline packet.
+- Replay the committed packet in fast consumer acceptance and before native tool
+  installation. The reviewed manuscript source and rendered bytes are unchanged.
+
 ## Unreleased — expanded template-backed manuscript
 
 - Use the pinned docxology/template RenderManager for native publication.

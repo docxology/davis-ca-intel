@@ -29,6 +29,8 @@ jobs:
         with:
           node-version: '24'
       - run: bun install --frozen-lockfile
+      - name: Replay the committed review packet before native installation
+        run: bun run manuscript:validate-render -- --bundle
       - name: Prepare the pinned template environment
         working-directory: .template
         run: |
@@ -59,7 +61,6 @@ jobs:
           echo "PYTHONDONTWRITEBYTECODE=1" >> "$GITHUB_ENV"
           echo "MPLCONFIGDIR=$RUNNER_TEMP/regional-matplotlib" >> "$GITHUB_ENV"
       - run: bun run manuscript:check
-      - run: bun run manuscript:validate-render -- --bundle
       - run: bun run manuscript:render
       - run: bun run manuscript:validate-render
       - uses: actions/upload-artifact@v4
