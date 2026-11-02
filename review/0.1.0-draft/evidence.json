@@ -286,8 +286,8 @@
     "MONITOR_COUNT": "8",
     "VERIFIED_AT": "2026-10-31T03:39:57.381Z",
     "EDITION_ID": "2d74bf8205ecde96b88b4183d4d47169d83ee910e5d1ce125fd6c77bd31eca8b",
-    "CORE_PIN": "eed4cdb9e814a6cfc12ecb961611996378672bbf",
-    "EVIDENCE_FINGERPRINT": "35dcb597dfd8ff65c9ba36bf2a3e7a128a400ed6b1e6d5498648791ad8a37147",
+    "CORE_PIN": "0eb390bc804c5a3ae5304839187f914364d0bec3",
+    "EVIDENCE_FINGERPRINT": "9972083bd6e22a59e86de4eb590378402963e32c06af0f35e4b9fd1d436e5215",
     "CODE_MEDIAN_SECTIONS": "7",
     "CODE_MAX_SECTIONS": "66",
     "CODE_MIN_SECTIONS": "0",
@@ -328,11 +328,11 @@
       "bytes": 3558
     },
     "package.json": {
-      "sha256": "e9968e8bace2d2a71ae8bb23dda51465789fea39ca81b68b3ee2405612884794",
+      "sha256": "21b02d6aaae51def0a4fa650ca3039d5ef7e16dd08ab739373a29ff102835bbc",
       "bytes": 3316
     },
     "bun.lock": {
-      "sha256": "a5b983b70d8b8ccab46ef15640a99bb124d058629ec9d8be9c4c6b67bbd33025",
+      "sha256": "c6f7a8d0eefe2843a6bb0feadc874e61e683806d3a1a19ffd3ee1200c221fc73",
       "bytes": 8945
     },
     "pages-data/publication-input.json": {
@@ -397,7 +397,7 @@
     }
   },
   "rendererSha256": "9487afa025eadf7d3bb20ddaa042a17fffa2a0d18a39e2513a34cc89d1e6d955",
-  "inputFingerprint": "35dcb597dfd8ff65c9ba36bf2a3e7a128a400ed6b1e6d5498648791ad8a37147",
+  "inputFingerprint": "9972083bd6e22a59e86de4eb590378402963e32c06af0f35e4b9fd1d436e5215",
   "limitations": [
     "Recorded accepted seed; no new upstream acquisition",
     "Live TOC and sample do not establish all-page currentness",
