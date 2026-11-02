@@ -27,7 +27,7 @@ jobs:
           version: '0.13.0'
       - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # actions/setup-node@v6.5.0
         with:
-          node-version: '24'
+          node-version-file: ".node-version"
       - run: bun install --frozen-lockfile
       - name: Verify committed public inputs before native installation
         run: bun run publication:check
