@@ -286,8 +286,8 @@
     "MONITOR_COUNT": "8",
     "VERIFIED_AT": "2026-10-31T03:39:57.381Z",
     "EDITION_ID": "2d74bf8205ecde96b88b4183d4d47169d83ee910e5d1ce125fd6c77bd31eca8b",
-    "CORE_PIN": "0eb390bc804c5a3ae5304839187f914364d0bec3",
-    "EVIDENCE_FINGERPRINT": "9972083bd6e22a59e86de4eb590378402963e32c06af0f35e4b9fd1d436e5215",
+    "CORE_PIN": "51b18faeec1454e80a533795c6e3859eaeb5fc9b",
+    "EVIDENCE_FINGERPRINT": "81b99f78d577a16cd88a71a1da2880bc789232aaaacb203d94140d95ae0823d3",
     "CODE_MEDIAN_SECTIONS": "7",
     "CODE_MAX_SECTIONS": "66",
     "CODE_MIN_SECTIONS": "0",
@@ -328,12 +328,12 @@
       "bytes": 3558
     },
     "package.json": {
-      "sha256": "21b02d6aaae51def0a4fa650ca3039d5ef7e16dd08ab739373a29ff102835bbc",
+      "sha256": "b481100a7a7148a62191322c069bd0dd6d9871636c86d3b67a10bf01d0fc6f1f",
       "bytes": 3316
     },
     "bun.lock": {
-      "sha256": "c6f7a8d0eefe2843a6bb0feadc874e61e683806d3a1a19ffd3ee1200c221fc73",
-      "bytes": 8945
+      "sha256": "b2bf5e61c2b0c46a2849e0a7a7cc5b831286b9e4b2e8942fba5f01954294a232",
+      "bytes": 8736
     },
     "pages-data/publication-input.json": {
       "sha256": "8be33bd5d34ba8cd65b1d3a7cb72b3def10e3ef8f65e44faee9ee760b5e3311b",
@@ -397,7 +397,7 @@
     }
   },
   "rendererSha256": "9487afa025eadf7d3bb20ddaa042a17fffa2a0d18a39e2513a34cc89d1e6d955",
-  "inputFingerprint": "9972083bd6e22a59e86de4eb590378402963e32c06af0f35e4b9fd1d436e5215",
+  "inputFingerprint": "81b99f78d577a16cd88a71a1da2880bc789232aaaacb203d94140d95ae0823d3",
   "limitations": [
     "Recorded accepted seed; no new upstream acquisition",
     "Live TOC and sample do not establish all-page currentness",

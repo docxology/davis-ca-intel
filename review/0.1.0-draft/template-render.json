@@ -1,10 +1,10 @@
 {
   "repository": "https://github.com/docxology/template",
   "revision": "c18dae54a07fe6ac3a7b1a1a274251c169a12e7a",
-  "inputFingerprint": "9972083bd6e22a59e86de4eb590378402963e32c06af0f35e4b9fd1d436e5215",
+  "inputFingerprint": "81b99f78d577a16cd88a71a1da2880bc789232aaaacb203d94140d95ae0823d3",
   "tools": {
     "template": "docxology/template@c18dae54a07fe6ac3a7b1a1a274251c169a12e7a",
-    "python": "3.14.8 (main, Oct  9 2026, 15:11:09) [Clang 22.1.3 ]",
+    "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
     "matplotlib": "3.11.2"
   },
   "api": [
