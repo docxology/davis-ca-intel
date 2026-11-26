@@ -1,6 +1,6 @@
 # Operate the Davis deployment
 
-Start with the [repository guide](../README.md), [architecture](architecture.md)
+Start with the [documentation index](README.md), [architecture](architecture.md)
 and [accepted edition](edition.md). This repository imports the shared runner
 from an immutable public Git dependency. `bun install --frozen-lockfile` needs
 no sibling core checkout. CI pins Bun 1.4.2. Keep source, build output, caches and
@@ -93,3 +93,5 @@ is part of consumer validation. The native workflow is separately declared in
 Shared [operations](https://github.com/docxology/region-intel/blob/main/docs/operations.md)
 and [command routing](https://github.com/docxology/region-intel/blob/main/docs/deployments.md#command-routing)
 provide method details. [The docs index](README.md) links the installed revision.
+
+For the checked-in paper's offline Table and figure reproduction, see the [pinned Template check](manuscript.md#pinned-template-offline-check).

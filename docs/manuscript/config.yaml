@@ -1,0 +1,33 @@
+paper:
+  title: "Davis CA Intel: Source-Bound Civic Intelligence through Shared Methods and Reproducible Publication"
+  subtitle: "Version 0.1.0 review draft"
+  version: "0.1.0"
+
+authors:
+  - name: "Daniel Ari Friedman"
+    orcid: "0000-0001-6232-9096"
+
+publication:
+  github_repository: docxology/davis-ca-intel
+  repository_url: https://github.com/docxology/davis-ca-intel
+  transmission_bookends:
+    enabled: false
+
+keywords:
+  - civic information
+  - source provenance
+  - municipal documents
+  - reproducible publication
+
+metadata:
+  language: en
+  geometry: "a4paper,margin=25mm"
+  fontsize: "11pt"
+
+render:
+  formats:
+    pdf: true
+    html: true
+    slides: false
+    docx: false
+    epub: false

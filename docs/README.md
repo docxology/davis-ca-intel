@@ -10,11 +10,12 @@
 | [Review readiness](review-readiness.md) | Exact candidate hashes, independent technical review and native inspection |
 | [0.1 publication](publication-0.1.md) | Preflight and remaining author/publication decisions |
 | [Sources](sources.md) | Reviewed Davis source identities, enabled inland policy and access observations |
+| [Backlog](backlog.md) | Retained review notes and pending local work |
 
-The [repository guide](../README.md) is the starting point. Generic methods and
+Generic methods and
 their documentation live in [region-intel](https://github.com/docxology/region-intel/tree/main/docs).
 For documentation matching the installed runtime, use
-[the pinned shared revision](https://github.com/docxology/region-intel/tree/dfa78895e45fba9885e0fe9e1edfca152bed88da/docs).
+[the pinned shared revision](https://github.com/docxology/region-intel/tree/51b18faeec1454e80a533795c6e3859eaeb5fc9b/docs).
 The shared repository's main branch can contain documentation or code newer
 than this consumer's frozen dependency. Public source material retains its own
 rights; the repository license does not grant additional rights over it.

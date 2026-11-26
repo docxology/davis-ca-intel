@@ -40,5 +40,27 @@ limits each external reference to its supported contextual use.
 Direct numerical downloads: [all article counts](../review/0.1.0-draft/article-sections.csv)
 and [the complete profile](../review/0.1.0-draft/corpus-profile.json).
 The three figures are supplied in PNG, SVG and PDF, with full-size image links
-in the native reader. The [technical evidence summary](review-evidence.json)
-binds the final candidate and independent controls.
+in the native reader. The [earlier technical evidence summary](review-evidence.json)
+binds the independently reviewed earlier candidate and controls.
+
+## Pinned Template offline check
+
+This check uses all ten canonical sections, accepted public seed bindings, and the figures and numerical fallbacks from the retained review draft. The staging script verifies the source bindings, checks that token substitution reproduces the archived hydrated sections, and checks the reused figures against the archived receipt. It writes only ignored output. A changed source or evidence binding requires a new native candidate before reusing this procedure.
+
+From a clean Davis checkout with Python 3.11 or newer:
+
+```sh
+python3 docs/examples/stage_review.py
+```
+
+Use a separate [Template checkout](https://github.com/docxology/template/tree/87704feae0a4490ef7dad9c931d268e8c30273c2) at `87704feae0a4490ef7dad9c931d268e8c30273c2`, with Pandoc, pandoc-crossref, and LaTeX from the [Template run guide](https://github.com/docxology/template/blob/87704feae0a4490ef7dad9c931d268e8c30273c2/docs/RUN_GUIDE.md). Set `davis_checkout` to the absolute Davis checkout path. Run from Template with an unused project slot.
+
+```sh
+uv sync --locked --no-dev
+mkdir -p projects/working
+ln -s "$davis_checkout" projects/working/davis-ca-intel
+uv run --no-sync python scripts/pipeline/stage_03_render.py --project working/davis-ca-intel --skip-manuscript-hydration
+uv run --no-sync python scripts/pipeline/stage_04_validate.py --project working/davis-ca-intel
+```
+
+Read the combined PDF under `output/pdf/`, the combined HTML at `output/web/index.html`, and the reports in `output/reports/` in the Davis checkout. This documentation check retains the archived observation time and original candidate bindings in the prose. The new render receipt records the renderer used for this check. The archived review packet uses a different, separately pinned production renderer.
