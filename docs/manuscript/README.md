@@ -20,3 +20,5 @@ Numbered sections are template project inputs. Figure paths beginning with
 ../output/figures refer to the assembled template build workspace. For the
 complete rendered view and portable figure files, use the
 [review edition](../../review/README.md) and its declared assets.
+
+For the independent [pinned Template documentation check](../manuscript.md#pinned-template-offline-check), `config.yaml` and `preamble.md` define the direct Template projection. The established regional workflow continues to consume `config.json`.
